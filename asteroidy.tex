@@ -9,7 +9,7 @@
 \usepackage{csquotes}
 \usepackage{amsmath, amssymb, amsthm}
 \usepackage[inline]{asymptote}
-\usepackage{esdiff, icomma}
+\usepackage{esdiff, icomma, subcaption}
 \usepackage{blindtext}
 
 \usepackage[backend=biber, url=true]{biblatex}
@@ -20,11 +20,8 @@
 \renewcommand{\S}[1]{\textsc{#1}}
 \newcommand{\I}[1]{\textit{#1}}
 \newcommand{\mB}[1]{\mathbf{#1}}
-%\renewcommand{\vec}{\vec}
 \newcommand{\ap}{{\,\prime}}
 \newcommand{\abs}[1]{\lvert #1 \,\rvert}
-
-%\newcommand{\vec}
 
 \setstretch{1.3}
 \renewcommand*\contentsname{Obsah}
@@ -96,24 +93,24 @@ M = E + e\sin E
 kde $M$ označuje střední anomálii, $E$ excentrickou anomálii a $e$ excentricitu elipsy (viz obrázek). Obě anomálie mají úhlové jednotky, úhel $M$ ale nemůžeme zkonstruovat, nicméně je významný tím, že je lineárně závislý na čase. Pokud známe $E$, můžeme pomocí snadno spočítat $M$.  Problém spočívá v tom, že nemůžeme vyjádřit $E$ v závisloti na $M$ konečným výrazem, ale pouze nekonečnou řadou nebo jej můžeme aproximovat numerickými metodami.
 
 \subsection{Rovnice pro N těles}
-Jak vidíme, už i pro problém dvou těles se musíme k získání polohy tělesa v čase uchýlit k aproximačním metodám. Ukáže se, že obecný problém $N$ těles je analyticky neřešitelný\footnote{pro omezený problém tří těles ale existují nějaká analytická řešení} a jediné aplikovatelné metody jsou metody numerické.
+Jak vidíme, už i pro dvě tělesa se musíme k získání polohy tělesa v čase uchýlit k numerickým metodám. Ukazuje se, že obecný problém $N$ těles je analyticky neřešitelný\footnote{existují ale nějaká zajímavá speciální řešení, viz \cite{cohan12}.} a jediné aplikovatelné metody jsou metody přibližné analytické nebo numerické.
 
-Uvažujme nyní $N$ těles -- idealizovaných bodových částic, které na sebe vzájemně gravitačně působí, v souladu s Newtonovým gravitačním zákonem. Pro jedno z těles, označené indexem $k\in\{1,2,...,N\}$, je celková síla $F_k$, která na něj působí, výslednicí všech gravitačních sil způsobených ostatními tělesy, jak ukazuje následující rovnice.
-\begin{align} \label{eq:nbody}
-		\vec{F_k} = m_k\vec{a_k} &= \sum_{\substack{i=1 \\ i\neq k}}^N G\frac{m_km_i}{(r_i-r_k)^3}(\vec{r_i}-\vec{r_k}) \nonumber \\
-		\vec{a_k} &= \sum_{\substack{i=1 \\ i\neq k}}^N G\frac{m_i}{(r_i-r_k)^3}(\vec{r_i}-\vec{r_k}) 
+Uvažujme nyní $N$ těles --- respektive hmotných bodů, které na sebe vzájemně gravitačně působí v souladu s Newtonovým gravitačním zákonem. Pro libovolné těleso, označené indexem $j\in\{1,\,2,\,\dots,\,N\}$, je celková síla $F_j$, která na něj působí, výslednicí všech gravitačních sil způsobených ostatními tělesy, jak ukazuje následující rovnice.
+\begin{align} 
+	\vec{F}_j = m_j\vec{a}_j &= \sum_{\substack{i=1 \\ i\neq j}}^N G\frac{m_im_j}{\abs{\vec{r}_i-\vec{r}_j}^3}(\vec{r_i}-\vec{r_j}) \label{eq:nbody1}\\
+		\vec{a}_j &= \sum_{\substack{i=1 \\ i\neq j}}^N \frac{Gm_i}{\abs{\vec{r}_i-\vec{r}_j}^3}(\vec{r_i}-\vec{r_j}) \label{eq:nbody2}
 \end{align}
-kde $\vec{r_i-r_k}$ je vektor určující relativní pozici těles $i$ a $k$, konkrétně je to vektor s počátkem v tělese $k$ a vrcholem v tělese $i$; ostatní veličiny jsou definované analogicky jako v předchozí sekci.
+kde $\vec{r}_i-\vec{r}_j$ označuje vektor určující vzájemnou polohu těles $i$ a $j$, konkrétně jde o vektor s počátkem v tělese $j$ a vrcholem v tělese $i$; ostatní veličiny jsou definované analogicky jako v předchozí části.
 \subsubsection{Eulerova metoda}
-I přesto, že se tato metoda v reálných výpočtech téměř nepoužívá, uvádíme ji zde z didaktických důvodů, neboť názorně a relativně jednoduše ilustruje použití numerických metod pro řešení problému $N$ těles. Jak již název napovídá, poprvé s ní v 18. století přišel švýcarský matematik Leonhard Euler.
+I přesto, že se následující metoda v přesných numerických výpočtech zřídka používá, uvádíme ji zde z didaktických důvodů, neboť názorně ilustruje použití numerických metod pro řešení problému $N$ těles. Jak název napovídá, poprvé s ní v 18. století přišel švýcarský matematik Leonhard Euler.
 
-Princip algoritmu spočívá v tom, že v každém čase umíme z \eqref{eq:nbody} vypočítat zrychlení každého tělesa, podle toho odpovídajícím způsobem pozměnit vektor rychlosti. V následujícím kroku necháme všechna tělesa po dobu časového kroku pohybovat se po přímce s konstantní rychlostí. Následuje přesné zachycení algoritmu a k němu příslušná ilustrace na obrázku \ref{fig:euler}.
+Princip algoritmu spočívá v tom, že v libovolném čase můžeme z \eqref{eq:nbody2} vypočítat zrychlení každého tělesa. Pak, po zvolení určitého časového kroku, odpovídajícím způsobem změníme vektor rychlosti. Následně necháme všechna tělesa po dobu časového kroku pohybovat se po přímce konstantní rychlostí. Následuje přesný popis algoritmu a k němu příslušná ilustrace na obrázku \ref{fig:euler}.
 
-Mějme tedy zmiňovaných $N$ bodových částic splňujících \eqref{eq:nbody}, u kterých známe jejich hmotnost. Zaměřme se pouze na jednu částici a označme její počáteční polohu $\vec{r_0}$ a počáteční rychlost $\vec{v_0}$. (K použití Eulerovy metody potřebujeme ale znát i počáteční polohy i rychlosti všech ostatních těles v systému.) Dále určeme velikost časového kroku jako $h$.
+Mějme zmiňovaných $N$ hmotných bodů, pro které platí \eqref{eq:nbody2}. Zaměřme se na jeden hmotný bod v čase $t_0$ a označme jeho počáteční polohu $\vec{r}(t_0)$ a počáteční rychlost $\vec{v}(t_0)$. K použití Eulerovy metody potřebujeme znát i počáteční polohy a rychlosti všech ostatních těles v systému. Dále vhodně zvolme velikost časového kroku $h$. V následujícíh třech krocích si ukažéme jednu iterace algoritmu. Pokud bychom chtěli počítat v čase $t_0$, dosadili bychom $k=0$.
 \begin{enumerate}
-	\item Nechť je poloha zvolené částice v čase $t_i$ $\vec{r_i}$ a rychlost $\vec{v_i}$. Protože známe i polohy a hmotnosti všech ostatních těles, můžeme z \eqref{eq:nbody} vypočítat zrychlení $\vec{a_i}$. 
-	\item Položme $t_{i+1} = t_i+h$ a vypočítejme $\vec{v_{i+1}} = \vec{v_i} + h\vec{a_i}$.\footnote{Můžeme porovnat se vzorcem pro rovnoměrný přímočarý pohyb dobře známý ze středoškolského prostředí: $v = v_0 + at$, podobně v kroku 3 $s = s_0 + vt$}
-	\item Vypočítejme $\vec{r_{i+1}} = \vec{r_i} + h\vec{v_i}$ a vraťme se ke kroku 1, tentokrát počítaje v čase $t_{i+1}$. 
+	\item Nechť je v čase $t_k$ poloha zvoleného bodu $\vec{r}(t_k)$ a rychlost $\vec{v}(t_k)$. Z \eqref{eq:nbody2} vypočítáme zrychlení $\vec{a}(t_k)$. 
+	\item Položme $t_(k+1) = t_(k)+h$ a vypočítejme $\vec{v}(t_{k+1}) = \vec{v}(t_k) + h\cdot\vec{a}(t_k)$.\footnote{Můžeme porovnat se vzorcem pro rovnoměrný přímočarý pohyb, dobře známým ze středoškolského učiva: $v = v_0 + at$, podobně v kroku 3 $s = s_0 + vt$}
+	\item Vypočítejme $\vec{r}(t_{k+1}) = \vec{r}(t_k) + h\cdot\vec{v}(t_k)$ a vraťme se ke kroku 1, tentokrát počítaje v čase $t_{k+1}$. 
 \end{enumerate}
 
 \begin{figure}
@@ -256,11 +253,11 @@ TODO: Význam, nastínění výpočtu
 \end{figure}
 \begin{figure}
 	\centering
-	\begin{subfigure}
-	\includegraphics[width=0.5\textwidth]{obr/size_distribution}
-	\end{subfigure}
-	\begin{subfigure}
-	\includegraphics[width=0.5\textwidth]{obr/size_distribution_SMALLD}
+	\begin{subfigure}[b]{0.45\textwidth}
+	\includegraphics[width=\textwidth]{obr/size_distribution}
+	\end{subfigure} ~
+	\begin{subfigure}[b]{0.45\textwidth}
+	\includegraphics[width=\textwidth]{obr/size_distribution_SMALLD}
 	\end{subfigure}
 	\caption{TODO}
 	\label{size_distribution}
@@ -276,6 +273,5 @@ TODO: Význam, nastínění výpočtu
 
 \chapter{Aplikace v praxi}
 \chapter{Budoucí možnosti výzkumu}
-
 \printbibliography
 \end{document}
