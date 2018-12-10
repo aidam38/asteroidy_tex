@@ -109,7 +109,7 @@ Princip algoritmu spočívá v tom, že v libovolném čase můžeme z \eqref{eq
 Mějme zmiňovaných $N$ hmotných bodů, pro které platí \eqref{eq:nbody2}. Zaměřme se na jeden hmotný bod v čase $t_0$ a označme jeho počáteční polohu $\vec{r}(t_0)$ a počáteční rychlost $\vec{v}(t_0)$. K použití Eulerovy metody potřebujeme znát i počáteční polohy a rychlosti všech ostatních těles v systému. Dále vhodně zvolme velikost časového kroku $h$. V následujícíh třech krocích si ukažéme jednu iterace algoritmu. Pokud bychom chtěli počítat v čase $t_0$, dosadili bychom $k=0$.
 \begin{enumerate}
 	\item Nechť je v čase $t_k$ poloha zvoleného bodu $\vec{r}(t_k)$ a rychlost $\vec{v}(t_k)$. Z \eqref{eq:nbody2} vypočítáme zrychlení $\vec{a}(t_k)$. 
-	\item Položme $t_(k+1) = t_(k)+h$ a vypočítejme $\vec{v}(t_{k+1}) = \vec{v}(t_k) + h\cdot\vec{a}(t_k)$.\footnote{Můžeme porovnat se vzorcem pro rovnoměrný přímočarý pohyb, dobře známým ze středoškolského učiva: $v = v_0 + at$, podobně v kroku 3 $s = s_0 + vt$}
+	\item Položme $t_{k+1} = t_{k}+h$ a vypočítejme $\vec{v}(t_{k+1}) = \vec{v}(t_k) + h\cdot\vec{a}(t_k)$.\footnote{Můžeme porovnat se vzorcem pro rovnoměrný přímočarý pohyb, dobře známým ze středoškolského učiva: $v = v_0 + at$, podobně v kroku 3 $s = s_0 + vt$}
 	\item Vypočítejme $\vec{r}(t_{k+1}) = \vec{r}(t_k) + h\cdot\vec{v}(t_k)$ a vraťme se ke kroku 1, tentokrát počítaje v čase $t_{k+1}$. 
 \end{enumerate}
 

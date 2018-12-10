@@ -55,7 +55,7 @@ label("$\mathbf{a_1}$", shift(r1)*scale(0.5)*scale(ascale)*a1, SSW);
 
 // pair v1
 draw(r1--shift(r1)*scale(vscale)*v1, arrow=EndArrow);
-label("$\mathbf{v_1}$", shift(r1)*scale(0.5)*scale(vscale)*v1, SE);
+label("$\mathbf{v_X}$", shift(r1)*scale(0.5)*scale(vscale)*v1, SE);
 
 pair v2 = v1+h*a1;
 draw(r1--shift(r1)*scale(vscale)*v2, arrow=EndArrow);
