@@ -102,103 +102,218 @@ Uvažujme nyní $N$ těles --- respektive hmotných bodů, které na sebe vzáje
 \end{align}
 kde $\vec{r}_i-\vec{r}_j$ označuje vektor určující vzájemnou polohu těles $i$ a $j$, konkrétně jde o vektor s počátkem v tělese $j$ a vrcholem v tělese $i$; ostatní veličiny jsou definované analogicky jako v předchozí části.
 \subsubsection{Eulerova metoda}
-I přesto, že se následující metoda v přesných numerických výpočtech zřídka používá, uvádíme ji zde z didaktických důvodů, neboť názorně ilustruje použití numerických metod pro řešení problému $N$ těles. Jak název napovídá, poprvé s ní v 18. století přišel švýcarský matematik Leonhard Euler.
+I přesto, že se následující integrační metoda v přesných numerických výpočtech zřídka používá, uvádíme ji zde z didaktických důvodů, neboť názorně ilustruje použití numerických metod pro řešení problému $N$ těles. Jak název napovídá, poprvé s ní v 18. století přišel švýcarský matematik Leonhard Euler.
 
-Princip algoritmu spočívá v tom, že v libovolném čase můžeme z \eqref{eq:nbody2} vypočítat zrychlení každého tělesa. Pak, po zvolení určitého časového kroku, odpovídajícím způsobem změníme vektor rychlosti. Následně necháme všechna tělesa po dobu časového kroku pohybovat se po přímce konstantní rychlostí. Následuje přesný popis algoritmu a k němu příslušná ilustrace na obrázku \ref{fig:euler}.
-
-Mějme zmiňovaných $N$ hmotných bodů, pro které platí \eqref{eq:nbody2}. Zaměřme se na jeden hmotný bod v čase $t_0$ a označme jeho počáteční polohu $\vec{r}(t_0)$ a počáteční rychlost $\vec{v}(t_0)$. K použití Eulerovy metody potřebujeme znát i počáteční polohy a rychlosti všech ostatních těles v systému. Dále vhodně zvolme velikost časového kroku $h$. V následujícíh třech krocích si ukažéme jednu iterace algoritmu. Pokud bychom chtěli počítat v čase $t_0$, dosadili bychom $k=0$.
-\begin{enumerate}
-	\item Nechť je v čase $t_k$ poloha zvoleného bodu $\vec{r}(t_k)$ a rychlost $\vec{v}(t_k)$. Z \eqref{eq:nbody2} vypočítáme zrychlení $\vec{a}(t_k)$. 
-	\item Položme $t_{k+1} = t_{k}+h$ a vypočítejme $\vec{v}(t_{k+1}) = \vec{v}(t_k) + h\cdot\vec{a}(t_k)$.\footnote{Můžeme porovnat se vzorcem pro rovnoměrný přímočarý pohyb, dobře známým ze středoškolského učiva: $v = v_0 + at$, podobně v kroku 3 $s = s_0 + vt$}
-	\item Vypočítejme $\vec{r}(t_{k+1}) = \vec{r}(t_k) + h\cdot\vec{v}(t_k)$ a vraťme se ke kroku 1, tentokrát počítaje v čase $t_{k+1}$. 
-\end{enumerate}
+Princip algoritmu spočívá v tom, že v libovolném čase můžeme z \eqref{eq:nbody2} vypočítat zrychlení každého tělesa. Pak, po zvolení určitého časového kroku, odpovídajícím způsobem změníme vektor rychlosti. Následně necháme všechna tělesa po dobu časového kroku pohybovat se po přímce konstantní rychlostí. Existují dvě verze Eulerovy metody, dopředná a zpětná, které se liší volbou rychlosti, se kterou necháváme pohybovat se po přímce, viz následující přesný popis obou metod a obrázek \ref{fig:euler}.
 
 \begin{figure}
-	\centering
+	\centering 
+	\begin{subfigure}[b]{0.45\textwidth}
 	\begin{asy}
-		unitsize(5cm);
+		size(8cm,8cm);
 
 		marker mark1 = marker(scale(circlescale*2)*unitcircle, Fill);
-		marker mark2 = marker(scale(circlescale*7)*unitcircle, Fill);
-		real ascale = 1;
-		real vscale = 0.5;
+		marker mark2 = marker(scale(circlescale*3)*unitcircle, Fill);
+		pen pen1 = linetype(new real[] {1,6})+linewidth(0.4);
+
+		real au = 149597870700;
+
+		real ascale = 3.2*au*pow10(1);
+		real vscale = 0.8*au*pow10(-5);
 
 		pair R = (0,0);
-		pair r0 = (0.57,-1);
-		pair M = 0.3;
-		pair m = 1;
-		pair G = 1;
+		pair r0 = (3/5*au,-4/5*au);
+		pair m1 = 2*pow10(30);
+		pair G = 6.67*pow10(-11);
 
-		real h = 0.8;
+		real h = 20*24*60*60;
+
+		draw((-1/5*au,-5/5*au)--(7/5*au,-5/5*au)--(7/5*au,2/5*au)--(-1/5*au,2/5*au)--cycle, invisible);
 
 		draw(R, marker=mark2);
 		draw(r0, marker=mark1);
-		label("$M$", shift(-0.05,-0.05)*R, SW);
+		label("$m_1$", shift(-0.05,-0.05)*R, SW);
 
-		draw(arc(R,length(R-r0), -60, 15), longdashed+gray(0.7));
+		draw(arc(R,length(R-r0), -53, 15), longdashed+gray(0.7));
 
 		// První iterace
-		pair a0 = (G*M/(length(R-r0)**2))*unit(R-r0);
-		draw(r0--shift(r0)*scale(ascale)*a0, arrow=EndArrow);
-		label("$\mathbf{a_0}$", shift(r0)*scale(0.5)*scale(ascale)*a0, SSW);
+		draw(R--r0, arrow=EndArrow, pen1);
+		label("$\vec{r}_0$", shift(R)*scale(0.5)*r0,SW);
 
-		pair v0 = rotate(-90)*unit(a0)*sqrt(G*M/(length(R-r0)));
+		pair a0 = (G*m1/(length(R-r0)**2))*unit(R-r0);
+		draw(r0--shift(r0)*scale(ascale)*a0, arrow=EndArrow);
+		label("$\vec{a}_0$", shift(r0)*scale(0.5)*scale(ascale)*a0, SSW);
+
+		pair v0 = rotate(-90)*unit(a0)*sqrt(G*m1/(length(R-r0)));
 		draw(r0--shift(r0)*scale(vscale)*v0, arrow=EndArrow);
-		label("$\mathbf{v_0}$", shift(r0)*scale(0.5)*scale(vscale)*v0, SE);
+		label("$\vec{v}_0$", shift(r0)*scale(0.5)*scale(vscale)*v0, SE);
 
 		pair v1 = v0+h*a0;
 		draw(r0--shift(r0)*scale(vscale)*v1, arrow=EndArrow);
-		label("$\mathbf{v_1}$", shift(r0)*scale(0.4)*scale(vscale)*v1, NNW); 
+		label("$\vec{v}_1$", shift(r0)*scale(0.4)*scale(vscale)*v1, NNW); 
 
 		pair r1 = r0 + h*v1;
 		draw(r0--r1, dashed);
 		draw(r1, marker=mark1);
 
 		// Druhá iterace
-		pair a1 = (G*M/(length(R-r1)**2))*unit(R-r1);
+		draw(R--r1, arrow=EndArrow, pen1);
+		label("$\vec{r}_1$", shift(R)*scale(0.5)*r1,SW);
+
+		pair a1 = (G*m1/(length(R-r1)**2))*unit(R-r1);
 		draw(r1--shift(r1)*scale(ascale)*a1, arrow=EndArrow);
-		label("$\mathbf{a_1}$", shift(r1)*scale(0.5)*scale(ascale)*a1, SSW);
+		label("$\vec{a}_1$", shift(r1)*scale(0.5)*scale(ascale)*a1, SSW);
 
 		// pair v1
 		draw(r1--shift(r1)*scale(vscale)*v1, arrow=EndArrow);
-		label("$\mathbf{v_1}$", shift(r1)*scale(0.5)*scale(vscale)*v1, SE);
+		label("$\vec{v}_1$", shift(r1)*scale(0.5)*scale(vscale)*v1, SE);
 
 		pair v2 = v1+h*a1;
 		draw(r1--shift(r1)*scale(vscale)*v2, arrow=EndArrow);
-		label("$\mathbf{v_2}$", shift(r1)*scale(0.4)*scale(vscale)*v2, NW); 
+		label("$\vec{v}_2$", shift(r1)*scale(0.4)*scale(vscale)*v2, NW); 
 
 		pair r2 = r1 + h*v2;
 		draw(r1--r2, dashed);
 		draw(r2, marker=mark1);
 
 		// Třetí iterace
-		pair a2 = (G*M/(length(R-r2)**2))*unit(R-r2);
+		draw(R--r2, arrow=EndArrow, pen1);
+		label("$\vec{r}_2$", shift(R)*scale(0.5)*r2,SW);
+
+		pair a2 = (G*m1/(length(R-r2)**2))*unit(R-r2);
 		draw(r2--shift(r2)*scale(ascale)*a2, arrow=EndArrow);
-		label("$\mathbf{a_2}$", shift(r2)*scale(0.5)*scale(ascale)*a2, SSW);
+		label("$\vec{a}_2$", shift(r2)*scale(0.5)*scale(ascale)*a2, SSW);
 
 		// pair v2
 		draw(r2--shift(r2)*scale(vscale)*v2, arrow=EndArrow);
-		label("$\mathbf{v_2}$", shift(r2)*scale(0.5)*scale(vscale)*v2, SE);
+		label("$\vec{v}_2$", shift(r2)*scale(0.5)*scale(vscale)*v2, SE);
 
 		pair v3 = v2+h*a2;
 		draw(r2--shift(r2)*scale(vscale)*v3, arrow=EndArrow);
-		label("$\mathbf{v_3}$", shift(r2)*scale(0.4)*scale(vscale)*v3, NW); 
+		label("$\vec{v}_3$", shift(r2)*scale(0.4)*scale(vscale)*v3, NW); 
 
 		pair r3 = r2 + h*v3;
 		draw(r2--r3, dashed);
 		draw(r3, marker=mark1);
 
-		file fout = output("out.txt");
-		write(fout, length(R-r0));
+		draw(R--r3, arrow=EndArrow, pen1);
+		label("$\vec{r}_3$", shift(R)*scale(0.5)*r3,S);
+
+		//file fout = output("out.txt");
+		//write(fout, length(R-r0));
 		//write(fout, length(v0));
 	\end{asy}
-	\caption{Ilustrace Eulerovy metody pro dvě tělesa, kdy větší těleso s pozicí $\vec{R}$ a hmotností $M$ (velká tečka vlevo nahoře) gravitačně působí na menší těleso (malé tečky vpravo). Jsou ukázány iterace $t_0$, kdy vycházíme z počátečních hodnot veličin $\vec{r_0}$ a $\vec{v_0}$, a $t_1$, $t_2$. Algoritmus byl reálně aplikován, se zjednodušenými hodnotami: $h=0,4 \ s$, $M=0,3 \ kg$, $G=1$, $r=R-r_0=1.15 \ m$, $v_0=0,51 \ ms^{-1}$ a obrázek byl mírně upraven pro lepší viditelnost. Šedá křivka naznačuje ideální dráhu tělesa.}
-	\label{fig:euler}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+	\begin{asy}
+		size(8cm,8cm);
+
+		marker mark1 = marker(scale(circlescale*2)*unitcircle, Fill);
+		marker mark2 = marker(scale(circlescale*3)*unitcircle, Fill);
+		pen pen1 = linetype(new real[] {1,6})+linewidth(0.4);
+
+		real au = 149597870700;
+
+		real ascale = 3.2*au*pow10(1);
+		real vscale = 0.8*au*pow10(-5);
+
+		pair R = (0,0);
+		pair r0 = (3/5*au,-4/5*au);
+		pair m1 = 2*pow10(30);
+		pair G = 6.67*pow10(-11);
+
+		real h = 23.5*24*60*60;
+
+		draw((-1/5*au,-5/5*au)--(7/5*au,-5/5*au)--(7/5*au,2/5*au)--(-1/5*au,2/5*au)--cycle, invisible);
+		
+		draw(R, marker=mark2);
+		draw(r0, marker=mark1);
+		label("$m_1$", shift(-0.05,-0.05)*R, SW);
+
+		draw(arc(R,length(R-r0), -53, 15), longdashed+gray(0.7));
+
+		// První iterace
+		draw(R--r0, arrow=EndArrow, pen1);
+		label("$\vec{r}_0$", shift(R)*scale(0.5)*r0,SW);
+
+		pair a0 = (G*m1/(length(R-r0)**2))*unit(R-r0);
+		draw(r0--shift(r0)*scale(ascale)*a0, arrow=EndArrow);
+		label("$\vec{a}_0$", shift(r0)*scale(0.5)*scale(ascale)*a0, SW);
+
+		pair v0 = rotate(-90)*unit(a0)*sqrt(G*m1/(length(R-r0)));
+		draw(r0--shift(r0)*scale(vscale)*v0, arrow=EndArrow);
+		label("$\vec{v}_0$", shift(r0)*scale(0.5)*scale(vscale)*v0, SE);
+
+		pair v1 = v0+h*a0;
+		draw(r0--shift(r0)*scale(vscale)*v1, arrow=EndArrow);
+		label("$\vec{v}_1$", shift(r0)*scale(0.4)*scale(vscale)*v1, NNW); 
+
+		pair r1 = r0 + h*v0;
+		draw(r0--r1, dashed);
+		draw(r1, marker=mark1);
+
+		// Druhá iterace
+		draw(R--r1, arrow=EndArrow, pen1);
+		label("$\vec{r}_1$", shift(R)*scale(0.5)*r1,SW);
+
+		pair a1 = (G*m1/(length(R-r1)**2))*unit(R-r1);
+		draw(r1--shift(r1)*scale(ascale)*a1, arrow=EndArrow);
+		label("$\vec{a}_1$", shift(r1)*scale(0.5)*scale(ascale)*a1, SW);
+
+		// pair v1
+		draw(r1--shift(r1)*scale(vscale)*v1, arrow=EndArrow);
+		label("$\vec{v}_1$", shift(r1)*scale(0.5)*scale(vscale)*v1, SE);
+
+		pair v2 = v1+h*a1;
+		draw(r1--shift(r1)*scale(vscale)*v2, arrow=EndArrow);
+		label("$\vec{v}_2$", shift(r1)*scale(0.4)*scale(vscale)*v2, NW); 
+
+		pair r2 = r1 + h*v1;
+		draw(r1--r2, dashed);
+		draw(r2, marker=mark1);
+
+		// Třetí iterace
+		draw(R--r2, arrow=EndArrow, pen1);
+		label("$\vec{r}_2$", shift(R)*scale(0.5)*r2,SW);
+
+		pair a2 = (G*m1/(length(R-r2)**2))*unit(R-r2);
+		draw(r2--shift(r2)*scale(ascale)*a2, arrow=EndArrow);
+		label("$\vec{a}_2$", shift(r2)*scale(0.5)*scale(ascale)*a2, SW);
+
+		// pair v2
+		draw(r2--shift(r2)*scale(vscale)*v2, arrow=EndArrow);
+		label("$\vec{v}_2$", shift(r2)*scale(0.5)*scale(vscale)*v2, SE);
+
+		pair v3 = v2+h*a2;
+		draw(r2--shift(r2)*scale(vscale)*v3, arrow=EndArrow);
+		label("$\vec{v}_3$", shift(r2)*scale(0.4)*scale(vscale)*v3, NW); 
+
+		pair r3 = r2 + h*v2;
+		draw(r2--r3, dashed);
+		draw(r3, marker=mark1);
+
+		draw(R--r3, arrow=EndArrow, pen1);
+		label("$\vec{r}_3$", shift(R)*scale(0.5)*r3,S);
+
+		//file fout = output("out.txt");
+		//write(fout, length(R-r0));
+		//write(fout, length(v0));
+	\end{asy}
+	\end{subfigure}
+	\caption{Ilustrace dopředné (vpravo) a zpětné (vlevo) Eulerovy metody pro dvě tělesa, kdy větší těleso (velká tečka vlevo nahoře) gravitačně působí na menší těleso (malé tečky vpravo). Jsou ukázány první tři iterace. Algoritmus byl doopravdy implementován, s hodnotami: $h=20\,{\rm \text{dnů}}$, $m_1=2\cdot10^{30}\,{\rm kg}$, $G=6,67\cdot10^{-11}\,{\rm m^3kg^{-1}s^{-2}}$, $|\vec{r}|=1\,{\rm AU}$, $v_0=29861\,{\rm ms^{-1}}$. Vektory jsou přeškálované. Šedá křivka znázorňuje analytické řešení problému dvou těles.} \label{fig:euler}
 \end{figure}
 
-Jak můžeme vidět na obrázku \ref{fig:euler}, vypočtená dráha se od té reálné značně vzdaluje. To by samozřejmě vyřešila volba menší kroku $h$, ale pro velký počet těles a velkou požadovanou přesnost je algoritmus velmi pomalý (tedy konverguje pomalu) a dnešní počítače na něj nestačí.
+Mějme zmiňovaných $N$ hmotných bodů, pro které platí \eqref{eq:nbody2}. Zaměřme se na jeden z nich a označme jeho počáteční polohu $\vec{r}(t_0)$ a počáteční rychlost $\vec{v}(t_0)$. K použití Eulerovy metody potřebujeme znát i počáteční polohy a rychlosti všech ostatních těles v systému. Dále vhodně zvolme velikost časového kroku $h$. V následujícíh třech krocích si ukážeme jednu iteraci algoritmu jak pro dopřednou, tak pro zpětnou metodu.
 
-TODO: O ostatních integračních metodách, udělám až budu víc chápat WHM, RMVS, ... Swift obecně.
+\begin{enumerate}
+	\item Nechť je v čase $t_k$ poloha zvoleného bodu $\vec{r}(t_k)$ a rychlost $\vec{v}(t_k)$. Z \eqref{eq:nbody2} vypočítáme zrychlení $\vec{a}(t_k)$. 
+	\item Položme $t_{k+1} = t_{k}+h$ a vypočítejme $\vec{v}(t_{k+1}) = \vec{v}(t_k) + h\cdot\vec{a}(t_k)$.\footnote{Můžeme porovnat se vzorcem pro rovnoměrný přímočarý pohyb, dobře známým ze středoškolského učiva: $v = v_0 + at$, podobně v kroku $3$ $s = s_0 + vt$}
+	\item Pro dopřednou metodu vypočítejme $\vec{r}(t_{k+1})$ jako $\vec{r}(t_{k+1}) = \vec{r}(t_k) + h\cdot\vec{v}(t_k)$ a pro zpětnou jako $\vec{r}(t_{k+1}) = \vec{r}(t_k) + h\cdot\vec{v}(t_{k+1})$. Poté se vraťme ke kroku $1$, tentokrát počítaje v čase $t_{k+1}$. 
+\end{enumerate}
+
+Jak můžeme vidět na obrázku \ref{fig:euler}, vypočtená dráha se od té analytické značně vzdaluje. To by samozřejmě řešila volba menší kroku $h$, ale pro velký počet těles a velkou požadovanou přesnost je algoritmus velmi pomalý.
+
+Jedno z možných vylepšení je volně řečeno průměrování dopředné a zpětné Eulerovy metody --- tzv. \enquote{leapfrog} metoda. Spočívá v tom, že rychlost počítáme v jedné polovině časového kroku, ne nakonci nebo na začátku. Další zpřesnění lze získat tak, že místo pohybu po přímce konstantní rychlostí použijeme nějakou lokální eliptickou dráhu, kterou získáme, když místo všech ostatních těles uvážíme pouze jejich těžiště, čímž situaci zredukujeme na problém dvou těles, který umíme vyřešit. Tato integrační metoda se již podobá algoritmu Wisdom--Holman Mapping, jehož ještě zlepšenou verzi využívá integrační balíček SWIFT \autocite{levison}, který budeme v této práci používat. Nutno dodat, že v námi užitém algoritmu ještě započítáváme negravitační jevy, jako Yarkovského jev, YORP jev a náhodné srážky, viz \cite{broz11}.
 
 \section{Orbitální elementy} \label{sec:orbelem}
 TODO: Zavedení šesti základní elementů
