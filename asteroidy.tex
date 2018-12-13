@@ -12,7 +12,7 @@
 \usepackage{esdiff, icomma, subcaption}
 \usepackage{blindtext}
 
-\usepackage[backend=biber, url=true]{biblatex}
+\usepackage[backend=biber, url=true, sorting=none]{biblatex}
 \usepackage{url}
 \addbibresource{soc.bib}
 
@@ -52,7 +52,7 @@ TODO: Ostatní nutné úvodní stránky pro SOČku...
 TODO: Úvod
 \vspace{40mm}
 \section{Pohybové rovnice}
-Pohybová rovnice je matematicky zapsaný fyzikální vztah, který popisuje možné pohyby těles v daném prostředí \autocite{wiki:eqm}. Řešením pohybové rovnice je funkce, popisující polohu a rychlost každého zkoumaného tělesa v závislosti na čase. Přitom potřebujeme znát počáteční podmínky --- polohy a rychlosti těles na začátku. Pohybová rovnice bývá ve tvaru diferenciální rovnice, což je rovnice, která vyjadřuje vztah mezi nějakou funkcí a jejími derivacemi, což je okamžitá změna hodnoty funkce při velmi malé změně argumentu, v našem případě času. 
+Pohybová rovnice je matematicky zapsaný fyzikální vztah, který popisuje možné pohyby těles v daném prostředí \cite{wiki:eqm}. Řešením pohybové rovnice je funkce, popisující polohu a rychlost každého zkoumaného tělesa v závislosti na čase. Přitom potřebujeme znát počáteční podmínky --- polohy a rychlosti těles na začátku. Pohybová rovnice bývá ve tvaru diferenciální rovnice, což je rovnice, která vyjadřuje vztah mezi nějakou funkcí a jejími derivacemi, což je okamžitá změna hodnoty funkce při velmi malé změně argumentu, v našem případě času. 
 
 V následující části se pokusíme nalézt řešení pohybové rovnice pro tělesa ve sluneční soustavě. Zákony, jimiž se budou naše tělesa řídit, jsou Newtonův gravitační zákon a Newtonovy pohybové zákony, které byly poprvé definovány již v roce 1687.
 \subsection{Rovnice pro dvě tělesa}
@@ -86,11 +86,18 @@ I přesto, že tato diferenciální rovnice ještě není ve své konečné podo
 \end{equation}
 kde $p$ se nazývá paramter elipsy, jehož velikost je určena hodnotou $\mu$, $e$, resp. $\omega$ jsou integrační konstanty a nazývají se excentricita, resp. argument pericentra. K rovnici \eqref{eq:polar} a jejím důsledkům se vrátíme v sekci \ref{sec:orbelem}, zatím vězme, že jsme dostali obecnou funkci kuželosečky, z nichž nás bude nejvíce zajímat případ elipsy. Zmíněné konstanty budou určovat její tvar, rozhodně ale nestačí k úplnému popsání orientace trajektorie (orbity) tělesa v prostoru. 
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{obr/Eanomaly.png}
+	\caption{TODO}
+	\label{fig:E}
+\end{figure}
+
 Uvědomme si, že jsme neodvodili závislost polohy tělesa na čase. Tuto závislost určuje Keplerova rovnice:
 \begin{equation} \label{eq:kepler}
 M = E + e\sin E
 \end{equation}
-kde $M$ označuje střední anomálii, $E$ excentrickou anomálii a $e$ excentricitu elipsy (viz obrázek). Obě anomálie mají úhlové jednotky, úhel $M$ ale nemůžeme zkonstruovat, nicméně je významný tím, že je lineárně závislý na čase. Pokud známe $E$, můžeme pomocí snadno spočítat $M$.  Problém spočívá v tom, že nemůžeme vyjádřit $E$ v závisloti na $M$ konečným výrazem, ale pouze nekonečnou řadou nebo jej můžeme aproximovat numerickými metodami.
+kde $M$ označuje střední anomálii, $E$ excentrickou anomálii a $e$ excentricitu elipsy (viz obrázek \ref{fig:E}). Obě anomálie mají úhlové jednotky, úhel $M$ ale nemůžeme zkonstruovat, nicméně je významný tím, že je lineárně závislý na čase. Pokud známe $E$, můžeme pomocí snadno spočítat $M$.  Problém spočívá v tom, že nemůžeme vyjádřit $E$ v závisloti na $M$ konečným výrazem, ale pouze nekonečnou řadou nebo jej můžeme aproximovat numerickými metodami.
 
 \subsection{Rovnice pro N těles}
 Jak vidíme, už i pro dvě tělesa se musíme k získání polohy tělesa v čase uchýlit k numerickým metodám. Ukazuje se, že obecný problém $N$ těles je analyticky neřešitelný\footnote{existují ale nějaká zajímavá speciální řešení, viz \cite{cohan12}.} a jediné aplikovatelné metody jsou metody přibližné analytické nebo numerické.
@@ -313,7 +320,7 @@ Mějme zmiňovaných $N$ hmotných bodů, pro které platí \eqref{eq:nbody2}. Z
 
 Jak můžeme vidět na obrázku \ref{fig:euler}, vypočtená dráha se od té analytické značně vzdaluje. To by samozřejmě řešila volba menší kroku $h$, ale pro velký počet těles a velkou požadovanou přesnost je algoritmus velmi pomalý.
 
-Jedno z možných vylepšení je volně řečeno průměrování dopředné a zpětné Eulerovy metody --- tzv. \enquote{leapfrog} metoda. Spočívá v tom, že rychlost počítáme v jedné polovině časového kroku, ne nakonci nebo na začátku. Další zpřesnění lze získat tak, že místo pohybu po přímce konstantní rychlostí použijeme nějakou lokální eliptickou dráhu, kterou získáme, když místo všech ostatních těles uvážíme pouze jejich těžiště, čímž situaci zredukujeme na problém dvou těles, který umíme vyřešit. Tato integrační metoda se již podobá algoritmu Wisdom--Holman Mapping, jehož ještě zlepšenou verzi využívá integrační balíček SWIFT \autocite{levison}, který budeme v této práci používat. Nutno dodat, že v námi užitém algoritmu ještě započítáváme negravitační jevy, jako Yarkovského jev, YORP jev a náhodné srážky, viz \cite{broz11}.
+Jedno z možných vylepšení je volně řečeno průměrování dopředné a zpětné Eulerovy metody --- tzv. \enquote{leapfrog} metoda. Spočívá v tom, že rychlost počítáme v jedné polovině časového kroku, ne nakonci nebo na začátku. Další zpřesnění lze získat tak, že místo pohybu po přímce konstantní rychlostí použijeme nějakou lokální eliptickou dráhu, kterou získáme, když místo všech ostatních těles uvážíme pouze jejich těžiště, čímž situaci zredukujeme na problém dvou těles, který umíme vyřešit. Tato integrační metoda se již podobá algoritmu Wisdom--Holman Mapping, jehož ještě zlepšenou verzi využívá integrační balíček SWIFT \cite{levison}, který budeme v této práci používat. Nutno dodat, že v námi užitém algoritmu ještě započítáváme negravitační jevy, jako Yarkovského jev, YORP jev a náhodné srážky, viz \cite{broz11}.
 
 \section{Orbitální elementy} \label{sec:orbelem}
 TODO: Zavedení šesti základní elementů
