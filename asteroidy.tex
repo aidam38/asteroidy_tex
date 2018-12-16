@@ -41,7 +41,7 @@
 
 \newpage
 
-TODO: Ostatní nutné úvodní stránky pro SOČku...
+TODO: Ostatní nutné úvodní stránky pro SOČku \ldots
 
 \newpage
 \tableofcontents
@@ -56,22 +56,22 @@ Pohybová rovnice je matematicky zapsaný fyzikální vztah, který popisuje mo�
 
 V následující části se pokusíme nalézt řešení pohybové rovnice pro tělesa ve sluneční soustavě. Zákony, jimiž se budou naše tělesa řídit, jsou Newtonův gravitační zákon a Newtonovy pohybové zákony, které byly poprvé definovány již v roce 1687.
 \subsection{Rovnice pro dvě tělesa} \label{sec:2body}
-Omezme se nyní na dvě tělesa a nalezněme řešení tzv. problému dvou těles, někdy také Keplerovy úlohy. To znamená, že se pokusíme odvodit funkci, popisující polohu a rychlost obou těles v závisloti na čase. 
+Omezme se nyní na dvě tělesa a nalezněme řešení tzv.\ problému dvou těles, někdy také Keplerovy úlohy. To znamená, že se pokusíme odvodit funkci, popisující polohu a rychlost obou těles v závisloti na čase. 
 
 Nacházíme se v inerciální vztažné soustavě, což je taková vztažná soustava, kde platí první Newtonův zákon. Jako bod v klidu si zvolme těžiště soustavy. Pro síly působící na obě tělesa podle Newtonova gravitačního zákona a druhého a třetího pohybového zákona platí
 \begin{align} 
 	\vec{F}_1 &= +G\frac{m_1m_2}{\abs{\vec{r}}^3}\vec{r} = m_1\vec{a}_1 \label{eq:newton1} \\
 	\vec{F}_2 &= -G\frac{m_1m_2}{\abs{\vec{r}}^3}\vec{r} = m_2\vec{a}_2, \label{eq:newton2}
 \end{align}
-kde $G$ označuje gravitační konstantu, $m_1$, $m_2$ hmotnosti zkoumaných těles, $\vec{a}_1$, $\vec{a}_2$ vektory zrychlení těles (tj. druhé derivace polohových vektorů $\vec{r}_1$, $\vec{r}_2$ podle času) a $\vec{r}$ vektor udávající vzájemnou polohu těles, definovanou jako $\vec{r} = \vec{r}_2 - \vec{r}_1$. Součtem obou rovnic dostáváme
-\begin{equation} \label{eq:mr=0}
+kde $G$ označuje gravitační konstantu, $m_1$, $m_2$ hmotnosti zkoumaných těles, $\vec{a}_1$, $\vec{a}_2$ vektory zrychlení těles (tj.\ druhé derivace polohových vektorů $\vec{r}_1$, $\vec{r}_2$ podle času) a $\vec{r}$ vektor udávající vzájemnou polohu těles, definovanou jako $\vec{r} = \vec{r}_2 - \vec{r}_1$. Součtem obou rovnic dostáváme
+\begin{equation} \label{eq:mr0}
 	\vec{F}_1 + \vec{F}_2 = m_1\vec{a_1} + m_2\vec{a_2} = 0.
 \end{equation}
 Vektor popisující polohu těžiště soustavy je $\vec{R} \equiv \frac{m_1\vec{r}_1 + m_2\vec{r}_2}{m_1 + m_2}$. Jeho druhou derivací podle času dostáváme zrychlení
 \begin{equation*}
 	\diff[2]{\vec{R}}{t} = \frac{m_1\vec{a_1} + m_2\vec{a_2}}{m_1+m_2} = 0,
 \end{equation*}
-které se podle \eqref{eq:mr=0} rovná nule, takže se těžiště soustavy pohybuje konstantní rychlostí.
+které se podle \eqref{eq:mr0} rovná nule, takže se těžiště soustavy pohybuje konstantní rychlostí.
 \newpage
 Nyní se však přesuňme do soustavy neinerciální, kde je první z těles (běžně to hmotnější) nehybné. Řekněme, že nehybné těleso má index $1$, tedy nově $\vec{r}^\ap_1=0$, $\vec{r}^\ap_2=\vec{r}$ (tedy i $\vec{a}^\ap_2 = \vec{a}$) a $\vec{r}^\ap=\vec{r}$. Provedli jsme tedy v podstatě transformaci, kdy jsme ke každému vektoru přičetli $\vec{r}_1$.  Rovnici \eqref{eq:newton1} můžeme přepsat jako
 \begin{align}
@@ -89,9 +89,10 @@ $p$ označuje parametr elipsy, jehož velikost je určena hodnotou $\mu$ a pro k
 \begin{align}
 	p=\frac{b^2}{a},
 \end{align}
-kde $a$ označuje délku hlavní poloosy, což je úsečka spojující střed elipsy s jedním z průsečíků elipsy s hlavní osou --- přímkou spojující ohniska, a $b$ označuje délku vedlejší poloosy, což je úsečka spojující střed elipsy s průsečíkem elipsy s přímkou kolmou na hlavní poloosu a procházející středem elipsy --- vedlejší osou (viz \ref{fig:elip}).
-Dále $e$, resp. $\omega$ jsou integrační konstanty a nazývají se excentricita, resp. argument pericentra. Pro excentricitu platí vztah
-\begin{figure} \label{fig:elip}
+kde $a$ označuje délku hlavní poloosy, což je úsečka spojující střed elipsy s jedním z průsečíků elipsy s hlavní osou --- přímkou spojující ohniska, a $b$ označuje délku vedlejší poloosy, což je úsečka spojující střed elipsy s průsečíkem elipsy s přímkou kolmou na hlavní poloosu a procházející středem elipsy --- vedlejší osou (viz~\ref{fig:elip}).
+Dále $e$, resp.\ $\omega$ jsou integrační konstanty a nazývají se excentricita, resp.\ argument pericentra. Pro excentricitu platí vztah
+\begin{figure} 
+	\centering
 	\begin{asy}
 		size(8cm,8cm);
 
@@ -100,7 +101,7 @@ Dále $e$, resp. $\omega$ jsou integrační konstanty a nazývají se excentrici
 		real a = 1.5;
 		real b = 1;
 
-		draw(ellipse(a,b));
+		draw(ellipse((0,0), a, b));
 
 		draw((-1.5*a,0)--(1.5*a,0));
 		draw((0,-b)--(0,b));
@@ -108,22 +109,26 @@ Dále $e$, resp. $\omega$ jsou integrační konstanty a nazývají se excentrici
 
 		draw((a,0), mark1);
 		draw((-a,0), mark1);
-		label("$P$", (a,0), E);
-		label("$A$", (-a,0), W);
+		label("$P$", (a,0), SE);
+		label("$A$", (-a,0), SW);
 
-		real F = sqrt((a-b)(a+b);
-		draw((f,0), mark1);
-		draw((-f,0), mark1);
-		label("$F_1$", (f,0), N);
-		label("$F_2$", (-f,0), N);
+		real F = sqrt((a-b)*(a+b));
+		draw((F,0), mark1);
+		draw((-F,0), mark1);
+		label("$F_1$", (F,0), S);
+		label("$F_2$", (-F,0), S);
 
 		draw(brace((0,0), (a,0)));
-		label("$a$", (a/2,-0.25), S);
+		label("$a$", (a/2,0.25), N);
 
 		draw(brace((0,0), (0,b)));
 		label("$b$", (-0.25, b/2), W);
+
+		draw((0,0)--(1.3,-1.1), arrow=EndArrow);
+		draw(arc((0,0), 0.5, -degrees(atan(1.1/1.3)), 0));
+		label("$\omega$", (0.35,-0.25), N);
 	\end{asy}
-	\caption{ Eliptická oběžná dráha vesmírného tělesa. $a$ označuje délku hlavní poloosy, $b$ délku vedlejší poloosy, $F_1$ a $F_2$ označují polohy ohnisek elipsy, přičemž centrální těleso se nachází v bodě $F_1$, a $P$, resp. $A$ označují pericentrum, resp. apocentrum oběžné dráhy, tedy bod nejnižší, resp. nejvyšší vzdálenosti od centrálního tělesa.}
+	\caption{Eliptická oběžná dráha vesmírného tělesa. $a$ označuje délku hlavní poloosy, $b$ délku vedlejší poloosy, $F_1$ a $F_2$ označují polohy ohnisek elipsy, přičemž centrální těleso se nachází v bodě $F_1$, a $P$, resp.\ $A$ označují pericentrum, resp.\ apocentrum oběžné dráhy, tedy bod nejnižší, resp.\ nejvyšší vzdálenosti od centrálního tělesa, $\omega$ označuje argument pericentra.} \label{fig:elip}
 \end{figure}
 \begin{align}
 	e=\sqrt{1-\frac{a^2}{b^2}},
@@ -135,18 +140,18 @@ Argument pericentra je úhel, který svírá hlavní osa s referenční přímko
 \end{align}
 kde $f$ označuje pravou anomálii, což je úhel, který svírá hlavní osa s průvodičem tělesa.
 
-\begin{figure}
+\begin{figure} 
 	\centering
+	May-DO: Předělat do jednotného stylu obrázků.
 	\includegraphics[width=0.5\textwidth]{obr/Eanomaly.png}
-	\caption{TODO}
-	\label{fig:E}
+	\caption{Ilustrace vztahu mezi excentrickou anomálií $E$ a pravou anomálií $f$. $a$, resp. $b$ značí délku hlavní, resp. vedlejší poloosy, $P$ značí polohu tělesa na elipse, $C$ značí střed elipsy, $F$ značí ohnisko, ve kterém se nachází centrální těleso a $e$ značí excentricitu (vymazat??)} \label{fig:E}
 \end{figure}
 
 Uvědomme si, že jsme neodvodili závislost polohy tělesa na čase. Tuto závislost určuje Keplerova rovnice:
 \begin{equation} \label{eq:kepler}
 M = E + e\sin E
 \end{equation}
-kde $M$ označuje střední anomálii, $E$ excentrickou anomálii a $e$ excentricitu elipsy (viz obrázek \ref{fig:Eanomaly}). Mezi $E$ a pravou anomálií $f$ platí vztah
+kde $M$ označuje střední anomálii, $E$ excentrickou anomálii a $e$ excentricitu elipsy (viz obrázek~\ref{fig:E}). Mezi $E$ a pravou anomálií $f$ platí vztah
 \begin{align} \label {eq:fE}
 	\tan \frac{f}{2} = \sqrt{\frac{1+e}{1-e}\tan \frac{E}{2}}.
 \end{align}
@@ -169,9 +174,17 @@ kde $\vec{r}_i-\vec{r}_j$ označuje vektor určující vzájemnou polohu těles 
 \subsubsection{Eulerova metoda}
 I přesto, že se následující integrační metoda v přesných numerických výpočtech zřídka používá, uvádíme ji zde z didaktických důvodů, neboť názorně ilustruje použití numerických metod pro řešení problému $N$ těles. Jak název napovídá, poprvé s ní v 18. století přišel švýcarský matematik Leonhard Euler.
 
-Princip algoritmu spočívá v tom, že v libovolném čase můžeme z \eqref{eq:nbody2} vypočítat zrychlení každého tělesa. Pak, po zvolení určitého časového kroku, odpovídajícím způsobem změníme vektor rychlosti. Následně necháme všechna tělesa po dobu časového kroku pohybovat se po přímce konstantní rychlostí. Existují dvě verze Eulerovy metody, dopředná a zpětná, které se liší volbou rychlosti, se kterou necháváme pohybovat se po přímce, viz následující přesný popis obou metod a obrázek \ref{fig:euler}.
+Princip algoritmu spočívá v tom, že v libovolném čase můžeme z \eqref{eq:nbody2} vypočítat zrychlení každého tělesa. Pak, po zvolení určitého časového kroku, odpovídajícím způsobem změníme vektor rychlosti. Následně necháme všechna tělesa po dobu časového kroku pohybovat se po přímce konstantní rychlostí. Existují dvě verze Eulerovy metody, dopředná a zpětná, které se liší volbou rychlosti, se kterou necháváme pohybovat se po přímce, viz následující přesný popis obou metod a obrázek~\ref{fig:euler}.
 
-\begin{figure}
+Mějme zmiňovaných $N$ hmotných bodů, pro které platí \eqref{eq:nbody2}. Zaměřme se na jeden z nich a označme jeho počáteční polohu $\vec{r}(t_0)$ a počáteční rychlost $\vec{v}(t_0)$. K použití Eulerovy metody potřebujeme znát i počáteční polohy a rychlosti všech ostatních těles v systému. Dále vhodně zvolme velikost časového kroku $h$. V následujícíh třech krocích si ukážeme jednu iteraci algoritmu jak pro dopřednou, tak pro zpětnou metodu.
+
+\begin{enumerate}
+	\item Nechť je v čase $t_k$ poloha zvoleného bodu $\vec{r}(t_k)$ a rychlost $\vec{v}(t_k)$. Z \eqref{eq:nbody2} vypočítáme zrychlení $\vec{a}(t_k)$. 
+	\item Položme $t_{k+1} = t_{k}+h$ a vypočítejme $\vec{v}(t_{k+1}) = \vec{v}(t_k) + h\cdot\vec{a}(t_k)$.\footnote{Můžeme porovnat se vzorcem pro rovnoměrný přímočarý pohyb, dobře známým ze středoškolského učiva: $v = v_0 + at$, podobně v kroku $3$ $s = s_0 + vt$}
+	\item Pro dopřednou metodu vypočítejme $\vec{r}(t_{k+1})$ jako $\vec{r}(t_{k+1}) = \vec{r}(t_k) + h\cdot\vec{v}(t_k)$ a pro zpětnou jako $\vec{r}(t_{k+1}) = \vec{r}(t_k) + h\cdot\vec{v}(t_{k+1})$. Poté se vraťme ke kroku $1$, tentokrát počítaje v čase $t_{k+1}$. 
+\end{enumerate}
+
+\begin{figure} 
 	\centering 
 	\begin{subfigure}[b]{0.45\textwidth}
 	\begin{asy}
@@ -368,35 +381,27 @@ Princip algoritmu spočívá v tom, že v libovolném čase můžeme z \eqref{eq
 	\caption{Ilustrace dopředné (vpravo) a zpětné (vlevo) Eulerovy metody pro dvě tělesa, kdy větší těleso (velká tečka vlevo nahoře) gravitačně působí na menší těleso (malé tečky vpravo). Jsou ukázány první tři iterace. Algoritmus byl doopravdy implementován, s hodnotami: $h=20\,{\rm \text{dnů}}$, $m_1=2\cdot10^{30}\,{\rm kg}$, $G=6,67\cdot10^{-11}\,{\rm m^3kg^{-1}s^{-2}}$, $|\vec{r}|=1\,{\rm AU}$, $v_0=29861\,{\rm ms^{-1}}$. Vektory jsou přeškálované. Šedá křivka znázorňuje analytické řešení problému dvou těles.} \label{fig:euler}
 \end{figure}
 
-Mějme zmiňovaných $N$ hmotných bodů, pro které platí \eqref{eq:nbody2}. Zaměřme se na jeden z nich a označme jeho počáteční polohu $\vec{r}(t_0)$ a počáteční rychlost $\vec{v}(t_0)$. K použití Eulerovy metody potřebujeme znát i počáteční polohy a rychlosti všech ostatních těles v systému. Dále vhodně zvolme velikost časového kroku $h$. V následujícíh třech krocích si ukážeme jednu iteraci algoritmu jak pro dopřednou, tak pro zpětnou metodu.
-
-\begin{enumerate}
-	\item Nechť je v čase $t_k$ poloha zvoleného bodu $\vec{r}(t_k)$ a rychlost $\vec{v}(t_k)$. Z \eqref{eq:nbody2} vypočítáme zrychlení $\vec{a}(t_k)$. 
-	\item Položme $t_{k+1} = t_{k}+h$ a vypočítejme $\vec{v}(t_{k+1}) = \vec{v}(t_k) + h\cdot\vec{a}(t_k)$.\footnote{Můžeme porovnat se vzorcem pro rovnoměrný přímočarý pohyb, dobře známým ze středoškolského učiva: $v = v_0 + at$, podobně v kroku $3$ $s = s_0 + vt$}
-	\item Pro dopřednou metodu vypočítejme $\vec{r}(t_{k+1})$ jako $\vec{r}(t_{k+1}) = \vec{r}(t_k) + h\cdot\vec{v}(t_k)$ a pro zpětnou jako $\vec{r}(t_{k+1}) = \vec{r}(t_k) + h\cdot\vec{v}(t_{k+1})$. Poté se vraťme ke kroku $1$, tentokrát počítaje v čase $t_{k+1}$. 
-\end{enumerate}
-
-Jak můžeme vidět na obrázku \ref{fig:euler}, vypočtená dráha se od té analytické značně vzdaluje. To by samozřejmě řešila volba menší kroku $h$, ale pro velký počet těles a velkou požadovanou přesnost je algoritmus velmi pomalý.
+Jak můžeme vidět na obrázku~\ref{fig:euler}, vypočtená dráha se od té analytické značně vzdaluje. To by samozřejmě řešila volba menší kroku $h$, ale pro velký počet těles a velkou požadovanou přesnost je algoritmus velmi pomalý.
 
 Jedno z možných vylepšení je volně řečeno průměrování dopředné a zpětné Eulerovy metody --- tzv. \enquote{leapfrog} metoda. Spočívá v tom, že rychlost počítáme v jedné polovině časového kroku, ne nakonci nebo na začátku. Další zpřesnění lze získat tak, že místo pohybu po přímce konstantní rychlostí použijeme nějakou lokální eliptickou dráhu, kterou získáme, když místo všech ostatních těles uvážíme pouze jejich těžiště, čímž situaci zredukujeme na problém dvou těles, který umíme vyřešit. Tato integrační metoda se již podobá algoritmu Wisdom--Holman Mapping, jehož ještě zlepšenou verzi využívá integrační balíček SWIFT \cite{levison}, který budeme v této práci používat. Nutno dodat, že v námi užitém algoritmu ještě započítáváme negravitační jevy, jako Yarkovského jev, YORP jev a náhodné srážky, viz \cite{broz11}.
 
 \section{Orbitální elementy} \label{sec:orbelem}
-K úspěšnému určení a zařazení oběžné dráhy nějakého vesmírného tělesa zavedeme šest elementů dráhy, které budeme v opzdějších sekcích používat k analýze rodin planetek. V sekci \ref{sec:2body} jsme odvodili obecnou rovnici kuželosečky zapsanou v polárních souřadnicích. Ve sluneční soustavě se však s jinými, než s eliptickými dráhami nesetkáme, budeme tedy definovat elementy dráhy pouze pro dráhu eliptickou.
+K úspěšnému určení a zařazení oběžné dráhy nějakého vesmírného tělesa zavedeme šest elementů dráhy, které budeme v opzdějších sekcích používat k analýze rodin planetek. V sekci~\ref{sec:2body} jsme odvodili obecnou rovnici kuželosečky zapsanou v polárních souřadnicích. Ve sluneční soustavě se však s jinými, než s eliptickými dráhami nesetkáme, budeme tedy definovat elementy dráhy pouze pro dráhu eliptickou.
 \subsection{Oskulační elementy}
-Oskulační elementy popisují takovou oběžnou dráhu tělesa, po které by se pohybovalo kolem centrálního tělesa v problému dvou těles --- tedy po zanedbání všech ostatních těles (planet, měsíců, ...) a negravitačních sil. Svým způsobem tedy zachycují aktuální stav tělesa v rámci celé soustavy, je tudíž nutno s nimi uvádět i časový údaj --- tzv. epochu). Neustále se mění působením perturbaví, což jsou jakékoli vnější síly působíví na těleso jiné, než gravitační síla centrálního tělesa --- např. gravitace ostatních planet, nerovnoměrný tvar centrálního tělesa či Jarkovského efekt, neboli unášení, o kterém budeme hovořit později.
+Oskulační elementy popisují takovou oběžnou dráhu tělesa, po které by se pohybovalo kolem centrálního tělesa v problému dvou těles --- tedy po zanedbání všech ostatních těles (planet, měsíců, \ldots a negravitačních sil. Svým způsobem tedy zachycují aktuální stav tělesa v rámci celé soustavy, je tudíž nutno s nimi uvádět i časový údaj --- tzv.\ epochu). Neustále se mění působením perturbaví, což jsou jakékoli vnější síly působíví na těleso jiné, než gravitační síla centrálního tělesa --- např. gravitace ostatních planet, nerovnoměrný tvar centrálního tělesa či Jarkovského efekt, neboli unášení, o kterém budeme hovořit později.
 
 Skutečnost, že elementů je právě šest, není náhodou, existuje totiž výpočet, kterým lze z polohy a rychlosti tělesa v prostoru, tedy z údajů $x,\, y,\, z,\, v_x,\, v_y,\, v_z$, spočítat elementy dráhy v prostoru; je tedy logické, že vzniklých údajů musí být zase šest.
 
-Prvními dvěma elementy jsou hlavní poloosa a excentricita, které definují tvar elipsy (viz obrázek \ref{fig:elip}). Hlavní poloosu značíme $a$ a při studiu sluneční soustavy tento údaj většinou udáváme v astronomických jednotkách --- AU --- přičemž $1\, {\rm AU} = 149\,597\,870\,{\rm km}$, což je střední vzdálenost slunce a Země. Excentricita se pro eliptické dráhy nachází v intervalu $(0,1)$, kde krajními případy jsou $e=0$: dráha má tvar kružnice, a $e=1$: dráha má tvar paraboly.
+Prvními dvěma elementy jsou hlavní poloosa a excentricita, které definují tvar elipsy (viz obrázek~\ref{fig:elip}). Hlavní poloosu značíme $a$ a při studiu sluneční soustavy tento údaj většinou udáváme v astronomických jednotkách --- AU --- přičemž $1\, {\rm AU} = 149\,597\,870\,{\rm km}$, což je střední vzdálenost slunce a Země. Excentricita se pro eliptické dráhy nachází v intervalu $(0,1)$, kde krajními případy jsou $e=0$: dráha má tvar kružnice, a $e=1$: dráha má tvar paraboly.
 
-Dalšími dvěma elementy jsou argument pericentra a střední anomálie (viz \ref{sec:2body}), které udávají polohu tělesa v rovině oběžné dráhy. Refereční přímkou je průsečnicí roviny dráhy s refereční rovinu --- ekliptikou, přesněji řečeno je to polopřímka s počátečním bodem v poloze centrálním tělesa a pomocným bodem ve vzestupné uzlu, což je bod, ve kterém těleso prochází refereční rovinou \enquote{zespodu nahoru}. Střední anomálie je určená vztahem \ref{eq:M} a udává samotnou polohu tělesa na elipse.
+Dalšími dvěma elementy jsou argument pericentra a střední anomálie (viz~\ref{sec:2body}), které udávají polohu tělesa v rovině oběžné dráhy. Refereční přímkou je průsečnicí roviny dráhy s refereční rovinu --- ekliptikou, přesněji řečeno je to polopřímka s počátečním bodem v poloze centrálním tělesa a pomocným bodem ve vzestupné uzlu, což je bod, ve kterém těleso prochází refereční rovinou \enquote{zespodu nahoru}. Střední anomálie je určená vztahem~\ref{eq:M} a udává samotnou polohu tělesa na elipse.
 
 Poslední dvojice elementů, sklon a délka vzestupného uzlu, udává polohu roviny oběžné dráhy v prostoru. Sklon dráhy (cizím slovem inklinace) je orientovaný úhel, který svírá rovina dráhy vzhledem k ekliptice. Znaší se $i$ a většinou se udává ve stupních, někdy se ale uvádí $\sin i$, což je ekvivalentní definice, protože pro $-90^o\leq i \leq 90^o$ je $\sin i$ jednoznačně určen. Délka vzestupného uzlu je orientovný úhel, který svírá spojnice centrálního tělesa s referenčím směrem v rovině ekliptiky, za který se ve sluneční soustavě bere směr k jarnímu bodu, což je jeden z průsečíků ekliptiky s rovinou zemského rovníku, jinak řečeno poloha slunce vzhledem k Zemi v okamžiku jarní rovnodennosti.
 
 \subsubsection{Výpočet polohy tělesa z elementů dráhy}
 \begin{enumerate}[label=\arabic*.]
-	\item Z rovnice \ref{eq:kep} nějakou ze jmenovanných metod (aproximačních, iteračních nebo numerických) vypočítáme velikost excentrické anomálie.
-	\item Vztah \ref{eq:fE} upravíme a spočteme pravou anomálii $f$:
+	\item Z rovnice \eqref{eq:kepler} nějakou ze jmenovanných metod (aproximačních, iteračních nebo numerických) vypočítáme velikost excentrické anomálie.
+	\item Vztah \eqref{eq:fE} upravíme a spočteme pravou anomálii $f$:
 		\begin{align}
 			f = 2\tan^{-1}(\sqrt{\frac{1+e}{1-e}}\tan \frac{E}{2})
 		\end{align}
@@ -414,9 +419,11 @@ Poslední dvojice elementů, sklon a délka vzestupného uzlu, udává polohu ro
 		vypočítáme $x,\,y,\,z$.
 \end{enumerate}
 
-\subsubsection{Efemeridy}
+\subsubsection{Efemeridy} dávat/nedávat?
 
 \subsection{Střední elementy}
+
+
 \subsection{Vlastní elementy}
 TODO: Význam, nastínění výpočtu
 
@@ -467,7 +474,7 @@ TODO: Význam, nastínění výpočtu
 	\centering
 	\begin{subfigure}[b]{0.45\textwidth}
 	\includegraphics[width=\textwidth]{obr/size_distribution}
-	\end{subfigure} ~
+	\end{subfigure}
 	\begin{subfigure}[b]{0.45\textwidth}
 	\includegraphics[width=\textwidth]{obr/size_distribution_SMALLD}
 	\end{subfigure}
