@@ -1,0 +1,1212 @@
+1
+
+St°edo²kolská odborná £innost
+Obor £. 2: Fyzika
+
+Mechanika rodin planetek
+s aplikací na rodinu Eunomia
+
+Adam K°ivka
+Jihomoravský kraj
+
+Brno 2018
+
+2
+
+TODO: Ostatní nutné úvodní stránky pro SOku . . .
+
+Obsah
+1 Úvod do nebeské mechaniky
+1.1
+
+1.2
+
+5
+
+Pohybové rovnice . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+1.1.1
+
+Rovnice pro dv¥ t¥lesa
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6
+
+1.1.2
+
+Rovnice pro N t¥les . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+Orbitální elementy
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+12
+
+1.2.1
+
+Oskula£ní elementy . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+12
+
+1.2.2
+
+St°ední elementy
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+1.2.3
+
+Vlastní elementy
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+2 Planetky ve Slune£ní soustav¥
+2.1
+
+15
+
+Rodiny planetek . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+15
+
+2.1.1
+
+15
+
+Metody identikace rodin
+
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+3 Vlastnosti rodiny Eunomia
+
+16
+
+3.1
+
+Nejistoty pozorovaných dat
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3.2
+
+Fyzikální model pro rodinu Eunomia
+
+16
+
+. . . . . . . . . . . . . . . . . . . . . .
+
+16
+
+3.2.1
+
+Jarkovského jev . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+16
+
+3.2.2
+
+YORP jev . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+16
+
+3.2.3
+
+Náhodné sráºky . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+16
+
+3.2.4
+
+Nevratné d¥je p°i vývoji
+
+. . . . . . . . . . . . . . . . . . . . . . . . .
+
+16
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+16
+
+3.3
+
+Simulace orbitálního vývoje
+
+3.4
+
+Porovnání modelu a pozorování
+
+. . . . . . . . . . . . . . . . . . . . . . . . .
+
+3
+
+16
+
+OBSAH
+
+4
+
+4 Aplikace v praxi
+
+20
+
+5 Budoucí moºnosti výzkumu
+
+21
+
+Kapitola 1
+Úvod do nebeské mechaniky
+TODO: Úvod
+
+1.1
+
+Pohybové rovnice
+
+Pohybová rovnice je matematicky zapsaný fyzikální vztah, který popisuje moºné pohyby t¥les v daném prost°edí [1]. e²ením pohybové rovnice je funkce, popisující polohu a rychlost
+kaºdého zkoumaného t¥lesa v závislosti na £ase. P°itom pot°ebujeme znát po£áte£ní podmínky  polohy a rychlosti t¥les na za£átku. Pohybová rovnice bývá ve tvaru diferenciální
+rovnice, coº je rovnice, která vyjad°uje vztah mezi n¥jakou funkcí a jejími derivacemi, coº je
+okamºitá zm¥na hodnoty funkce p°i velmi malé zm¥n¥ argumentu, v na²em p°ípad¥ £asu.
+V následující £ásti se pokusíme nalézt °e²ení pohybové rovnice pro t¥lesa ve slune£ní soustav¥. Zákony, jimiº se budou na²e t¥lesa °ídit, jsou Newton·v gravita£ní zákon a Newtonovy
+
+5
+
+KAPITOLA 1.
+
+6
+
+ÚVOD DO NEBESKÉ MECHANIKY
+
+pohybové zákony, které byly poprvé denovány jiº v roce 1687.
+
+1.1.1 Rovnice pro dv¥ t¥lesa
+Omezme se nyní na dv¥ t¥lesa a nalezn¥me °e²ení tzv. problému dvou t¥les, n¥kdy také
+Keplerovy úlohy. To znamená, ºe se pokusíme odvodit funkci, popisující polohu a rychlost
+obou t¥les v závisloti na £ase.
+Nacházíme se v inerciální vztaºné soustav¥, coº je taková vztaºná soustava, kde platí
+první Newton·v zákon. Jako bod v klidu si zvolme t¥ºi²t¥ soustavy. Pro síly p·sobící na ob¥
+t¥lesa podle Newtonova gravita£ního zákona a druhého a t°etího pohybového zákona platí
+
+m1 m2
+F~1 = +G
+~r = m1~a1
+|~r |3
+m1 m2
+~r = m2~a2 ,
+F~2 = −G
+|~r |3
+kde
+
+G
+
+ozna£uje gravita£ní konstantu,
+
+m1 , m2
+
+(2)
+
+hmotnosti zkoumaných t¥les,
+
+zrychlení t¥les (tj. druhé derivace polohových vektor·
+vzájemnou polohu t¥les, denovanou jako
+
+(1)
+
+~r1 , ~r2
+
+~r = ~r2 − ~r1 .
+
+podle £asu) a
+
+~r
+
+~a1 , ~a2
+
+vektory
+
+vektor udávající
+
+Sou£tem obou rovnic dostáváme
+
+F~1 + F~2 = m1 a~1 + m2 a~2 = 0.
+Vektor popisující polohu t¥ºi²t¥ soustavy je
+
+~ ≡
+R
+
+(3)
+
+m1 ~
+r1 +m2 ~
+r2
+. Jeho druhou derivací podle £asu
+m1 +m2
+
+dostáváme zrychlení
+
+~
+m1 a~1 + m2 a~2
+d2 R
+=
+= 0,
+2
+dt
+m1 + m2
+které se podle (3) rovná nule, takºe se t¥ºi²t¥ soustavy pohybuje konstantní rychlostí.
+
+KAPITOLA 1.
+
+7
+
+ÚVOD DO NEBESKÉ MECHANIKY
+
+Nyní se v²ak p°esu¬me do soustavy neinerciální, kde je první z t¥les (b¥ºn¥ to hmotn¥j²í)
+nehybné. ekn¥me, ºe nehybné t¥leso má index
+a
+
+~r 0 = ~r.
+
+~r1 .
+
+1,
+
+tedy nov¥
+
+~r10 = 0, ~r20 = ~r
+
+(tedy i
+
+~a20 = ~a)
+
+Provedli jsme tedy v podstat¥ transformaci, kdy jsme ke kaºdému vektoru p°i£etli
+
+Rovnici (1) m·ºeme p°epsat jako
+
+~a = Gm2
+
+~r
+|~r |3
+
+d2~r
+~r
+−
+Gm
+=0
+2
+dt2
+|~r |3
+asto je²t¥ denujeme gravita£ní paramter soustavy
+
+(4)
+
+µ = Gm2 .
+
+I p°esto, ºe tato diferenciální rovnice je²t¥ není ve své kone£né podob¥ vhodné k tomu,
+abychom z ní vyvodili následující vztah, prozradíme, ºe je jím funkce v polárních sou°adnicích, popisující vzdálenost t¥les
+
+r ≡ |~r | v závisloti na úhlu θ, který svírá p°ímka procházející
+
+ob¥ma t¥lesy a n¥jaká zvolená referen£ní p°ímka.
+
+r(θ) =
+
+p
+1 + e cos (θ − ω)
+
+(5)
+
+Pro na²e ú£ely se omezme na p°ípad elipsy, kdy se v jednom z jejích ohnisek nachází centrální
+t¥leso.
+
+p ozna£uje parametr elipsy, jehoº velikost je ur£ena hodnotou µ a pro který platí vztah
+p=
+
+kde
+
+b2
+,
+a
+
+(6)
+
+a ozna£uje délku hlavní poloosy, coº je úse£ka spojující st°ed elipsy s jedním z pr·se£ík·
+
+elipsy s hlavní osou  p°ímkou spojující ohniska, a
+
+b
+
+ozna£uje délku vedlej²í poloosy, coº
+
+je úse£ka spojující st°ed elipsy s pr·se£íkem elipsy s p°ímkou kolmou na hlavní poloosu a
+procházející st°edem elipsy  vedlej²í osou (viz 1.1). Dále
+
+e, resp. ω jsou integra£ní konstanty
+
+a nazývají se excentricita, resp. argument pericentra. Pro excentricitu platí vztah
+
+r
+e=
+
+1−
+
+a2
+,
+b2
+
+(7)
+
+KAPITOLA 1.
+
+8
+
+ÚVOD DO NEBESKÉ MECHANIKY
+
+b
+A
+
+a
+ω
+
+F2
+
+Obrázek 1.1: Eliptická ob¥ºná dráha vesmírného t¥lesa.
+
+F2
+P , resp. A
+
+délku vedlej²í poloosy,
+nachází v bod¥
+
+F1 ,
+
+a
+
+F1
+
+a
+
+P
+
+F1
+
+a
+
+ozna£uje délku hlavní poloosy,
+
+b
+
+ozna£ují polohy ohnisek elipsy, p°i£emº centrální t¥leso se
+ozna£ují pericentrum, resp. apocentrum ob¥ºné dráhy, tedy
+
+bod nejniº²í, resp. nejvy²²í vzdálenosti od centrálního t¥lesa,
+
+ω ozna£uje argument pericentra.
+
+a voln¥ °e£eno udává, jak moc se elipsa li²í od kruºnice. Argument pericentra je úhel, který
+svírá hlavní osa s referen£ní p°ímkou. Platí pro n¥j vztah
+
+θ = ω + f,
+kde
+
+f
+
+(8)
+
+ozna£uje pravou anomálii, coº je úhel, který svírá hlavní osa s pr·vodi£em t¥lesa.
+
+Uv¥domme si, ºe jsme neodvodili závislost polohy t¥lesa na £ase. Tuto závislost ur£uje
+Keplerova rovnice:
+
+M = E + e sin E
+kde
+
+M
+
+ozna£uje st°ední anomálii,
+
+zek 1.2). Mezi
+
+E
+
+E
+
+a pravou anomálií
+
+excentrickou anomálii a
+
+f
+
+(9)
+
+e
+
+excentricitu elipsy (viz obrá-
+
+platí vztah
+
+f
+tan =
+2
+
+r
+
+Anomálie mají úhlové jednotky, úhel
+
+M
+
+E
+1+e
+tan .
+1−e
+2
+
+(10)
+
+ale nem·ºeme zkonstruovat, nicmén¥ je vý-
+
+znamný tím, ºe je lineárn¥ závislý na £ase. Je ur£en vztahem
+
+M = nt,
+
+(11)
+
+KAPITOLA 1.
+
+9
+
+ÚVOD DO NEBESKÉ MECHANIKY
+
+Obrázek 1.2: TODO
+
+kde
+
+E,
+
+n ozna£uje st°ední denní pohyb, jinak °e£eno pr·m¥rnou úhlovou rychlost. Pokud známe
+
+m·ºeme pomocí Keplerovy rovnice snadno spo£ítat
+
+m·ºeme vyjád°it
+
+E
+
+v závisloti na
+
+M
+
+M.
+
+Problém spo£ívá v tom, ºe ne-
+
+kone£ným výrazem, ale pouze nekone£nou °adou nebo
+
+jej m·ºeme aproximovat itera£ními nebo numerickými metodami.
+
+1.1.2 Rovnice pro N t¥les
+Jak vidíme, uº i pro dv¥ t¥lesa se musíme k získání polohy t¥lesa v £ase uchýlit k numerickým metodám. Ukazuje se, ºe obecný problém
+
+N
+
+1
+
+t¥les je analyticky ne°e²itelný
+
+a jediné
+
+aplikovatelné metody jsou metody p°ibliºné analytické nebo numerické.
+Uvaºujme nyní
+
+N
+
+t¥les  respektive hmotných bod·, které na sebe vzájemn¥ gravita£n¥
+
+p·sobí v souladu s Newtonovým gravita£ním zákonem. Pro libovolné t¥leso, ozna£ené indexem
+
+j ∈ {1, 2, . . . , N },
+
+1 existují
+
+je celková síla
+
+Fj ,
+
+která na n¥j p·sobí, výslednicí v²ech gravita£ních
+
+ale n¥jaká za jímavá speciální °e²ení, viz [2].
+
+KAPITOLA 1.
+
+10
+
+ÚVOD DO NEBESKÉ MECHANIKY
+
+sil zp·sobených ostatními t¥lesy, jak ukazuje následující rovnice.
+
+F~j = mj~aj =
+
+N
+X
+
+G
+
+i=1
+i6=j
+
+~aj =
+
+N
+X
+i=1
+i6=j
+
+kde
+
+~ri − ~rj
+
+mi mj
+(~
+ri − r~j )
+|~ri − ~rj |3
+
+Gmi
+(~
+ri − r~j )
+|~ri − ~rj |3
+
+ozna£uje vektor ur£ující vzájemnou polohu t¥les
+
+po£átkem v t¥lese
+
+j
+
+(12)
+
+i
+
+(13)
+
+a
+
+j,
+
+konkrétn¥ jde o vektor s
+
+a vrcholem v t¥lese i; ostatní veli£iny jsou denované analogicky jako v
+
+p°edchozí £ásti.
+
+Eulerova metoda
+I p°esto, ºe se následující integra£ní metoda v p°esných numerických výpo£tech z°ídka pouºívá, uvádíme ji zde z didaktických d·vod·, nebo´ názorn¥ ilustruje pouºití numerických
+metod pro °e²ení problému
+
+N
+
+t¥les. Jak název napovídá, poprvé s ní v 18. století p°i²el
+
+²výcarský matematik Leonhard Euler.
+Princip algoritmu spo£ívá v tom, ºe v libovolném £ase m·ºeme z (13) vypo£ítat zrychlení
+kaºdého t¥lesa. Pak, po zvolení ur£itého £asového kroku, odpovídajícím zp·sobem zm¥níme
+vektor rychlosti. Následn¥ necháme v²echna t¥lesa po dobu £asového kroku pohybovat se po
+p°ímce konstantní rychlostí. Existují dv¥ verze Eulerovy metody, dop°edná a zp¥tná, které
+se li²í volbou rychlosti, se kterou necháváme pohybovat se po p°ímce, viz následující p°esný
+popis obou metod a obrázek 1.3.
+M¥jme zmi¬ovaných
+
+N
+
+hmotných bod·, pro které platí (13). Zam¥°me se na jeden z
+
+nich a ozna£me jeho po£áte£ní polohu
+
+~r(t0 )
+
+a po£áte£ní rychlost
+
+~v (t0 ).
+
+K pouºití Eulerovy
+
+metody pot°ebujeme znát i po£áte£ní polohy a rychlosti v²ech ostatních t¥les v systému.
+Dále vhodn¥ zvolme velikost £asového kroku
+
+h.
+
+V následujícíh t°ech krocích si ukáºeme
+
+jednu iteraci algoritmu jak pro dop°ednou, tak pro zp¥tnou metodu.
+1. Nech´ je v £ase
+zrychlení
+
+~a(tk ).
+
+tk
+
+poloha zvoleného bodu
+
+~r(tk )
+
+a rychlost
+
+~v (tk ).
+
+Z (13) vypo£ítáme
+
+KAPITOLA 1.
+
+11
+
+ÚVOD DO NEBESKÉ MECHANIKY
+
+~r3
+
+~r3
+
+~v3
+
+m1
+
+~v2
+
+~r2
+
+~v3
+
+m1
+
+~r1
+~a1
+
+~v1
+
+~v2
+
+~r0
+~a1
+
+~v1
+
+~v1
+
+~v1
+~a0
+
+~v0
+
+~a0
+
+~a2
+
+~r1
+
+~v2
+
+~r0
+
+~v2
+
+~r2
+
+~a2
+
+~v0
+
+Obrázek 1.3: Ilustrace dop°edné (vpravo) a zp¥tné (vlevo) Eulerovy metody pro dv¥ t¥lesa,
+kdy v¥t²í t¥leso (velká te£ka vlevo naho°e) gravita£n¥ p·sobí na men²í t¥leso (malé te£ky
+vpravo). Jsou ukázány první t°i iterace. Algoritmus byl doopravdy implementován, s hodno30
+−11
+tami: h = 20 dn·, m1 = 2 · 10 kg, G = 6,67 · 10
+m3 kg−1 s−2 , |~r| = 1 AU, v0 = 29861 ms−1 .
+Vektory jsou p°e²kálované. edá k°ivka znázor¬uje analytické °e²ení problému dvou t¥les.
+
+2. Poloºme
+
+tk+1 = tk + h
+
+a vypo£ítejme
+
+3. Pro dop°ednou metodu vypo£ítejme
+jako
+
+~r(tk+1 ) = ~r(tk ) + h · ~v (tk+1 ).
+
+~v (tk+1 ) = ~v (tk ) + h · ~a(tk ).2
+
+~r(tk+1 ) jako ~r(tk+1 ) = ~r(tk )+h·~v (tk ) a pro zp¥tnou
+
+Poté se vra´me ke kroku
+
+1,
+
+tentokrát po£ítaje v £ase
+
+tk+1 .
+Jak m·ºeme vid¥t na obrázku 1.3, vypo£tená dráha se od té analytické zna£n¥ vzdaluje.
+To by samoz°ejm¥ °e²ila volba men²í kroku
+
+h, ale pro velký po£et t¥les a velkou poºadovanou
+
+p°esnost je algoritmus velmi pomalý.
+Jedno z moºných vylep²ení je voln¥ °e£eno pr·m¥rování dop°edné a zp¥tné Eulerovy
+metody  tzv. leapfrog metoda. Spo£ívá v tom, ºe rychlost po£ítáme v jedné polovin¥
+£asového kroku, ne nakonci nebo na za£átku. Dal²í zp°esn¥ní lze získat tak, ºe místo pohybu
+po p°ímce konstantní rychlostí pouºijeme n¥jakou lokální eliptickou dráhu, kterou získáme,
+
+2 M·ºeme porovnat se vzorcem pro rovnom¥rný p°ímo£arý pohyb, dob°e známým ze st°edo²kolského u£iva:
+
+v = v0 + at,
+
+podobn¥ v kroku
+
+3 s = s0 + vt
+
+KAPITOLA 1.
+
+12
+
+ÚVOD DO NEBESKÉ MECHANIKY
+
+kdyº místo v²ech ostatních t¥les uváºíme pouze jejich t¥ºi²t¥, £ímº situaci zredukujeme na
+problém dvou t¥les, který umíme vy°e²it. Tato integra£ní metoda se jiº podobá algoritmu
+WisdomHolman Mapping, jehoº je²t¥ zlep²enou verzi vyuºívá integra£ní balí£ek SWIFT
+[3], který budeme v této práci pouºívat. Nutno dodat, ºe v námi uºitém algoritmu je²t¥
+zapo£ítáváme negravita£ní jevy, jako Yarkovského jev, YORP jev a náhodné sráºky, viz [4].
+
+1.2
+
+Orbitální elementy
+
+K úsp¥²nému ur£ení a za°azení ob¥ºné dráhy n¥jakého vesmírného t¥lesa zavedeme ²est
+element· dráhy, které budeme v opzd¥j²ích sekcích pouºívat k analýze rodin planetek. V
+sekci 1.1.1 jsme odvodili obecnou rovnici kuºelose£ky zapsanou v polárních sou°adnicích.
+Ve slune£ní soustav¥ se v²ak s jinými, neº s eliptickými dráhami nesetkáme, budeme tedy
+denovat elementy dráhy pouze pro dráhu eliptickou.
+
+1.2.1 Oskula£ní elementy
+Oskula£ní elementy popisují takovou ob¥ºnou dráhu t¥lesa, po které by se pohybovalo kolem
+centrálního t¥lesa v problému dvou t¥les  tedy po zanedbání v²ech ostatních t¥les (planet,
+m¥síc·, . . . a negravita£ních sil. Svým zp·sobem tedy zachycují aktuální stav t¥lesa v rámci
+celé soustavy, je tudíº nutno s nimi uvád¥t i £asový údaj  tzv. epochu). Neustále se m¥ní
+p·sobením perturbaví, coº jsou jakékoli vn¥j²í síly p·sobíví na t¥leso jiné, neº gravita£ní síla
+centrálního t¥lesa  nap°. gravitace ostatních planet, nerovnom¥rný tvar centrálního t¥lesa
+£i Jarkovského efekt, neboli uná²ení, o kterém budeme hovo°it pozd¥ji.
+Skute£nost, ºe element· je práv¥ ²est, není náhodou, existuje totiº výpo£et, kterým lze z
+polohy a rychlosti t¥lesa v prostoru, tedy z údaj·
+
+x, y, z, vx , vy , vz ,
+
+spo£ítat elementy dráhy
+
+v prostoru; je tedy logické, ºe vzniklých údaj· musí být zase ²est.
+Prvními dv¥ma elementy jsou hlavní poloosa a excentricita, které denují tvar elipsy (viz
+obrázek 1.1). Hlavní poloosu zna£íme
+
+a
+
+a p°i studiu slune£ní soustavy tento údaj v¥t²inou
+
+udáváme v astronomických jednotkách  AU  p°i£emº
+
+1 AU = 149 597 870 km,
+
+coº je
+
+st°ední vzdálenost slunce a Zem¥. Excentricita se pro eliptické dráhy nachází v intervalu
+
+KAPITOLA 1.
+
+(0,1),
+
+13
+
+ÚVOD DO NEBESKÉ MECHANIKY
+
+kde krajními p°ípady jsou
+
+e = 0:
+
+dráha má tvar kruºnice, a
+
+e = 1:
+
+dráha má tvar
+
+paraboly.
+Dal²ími dv¥ma elementy jsou argument pericentra a st°ední anomálie (viz 1.1.1), které
+udávají polohu t¥lesa v rovin¥ ob¥ºné dráhy. Refere£ní p°ímkou je pr·se£nicí roviny dráhy
+s refere£ní rovinu  ekliptikou, p°esn¥ji °e£eno je to polop°ímka s po£áte£ním bodem v
+poloze centrálním t¥lesa a pomocným bodem ve vzestupné uzlu, coº je bod, ve kterém t¥leso
+prochází refere£ní rovinou zespodu nahoru. St°ední anomálie je ur£ená vztahem 11 a udává
+samotnou polohu t¥lesa na elipse.
+Poslední dvojice element·, sklon a délka vzestupného uzlu, udává polohu roviny ob¥ºné
+dráhy v prostoru. Sklon dráhy (cizím slovem inklinace) je orientovaný úhel, který svírá
+rovina dráhy vzhledem k ekliptice. Zna²í se
+uvádí
+
+sin i,
+
+i
+
+a v¥t²inou se udává ve stupních, n¥kdy se ale
+
+coº je ekvivalentní denice, protoºe pro
+
+−90o ≤ i ≤ 90o
+
+je
+
+sin i
+
+jednozna£n¥
+
+ur£en. Délka vzestupného uzlu je orientovný úhel, který svírá spojnice centrálního t¥lesa s
+referen£ím sm¥rem v rovin¥ ekliptiky, za který se ve slune£ní soustav¥ bere sm¥r k jarnímu
+bodu, coº je jeden z pr·se£ík· ekliptiky s rovinou zemského rovníku, jinak °e£eno poloha
+slunce vzhledem k Zemi v okamºiku jarní rovnodennosti.
+
+Výpo£et polohy t¥lesa z element· dráhy
+1. Z rovnice (9) n¥jakou ze jmenovanných metod (aproxima£ních, itera£ních nebo numerických) vypo£ítáme velikost excentrické anomálie.
+2. Vztah (10) upravíme a spo£teme pravou anomálii
+
+r
+−1
+
+f = 2 tan (
+
+f:
+
+E
+1+e
+tan )
+1−e
+2
+
+(14)
+
+3. Pomocí vztahu
+
+r = a(1 − e cos E)
+vypo£ítáme velikost r  relativní vzdálenost t¥les.
+
+(15)
+
+KAPITOLA 1.
+
+ÚVOD DO NEBESKÉ MECHANIKY
+
+14
+
+4. Pomocí vztah·
+
+vypo£ítáme
+
+x = r(cos Ω cos(ω + f ) − sin Ω sin(ω + f ) cos i)
+
+(16)
+
+y = r(sin Ω cos(ω + f ) + cos Ω sin(ω + f ) cos i)
+
+(17)
+
+z = r sin i sin(ω + f )
+
+(18)
+
+x, y, z .
+
+Efemeridy
+
+1.2.2 St°ední elementy
+1.2.3 Vlastní elementy
+TODO: Význam, nastín¥ní výpo£tu
+
+Kapitola 2
+Planetky ve Slune£ní soustav¥
+2.1
+
+Rodiny planetek
+
+2.1.1 Metody identikace rodin
+Rezonance st°edního pohybu
+Rezonance sekulární
+
+15
+
+Kapitola 3
+Vlastnosti rodiny Eunomia
+3.1
+
+Nejistoty pozorovaných dat
+
+3.2
+
+Fyzikální model pro rodinu Eunomia
+
+3.2.1 Jarkovského jev
+3.2.2 YORP jev
+3.2.3 Náhodné sráºky
+3.2.4 Nevratné d¥je p°i vývoji
+3.3
+
+Simulace orbitálního vývo je
+
+3.4
+
+Porovnání modelu a pozorování
+
+16
+
+17
+
+VLASTNOSTI RODINY EUNOMIA
+
+J8/3
+
+0.2
+
+J13/5
+
+0.18
+
+ep
+
+0.16
+0.14
+0.12
+0.1
+2.55
+
+2.6
+
+2.65
+ap [AU]
+
+2.7
+
+2.75
+
+Obrázek 3.1: TODO
+
+0.25
+
+s−s6−g5+g6
+
+sin Ip
+
+0.24
+0.23
+0.22
+0.21
+0.2
+2.55
+
+2.6
+
+2.65
+ap [au]
+
+2.7
+
+2.75
+
+Obrázek 3.2: TODO
+
+20
+18
+16
+14
+H [mag]
+
+KAPITOLA 3.
+
+12
+10
+8
+6
+15
+4
+2.5
+
+2.55
+
+2.6
+
+2.65
+ap [AU]
+
+Obrázek 3.3: TODO
+
+2.7
+
+2.75
+
+18
+
+VLASTNOSTI RODINY EUNOMIA
+
+0.4
+
+i-z [mag]
+
+0.2
+
+0
+
+-0.2
+
+-0.4
+-0.4
+
+-0.2
+
+0
+
+0.2
+
+0.4
+
+a* [mag]
+
+Obrázek 3.4: TODO
+
+1
+
+0.8
+
+0.6
+pIR
+
+KAPITOLA 3.
+
+0.4
+
+15
+918
+
+0.2
+
+0
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+pV
+
+Obrázek 3.5: TODO
+
+1
+
+KAPITOLA 3.
+
+19
+
+VLASTNOSTI RODINY EUNOMIA
+
+Obrázek 3.6: TODO
+
+family
+
+family
+10000
+number of asteroids N (>D)
+
+number of asteroids N (>D)
+
+10000
+
+1000
+
+100
+
+10
+
+1000
+
+−1.2
+
+100
+
+10
+−4.0
+
+1
+
+1
+1
+
+10
+100
+diameter D / km
+
+Obrázek 3.7: TODO
+
+1
+
+10
+100
+diameter D / km
+
+Kapitola 4
+Aplikace v praxi
+
+20
+
+Kapitola 5
+Budoucí moºnosti výzkumu
+
+21
+
+Bibliograe
+[1]
+
+Wikipedie.
+
+Pohybová rovnice  Wikipedie: Otev°ená encyklopedie
+
+28. 11. 2018]. 2018.
+[2]
+
+url: https://cs.wikipedia.org/wiki/Pohybov%C3%A1_rovnice.
+
+A. Cohan.  A Figure Eight And other Interesting Solutions to the N-Body Problem.
+In: (2012).
+
+url: https://sites.math.washington.edu/~morrow/336_12/papers/
+
+adrian.pdf.
+[3]
+
+. [Online; nav²tíveno
+
+H. Levison a M.J. Duncan.
+
+SWIFT: A solar system integration software package
+
+.
+
+url:
+
+http://www.boulder.swri.edu/~hal/swift.html.
+[4]
+
+M. Broz et al.  Did the Hilda collisional family form during the late heavy bombardment? In: (2011).
+
+url: http://sirrah.troja.mff.cuni.cz/yarko- site/tmp/
+
+trojans_obrien/r32mig.pdf.
+
+22
+
+

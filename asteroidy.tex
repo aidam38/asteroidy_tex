@@ -419,14 +419,31 @@ Poslední dvojice elementů, sklon a délka vzestupného uzlu, udává polohu ro
 		vypočítáme $x,\,y,\,z$.
 \end{enumerate}
 
-\subsubsection{Efemeridy} dávat/nedávat?
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{obr/atOF}
+	\caption{Porovnání oskulační a střední hlavní poloosy pro simluaci jedné planetky po dobu 3.76 miliónů let.}
+	\label{atOF}
+\end{figure}
 
 \subsection{Střední elementy}
+Střední elementy jsou elementy dráhy zbavené krátkých periodických perturbací, jako jsou pohyby velkých planet, např. Jupitera nebo Saturnu. Pro jejich výpočet z oskulačních elementů lze použít analytické, numerické nebo také filtrační metody, které jsem v naší práci využili. 
 
-
+Střední elementy odstraňují vliv tzv. rezonancí středního pohybu, což jsou oblasti vesmírného prostoru, ve kterém když se planetka nachází, tvoří poměr její periody s periody nějaké jiné planety zlomek s nízkým čitatelem a jmenovatelem (viz \ref{meanmotion}). 
 \subsection{Vlastní elementy}
-TODO: Význam, nastínění výpočtu
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{obr/atFP}
+	\caption{Porovnání střední a vlastní hlavní poloosy pro simluaci jedné planetky po dobu 3.76 miliónů let.}
+	\label{atFP}
+\end{figure}
+
+Vlastní elementy jsou elementy dráhy zbavené jak krátkých, tak dlouhých periodických perturbací, mezi které kromě již zmíněných patří navíc sekulární rezonance, které jsou způsobeném závislotí frekvencí precese (změny) argumentu perihélia a délky vzestupného uzlu planetky a nějaké jiné planety. 
+
+Vlastní elementy jsou tedy svým způsobem \enquote{průměry} pohybu a jsou téměř neměnné ve velkém časovém úseku, ačkoliv působením negravitačních sil --- hlavně Jarkovského jevu --- se můžou pomale měnit. 
+
+Mezi vlastní elementy počítáme pouze vlastní hlavní poloosu --- $a_p$, vlastní excentricitu --- $e_p$ a vlastní inklinaci --- $i_p$. Ostatní elementy nemá cenu uvažovat, protože argument perihélia i délka vzestupného uzlu periodicky precedují a střední anomálie je lineárně závislá na čase.
 \chapter{Planetky ve Sluneční soustavě}
 \section{Rodiny planetek}
 \subsection{Metody identifikace rodin}
