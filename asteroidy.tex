@@ -148,7 +148,7 @@ kde $f$ označuje pravou anomálii, což je úhel, který svírá hlavní osa s 
 	\centering
 	May-DO: Předělat do jednotného stylu obrázků.
 	\includegraphics[width=0.5\textwidth]{obr/Eanomaly.png}
-	\caption{Ilustrace vztahu mezi excentrickou anomálií $E$ a pravou anomálií $f$. $a$, resp. $b$ značí délku hlavní, resp. vedlejší poloosy, $P$ značí polohu tělesa na elipse, $C$ značí střed elipsy, $F$ značí ohnisko, ve kterém se nachází centrální těleso a $e$ značí excentricitu (vymazat??)} \label{fig:E}
+	\caption{Ilustrace vztahu mezi excentrickou anomálií $E$ a pravou anomálií $f$. $a$, resp.\ $b$ značí délku hlavní, resp.\ vedlejší poloosy, $P$ značí polohu tělesa na elipse, $C$ značí střed elipsy, $F$ značí ohnisko, ve kterém se nachází centrální těleso a $e$ značí excentricitu (vymazat??)} \label{fig:E}
 \end{figure}
 
 Uvědomme si, že jsme neodvodili závislost polohy tělesa na čase. Tuto závislost určuje Keplerova rovnice:
@@ -166,7 +166,7 @@ Anomálie mají úhlové jednotky, úhel $M$ ale nemůžeme zkonstruovat, nicmé
 \end{align}
 kde $n$ označuje střední denní pohyb, jinak řečeno průměrnou úhlovou rychlost. Pokud známe $E$, můžeme pomocí Keplerovy rovnice snadno spočítat $M$. Problém spočívá v tom, že nemůžeme vyjádřit $E$ v závisloti na $M$ konečným výrazem, ale pouze nekonečnou řadou nebo jej můžeme aproximovat iteračními nebo numerickými metodami.
 
-(Uvést iterační metodu, můj kód???)
+(Uvést iterační metodu, náš kód v Pythonu???)
 
 \subsection{Rovnice pro N těles}
 Jak vidíme, už i pro dvě tělesa se musíme k získání polohy tělesa v čase uchýlit k numerickým metodám. Ukazuje se, že obecný problém $N$ těles je analyticky neřešitelný\footnote{existují ale nějaká zajímavá speciální řešení, viz \cite{cohan12}.} a jediné aplikovatelné metody jsou metody přibližné analytické nebo numerické.
@@ -389,7 +389,7 @@ Mějme zmiňovaných $N$ hmotných bodů, pro které platí \eqref{eq:nbody2}. Z
 
 Jak můžeme vidět na obrázku~\ref{fig:euler}, vypočtená dráha se od té analytické značně vzdaluje. To by samozřejmě řešila volba menší kroku $h$, ale pro velký počet těles a velkou požadovanou přesnost je algoritmus velmi pomalý.
 
-Jedno z možných vylepšení je volně řečeno průměrování dopředné a zpětné Eulerovy metody --- tzv. \enquote{leapfrog} metoda. Spočívá v tom, že rychlost počítáme v jedné polovině časového kroku, ne na konci nebo na začátku. Další zpřesnění lze získat tak, že místo pohybu po přímce konstantní rychlostí použijeme lokální eliptickou dráhu, kterou získáme, když zanedbáme všechna ostatní tělesa a uvážíme pouze centrální těleso. Tato integrační metoda se již podobá algoritmu Wisdom--Holman Mapping, jehož ještě zlepšenou verzi využívá integrační balíček SWIFT \cite{levison}, který budeme v této práci používat. Nutno dodat, že v námi užitém algoritmu ještě započítáváme negravitační jevy, jako Yarkovského jev, YORP jev a náhodné srážky, viz \cite{broz11}.
+Jedno z možných vylepšení je volně řečeno průměrování dopředné a zpětné Eulerovy metody --- tzv.\ \enquote{leapfrog} metoda. Spočívá v tom, že rychlost počítáme v jedné polovině časového kroku, ne na konci nebo na začátku. Další zpřesnění lze získat tak, že místo pohybu po přímce konstantní rychlostí použijeme lokální eliptickou dráhu, kterou získáme, když zanedbáme všechna ostatní tělesa a uvážíme pouze centrální těleso. Tato integrační metoda se již podobá algoritmu Wisdom--Holman Mapping, jehož ještě zlepšenou verzi využívá integrační balíček SWIFT \cite{levison}, který budeme v této práci používat. Nutno dodat, že v námi užitém algoritmu ještě započítáváme negravitační jevy, jako Yarkovského jev, YORP jev a náhodné srážky, viz \cite{broz11}.
 
 \section{Orbitální elementy} \label{sec:orbelem}
 K úspěšnému určení a zařazení oběžné dráhy nějakého vesmírného tělesa zavedeme šest elementů dráhy, které budeme v pozdějších sekcích používat k analýze rodin planetek. V sekci~\ref{sec:2body} jsme odvodili obecnou rovnici kuželosečky zapsanou v polárních souřadnicích. Ve sluneční soustavě se však s jinými, než s eliptickými dráhami nesetkáme, budeme tedy definovat elementy dráhy pouze pro dráhu eliptickou.
@@ -432,20 +432,20 @@ Ukažme, pro účely této práce, jak z šesti elementů dráhy vypočítat pol
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.8\textwidth]{obr/atOF}
-	\caption{Porovnání oskulační a střední hlavní poloosy pro simluaci jedné planetky po dobu 3.76 miliónů let.}
+	\caption{Porovnání oskulační a střední hlavní poloosy pro simluaci jedné planetky po dobu $3,76$ miliónů let.}
 	\label{atOF}
 \end{figure}
 
 \subsection{Střední elementy}
 Střední elementy jsou elementy dráhy zbavené krátkých periodických perturbací, jako jsou pohyby velkých planet, např. Jupitera nebo Saturnu. Pro jejich výpočet z oskulačních elementů lze použít analytické, numerické nebo také filtrační metody, které jsme v naší práci využili. 
 
-Střední elementy odstraňují vliv tzv. rezonancí středního pohybu, což jsou oblasti vesmírného prostoru, ve kterém když se planetka nachází, tvoří poměr její periody s periodou nějaké jiné planety zlomek s nízkým čitatelem a jmenovatelem (viz \ref{meanmotion}). 
+Střední elementy odstraňují vliv tzv.\ rezonancí středního pohybu, což jsou oblasti vesmírného prostoru, ve kterém když se planetka nachází, tvoří poměr její periody s periodou nějaké jiné planety zlomek s nízkým čitatelem a jmenovatelem (viz~\ref{meanmotion}). 
 \subsection{Vlastní elementy}
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.8\textwidth]{obr/atFP}
-	\caption{Porovnání střední a vlastní hlavní poloosy pro simluaci jedné planetky po dobu 3.76 miliónů let.}
+	\caption{Porovnání střední a vlastní hlavní poloosy pro simluaci jedné planetky po dobu $3,76$ miliónů let. Lze vidět, že se za tuto dobu vlastní hlavní poloosa planetky zvýšila o $0.00022554\,{\rm AU}=33740.3\, {\rm km}$. Tento jev vysvětluje Jarkovského efekt, viz~\ref{sec:jarko}.}
 	\label{atFP}
 \end{figure}
 
@@ -456,7 +456,25 @@ Vlastní elementy jsou tedy svým způsobem \enquote{průměry} pohybu a jsou t�
 Mezi vlastní elementy počítáme pouze vlastní hlavní poloosu --- $a_p$, vlastní excentricitu --- $e_p$ a vlastní inklinaci --- $i_p$. Ostatní elementy nemá cenu uvažovat, protože argument perihélia i délka vzestupného uzlu periodicky precedují a střední anomálie je lineárně závislá na čase.
 
 \chapter{Planetky ve sluneční soustavě}
-Rozdělení planetek na hlavní pás, Trojany, Hildy, \ldots
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{obr/ssb.png}
+	\caption{Zařazení těles sluneční soustavy podle IAU (po valném shromáždění v Praze roku 2006, kde byl definován pojem planeta, čímž bylo vyřazeno Pluto z planet sluneční soustavy.) Zdroj: \cite{wiki:ssb} \label{fig:ssb}}
+\end{figure}
+
+Podle Mezinárodní astronomické unie (IAU) se tělesa ve sluneční soustavě dělí hlavně na planety, komety, přirozené satelity a planetky. Planeta je definována jako takové těleso, které obíhá kolem Slunce, má dostatečnou hmotnost, aby si udrželo kulovitý tvar, a je \enquote{vyčistilo} svoje okolí od ostatních těles. Kometa je těleso složené z ledu a prachu, které většinou obíhá Slunce po velmi excentrické dráze a zanechává přitom za sebou ohon, který je způsoben vypařováním ledu z komety působením slunečního záření. Dále přirozené satelity jsou tělesa obíhající nějakou planetu nebo planetku. 
+
+Konečně všechno ostatní je klasifikování jako planetka (někdy nepřesně označováno jako asteroid) --- patří sem trpasličí planety (těch je zatím pouze pět: Ceres, Pluto, Eris, Makemake, Haumea), transneptunická tělesa (tělesa, která se pohybují za oběžnou dráhou Neptunu), malá tělesa sluneční soustavy a další. Tyto skupiny se navzájem překrývají, viz \ref{fig:ssb}. Dále můžeme planetky dělit na podle jejich oběžné dráhy na tělesa vnitřní a vnější sluneční soustavy. Většina těles vnější sluneční soustavy se nachází v Kupierově pásu, který se sahá od oběžné dráhy Neptunu až do vzdálenosti přibližně $55\, {\rm AU}$. Tělesa vnitřní sluneční soustavy jsou přibližně omezená oběžnou dráhou Jupitera --- největší populace se nachází v hlavním pásu, který se nachází mezi oběžnonou dráhou Marsu (přbližně $1,5\, {\rm AU}$) a Jupitera (přibližně $5,2\, {\rm AU}$). Dále sem spadají také planetky, jejichž oběžná dráhá protínu dráhu Marsu nebo Země --- tzv. blízkozemní planetky, a planetky nacházející se v libračních centrech L4 a L5\footnote{To jsou takové body, v nichž se vyrovnává působení gravitační a odstředivé síly. Jde tedy o jakýsi bod rovnováhy. Body L4 a L5 se nachází na oběžné dráze většího tělesa o $60^o$ \enquote{napřed} nebo \enquote{za} tělesem.} soustav Slunce--Země, Slunce--Mars, Slunce--Jupiter --- tzv. trojáni. Hildy???
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.8\textwidth]{obr/mainbelt.png}
+	\caption{Planetky hlavního pásu podle vlastních elementů --- osa $x$ znázorňuje vlastní poloosu a osa $y$ vlastní sklon. Lze vidět některé rodiny planetek, konkrétně například uprostřed nahoře Eunomia. Barevné označení znázorňuje oblasti mezi rezonancemi středního pohybu.} \label{fig:belt}
+\end{figure}
+
+Při našem studiu se budeme zaměřovat na planetky hlavního pásu, ve kterém se také nachází jediná trpasličí planeta ve vnitřní sluneční soustavě Ceres, který má střední poloměr $473\, {\rm km}$. Ostatní planetky mají střední poloměr od $250\, {\rm km}$ po pouze několik metrů???. Největší populace se rovnoměrně rozprostírá od vzdálenosti $2,1\, {\rm AU}$ od Slunce do vzdálenosti přibližně $3,3\, {\rm AU}$. Planetky, které vystoupí z této oblasti, se buď příblíží Marsu a jsou jeho gravitací vymrštěny na zcela odlišnou oběžnou dráhu, nebo se podobně přiblíží Jupiteru, který ji též může odklonit od původní oběžné dráhy nebo ji může zachytit ve svém gravitačním působení, čímž se planetka stane přirozenou družicí Jupitera. 
+
+
 \section{Rodiny planetek}
 Definice --- katastrofická srážka, rozptýlení ve střední anomálii, podobnost pouze ve vlastních elementech, přesunout sem kapitoly o Jarkovského jevu, YORPu a náhodných srážkách???
 \subsection{Metody identifikace rodin}
@@ -467,11 +485,11 @@ Nástin výpočtu jejich polohy (je to jednoduché), vysvětlení vlivu na HCM
 Nějaký hezký obrázek (třeba ze složky secres???), dlouhodobý vliv
 
 \chapter{Vlastnosti rodiny Eunomia}
-Postup určování rodiny, volba $v_{cutoff}$, pozadí --- [česky] interlopers (ref na později), rozdělení velikostí 
+Postup určování rodiny, volba $v_{cutoff}$, pozadí --- [česky???] interlopers (ref na později), rozdělení velikostí 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.6\textwidth]{obr/Nv}
-	\caption{Závislost počtu členů rodiny Eunomia na zvolení hraniční rychlost $v_{cutoff}$. Počet členů prudce vzroste při přechodu z rychlosti $43\,{\rm m/s}$ na $44\,{\rm m/s}$, což je způsobené vzdáleností prvního tělesa jiného než mateřského tělesa. Dále vzroste prudce při přechodu z rychlosti $46\,{\rm m/s}$ na $47\,{\rm m/s}$, což je způsobené splynutím s jinou rodinou.}
+	\caption{Závislost počtu členů rodiny Eunomia na zvolené hraniční rychlost $v_{cutoff}$. Počet členů prudce vzroste při přechodu z rychlosti $43\,{\rm m/s}$ na $44\,{\rm m/s}$, což je způsobené vzdáleností prvního tělesa jiného než mateřského tělesa. Dále vzroste prudce při přechodu z rychlosti $46\,{\rm m/s}$ na $47\,{\rm m/s}$, což je způsobené splynutím s jinou rodinou.}
 	\label{Nv}
 \end{figure}
 \begin{figure}[!htb]
@@ -482,7 +500,7 @@ Postup určování rodiny, volba $v_{cutoff}$, pozadí --- [česky] interlopers 
 	\begin{subfigure}[b]{0.45\textwidth}
 	\includegraphics[width=\textwidth]{obr/size_distribution_SMALLD}
 	\end{subfigure}
-	\caption{Histogram četnosti velikostí planetek, kde veličina $N(>D)$ označuje počet planetek s průměrem větším než $D$. ???}
+	\caption{Histogram četnosti velikostí planetek, kde veličina $N(>D)$ označuje počet planetek s průměrem větším než $D$.???}
 	\label{size_distribution}
 \end{figure}
 \section{Fyzikální model pro rodinu Eunomia}
@@ -510,7 +528,7 @@ Odstranění interlopers, barevné indexy, SLOAN, WISE, ref na Nejistoty veřejn
 \end{figure}
 \subsection{Nevratné děje při vývoji}
 Disipační síly, vliv na vývoj v prostoru vlastních elementů, reference na nějaký článek o nové databázi tvarů planetek???
-\subsubsection{Jarkovského jev}
+\subsubsection{Jarkovského jev} \label{sec:jarko}
 Popis, vysvětelní obrázku aH, vliv na vlastní elementy, účinky kolem rezonancí
 \begin{figure}[!htb]
 	\centering
