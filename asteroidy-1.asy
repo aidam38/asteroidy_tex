@@ -16,30 +16,35 @@ marker mark1 = marker(scale(circlescale*2)*unitcircle, Fill);
 
 real a = 1.5;
 real b = 1;
+real omega = 25;
+real s = 1.5;
 
-draw(ellipse((0,0), a, b));
+draw(rotate(omega)*ellipse((0,0), a, b));
 
-draw((-1.5*a,0)--(1.5*a,0));
-draw((0,-b)--(0,b));
+draw(rotate(omega)*(a,0)--rotate(omega)*(-a,0));
+draw(rotate(omega)*(0,-b)--rotate(omega)*(0,b));
 draw((0,0), mark1);
 
-draw((a,0), mark1);
-draw((-a,0), mark1);
-label("$P$", (a,0), SE);
-label("$A$", (-a,0), SW);
+draw(rotate(omega)*(a,0), mark1);
+draw(rotate(omega)*(-a,0), mark1);
+label("$P$", rotate(omega)*(a,0), SE);
+label("$A$", rotate(omega)*(-a,0), SW);
 
 real F = sqrt((a-b)*(a+b));
-draw((F,0), mark1);
-draw((-F,0), mark1);
-label("$F_1$", (F,0), S);
-label("$F_2$", (-F,0), S);
+draw(rotate(omega)*(F,0), mark1);
+draw(rotate(omega)*(-F,0), mark1);
+label("$F_1$", rotate(omega)*(F,0), S);
+label("$F_2$", rotate(omega)*(-F,0), S);
 
-draw(brace((0,0), (a,0)));
-label("$a$", (a/2,0.25), N);
+draw(rotate(omega)*brace((0,0), (a,0)));
+label("$a$", rotate(omega)*(a/2,0), rotate(omega)*4N);
 
-draw(brace((0,0), (0,b)));
-label("$b$", (-0.25, b/2), W);
+draw(brace((0,0), rotate(omega)*(0,b)));
+label("$b$", rotate(omega)*(0, b/2), rotate(omega)*3W);
 
-draw((0,0)--(1.3,-1.1), arrow=EndArrow);
-draw(arc((0,0), 0.5, -degrees(atan(1.1/1.3)), 0));
-label("$\omega$", (0.35,-0.25), N);
+draw((0,0)--scale(s)*(a,0), arrow=EndArrow);
+draw((0,0)--scale(s)*(0,b), arrow=EndArrow);
+label("$x$", scale(s-0.2)*(a,0), S);
+label("$y$", scale(s-0.2)*(0,b), W);
+draw(scale(0.3)*arc((0,0),(a,0),rotate(omega)*(F,0)));
+label("$\omega$", (0,0), rotate(omega/2)*(8,0));

@@ -1,8 +1,8 @@
 \documentclass[A4paper, 12pt, oneside]{book}%beginbegin
 \usepackage[margin=1in]{geometry}
 \usepackage[czech]{babel}
-\usepackage{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage{luavlna}
+\usepackage[utf8]{inputenc}
 \usepackage[pdftex]{graphicx}
 \usepackage{tabularx}
 \usepackage{enumitem}
@@ -13,6 +13,7 @@
 \usepackage[inline]{asymptote}
 \usepackage{esdiff, icomma, subcaption}
 \usepackage{blindtext}
+
 
 \usepackage[backend=biber, url=true, sorting=none]{biblatex}
 \usepackage{url}
@@ -126,27 +127,32 @@ Vektor popisující polohu těžiště soustavy je $\vec{R} \equiv \frac{m_1\vec
 \end{equation*}
 které se podle \eqref{eq:mr0} rovná nule, takže se těžiště soustavy pohybuje konstantní rychlostí.
 \newpage
-Nyní se však přesuňme do soustavy neinerciální, kde je první z těles (běžně to hmotnější) nehybné. Řekněme, že nehybné těleso má index $1$, tedy nově $\vec{r}^\ap_1=0$, $\vec{r}^\ap_2=\vec{r}$ (tedy i $\vec{a}^\ap_2 = \vec{a}$) a $\vec{r}^\ap=\vec{r}$. Provedli jsme v podstatě transformaci, kdy jsme od každého vektoru odečetli $\vec{r}_1$.  Rovnici \eqref{eq:newton2} můžeme přepsat jako
+Nyní se však přesuňme do soustavy neinerciální, kde je první z těles (běžně to hmotnější) nehybné. Označme $\vec{a}\equiv\vec{a}_2-\vec{a}_1$ zrychlení druhého tělesa vzhledem k prvnímu. Po pokrácení $m_1$ a $m_2$ můžeme odečíst upravenou rovnici~\eqref{eq:newton1} od upravené rovnice~\eqref{eq:newton2}, čímž dostaneme
 \begin{align}
-	\nonumber {\vec{a}} = Gm_2\frac{\vec{r}}{\abs{\vec{r}}^3} \\
-		\diff[2]{\vec{r}}{t} - Gm_2\frac{\vec{r}}{\abs{\vec{r}}^3} = 0	
+	\nonumber \vec{a}_2 - \vec{a}_1 = -Gm_1\frac{\vec{r}}{\abs{\vec{r}}^3}-Gm_2\frac{\vec{r}}{\abs{\vec{r}}^3}\,, \\
+	\nonumber \vec{a} = -G(m_1+m_2)\frac{\vec{r}}{\abs{\vec{r}}^3}\,, \\
+		\diff[2]{\vec{r}}{t} + G(m_1+m_2)\frac{\vec{r}}{\abs{\vec{r}}^3} = \vec{0}\,.	
 \end{align}
-Často ještě definujeme gravitační paramter soustavy $\mu\equivGm_2$.
+Často ještě definujeme gravitační paramter soustavy $\mu\equiv G(m_1+m_2)$.
 
-I přesto, že tato diferenciální rovnice ještě není ve své konečné podobě vhodné k tomu, abychom z ní odvodili následující vztah, prozradíme, že je jím funkce v polárních souřadnicích, popisující vzdálenost těles $r\equiv\abs{\vec{r}}$ v závisloti na úhlu $\theta$, který svírá přímka procházející oběma tělesy a nějaká zvolená referenční přímka:
+I přesto, že tato diferenciální rovnice ještě není ve své konečné podobě vhodné k tomu, abychom z ní odvodili následující vztah, prozradíme, že je jím funkce v polárních souřadnicích, popisující vzdálenost těles $r\equiv\abs{\vec{r}}$ v závisloti na úhlu $\theta$, který svírá přímka procházející oběma tělesy a nějaká zvolená referenční přímka, přesné odvození viz~\cite{murray99}.
 \begin{equation} \label{eq:polar}
-	r(\theta)=\frac{p}{1+e\cos{(\theta-\omega)}}.
+	r(\theta)=\frac{p}{1+e\cos{(\theta-\omega)}}\,.
 \end{equation}
 Vztah \eqref{eq:polar} je obecným předpisem kuželosečky --- hyperboly, paraboly, elipsy nebo kružnice; pro naše účely se zaměřme na případ elipsy, kdy se v jednom z jejích ohnisek nachází centrální těleso.
 
-$p$ označuje parametr elipsy, jehož velikost je určena hodnotou $\mu$ a pro který platí vztah
+Veličina $p$ označuje parametr elipsy, jehož velikost je určena hodnotou $\mu$ a veličinou~$h=|\vec{h}| \equiv \vec{r}\times\diff{\vec{r}}{t}={\rm konst.}$\footnote{což je \enquote{něco jako} moment hybnost systému na jednotku hmotnosti $\mu$. Vycházíme z předpokladu, že gravitační síly (né nutně splňující Newtonův gravitační zákon) mezi tělesy jsou stejně velké a působí proti sobě, tedy $\vec{r}\times\vec{a}=\vec{r}\times\diff[2]{\vec{r}}{t}=0$, z čehož integrací vzhledem k času můžeme vyvodit právě $\vec{r}\times\diff{\vec{r}}{t}=\vec{h}$, kde $\vec{h}$ je vektor kolmý na rovinu obýhání těles.}, kde $\times$ značí vektorový součin, jako
 \begin{align}
-	p=\frac{b^2}{a},
+	p=\frac{h^2}{\mu}\,,
+\end{align}
+a pro který dále platí vztah
+\begin{align}
+	p=\frac{b^2}{a}\,,
 \end{align}
 kde $a$ označuje délku hlavní poloosy, což je úsečka spojující střed elipsy s jedním z průsečíků elipsy s hlavní osou --- přímkou spojující ohniska, a $b$ označuje délku vedlejší poloosy, což je úsečka spojující střed elipsy s průsečíkem elipsy s přímkou kolmou na hlavní poloosu a procházející středem elipsy --- vedlejší osou (viz obrázek~\ref{fig:elip}).
 
 Dále $e$, resp.\ $\omega$ jsou integrační konstanty a nazývají se excentricita, resp.\ argument pericentra. Pro excentricitu platí vztah
-\begin{figure}[!htb] 
+\begin{figure}
 	\centering
 	\begin{asy}
 		size(8cm,8cm);
@@ -155,44 +161,49 @@ Dále $e$, resp.\ $\omega$ jsou integrační konstanty a nazývají se excentric
 
 		real a = 1.5;
 		real b = 1;
+		real omega = 25;
+		real s = 1.5;
 
-		draw(ellipse((0,0), a, b));
+		draw(rotate(omega)*ellipse((0,0), a, b));
 
-		draw((-1.5*a,0)--(1.5*a,0));
-		draw((0,-b)--(0,b));
+		draw(rotate(omega)*(a,0)--rotate(omega)*(-a,0));
+		draw(rotate(omega)*(0,-b)--rotate(omega)*(0,b));
 		draw((0,0), mark1);
 
-		draw((a,0), mark1);
-		draw((-a,0), mark1);
-		label("$P$", (a,0), SE);
-		label("$A$", (-a,0), SW);
+		draw(rotate(omega)*(a,0), mark1);
+		draw(rotate(omega)*(-a,0), mark1);
+		label("$P$", rotate(omega)*(a,0), SE);
+		label("$A$", rotate(omega)*(-a,0), SW);
 
 		real F = sqrt((a-b)*(a+b));
-		draw((F,0), mark1);
-		draw((-F,0), mark1);
-		label("$F_1$", (F,0), S);
-		label("$F_2$", (-F,0), S);
+		draw(rotate(omega)*(F,0), mark1);
+		draw(rotate(omega)*(-F,0), mark1);
+		label("$F_1$", rotate(omega)*(F,0), S);
+		label("$F_2$", rotate(omega)*(-F,0), S);
 
-		draw(brace((0,0), (a,0)));
-		label("$a$", (a/2,0.25), N);
+		draw(rotate(omega)*brace((0,0), (a,0)));
+		label("$a$", rotate(omega)*(a/2,0), rotate(omega)*4N);
 
-		draw(brace((0,0), (0,b)));
-		label("$b$", (-0.25, b/2), W);
+		draw(brace((0,0), rotate(omega)*(0,b)));
+		label("$b$", rotate(omega)*(0, b/2), rotate(omega)*3W);
 
-		draw((0,0)--(1.3,-1.1), arrow=EndArrow);
-		draw(arc((0,0), 0.5, -degrees(atan(1.1/1.3)), 0));
-		label("$\omega$", (0.35,-0.25), N);
+		draw((0,0)--scale(s)*(a,0), arrow=EndArrow);
+		draw((0,0)--scale(s)*(0,b), arrow=EndArrow);
+		label("$x$", scale(s-0.2)*(a,0), S);
+		label("$y$", scale(s-0.2)*(0,b), W);
+		draw(scale(0.3)*arc((0,0),(a,0),rotate(omega)*(F,0)));
+		label("$\omega$", (0,0), rotate(omega/2)*(8,0));
 	\end{asy}
-	\caption{Eliptická oběžná dráha vesmírného tělesa. $a$ označuje délku hlavní poloosy, $b$ délku vedlejší poloosy, $F_1$ a $F_2$ označují polohy ohnisek elipsy, přičemž centrální těleso se nachází v bodě $F_1$, a $P$, resp.\ $A$ označují pericentrum, resp.\ apocentrum oběžné dráhy, tedy bod nejnižší, resp.\ nejvyšší vzdálenosti od centrálního tělesa, $\omega$ označuje argument pericentra.} \label{fig:elip}
+	\caption{Eliptická oběžná dráha vesmírného tělesa. $a$ označuje délku hlavní poloosy, $b$ délku vedlejší poloosy, $F_1$ a $F_2$ polohy ohnisek elipsy, přičemž centrální těleso se nachází v bodě $F_1$, a $P$, resp.\ $A$ označují pericentrum, resp.\ apocentrum oběžné dráhy, tedy bod nejmenší, resp.\ největší vzdálenosti od centrálního tělesa, $\omega$ označuje argument pericentra.} \label{fig:elip}
 \end{figure}
 \begin{align}
-	e=\sqrt{1-\frac{a^2}{b^2}},
+	e=\sqrt{1-\frac{a^2}{b^2}}\,,
 \end{align}
-a volně řečeno udává, jak moc se elipsa liší od kružnice. Hodnota excentricity se pro eliptické dráhy nachází v intervalu $(0,1)$, kde krajními případy jsou $e=0$: dráha má tvar kružnice, a $e=1$: dráha má tvar paraboly.
+a volně řečeno udává, jak moc se elipsa liší od kružnice. Hodnota excentricity se pro eliptické dráhy nachází v intervalu $(0,\,1)$, kde krajními případy jsou $e=0$: dráha má tvar kružnice, a $e=1$: dráha má tvar úsečky.
 
-Argument pericentra je úhel, který svírá hlavní osa s referenční přímkou. Platí pro něj vztah
+Argument pericentra $\omega$ je úhel, který svírá hlavní osa s referenční přímkou. Platí pro něj vztah
 \begin{align}
-	\theta=\omega+f,
+	\theta=\omega+f\,,
 \end{align}
 kde $f$ označuje pravou anomálii, což je úhel, který svírá hlavní osa s průvodičem tělesa (viz obrázek~\ref{fig:E}).
 
@@ -200,12 +211,12 @@ kde $f$ označuje pravou anomálii, což je úhel, který svírá hlavní osa s 
 	\centering
 	May-DO: Předělat do jednotného stylu obrázků.
 	\includegraphics[width=0.5\textwidth]{obr/Eanomaly.png}
-	\caption{Ilustrace vztahu mezi excentrickou anomálií $E$ a pravou anomálií $f$. $a$, resp.\ $b$ značí délku hlavní, resp.\ vedlejší poloosy, $P$ značí polohu tělesa na elipse, $C$ značí střed elipsy, $F$ značí ohnisko, ve kterém se nachází centrální těleso a $e$ značí excentricitu (vymazat??)} \label{fig:E}
+	\caption{Ilustrace vztahu mezi excentrickou anomálií $E$ a pravou anomálií $f$. Veličiny $a$, resp.\ $b$ značí délku hlavní, resp.\ vedlejší poloosy, $P$ značí polohu tělesa na elipse, $C$ značí střed elipsy, $F$ značí ohnisko, ve kterém se nachází centrální těleso a $e$ značí excentricitu (vymazat??)} \label{fig:E}
 \end{figure}
 
-Uvědomme si, že jsme neodvodili závislost polohy tělesa na čase. Tuto závislost určuje Keplerova rovnice:
+Uvědomme si, že jsme neodvodili závislost polohy tělesa na čase. Tuto závislost určuje Keplerova rovnice
 \begin{equation} \label{eq:kepler}
-M = E + e\sin E
+M = E + e\sin E\,,
 \end{equation}
 kde $M$ označuje střední anomálii, $E$ excentrickou anomálii (viz obrázek~\ref{fig:E}) a $e$ excentricitu elipsy. Pro $E$ a pravou anomálií $f$ platí vztah
 \begin{align} \label {eq:fE}
@@ -216,7 +227,7 @@ Anomálie mají úhlové jednotky, úhel $M$ ale nemůžeme zkonstruovat, nicmé
 \begin{align} \label{eq:M}
 	M=nt,
 \end{align}
-kde $n$ označuje střední denní pohyb, jinak řečeno průměrnou úhlovou rychlost. Pokud známe $E$, můžeme pomocí Keplerovy rovnice snadno spočítat $M$. Problém spočívá v tom, že nemůžeme vyjádřit $E$ v závisloti na $M$ konečným výrazem, ale pouze nekonečnou řadou nebo jej můžeme aproximovat iteračními nebo numerickými metodami.
+kde $n$ označuje střední pohyb, jinak řečeno průměrnou úhlovou rychlost. Pokud známe $E$, můžeme pomocí Keplerovy rovnice snadno spočítat $M$. Problém spočívá v tom, že nemůžeme vyjádřit $E$ v závisloti na $M$ konečným výrazem, ale pouze nekonečnou řadou nebo jej můžeme aproximovat iteračními nebo numerickými metodami.
 
 (Uvést iterační metodu, náš kód v Pythonu???)
 
