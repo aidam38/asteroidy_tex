@@ -1,9 +1,10 @@
-\documentclass[A4paper, 12pt, oneside]{book}
-\usepackage[left=1in, right=1in]{geometry}
+\documentclass[A4paper, 12pt, oneside]{book}%beginbegin
+\usepackage[margin=1in]{geometry}
 \usepackage[czech]{babel}
 \usepackage{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[pdftex]{graphicx}
+\usepackage{tabularx}
 \usepackage{enumitem}
 \usepackage{epstopdf}
 \usepackage{setspace}
@@ -27,26 +28,76 @@
 
 \setstretch{1.3}
 \renewcommand*\contentsname{Obsah}
-\renewcommand{\theequation}{\arabic{equation}}
+\renewcommand{\theequation}{\arabic{equation}}%endend
 
 \begin{document}
-\voffset = -10mm
+\topskip0pt
 \begin{center}
 	{\LARGE \B{\S{Středoškolská odborná činnost}}} \\
 	{\large \B{{Obor č. 2: Fyzika}}}
-	\vfill
+\end{center}
+\vfill
+\begin{center}
 	{\Huge \B{Mechanika rodin planetek \\ s aplikací na rodinu Eunomia}}
 \end{center}
-	\vfill
+\vfill
 {\large \bfseries Adam Křivka \\
 	Jihomoravský kraj \hfill Brno 2018}
 
 \newpage
 
-TODO: Ostatní nutné úvodní stránky pro SOČku \ldots
+\begin{center}
+	{\LARGE \B{\S{Středoškolská odborná činnost}}} \\
+	{\large \B{{Obor č. 2: Fyzika}}}
+\end{center}
+\vfill
+\begin{center}
+	{\Huge \B{Mechanika rodin planetek \\ s aplikací na rodinu Eunomia}}
+
+	{\Huge \B{Asteroid families mechanics \\ with application to the family Eunomia}}
+\end{center}
+\vfill
+\begin{tabularx}{\textwidth}{lX}
+	{\bfseries Autoři:} & Adam Křivka \\
+	{\bfseries Škola:} & Cyrilometodějské gymnázium a střední odborná škola pedagogická Brno, Lerchova 63, 602 00 Brno \\
+	{\bfseries Kraj:} & Jihomoravský kraj \\
+	{\bfseries Konzultant:} & doc. Mgr. Miroslav Brož, Ph.\,D.
+\end{tabularx}
+
+\noindent Brno 2018
 
 \newpage
+
+{\large \bfseries Prohlášení}
+
+Prohlašuji, že jsem svou práci SOČ vypracoval/a samostatně a použil/a jsem pouze prameny a literaturu uvedené v seznamu bibliografických záznamů.
+
+Prohlašuji, že tištěná verze a elektronická verze soutěžní práce SOČ jsou shodné. 
+
+Nemám závažný důvod proti zpřístupňování této práce v souladu se zákonem č. 121/2000 Sb., o právu autorském, o právech souvisejících s právem autorským a o změně některých zákonů (autorský zákon) ve znění pozdějších předpisů. 
+
+\
+
+V město dne datum ………………………………………………
+
+\newpage
+
+{\large \bfseries Poděkování}
+
+\newpage
+
+{\large \bfseries Anotace}
+
+{\large \bfseries Klíčová slova}
+
+{\large \bfseries Annotation}
+
+{\large \bfseries Keywords}
+
+\newpage
+
 \tableofcontents
+
 \newpage
 %\addcontentsline{toc}{section}{Úvod}
 
@@ -56,33 +107,33 @@ TODO: Úvod
 \section{Pohybové rovnice}
 Pohybová rovnice je matematicky zapsaný fyzikální vztah, který popisuje možné pohyby těles v daném prostředí \cite{wiki:eqm}. Řešením pohybové rovnice je funkce, popisující polohu a rychlost každého zkoumaného tělesa v závislosti na čase. Přitom potřebujeme znát počáteční podmínky --- polohy a rychlosti těles na začátku. Pohybová rovnice bývá ve tvaru diferenciální rovnice, což je rovnice, která vyjadřuje vztah mezi nějakou funkcí a jejími derivacemi, což je okamžitá změna hodnoty funkce při velmi malé změně argumentu, v našem případě času. 
 
-V následující části se pokusíme nalézt řešení pohybové rovnice pro tělesa ve sluneční soustavě. Zákony, jimiž se budou naše tělesa řídit, jsou Newtonův gravitační zákon a Newtonovy pohybové zákony, které byly poprvé definovány již v roce 1687.
+V následující části se pokusíme nalézt řešení pohybové rovnice pro tělesa ve sluneční soustavě. Zákony, jimiž se budou naše tělesa řídit, jsou Newtonův gravitační zákon a Newtonovy pohybové zákony, které byly poprvé definovány Isaacem Newtonem (1642--1726) již v roce 1687.
 \subsection{Rovnice pro dvě tělesa} \label{sec:2body}
 Omezme se nyní na dvě tělesa a nalezněme řešení tzv.\ problému dvou těles --- Keplerovy úlohy. To znamená, že se pokusíme odvodit funkci, popisující polohu a rychlost obou těles v závisloti na čase. 
 
 Nacházíme se v inerciální vztažné soustavě, což je taková vztažná soustava, kde platí první Newtonův zákon. Jako bod v klidu si zvolme těžiště soustavy. Pro síly působící na obě tělesa podle Newtonova gravitačního zákona a druhého a třetího pohybového zákona platí
 \begin{align} 
-	\vec{F}_1 &= +G\frac{m_1m_2}{\abs{\vec{r}}^3}\vec{r} = m_1\vec{a}_1 \label{eq:newton1} \\
-	\vec{F}_2 &= -G\frac{m_1m_2}{\abs{\vec{r}}^3}\vec{r} = m_2\vec{a}_2, \label{eq:newton2}
+	\vec{F}_1 &= +G\frac{m_1m_2}{\abs{\vec{r}}^3}\vec{r} = m_1\vec{a}_1\,, \label{eq:newton1} \\
+	\vec{F}_2 &= -G\frac{m_1m_2}{\abs{\vec{r}}^3}\vec{r} = m_2\vec{a}_2\,, \label{eq:newton2}
 \end{align}
-kde $G$ označuje gravitační konstantu, $m_1$, $m_2$ hmotnosti zkoumaných těles, $\vec{a}_1$, $\vec{a}_2$ vektory zrychlení těles (tj.\ druhé derivace polohových vektorů $\vec{r}_1$, $\vec{r}_2$ podle času) a $\vec{r}$ vektor udávající vzájemnou polohu těles, definovanou jako $\vec{r} = \vec{r}_2 - \vec{r}_1$. Součtem obou rovnic dostáváme
+kde $G$ označuje gravitační konstantu, $m_1$, $m_2$ hmotnosti zkoumaných těles, $\vec{a}_1$, $\vec{a}_2$ vektory zrychlení těles (tj.\ druhé derivace polohových vektorů $\vec{r}_1$, $\vec{r}_2$ podle času) a $\vec{r}$ vektor udávající vzájemnou polohu těles, definovanou jako $\vec{r} \equiv \vec{r}_2 - \vec{r}_1$. Sečtením obou rovnic dostáváme
 \begin{equation} \label{eq:mr0}
-	\vec{F}_1 + \vec{F}_2 = m_1\vec{a_1} + m_2\vec{a_2} = 0.
+	\vec{F}_1 + \vec{F}_2 = m_1\vec{a_1} + m_2\vec{a_2} = \vec{0}\,.
 \end{equation}
 Vektor popisující polohu těžiště soustavy je $\vec{R} \equiv \frac{m_1\vec{r}_1 + m_2\vec{r}_2}{m_1 + m_2}$. Jeho druhou derivací podle času dostáváme zrychlení
 \begin{equation*}
-	\diff[2]{\vec{R}}{t} = \frac{m_1\vec{a_1} + m_2\vec{a_2}}{m_1+m_2} = 0,
+	\diff[2]{\vec{R}}{t} = \frac{m_1\vec{a_1} + m_2\vec{a_2}}{m_1+m_2} = \vec{0}\,,
 \end{equation*}
 které se podle \eqref{eq:mr0} rovná nule, takže se těžiště soustavy pohybuje konstantní rychlostí.
 \newpage
-Nyní se však přesuňme do soustavy neinerciální, kde je první z těles (běžně to hmotnější) nehybné. Řekněme, že nehybné těleso má index $1$, tedy nově $\vec{r}^\ap_1=0$, $\vec{r}^\ap_2=\vec{r}$ (tedy i $\vec{a}^\ap_2 = \vec{a}$) a $\vec{r}^\ap=\vec{r}$. Provedli jsme v podstatě transformaci, kdy jsme ke každému vektoru přičetli $\vec{r}_1$.  Rovnici \eqref{eq:newton1} můžeme přepsat jako
+Nyní se však přesuňme do soustavy neinerciální, kde je první z těles (běžně to hmotnější) nehybné. Řekněme, že nehybné těleso má index $1$, tedy nově $\vec{r}^\ap_1=0$, $\vec{r}^\ap_2=\vec{r}$ (tedy i $\vec{a}^\ap_2 = \vec{a}$) a $\vec{r}^\ap=\vec{r}$. Provedli jsme v podstatě transformaci, kdy jsme od každého vektoru odečetli $\vec{r}_1$.  Rovnici \eqref{eq:newton2} můžeme přepsat jako
 \begin{align}
 	\nonumber {\vec{a}} = Gm_2\frac{\vec{r}}{\abs{\vec{r}}^3} \\
 		\diff[2]{\vec{r}}{t} - Gm_2\frac{\vec{r}}{\abs{\vec{r}}^3} = 0	
 \end{align}
-Často ještě definujeme gravitační paramter soustavy $\mu=Gm_2$.
+Často ještě definujeme gravitační paramter soustavy $\mu\equivGm_2$.
 
-I přesto, že tato diferenciální rovnice ještě není ve své konečné podobě vhodné k tomu, abychom z ní vyvodili následující vztah, prozradíme, že je jím funkce v polárních souřadnicích, popisující vzdálenost těles $r\equiv\abs{\vec{r}}$ v závisloti na úhlu $\theta$, který svírá přímka procházející oběma tělesy a nějaká zvolená referenční přímka:
+I přesto, že tato diferenciální rovnice ještě není ve své konečné podobě vhodné k tomu, abychom z ní odvodili následující vztah, prozradíme, že je jím funkce v polárních souřadnicích, popisující vzdálenost těles $r\equiv\abs{\vec{r}}$ v závisloti na úhlu $\theta$, který svírá přímka procházející oběma tělesy a nějaká zvolená referenční přímka:
 \begin{equation} \label{eq:polar}
 	r(\theta)=\frac{p}{1+e\cos{(\theta-\omega)}}.
 \end{equation}
@@ -476,23 +527,72 @@ Konečně všechno ostatní je klasifikování jako planetka (někdy nepřesně 
 Při našem studiu se budeme zaměřovat na planetky hlavního pásu, ve kterém se také nachází jediná trpasličí planeta ve vnitřní sluneční soustavě Ceres, který má střední poloměr $473\, {\rm km}$. Ostatní planetky mají střední poloměr od $250\, {\rm km}$ po pouze několik metrů???. Největší populace se rovnoměrně rozprostírá od vzdálenosti $2,1\, {\rm AU}$ od Slunce do vzdálenosti přibližně $3,3\, {\rm AU}$. Planetky, které vystoupí z této oblasti, se buď příblíží Marsu a jsou jeho gravitací vymrštěny na zcela odlišnou oběžnou dráhu, nebo se podobně přiblíží Jupiteru, který ji též může odklonit od původní oběžné dráhy nebo ji může zachytit ve svém gravitačním působení, čímž se planetka stane přirozenou družicí Jupitera. 
 
 \section{Rezonance}
-Struktura hlavního pásu planetek je významně ovlivněna rezonancemi, což jsou oblasti v prostoru, ve kterém když se planetka nachází, je nějaký údaj o její dráze a nějaké planety, běžně Jupitera nebu Saturnu, v jednoduchém poměru, tzn. ve zlomku s nízkým čitatelem a jmenovatelem. Pro sekulární rezonance můžeme mít i složitější vztahy, kdy spolu porovnáváme více veličin zároveň. ??????
+Struktura hlavního pásu planetek je významně ovlivněna rezonancemi, což jsou oblasti v prostoru, ve kterém když se planetka nachází, je nějaký údaj o její dráze a nějaké planety, běžně Jupitera nebu Saturnu, v jednoduchém poměru, tzn. ve zlomku s nízkým čitatelem a jmenovatelem. Pro sekulární rezonance můžeme mít i složitější vztahy, kdy spolu porovnáváme více veličin zároveň. 
 \subsection{Rezonance středního pohybu}
-Nástin výpočtu jejich polohy (je to jednoduché), vysvětlení vlivu na HCM
+%Nástin výpočtu jejich polohy (je to jednoduché), vysvětlení vlivu na HCM
 
 Rezonance středního pohybu jsou nejjednodušším, a zároveň také nejsilnějším typem rezonancí. Nastávají, když je oběžná doba planetky a planety v poměru s nízkými čísly, např. $3:2$ --- to znamená, že zatímco planetka dokončí tři celé oběhy, planeta vykoná dva a obě tělesa se znovu potkají na počáteční pozici. 
 
-Vlivem těchto rezonancí se může hlavní poloosa planetky a excentricita periodicky měnit, podobně jako je tomu při kyvadlu. Některé rezonance naopak postupně zvyšují excentricitu dráhy planetky, až se její perihélium dostanu pod oběžnou dráhu nějaké vnitřní planety, např. Marsu nebo Země, což eventuelně způsobí vzájemné přiblížení, které planetku vymrští na úplně jinou oběžnou dráhu. Takto se planetka může stát blízkozemním objektem (\C{neo} --- Near--Earth object), součástí Kupierova pásu, který se nachazí za orbitou Neptunu nebo může být úplně vystřelena ze sluneční soustavy. Za vhodných podmínek se perihélium planetky může snížit natolik, že překročí Rocheovu mez\footnote{což je hraniční vzdálenost od centrálního tělesa, kterou když planetka držená pohromadě vlastní gravitací překročí, je vlivem slapových jevů roztržena na malé kousky.} a je později pohlcena hvězdou a stává se její součastí \cite{pichierri17}.
+Vlivem těchto rezonancí se může hlavní poloosa planetky a excentricita periodicky měnit, podobně jako je tomu při kyvadlu. Některé rezonance naopak postupně zvyšují excentricitu dráhy planetky, až se její perihélium dostane pod oběžnou dráhu nějaké vnitřní planety, např. Marsu nebo Země, což eventuelně způsobí vzájemné blízké přiblížení, které planetku vymrští na úplně jinou oběžnou dráhu. Takto se planetka může stát blízkozemním objektem (\C{neo} --- Near--Earth object), součástí Kupierova pásu, který se nachazí za orbitou Neptunu nebo může být úplně vystřelena ze sluneční soustavy. Za vhodných podmínek se perihélium planetky může snížit natolik, že překročí Rocheovu mez\footnote{což je hraniční vzdálenost od centrálního tělesa, kterou když planetka držená pohromadě vlastní gravitací překročí, je vlivem slapových jevů roztržena na malé kousky.} a je později pohlcena hvězdou a stává se její součastí \cite{pichierri17}.
+
+Výpočet umístění rezonance středního pohybu, tedy vzdálenosti od Slunce, je poměrně jednoduchý, uvádíme proto postup pro rezonanci ovlivňující rodinu Eunomia, kterou je rezonance $8:3$ s Jupiterem.
+
+Vzpomeňme na Třetí Keplerův zákon, který říká:
+\begin{displayquote}
+	\enquote{Poměr druhých mocnin oběžných dob dvou planet je stejný jako poměr třetích mocnin jejich hlavních poloos,}
+\end{displayquote}
+jinak řečeno jako
+\begin{align} \label{eq:3kep}
+	\frac{T_1^2}{T_2^2}=\frac{a_1^3}{a_2^3}, 
+\end{align}
+kde $T_1$, $T_2$ označují oběžné dvou tělesa a $a_1$, $a_2$ jejich hlavní poloosy. 
+
+Předpokládejme, že se v námi hledané rezonanci $8:3$ nachází nějaká planetka a vypočítejme délku její hlavní poloosy, a to úpravou rovnice~\ref{eq:3kep} jako
+\begin{align} \label{eq:3kepa}
+	a_2=\left(\frac{T_2}{T_1}\right)^{\frac{3}{2}}a_1
+\end{align}
+kde $T_1$, resp. $T_2$ v tomto značí oběžnou dobu Jupitera, resp. planetky, a $a_1$, resp. $a_2$ značí délku hlavní poloosy Jupitera, resp. planetky. Oběžná doba Jupitera je přibližně $4332,59\,$dnů a délka jeho hlavní poloosy je přibližně $5,203\,{\rm AU}$. Protože hledáme rezonanci $8:3$, musí platit $\frac{T_2}{T_1}=\frac{3}{8}$. Po dosazení do rovnice~\ref{eq:3kepa} dostáváme $a_2=2.706\,{\rm AU}$, což lze dobře ověřit na obrázku~\ref{fig:ae_ai_wise} rozdělení rodiny Eunomia v prostoru hlavní poloosy a excentricity nebo sklonu v pozdější sekci~\ref{ch:eunomia}.
 \subsection{Sekulární rezonance} 
 Nějaký hezký obrázek (třeba ze složky secres???), dlouhodobý vliv
 
-Sekulární rezonance jsou mnohem mírnějšího rázu než rezonance středního pohybu, ale na dlouhodobý vývoj hlavního pásu mají velký vliv. Slovo sekulární pochází z latinského \I{saeculum}, což znamená století nebo generace, což ukazuje na dlouhodobý charakter sekulárních rezonancí. Veličiny, které zde dáváme do poměru, jsou rychlosti precese argumentu perihélia a délky vzestupného uzlu. 
+Sekulární rezonance jsou mnohem mírnějšího rázu než rezonance středního pohybu, ale na dlouhodobý vývoj hlavního pásu mají velký vliv. Slovo sekulární pochází z latinského \I{saeculum}, což znamená století nebo generace, což ukazuje na dlouhodobý charakter sekulárních rezonancí. Veličiny, které zde dáváme do poměru, jsou rychlosti precese argumentu perihélia a rychlosti precese délky vzestupného uzlu. 
 \section{Rodiny planetek}
 Definice --- katastrofická srážka, rozptýlení ve střední anomálii, podobnost pouze ve vlastních elementech, přesunout sem kapitoly o Jarkovského jevu, YORPu a náhodných srážkách???
+
+Rodiny planetek jsou skupiny vesmírných těles, mající podobné charakteristiky, předně ve vlastních elementech dráhy. Při jejich identifikaci musíme ale přihlížet i na ostatní veličiny, jako jsou albedo, barevné indexy, nebo odhadované složení. 
+
+Vznikají srážkou dvou planetek, čemuž v závislosti na poměru velikosti mateřského (největšího) tělesa říkáme buď \I{katastrofický rozpad} (\enquote{na malé kousíčky}), nebo \I{kráterování}. Může se zdát, že takové srážky jsou v tak velkém prostoru jako je sluneční soustava velmi málo pravděpodobné, ale v dlouhém časovém úseku --- $4,5\,\text{miliardy let}$ od vzniku naší sluneční soustavy --- k srážkám dochází, a mají nejenom vliv na vznik rodin, ale také na jejich následný vývoj (vzniklé fragmenty se spolu nadále sráží).
+
+Rodiny planetek, které již prošly dlouhodobým vývojem, se na obloze nejeví jako skupinka společně letících planetek, kvůli rozdílné oběžné době se totiž rozptýlí ve střední anomálii, jak lze vidět na obrázku~\ref{fig:smallsim}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.49\textwidth]{obr/trajec_001.png}
+	\includegraphics[width=0.49\textwidth]{obr/trajec_101.png}
+	\includegraphics[width=0.49\textwidth]{obr/trajec_201.png}
+	\includegraphics[width=0.49\textwidth]{obr/trajec_501.png}
+	\caption{Trojrozměrný vzhled rodiny Eunomia v časech $t=0,\,10000,\,20000,\,50000\,{\rm let}$ po úvodním izotropním rozpadu. Lze pozorovat rozprostření ve střední anomálii.} \label{fig:trajec}
+\end{figure}
+
 \subsection{Metody identifikace rodin}
 Popis HCM (hierarchická shlukovací metoda), $v_{cutoff}$, 
 
-\chapter{Vlastnosti rodiny Eunomia}
+\subsection{Nevratné děje při vývoji}
+Disipační síly, vliv na vývoj v prostoru vlastních elementů, reference na nějaký článek o nové databázi tvarů planetek???
+\subsubsection{Jarkovského jev} \label{sec:jarko}
+Popis, vysvětelní obrázku aH, vliv na vlastní elementy, účinky kolem rezonancí
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.5\textwidth]{obr/aH_wise}
+	\caption{Rozdělení pozorované rodiny Eunomia v rovině vlastní hlavní poloosy $a_p$ a absolutní hvězdné velikosti $H$. Lze pozorovat typický tvar $V$, který je způsobem počátečním rozpadem a vlivem Jarkovského jevu, který je navíc ještě zesílen vlivem YORPu, což způsobuje větší koncentraci malých planetek na okrajích rodiny.}
+	\label{aH_wise}
+\end{figure}
+\subsubsection{YORP jev}
+Popis, zmínka o Poynting–Robertson efektu???, zesílení Jarkovského jevu
+\subsubsection{Náhodné srážky}
+???
+
+\chapter{Vlastnosti rodiny Eunomia} \label{ch:eunomia}
 Postup určování rodiny, volba $v_{cutoff}$, pozadí --- [česky???] interlopers (ref na později), rozdělení velikostí 
 \begin{figure}[!htb]
 	\centering
@@ -518,7 +618,7 @@ Rozdělení v $ae$ a $ai$ prostoru, vliv rezonancí J8/3 a J13/5, Gaussovy rovni
 	\includegraphics[width=0.7\textwidth]{obr/ae_wise}
 	\includegraphics[width=0.7\textwidth]{obr/ai_wise}
 	\caption{Pozorovaná rodina Eunomia v rovině vlastní hlavní poloosy $a_p$ a vlastní excentricity $e_p$ a v rovině vlastní hlavní poloosy $a_p$ a vlastní inklinace $\sin i_p$. Barvy jsou převzaty z katalogu WISE. J8/3 a J13/5 označují rezonance středního pohybu s Jupiterem. Šedé křivky naznačují výpočet Gaussových rovnic pro hodnoty $f=0^o,\,90^o,\,180^o$ a $\omega+f=0^o,\, 50^o,\, 90^o$, kde nejlepší hodnotou je $f=90^o$ a $\omega+f=50^o$.}
-	\label{ae_ai_wise}
+	\label{fig:ae_ai_wise}
 \end{figure}
 \subsubsection{[česky] Interlopers}
 Odstranění interlopers, barevné indexy, SLOAN, WISE, ref na Nejistoty veřejných dat.
@@ -534,20 +634,6 @@ Odstranění interlopers, barevné indexy, SLOAN, WISE, ref na Nejistoty veřejn
 	\caption{Barevné indexy z katalogu SLOAN (ref článek o tom). Pro vyřazení interlopers byly zvoleny krajní hodnoty $0.05 \leq p_v \leq 0.4$.}
 	\label{pV_pIR}
 \end{figure}
-\subsection{Nevratné děje při vývoji}
-Disipační síly, vliv na vývoj v prostoru vlastních elementů, reference na nějaký článek o nové databázi tvarů planetek???
-\subsubsection{Jarkovského jev} \label{sec:jarko}
-Popis, vysvětelní obrázku aH, vliv na vlastní elementy, účinky kolem rezonancí
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=0.5\textwidth]{obr/aH_wise}
-	\caption{Rozdělení pozorované rodiny Eunomia v rovině vlastní hlavní poloosy $a_p$ a absolutní hvězdné velikosti $H$. Lze pozorovat typický tvar $V$, který je způsobem počátečním rozpadem a vlivem Jarkovského jevu, který je navíc ještě zesílen vlivem YORPu, což způsobuje větší koncentraci malých planetek na okrajích rodiny.}
-	\label{aH_wise}
-\end{figure}
-\subsubsection{YORP jev}
-Popis, zmínka o Poynting–Robertson efektu???, zesílení Jarkovského jevu
-\subsubsection{Náhodné srážky}
-???
 \section{Nejistoty pozorovaných dat}
 ???
 
@@ -560,5 +646,9 @@ Popis experimentu (údaje o výpočetní technice)
 K čemu se to hodí: pochopení dějů ve sluneční soustavě, informace o jejím vzniku, katalog rodin planetek nám může říct něco o jejich složení --- těžba asteroidů
 \chapter{Budoucí možnosti výzkumu}
 ???
+
+\newpage
+
 \printbibliography
+
 \end{document}
