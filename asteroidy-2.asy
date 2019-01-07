@@ -10,95 +10,47 @@ settings.embed=true;
 settings.toolbar=false;
 viewportmargin=(2,2);
 
-size(8cm,8cm);
+size(8cm);
 
 marker mark1 = marker(scale(circlescale*2)*unitcircle, Fill);
-marker mark2 = marker(scale(circlescale*3)*unitcircle, Fill);
-pen pen1 = linetype(new real[] {1,6})+linewidth(0.4);
 
-real au = 149597870700;
+real s = 1.2;
+real a = 1.5;
+real b = 1;
+real f = 110;
+real e = sqrt(1-(b*b)/(a*a));
 
-real ascale = 3.2*au*pow10(1);
-real vscale = 0.8*au*pow10(-5);
+real F = a*e;
 
-pair R = (0,0);
-pair r0 = (3/5*au,-4/5*au);
-pair m1 = 2*pow10(30);
-pair G = 6.67*pow10(-11);
+draw(ellipse((-F,0), a, b));
+draw(circle((-F,0), a));
 
-real h = 20*24*60*60;
+real extra = 0.3;
+draw((-F-a-extra,0)--(a-F+extra,0));
+draw((0,-a)--(0,a));
+label("$x$", (a-F+extra,0), S);
+label("$y$", (0,a), E);
+draw((0,0), mark1);
+draw((-F,0), mark1);
+draw((-2*F,0), mark1);
+label("$F_1$", (0,0), SW);
+label("$F_2$", (-2*F,0), S);
 
-draw((-1/5*au,-5/5*au)--(7/5*au,-5/5*au)--(7/5*au,2/5*au)--(-1/5*au,2/5*au)--cycle, invisible);
+real E = 2*atan(sqrt((1-e)/(1+e))*tan(radians(f)/2));
+real r = a*(1-e*cos(E));
+pair P = (r*Cos(f), r*Sin(f));
+pair Pp = (r*Cos(f), a*sin(E));
 
-draw(R, marker=mark2);
-draw(r0, marker=mark1);
-label("$m_1$", shift(-0.05,-0.05)*R, SW);
+draw(P, mark1);
+draw(Pp, mark1);
+label("$P$", P, SW);
+label("$P'$", Pp, NE);
 
-draw(arc(R,length(R-r0), -53, 15), longdashed+gray(0.7));
+draw((0,0)--P);
+draw((-F,0)--Pp);
+draw(arc((0,0), (0.3,0), P));
+draw(arc((-F,0), (-F+0.3,0), Pp));
+label("$f$", (0,0), rotate(f/2)*(1.1,0));
+label("$E$", (-F,0), rotate(degrees(E)/2)*(2,0));
 
-// První iterace
-draw(R--r0, arrow=EndArrow, pen1);
-label("$\vec{r}_0$", shift(R)*scale(0.5)*r0,SW);
-
-pair a0 = (G*m1/(length(R-r0)**2))*unit(R-r0);
-draw(r0--shift(r0)*scale(ascale)*a0, arrow=EndArrow);
-label("$\vec{a}_0$", shift(r0)*scale(0.5)*scale(ascale)*a0, SSW);
-
-pair v0 = rotate(-90)*unit(a0)*sqrt(G*m1/(length(R-r0)));
-draw(r0--shift(r0)*scale(vscale)*v0, arrow=EndArrow);
-label("$\vec{v}_0$", shift(r0)*scale(0.5)*scale(vscale)*v0, SE);
-
-pair v1 = v0+h*a0;
-draw(r0--shift(r0)*scale(vscale)*v1, arrow=EndArrow);
-label("$\vec{v}_1$", shift(r0)*scale(0.4)*scale(vscale)*v1, NNW);
-
-pair r1 = r0 + h*v1;
-draw(r0--r1, dashed);
-draw(r1, marker=mark1);
-
-// Druhá iterace
-draw(R--r1, arrow=EndArrow, pen1);
-label("$\vec{r}_1$", shift(R)*scale(0.5)*r1,SW);
-
-pair a1 = (G*m1/(length(R-r1)**2))*unit(R-r1);
-draw(r1--shift(r1)*scale(ascale)*a1, arrow=EndArrow);
-label("$\vec{a}_1$", shift(r1)*scale(0.5)*scale(ascale)*a1, SSW);
-
-// pair v1
-draw(r1--shift(r1)*scale(vscale)*v1, arrow=EndArrow);
-label("$\vec{v}_1$", shift(r1)*scale(0.5)*scale(vscale)*v1, SE);
-
-pair v2 = v1+h*a1;
-draw(r1--shift(r1)*scale(vscale)*v2, arrow=EndArrow);
-label("$\vec{v}_2$", shift(r1)*scale(0.4)*scale(vscale)*v2, NW);
-
-pair r2 = r1 + h*v2;
-draw(r1--r2, dashed);
-draw(r2, marker=mark1);
-
-// Třetí iterace
-draw(R--r2, arrow=EndArrow, pen1);
-label("$\vec{r}_2$", shift(R)*scale(0.5)*r2,SW);
-
-pair a2 = (G*m1/(length(R-r2)**2))*unit(R-r2);
-draw(r2--shift(r2)*scale(ascale)*a2, arrow=EndArrow);
-label("$\vec{a}_2$", shift(r2)*scale(0.5)*scale(ascale)*a2, SSW);
-
-// pair v2
-draw(r2--shift(r2)*scale(vscale)*v2, arrow=EndArrow);
-label("$\vec{v}_2$", shift(r2)*scale(0.5)*scale(vscale)*v2, SE);
-
-pair v3 = v2+h*a2;
-draw(r2--shift(r2)*scale(vscale)*v3, arrow=EndArrow);
-label("$\vec{v}_3$", shift(r2)*scale(0.4)*scale(vscale)*v3, NW);
-
-pair r3 = r2 + h*v3;
-draw(r2--r3, dashed);
-draw(r3, marker=mark1);
-
-draw(R--r3, arrow=EndArrow, pen1);
-label("$\vec{r}_3$", shift(R)*scale(0.5)*r3,S);
-
-//file fout = output("out.txt");
-//write(fout, length(R-r0));
-//write(fout, length(v0));
+draw((P.x,0)--Pp, dashed);

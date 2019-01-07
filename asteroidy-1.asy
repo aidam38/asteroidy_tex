@@ -10,7 +10,7 @@ settings.embed=true;
 settings.toolbar=false;
 viewportmargin=(2,2);
 
-size(8cm,8cm);
+size(12cm);
 
 marker mark1 = marker(scale(circlescale*2)*unitcircle, Fill);
 
@@ -27,8 +27,8 @@ draw((0,0), mark1);
 
 draw(rotate(omega)*(a,0), mark1);
 draw(rotate(omega)*(-a,0), mark1);
-label("$P$", rotate(omega)*(a,0), SE);
-label("$A$", rotate(omega)*(-a,0), SW);
+label("{\footnotesize pericentrum}", rotate(omega)*(a,0), rotate(omega)*E);
+label("{\footnotesize apocentrum}", rotate(omega)*(-a,0), rotate(omega)*W);
 
 real F = sqrt((a-b)*(a+b));
 draw(rotate(omega)*(F,0), mark1);
@@ -43,8 +43,8 @@ draw(brace((0,0), rotate(omega)*(0,b)));
 label("$b$", rotate(omega)*(0, b/2), rotate(omega)*3W);
 
 draw((0,0)--scale(s)*(a,0), arrow=EndArrow);
-draw((0,0)--scale(s)*(0,b), arrow=EndArrow);
-label("$x$", scale(s-0.2)*(a,0), S);
-label("$y$", scale(s-0.2)*(0,b), W);
+//draw((0,0)--scale(s)*(0,b), arrow=EndArrow);
+label("{\footnotesize referenční směr}", scale(s)*(a,0), S);
+//label("$y$", scale(s-0.2)*(0,b), W);
 draw(scale(0.3)*arc((0,0),(a,0),rotate(omega)*(F,0)));
-label("$\omega$", (0,0), rotate(omega/2)*(8,0));
+label("$\omega$", (0,0), rotate(omega/2)*(6,0));
