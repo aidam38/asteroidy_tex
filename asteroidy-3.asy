@@ -16,19 +16,19 @@ marker mark1 = marker(scale(circlescale*2)*unitcircle, Fill);
 marker mark2 = marker(scale(circlescale*3)*unitcircle, Fill);
 pen pen1 = linetype(new real[] {1,6})+linewidth(0.4);
 
-real au = 149597870700;
+real au = 149597870700; // Astronomická jednotka
+pair G = 6.67*pow10(-11); // Gravitační konstanta
 
-real ascale = 3.2*au*pow10(1);
-real vscale = 0.8*au*pow10(-5);
+pair R = (0,0); // Počáteční polohy centrálního tělesa
+pair m1 = 2*pow10(30); // Hmotnost centrálního tělesa (přibližně hmotnost Slunce)
+pair r0 = (3/5*au,-4/5*au); // Note: (3/5*au)^2+(4/5*au)^2=au
 
-pair R = (0,0);
-pair r0 = (3/5*au,-4/5*au);
-pair m1 = 2*pow10(30);
-pair G = 6.67*pow10(-11);
+real h = 23.5*24*60*60; // Časový krok 23.5 dnů
 
-real h = 23.5*24*60*60;
+real vscale = 1.0*au*pow10(-5);
+real ascale = vscale*h;
 
-draw((-1/5*au,-5/5*au)--(7/5*au,-5/5*au)--(7/5*au,2/5*au)--(-1/5*au,2/5*au)--cycle, invisible);
+draw((-1/5*au,-5/5*au)--(7/5*au,-5/5*au)--(7/5*au,2/5*au)--(-1/5*au,2/5*au)--cycle, invisible); // neviditelný rámeček obrázku
 
 draw(R, marker=mark2);
 draw(r0, marker=mark1);
