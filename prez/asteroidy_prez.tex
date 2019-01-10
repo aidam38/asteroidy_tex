@@ -1,0 +1,143 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+\usetheme[progressbar=frametitle]{metropolis}
+
+\definecolor{gray}{HTML}{151515}
+\definecolor{orange}{HTML}{d28445}
+
+\setbeamercolor{normal text}{fg=gray}
+\setbeamercolor{progress bar}{fg=orange}
+
+% balíčky
+
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb, amsthm}
+\newcommand{\abs}[1]{\lvert #1 \,\rvert} %}}}
+\usefonttheme[onlymath]{serif}	
+
+
+%gets rid of bottom navigation bars
+\setbeamertemplate{footline}[frame number]{}
+
+%gets rid of bottom navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+%gets rid of footer
+%will override 'frame number' instruction above
+%comment out to revert to previous/default definitions
+\setbeamertemplate{footline}{} 
+
+\usepackage{asymptote}
+\usepackage{epstopdf}
+
+\usepackage[backend=biber, url=true, sorting=none]{biblatex}
+\usepackage{url}
+\addbibresource{../soc.bib}
+
+\title{Mechanika rodin planetek \\ s aplikací na rodinu Eunomia}
+\author{Adam Křivka}
+\institute{Cyrilometodějské gymnázium a střední odborná škola pedagogická Brno,\\ Lerchova 63, 602 00 Brno}
+
+\newcommand{\fullframegraphic}[1]{
+\begin{frame}
+\begin{center}
+\includegraphics[height=\textheight,width=\textwidth,keepaspectratio]{#1}
+\end{center}
+\end{frame}
+}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{Úvod}
+\begin{frame}{Úvod}
+\tableofcontents
+\end{frame}
+
+\section{Nebeská mechanika}
+\begin{frame}{Nebeská mechanika (Problém $N$ těles)}
+\begin{figure}
+\includegraphics[width=0.49\textwidth]{../asy/asteroidy-3.pdf}
+\includegraphics[width=0.49\textwidth]{../asy/asteroidy-4.pdf}
+\vspace{-1cm}
+\caption{\footnotesize{Ilustrace dopředné (vlevo) a zpětné (vpravo) Eulerovy metody pro výpočet problému dvou těles.}}
+\end{figure}
+\vspace{-0.5cm}
+\begin{align*}
+m_i\vec{a}_i &= -\sum_{\substack{j=1 \\ j\neq i}}^N \frac{Gm_im_j}{\abs{\vec{r}_i-\vec{r}_j}^3}(\vec{r_i}-\vec{r_j})\,, \qquad{\rm pro}\ i\in\{1,\,2,\,\dots,\,N\} \label{eq:nbody2}
+\end{align*}
+\end{frame}
+
+\begin{frame}{Nebeská mechanika (Elementy dráhy)}
+\begin{columns}
+\begin{column}{0.4\textwidth}
+\begin{itemize}
+\item Velká poloosa $a\,[{\rm AU}]$  
+\item Excentricita $e$
+\item Sklon $i\,[ ^\circ]$
+\end{itemize}
+\end{column}
+\begin{column}{0.6\textwidth}
+\includegraphics[width=\textwidth]{../asy/asteroidy-1.pdf}
+\
+\begin{align*}
+	e=\sqrt{1-\frac{b^2}{a^2}}
+\end{align*}
+\end{column}
+\end{columns}
+\end{frame}
+
+\section{Planetky ve sluneční soustavě}
+\begin{frame}{\secname}
+\begin{figure}
+\centering
+\includegraphics[height=0.7\textheight,width=\textwidth,keepaspectratio]{../obr/vesta.jpg}
+\caption{\footnotesize{Planetka (4) Vesta. Fotografie byla pořízena americkou sondou \textit{Dawn}. Převzato z~\textcite{jplvesta}.}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{\secname}
+\begin{figure}
+\centering
+\includegraphics[height=0.7\textheight,width=\textwidth,keepaspectratio]{../obr/mainbelt.png}
+\caption{\footnotesize{Planetky hlavního pásu podle vlastních elementů dráhy --- vlastní velké poloosy $a_{\rm p}$ a vlastního sklonu $i_{\rm p}$. Převzato z~\cite{wiki:belt}.}}
+\end{figure}
+\end{frame}
+
+\section{Vlastnosti rodiny Eunomia}
+\begin{frame}[t]{Vlastnosti rodiny Eunomia}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{../obr/ae_wise}
+\caption{\footnotesize{Pozorovaná rodina Eunomia v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastní excentricity $e_{\rm p}$, identifikovaná \textit{hierarchickou shlukovací metodou}. Barevná škála odpovídá albedu $p_{\rm V}$ a $p_{\rm IR}$ z~katalogu WISE\@.}}
+\end{figure}
+\end{frame}
+
+\begin{frame}[t]{Vlastnosti rodiny Eunomia}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{../obr/pV_pIR}
+\caption{\footnotesize{Albeda $p_{\rm V}$ a $p_{\rm IR}$ z~katalogu WISE. Pro vyřazení přimísených byly zvoleny hraniční hodnoty $0,05 \leq p_{\rm V} \leq 0,4$.}}
+\end{figure}
+\end{frame}
+
+\begin{frame}[t]{Vlastnosti rodiny Eunomia}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{../obr/aH_wise.eps}
+\caption{\footnotesize{Rozdělení pozorované rodiny \textit{Eunomia} v~rovině vlastní hlavní poloosy $a_{\rm p}$ a absolutní hvězdné velikosti $H$. Lze pozorovat typický tvar \uv{V}, který je způsobem počátečním rychlostním polem a Jarkovského jevem.}}
+\end{figure}
+\end{frame}
+
+\section{Závěr}
+\begin{frame}
+\printbibliography
+\end{frame}
+\begin{frame}
+Děkuji za pozornost.
+\end{frame}
+\end{document}
