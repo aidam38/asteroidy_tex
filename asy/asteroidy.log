@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.9)  10 JAN 2019 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  20 JAN 2019 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,9 +10,9 @@ entering extended mode
 
 *\usepackage{ifluatex}\ifluatex
 (/opt/texlive/2018/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/opt/texlive/2018/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -64,7 +64,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@width=\dimen104
 )
 *\newbox\ASYbox
-\ASYbox=\box26
+\ASYbox=\box27
 
 *\newdimen\ASYdimen
 \ASYdimen=\dimen105
@@ -99,7 +99,7 @@ LaTeX Font Info:    ... okay on input line 0.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count88
 \scratchdimen=\dimen106
-\scratchbox=\box27
+\scratchbox=\box28
 \nofMPsegments=\count89
 \nofMParguments=\count90
 \everyMPshowfont=\toks15

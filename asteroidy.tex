@@ -393,7 +393,7 @@ Rodiny vznikají srážkou dvou planetek, čemuž v~závislosti na poměru velik
 
 Rodiny planetek, které již prošly dlouhodobým vývojem, se samozřejmě na obloze nejeví jako skupina společně letících planetek, kvůli rozdílné velké poloose $a$, resp.\ oběžné době $T$ se totiž záhy rozptýlí ve střední anomálii $M$, jak lze vidět na obrázku~\ref{fig:trajec}.
 
-\subsection{Metody identifikace rodin}
+\subsection{Metody identifikace rodin} \label{sec:metodyiden}
 Nejpoužívanější metodou pro identifikaci rodin planetek je \I{hierarchická shlukovací metoda} (HCM) \cite{zappala90}. Spočívá v~tom, že si v~trojrozměrném prostoru vlastních elementů ($a_{\rm p},\,e_{\rm p},\,i_{\rm p}$) zvolíme metriku --- veličinu, kterou budeme popisovat vzdálenost dvou těles, a poté, pomocí zvolené hraniční \I{vzájemné} vzdálenosti, určíme, která tělesa patří do rodiny. Tato metrika má přitom jednotku rychlosti, aby ji bylo možné porovnávat s rychlostmi výhozu fragmentů. Je určena vztahem
 \begin{align}
 	v=na_{\rm p}\sqrt{C_a\left(\frac{\Delta a_{\rm p}}{a_{\rm p}}\right)^2+C_e(\Delta e_{\rm p})^2+C_i(\Delta \sin i_{\rm p})^2}\,,
@@ -402,7 +402,7 @@ kde $n$ značí střední pohyb, dále pokud označíme $1$ a $2$ tělesa, mezi 
 
 Samotný průběh tohoto algoritmu je jednoduchý: zvolíme nějakou hraniční rychlost $v_{\rm cutoff}$ a poté, většinou počínaje největším tělesem, např. (15) Eunomia, hledáme dvojice těles, pro které je $v<v_{\rm cutoff}$; vždy když nějakou nalezneme, přidáme si ji do seznamu zkoumané rodiny a postup opakujeme, dokud nám nepřibývají žádní noví členové. Výsledný počet členů je samozřejmě závislý na volbě $v_{\rm cutoff}$, což lze vidět na obrázku~\ref{fig:Nv}.
 
-Jak ukážeme později v~této práci, tato metoda samotná nestačí ke kompletní identifikaci rodiny, neboť musíme odstranit \I{přimísená tělesa} (angl.\ interlopers), např.\ porovnáním albed (viz obrázek~\ref{fig:pV_pIR}), barevných indexů (viz obrázek~\ref{fig:astar_iz}), grafu závislosti hlavní poloosy a hvězdné velikosti, případně dalšími metodami závisejícími na konkrétní situaci v okolí rodiny.
+Jak ukážeme později v~této práci (kap.~\ref{sec:interlopers}), tato metoda samotná nestačí ke kompletní identifikaci rodiny, neboť musíme odstranit \I{přimísená tělesa} (angl.\ interlopers), např.\ porovnáním albed (viz obrázek~\ref{fig:pV_pIR}), barevných indexů (viz obrázek~\ref{fig:astar_iz}), grafu závislosti hlavní poloosy a hvězdné velikosti, případně dalšími metodami závisejícími na konkrétní situaci v okolí rodiny.
 
 \subsection{Nevratné děje při vývoji}
 %Disipační síly, vliv na vývoj v~prostoru vlastních elementů, reference na nějaký článek o~nové databázi tvarů planetek???
@@ -417,7 +417,7 @@ Jarkovského jev, který je pojmenován po Ivanu Ospichovi Jarkovskému\footnote
 
 		\includegraphics[width=0.8\textwidth]{obr/jarkovskeho_jev.png}
 	\caption{Denní a roční varianta Jarkovského jevu. Šedivé šipky
-	označují zbytkovou sílu, která působí na těleso. (a) Denní Jarkovského jev, když se těleso otáčí kolem osy kolmé k oběžné dráze. V tomto případě se těleso natočí teplejší stranou vždy \uv{za sebe}, tepelná emisí pak vzniká zbytková síla, jejíž jedna složka působí ve směru pohybu tělesa, velká poloosa se tedy bude zvětšovat. (b) Roční Jarkovského jev, s rotační osou ležící v orbitální rovině. Ohřívání přivrácené polokoule, zejména v bodech A a C, a opožděná emise tepelného záření, zvláště v bodě B a D, způsobují zbytkovou sílu, jejíž jedna složka směřuje proti pohybu tělesa, tudíž velká poloosa se bude zmenšovat. Převzato z~\cite{broz13}.} \label{fig:jarko}
+	označují zbytkovou sílu, která působí na těleso. (a) Denní Jarkovského jev, když se těleso otáčí kolem osy kolmé k oběžné dráze. V tomto případě se těleso natočí teplejší stranou vždy \uv{za sebe}, tepelná emisí pak vzniká zbytková síla, jejíž jedna složka působí ve směru pohybu tělesa, velká poloosa se tedy bude zvětšovat. (b) Roční Jarkovského jev, s rotační osou ležící v orbitální rovině. Ohřívání přivrácené polokoule, zejména v bodech A a C, a opožděná emise tepelného záření, zvláště v bodě B a D, způsobují zbytkovou sílu, jejíž jedna složka směřuje proti pohybu tělesa, tudíž velká poloosa se bude zmenšovat. Převzato z~\cite{fmt}.} \label{fig:jarko}
 \end{figure}
 
 Rozlišujeme dvě varianty Jarkovského jevu --- denní a roční. Jejich rozdíl je popsán v~\ref{fig:jarko}. Výsledná změna hlavní poloosa je samozřejmě důsledkem kombinace obou variant, pro tělesa s hodnotou šikmosti (obliquity)\footnote{Obliquita je úhel mezi rotační osou tělesa a kolmicí k dráze, obliquita $0^\circ$ a $180^\circ$ značí rotační osu kolmou na ekliptiku, přičemž $0^\circ$ je tzv.\ prográdní rotace (těleso vlivem Jarkovského efektu zrychluje) a $180^\circ$ tzv.\ retrográdní rotace (těleso zpomaluje)} blízko $0^\circ$ nebo $180^\circ$ dominuje denní varianta, zatímco pro obliquitu kolem $90^\circ$ je roční varianta silnější. Dále pro tělesa s rychlejší rotační periodou (řádově menší než oběžná doba) je silnější denní varianta, a pro tělesa s delší rotační periodou roční varianta. 
@@ -438,7 +438,13 @@ Je známo, že dvojité (i vícenásobné) kyvadlo se chová chaoticky, tedy jeh
 
 \chapter{Vlastnosti rodiny Eunomia} \label{ch:eunomia}
 % Postup určování rodiny, volba $v_{cutoff}$, pozadí --- [česky???] interlopers (ref na později), rozdělení velikostí 
+Rodina Eunomia patří mezi nejstarší rodiny vůbec a nachází se v centrálním pásu planetek --- mezi $2,5\,{\rm AU}$ a $2,82\,{\rm AU}$. Její členové včetně největšího tělesa jsou taxonomického typu S, což znamená, že se převážně skládají z křemičitanů. Existují ale i návrhy, že původní mateřské těleso nebylo homogenní~\cite{nathues05}, což by mohlo způsobit zvýšení počtu členů této rodiny.
 
+Rozšířit!
+
+\section{Identifikace členů}
+
+V této práci jsme použili k identifikaci členů rodiny Eunomia \textit{hierarchickou shlukovací metodu} popsanou v části~\ref{sec:metodyiden}. Závislost počtu členů rodiny lze vidět na obrázku~\ref{fig:Nv}. Lze vidět, že rodina Eunomia je dobře oddělená od ostatních rodin, jedinou blízkou rodinou je rodina Adeona, jejíž tělesa ale rozhodně nejsou součástí naší rodiny. K ostatním výpočtům jsme použili hodnotu $v_{\rm cutoff}=44\,{\rm m/s}$, při které počet členů rodiny před odstraněním přimísených těles činil 6503.
 
 \begin{figure}
 	\centering
@@ -446,34 +452,36 @@ Je známo, že dvojité (i vícenásobné) kyvadlo se chová chaoticky, tedy jeh
 	\caption{Závislost počtu členů rodiny Eunomia na zvolené hraniční rychlosti $v_{\rm cutoff}$ při výpočtu HCM\@. Počet členů prudce vzroste při přechodu z~rychlosti $43\,{\rm m/s}$ na $44\,{\rm m/s}$, což je způsobené poměrně velkou vzdáleností prvního nejbližšího tělesa od mateřského (15) Eunomia. Dále vzroste prudce při přechodu z~rychlosti $46\,{\rm m/s}$ na $47\,{\rm m/s}$, což je způsobené splynutím s~rodinou Adeona.}
 	\label{fig:Nv}
 \end{figure}
-\begin{figure}[!htb]
+
+\subsection{Přimísená tělesa} \label{sec:interlopers}
+%Odstranění interlopers, barevné indexy, SLOAN, WISE, ref na Nejistoty veřejných dat.
+
+Prvním mechanismem k odstranění přimísených těles je graf závislosti vlastní velké poloosy $a_{\rm p}$ a \textit{absolutní hvězdné velikosti} $H$ \footnote{Absolutní hvězdná velikost neboli \textit{magnituda} je \textit{zjevná hvězdná velikost}, kterou by těleso mělo, kdyby bylo vzdálené 10 parseků (Jeden parsek je vzdálenost, z níž má 1 astronomická jednotka úhlovou velikost 1 vteřiny.), neboli přibližně 32,6 světelných let. Pro zjevnou hvězdnou velikost přitom platí vzath
+\begin{align*}
+	m=-2,5\log\left(\frac{j}{j_0}\right)\,,
+\end{align*}
+kde $j$, resp. $j_0$ označuje hustotu světelného toku tělesa, resp. nějaké jiného referenčního tělesa, pro které se většinou bere $j_0=2,54\cdot10^{-6}\,{\rm lm/m^2}$~\cite{fmt}. Absolutní hvězdná velikost se pak spočte jako
+\begin{align*}
+	H=m-5(\log_{10}(d)-1)\,,
+\end{align*}
+kde $d$ označuje vzdálenost tělesa v parsecích.~\cite{wiki:absmag}} 
+(obrázek~\ref{fig:aH_wise}), na kterém lze pozorovat vliv Jarkovského jevu a YORPu. Platí, že unášení v hlavní poloose je větší pro menší tělesa, protože obsah povrchu planetky, kterému je úměrná síla Jarkovského jevu, roste s druhou mocninou poloměru, zatímco objem, kterému je úměrná hmotnost, roste s třetí mocninou poloměru. Tím lze odstranit tělesa, která se vzhledem k jejich hvězdné velikosti nemohla po původním rozpadu dostat na grafu $(a_{\rm p},\,H)$ tam, kde jsou. Tuto závislost lze modelovat funkcí 
+\begin{align}
+	H=5\log_{10}\left(\frac{\Delta a_{\rm p}}{C}\right)\,,
+\end{align}
+kde $H$ označuje absolutní magnitudu, $\Delta a_{\rm p}$ vzdálenost v hlavní poloose od středu rodiny a $C$ parametr, který záleží na naší volbě. Běžne se jako střed rodiny bere největší těleso, v našem případě jsme ale byli nuceni celou funkci o něco posunout, aby lépe seděla na ostatní pozorované objekty. Zvolené hodnoty můžete najít v popisku obrázku~\ref{fig:aH_wise}.
+\begin{figure}
 	\centering
-	\begin{subfigure}[b]{0.45\textwidth}
-	\includegraphics[width=\textwidth]{obr/size_distribution}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.45\textwidth}
-	\includegraphics[width=\textwidth]{obr/size_distribution_SMALLD}
-	\end{subfigure}
-	\caption{Histogram četnosti velikostí planetek rodiny Eunomia, kde veličina $N({>}D)$ označuje počet planetek s~průměrem větším než $D$.}
-	\label{size_distribution}
+	\includegraphics[width=0.7\textwidth]{obr/aH_wise}
+	\caption{Rozdělení pozorované rodiny Eunomia v~rovině vlastní hlavní poloosy $a_p$ a absolutní hvězdné velikosti $H$. Barevná škála byla převzata z katalogu WISE. Šedá křivka označuje funkci s parametry ${C=2,2\cdot10^{-4}}$ a ${a_c=2,643666\,{\rm AU}}$ a červená křivka označuje posunutou funkci s parametry ${C=2\cdot10^{-4}}$ a ${a_c=2,641666\,{\rm AU}}$. K odstranění interloperů jsme zvolili červenou funkci. Lze pozorovat typický tvar \uv{V}, který je způsobem počátečním rychlostním polem a Jarkovského jevem, jenž je navíc ještě zesílen vlivem YORPu, což způsobuje zvýšenou koncentraci malých planetek na okrajích rodiny.}
+	\label{fig:aH_wise}
 \end{figure}
 
-\pagebreak
-\section{Fyzikální model pro rodinu Eunomia}
-Rozdělení v~$ae$ a $ai$ prostoru, vliv rezonancí J8/3 a J13/5, Gaussovy rovnice --- elipsa, volba bodu rozpadu ($f=90^o$, $\omega+f=50^o$).
+Další metodou k odstranění přimísených těles jsou metody spektroskopické, tedy zkoumající světelné charakteristiky těles. První z nich je graf závislosti albed\footnote{Geometrické albedo je poměr zářivosti tělesa ku zářivosti ideálního bezztrátového disku o stejném průřezu.~\cite{fmt}} $p_{\rm V}$, resp. $p_{\rm IR}$ ve viditelném, resp. infračerveném spektru. Pokud uvažujeme, že původní těleso bylo homogenní, měly by všechny vzniklé úlomky mít podobné albeda, čímž lze vyřadit tělesa, která očividně nemohl vzniknout ze stejného mateřského tělesa. Závislost $(p_{\rm V},\,p_{\rm IR}$) lze vidět na obrázku~\ref{fig:pV_pIR}, v jehož popisku lze také najít zvolené krajní hodnoty, které jsme zvolili pouze pro albedo $p_{\rm V}$, protože albedo $p_{\rm IR}$ je pro 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.7\textwidth]{obr/ae_wise}
-	\includegraphics[width=0.7\textwidth]{obr/ai_wise}
-	\caption{Pozorovaná rodina Eunomia v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastní excentricity $e_{\rm p}$ (nahoře) a v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastního sklonu $\sin i_{\rm p}$ (dole). Barevná škála odpovídá albedu $p_V$ a $p_IR$ z~katalogu WISE\@. Nápisy J8/3 a J13/5 označují polohu rezonancí středního pohybu s~Jupiterem. Šedé elipsy a úsečky naznačují výpočet Gaussových rovnic pro hodnoty pravé anomálie $f=0^\circ,\,90^\circ,\,180^\circ$ a $\omega+f=0^\circ,\, 50^\circ,\, 90^\circ$, kde zvolenou hodnotou je $f=90^\circ$ a $\omega+f=50^\circ$.}
-	\label{fig:ae_ai_wise}
-\end{figure}
-\subsection{Přimíšená tělesa}
-Odstranění interlopers, barevné indexy, SLOAN, WISE, ref na Nejistoty veřejných dat.
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=0.7\textwidth]{obr/pV_pIR}
-	\caption{Albeda $p_V$ a $p_{IR}$ z~katalogu WISE \cite{nugent15}. Pro vyřazení přimíšených byly zvoleny hraniční hodnoty $0.05 \leq p_v \leq 0.4$.}
+	\includegraphics[width=0.8\textwidth]{obr/pV_pIR}
+	\caption{Albeda $p_{\rm V}$ (ve viditelném spektru) a $p_{\rm IR}$ (v infračerveném spektru) z~katalogu WISE \cite{nugent15}. Barevná škála byla taktéž převzata z katalogu WISE, barvy neodpovídají reálnému zbarvení. Pro vyřazení přimísených těles byly zvoleny hraniční hodnoty $0,05 \leq p_{\rm V} \leq 0,4$. Zelené kroužky označují přimísená tělesa vyřazená jakoukoliv z použitých metod. Barevná škála byla převzata z katalogu WISE.}
 	\label{fig:pV_pIR}
 \end{figure}
 \begin{figure}[!htb]
@@ -485,11 +493,28 @@ Odstranění interlopers, barevné indexy, SLOAN, WISE, ref na Nejistoty veřejn
 
 \pagebreak
 
-\begin{figure}
+
+\pagebreak
+
+\section{Fyzikální model pro rodinu Eunomia}
+Rozdělení v~$ae$ a $ai$ prostoru, vliv rezonancí J8/3 a J13/5, Gaussovy rovnice --- elipsa, volba bodu rozpadu ($f=90^o$, $\omega+f=50^o$).
+\begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.7\textwidth]{obr/aH_wise}
-	\caption{Rozdělení pozorované rodiny Eunomia v~rovině vlastní hlavní poloosy $a_p$ a absolutní hvězdné velikosti $H$. Lze pozorovat typický tvar \uv{V}, který je způsobem počátečním rychlostním polem a Jarkovského jevem, který je navíc ještě zesílen vlivem YORPu, což způsobuje zvýšenou koncentraci malých planetek na okrajích rodiny.}
-	\label{aH_wise}
+	\begin{subfigure}[b]{0.45\textwidth}
+	\includegraphics[width=\textwidth]{obr/size_distribution}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+	\includegraphics[width=\textwidth]{obr/size_distribution_SMALLD}
+	\end{subfigure}
+	\caption{Histogram četnosti velikostí planetek rodiny Eunomia pro $v_{\rm cutoff}=44\,{\rm m/s}$, kde veličina $N({>}D)$ označuje počet planetek s~průměrem větším než $D$. Jedná se o logaritmický graf $(\log D,\,\log N({>}D))$.}
+	\label{size_distribution}
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.7\textwidth]{obr/ae_wise}
+	\includegraphics[width=0.7\textwidth]{obr/ai_wise}
+	\caption{Pozorovaná rodina Eunomia v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastní excentricity $e_{\rm p}$ (nahoře) a v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastního sklonu $\sin i_{\rm p}$ (dole). Barevná škála odpovídá albedu $p_V$ a $p_IR$ z~katalogu WISE\@. Nápisy J8/3 a J13/5 označují polohu rezonancí středního pohybu s~Jupiterem. Šedé elipsy a úsečky naznačují výpočet Gaussových rovnic pro hodnoty pravé anomálie $f=0^\circ,\,90^\circ,\,180^\circ$ a $\omega+f=0^\circ,\, 50^\circ,\, 90^\circ$, kde zvolenou hodnotou je $f=90^\circ$ a $\omega+f=50^\circ$.}
+	\label{fig:ae_ai_wise}
 \end{figure}
 \section{Nejistoty pozorovaných dat}
 
