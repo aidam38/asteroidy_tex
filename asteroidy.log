@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  20 JAN 2019 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  27 JAN 2019 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,6 +898,7 @@ File: obr/aH_wise-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: obr/aH_wise-eps-converted-to.pdf  used on input line 4
 75.
 (pdftex.def)             Requested size: 328.82707pt x 230.18031pt.
+ [35 <./obr/aH_wise-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/pV_pIR.eps>
 (epstopdf)                    date: 2019-01-07 06:33:54
 (epstopdf)                    size: 115584 bytes
@@ -906,32 +907,32 @@ Package epstopdf Info: Source file: <obr/pV_pIR.eps>
 (epstopdf)                    size: 145323 bytes
 (epstopdf)             Command: <repstopdf --outfile=obr/pV_pIR-eps-converted-t
 o.pdf obr/pV_pIR.eps>
-(epstopdf)             \includegraphics on input line 483.
+(epstopdf)             \includegraphics on input line 484.
 Package epstopdf Info: Output file is already uptodate.
-<obr/pV_pIR-eps-converted-to.pdf, id=224, 361.35pt x 252.945pt>
+<obr/pV_pIR-eps-converted-to.pdf, id=235, 361.35pt x 252.945pt>
 File: obr/pV_pIR-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/pV_pIR-eps-converted-to.pdf>
 Package pdftex.def Info: obr/pV_pIR-eps-converted-to.pdf  used on input line 48
-3.
-(pdftex.def)             Requested size: 375.80544pt x 263.06432pt.
+4.
+(pdftex.def)             Requested size: 422.77664pt x 295.94446pt.
 Package epstopdf Info: Source file: <obr/astar_iz.eps>
-(epstopdf)                    date: 2019-01-09 10:40:01
-(epstopdf)                    size: 95573 bytes
+(epstopdf)                    date: 2019-01-20 20:07:37
+(epstopdf)                    size: 95641 bytes
 (epstopdf)             Output file: <obr/astar_iz-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-09 10:40:13
-(epstopdf)                    size: 113094 bytes
+(epstopdf)                    date: 2019-01-20 20:10:45
+(epstopdf)                    size: 113327 bytes
 (epstopdf)             Command: <repstopdf --outfile=obr/astar_iz-eps-converted
 -to.pdf obr/astar_iz.eps>
-(epstopdf)             \includegraphics on input line 489.
+(epstopdf)             \includegraphics on input line 496.
 Package epstopdf Info: Output file is already uptodate.
-<obr/astar_iz-eps-converted-to.pdf, id=225, 361.35pt x 252.945pt>
+<obr/astar_iz-eps-converted-to.pdf, id=236, 361.35pt x 252.945pt>
 File: obr/astar_iz-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/astar_iz-eps-converted-to.pdf>
 Package pdftex.def Info: obr/astar_iz-eps-converted-to.pdf  used on input line 
-489.
-(pdftex.def)             Requested size: 328.82707pt x 230.18031pt.
- [35 <./obr/aH_wise-eps-converted-to.pdf>] [36 <./obr/pV_pIR-eps-converted-to.p
-df>]
+496.
+(pdftex.def)             Requested size: 422.77664pt x 295.94446pt.
+ [36 <./obr/pV_pIR-eps-converted-to.pdf>] [37 <./obr/astar_iz-eps-converted-to.
+pdf>]
 Package epstopdf Info: Source file: <obr/size_distribution.eps>
 (epstopdf)                    date: 2019-01-20 16:22:43
 (epstopdf)                    size: 38324 bytes
@@ -941,13 +942,13 @@ Package epstopdf Info: Source file: <obr/size_distribution.eps>
 (epstopdf)                    size: 13090 bytes
 (epstopdf)             Command: <repstopdf --outfile=obr/size_distribution-eps-
 converted-to.pdf obr/size_distribution.eps>
-(epstopdf)             \includegraphics on input line 504.
+(epstopdf)             \includegraphics on input line 513.
 Package epstopdf Info: Output file is already uptodate.
-<obr/size_distribution-eps-converted-to.pdf, id=248, 271.0125pt x 252.945pt>
+<obr/size_distribution-eps-converted-to.pdf, id=262, 271.0125pt x 252.945pt>
 File: obr/size_distribution-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/size_distribution-eps-converted-to.pdf>
 Package pdftex.def Info: obr/size_distribution-eps-converted-to.pdf  used on in
-put line 504.
+put line 513.
 (pdftex.def)             Requested size: 211.38832pt x 197.30402pt.
 Package epstopdf Info: Source file: <obr/size_distribution_SMALLD.eps>
 (epstopdf)                    date: 2018-12-09 16:20:14
@@ -958,16 +959,18 @@ Package epstopdf Info: Source file: <obr/size_distribution_SMALLD.eps>
 (epstopdf)                    size: 13224 bytes
 (epstopdf)             Command: <repstopdf --outfile=obr/size_distribution_SMAL
 LD-eps-converted-to.pdf obr/size_distribution_SMALLD.eps>
-(epstopdf)             \includegraphics on input line 507.
+(epstopdf)             \includegraphics on input line 516.
 Package epstopdf Info: Output file is already uptodate.
-<obr/size_distribution_SMALLD-eps-converted-to.pdf, id=249, 271.0125pt x 252.94
+<obr/size_distribution_SMALLD-eps-converted-to.pdf, id=263, 271.0125pt x 252.94
 5pt>
 File: obr/size_distribution_SMALLD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use obr/size_distribution_SMALLD-eps-converted-to.pdf>
 Package pdftex.def Info: obr/size_distribution_SMALLD-eps-converted-to.pdf  use
-d on input line 507.
+d on input line 516.
 (pdftex.def)             Requested size: 211.38832pt x 197.30402pt.
+ [38 <./obr/size_distribution-eps-converted-to.pdf> <./obr/size_distribution_SM
+ALLD-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/ae_wise.eps>
 (epstopdf)                    date: 2019-01-07 06:33:54
 (epstopdf)                    size: 250775 bytes
@@ -976,14 +979,14 @@ Package epstopdf Info: Source file: <obr/ae_wise.eps>
 (epstopdf)                    size: 430006 bytes
 (epstopdf)             Command: <repstopdf --outfile=obr/ae_wise-eps-converted-
 to.pdf obr/ae_wise.eps>
-(epstopdf)             \includegraphics on input line 514.
+(epstopdf)             \includegraphics on input line 533.
 Package epstopdf Info: Output file is already uptodate.
-<obr/ae_wise-eps-converted-to.pdf, id=250, 289.08pt x 189.70876pt>
+<obr/ae_wise-eps-converted-to.pdf, id=291, 289.08pt x 189.70876pt>
 File: obr/ae_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/ae_wise-eps-converted-to.pdf>
 Package pdftex.def Info: obr/ae_wise-eps-converted-to.pdf  used on input line 5
-14.
-(pdftex.def)             Requested size: 328.82707pt x 215.80417pt.
+33.
+(pdftex.def)             Requested size: 375.80544pt x 246.63582pt.
 Package epstopdf Info: Source file: <obr/ai_wise.eps>
 (epstopdf)                    date: 2019-01-07 06:33:54
 (epstopdf)                    size: 247277 bytes
@@ -992,47 +995,51 @@ Package epstopdf Info: Source file: <obr/ai_wise.eps>
 (epstopdf)                    size: 430657 bytes
 (epstopdf)             Command: <repstopdf --outfile=obr/ai_wise-eps-converted-
 to.pdf obr/ai_wise.eps>
-(epstopdf)             \includegraphics on input line 515.
+(epstopdf)             \includegraphics on input line 534.
 Package epstopdf Info: Output file is already uptodate.
-<obr/ai_wise-eps-converted-to.pdf, id=251, 289.08pt x 119.44624pt>
+<obr/ai_wise-eps-converted-to.pdf, id=292, 289.08pt x 119.44624pt>
 File: obr/ai_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/ai_wise-eps-converted-to.pdf>
 Package pdftex.def Info: obr/ai_wise-eps-converted-to.pdf  used on input line 5
-15.
-(pdftex.def)             Requested size: 328.82707pt x 135.87668pt.
- [37 <./obr/astar_iz-eps-converted-to.pdf> <./obr/size_distribution-eps-convert
-ed-to.pdf> <./obr/size_distribution_SMALLD-eps-converted-to.pdf>] [38 <./obr/ae
-_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.pdf>] [39] [40]
-Kapitola 5.
-[41
+34.
+(pdftex.def)             Requested size: 375.80544pt x 155.28918pt.
+ [39] [40 <./obr/ae_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.
+pdf>]
 
-] [42
+LaTeX Warning: Reference `fig:smallsim' on page 41 undefined on input line 543.
+
+
+[41] [42]
+Kapitola 5.
+[43
+
+] [44
 
 ]
-Overfull \hbox (2.46152pt too wide) in paragraph at lines 539--539
+Overfull \hbox (2.46152pt too wide) in paragraph at lines 559--559
 \OT1/cmtt/m/n/12 wikimedia . org / w / index . php ? title = File : AsteroidInc
 Au . png & oldid = 247505564>[]$\OT1/cmr/m/n/12 . 
  []
 
 
-Overfull \hbox (1.81636pt too wide) in paragraph at lines 539--539
+Overfull \hbox (1.81636pt too wide) in paragraph at lines 559--559
 \OT1/cmr/m/n/12 http://sirrah.troja.mff.cuni.cz/ mi-ra-/m-p/-phd-th/. Dis. Prah
 a: As-t-ro-no-mick^^Sy ^^Sustav Uni-
  []
 
-[43] [44] [45
+[45] [46] [47
 
 ]
 P\v {r}\'{\i }loha A.
 \openout3 = `asy/asteroidy-5.asy'.
 
 
-Package asymptote Warning: file f_euler.asy not found on input line 544.
+Package asymptote Warning: file f_euler.asy not found on input line 564.
 
-<"asy/asteroidy-5".pdf, id=333, 227.62239pt x 199.23233pt>
+<"asy/asteroidy-5".pdf, id=340, 227.62239pt x 199.23233pt>
 File: "asy/asteroidy-5".pdf Graphic file (type pdf)
 <use "asy/asteroidy-5".pdf>
-Package pdftex.def Info: "asy/asteroidy-5".pdf  used on input line 544.
+Package pdftex.def Info: "asy/asteroidy-5".pdf  used on input line 564.
 (pdftex.def)             Requested size: 227.62183pt x 199.23184pt.
 (/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
@@ -1048,30 +1055,30 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
 
-[46
+[48
 
  <./asy/asteroidy-5.pdf>]
-Overfull \hbox (109.27068pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 P[]R[]ILOHA A.  ILUSTRACE EULEROVY METODY VE VEKTOROV[]E GRAFI
-CE V JAZYCE \OT1/cmr/m/it/12 ASYMPTOTE \OT1/cmr/m/n/12 47
- []
-
-[47]
-Overfull \hbox (109.27068pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 P[]R[]ILOHA A.  ILUSTRACE EULEROVY METODY VE VEKTOROV[]E GRAFI
-CE V JAZYCE \OT1/cmr/m/it/12 ASYMPTOTE \OT1/cmr/m/n/12 48
- []
-
-[48])
 Overfull \hbox (109.27068pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 P[]R[]ILOHA A.  ILUSTRACE EULEROVY METODY VE VEKTOROV[]E GRAFI
 CE V JAZYCE \OT1/cmr/m/it/12 ASYMPTOTE \OT1/cmr/m/n/12 49
  []
 
 [49]
+Overfull \hbox (109.27068pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 P[]R[]ILOHA A.  ILUSTRACE EULEROVY METODY VE VEKTOROV[]E GRAFI
+CE V JAZYCE \OT1/cmr/m/it/12 ASYMPTOTE \OT1/cmr/m/n/12 50
+ []
+
+[50])
+Overfull \hbox (109.27068pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 P[]R[]ILOHA A.  ILUSTRACE EULEROVY METODY VE VEKTOROV[]E GRAFI
+CE V JAZYCE \OT1/cmr/m/it/12 ASYMPTOTE \OT1/cmr/m/n/12 51
+ []
+
+[51]
 P\v {r}\'{\i }loha B.
 
-Overfull \hbox (12.99474pt too wide) in paragraph at lines 553--555
+Overfull \hbox (12.99474pt too wide) in paragraph at lines 573--575
 \OT1/cmr/m/n/12 kde be-reme prvn^^S^^P od-had $\OML/cmm/m/it/12 E[] \OT1/cmr/m/
 n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
 ^^Tz dos^^Sahneme p^^Tresnosti $[]$,
@@ -1080,37 +1087,40 @@ n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
 (/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 567.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 587.
 
 
 (/opt/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 567.
- [50
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 587.
+ [52
 
 ]
 P\v {r}\'{\i }loha C.
-[51
+[53
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 592.
- [52] (./asteroidy.aux)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 612.
+ [54] (./asteroidy.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 Package logreq Info: Writing requests to 'asteroidy.run.xml'.
 \openout1 = `asteroidy.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15108 strings out of 494062
- 247878 string characters out of 6165011
- 847309 words of memory out of 5000000
- 18526 multiletter control sequences out of 15000+600000
- 15255 words of font info for 57 fonts, out of 8000000 for 9000
+ 15115 strings out of 494062
+ 247982 string characters out of 6165011
+ 847375 words of memory out of 5000000
+ 18533 multiletter control sequences out of 15000+600000
+ 16502 words of font info for 62 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  49i,13n,62p,1842b,3290s stack positions out of 5000i,500n,10000p,200000b,80000s
 </opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt
@@ -1132,10 +1142,10 @@ pe1/public/amsfonts/cm/cmsy8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt12.pfb>
-Output written on asteroidy.pdf (52 pages, 2429115 bytes).
+Output written on asteroidy.pdf (54 pages, 2435216 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
+ 436 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

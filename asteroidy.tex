@@ -225,7 +225,7 @@ Uvažujme nyní $N$ těles --- respektive hmotných bodů, které na sebe vzáje
 		\vec{a}_i &= -\sum_{\substack{j=1 \\ j\neq i}}^N \frac{Gm_j}{\abs{\vec{r}_i-\vec{r}_j}^3}(\vec{r_i}-\vec{r_j})\,, \qquad{\rm pro}\ i\in\{1,\,2,\,\dots,\,N\} \label{eq:nbody2}
 \end{align}
 kde $\vec{r}_i-\vec{r}_j$ označuje vektor určující vzájemnou polohu těles $i$ a $j$, konkrétně jde o~vektor s~počátkem v~tělese $j$ a koncem v~tělese $i$; ostatní veličiny jsou definované analogicky jako v~předchozí části. Dostáváme tedy soustavu $N$ diferenciálních rovnic ve tvaru~\eqref{eq:nbody2}, kterou vyřešíme numericky.
-\subsubsection{Eulerova metoda}
+\subsubsection{Eulerova metoda}\label{sec:euler}
 I~přesto, že se následující integrační metoda v~přesných numerických výpočtech zřídka používá, uvádíme ji zde z~didaktických důvodů, neboť názorně ilustruje použití numerických metod pro řešení problému $N$ těles. Jak název napovídá, poprvé s~ní v~18.\ století přišel švýcarský matematik Leonhard Euler (1707--1783).
 
 Princip algoritmu spočívá v~tom, že v~libovolném čase $t$ můžeme z~\eqref{eq:nbody2} vypočítat zrychlení každého tělesa. Pak, po zvolení určitého časového kroku $h$, odpovídajícím způsobem změníme vektor rychlosti. Následně necháme všechna tělesa po dobu časového kroku pohybovat se po přímce konstantní rychlostí. Existují dvě verze Eulerovy metody, dopředná a zpětná, které se liší volbou rychlosti, se kterou necháváme tělesa pohybovat se po přímce, viz následující přesný popis obou metod a obrázek~\ref{fig:euler}.
@@ -444,7 +444,7 @@ Rozšířit!
 
 \section{Identifikace členů}
 
-V této práci jsme použili k identifikaci členů rodiny Eunomia \textit{hierarchickou shlukovací metodu} popsanou v části~\ref{sec:metodyiden}. Závislost počtu členů rodiny lze vidět na obrázku~\ref{fig:Nv}. Lze vidět, že rodina Eunomia je dobře oddělená od ostatních rodin, jedinou blízkou rodinou je rodina Adeona, jejíž tělesa ale rozhodně nejsou součástí naší rodiny. K ostatním výpočtům jsme použili hodnotu $v_{\rm cutoff}=44\,{\rm m/s}$, při které počet členů rodiny před odstraněním přimísených těles činil 6503.
+V této práci byla k identifikaci členů rodiny Eunomia použita \textit{hierarchickou shlukovací metodu} popsanou v části~\ref{sec:metodyiden}. Závislost počtu členů rodiny lze vidět na obrázku~\ref{fig:Nv}. Lze vidět, že rodina Eunomia je dobře oddělená od ostatních rodin, jedinou blízkou rodinou je rodina Adeona, jejíž tělesa ale rozhodně nejsou součástí naší rodiny. K ostatním výpočtům jsme použili hodnotu $v_{\rm cutoff}=44\,{\rm m/s}$, při které počet členů rodiny před odstraněním přimísených těles činil 6503.
 
 \begin{figure}
 	\centering
@@ -477,17 +477,24 @@ kde $H$ označuje absolutní magnitudu, $\Delta a_{\rm p}$ vzdálenost v hlavní
 	\label{fig:aH_wise}
 \end{figure}
 
-Další metodou k odstranění přimísených těles jsou metody spektroskopické, tedy zkoumající světelné charakteristiky těles. První z nich je graf závislosti albed\footnote{Geometrické albedo je poměr zářivosti tělesa ku zářivosti ideálního bezztrátového disku o stejném průřezu.~\cite{fmt}} $p_{\rm V}$, resp. $p_{\rm IR}$ ve viditelném, resp. infračerveném spektru. Pokud uvažujeme, že původní těleso bylo homogenní, měly by všechny vzniklé úlomky mít podobné albeda, čímž lze vyřadit tělesa, která očividně nemohl vzniknout ze stejného mateřského tělesa. Závislost $(p_{\rm V},\,p_{\rm IR}$) lze vidět na obrázku~\ref{fig:pV_pIR}, v jehož popisku lze také najít zvolené krajní hodnoty, které jsme zvolili pouze pro albedo $p_{\rm V}$, protože albedo $p_{\rm IR}$ je pro 
-\begin{figure}[!htb]
+Další metodou k odstranění přimísených těles jsou metody spektroskopické, tedy zkoumající světelné charakteristiky těles. První z nich je graf závislosti albed\footnote{Geometrické albedo je poměr zářivosti tělesa ku zářivosti ideálního bezztrátového disku o stejném průřezu.~\cite{fmt}} $p_{\rm V}$, resp. $p_{\rm IR}$ ve viditelném, resp. infračerveném spektru. Pokud uvažujeme, že původní těleso bylo homogenní, měly by všechny vzniklé úlomky mít podobné albeda, čímž lze vyřadit tělesa, která očividně nemohl vzniknout ze stejného mateřského tělesa. Závislost $(p_{\rm V},\,p_{\rm IR}$) lze vidět na obrázku~\ref{fig:pV_pIR}, v jehož popisku lze také najít zvolené krajní hodnoty, které jsme zvolili pouze pro albedo $p_{\rm V}$, protože albedo $p_{\rm IR}$ je je mu přímo úměrné.
+
+\begin{figure}
 	\centering
-	\includegraphics[width=0.8\textwidth]{obr/pV_pIR}
-	\caption{Albeda $p_{\rm V}$ (ve viditelném spektru) a $p_{\rm IR}$ (v infračerveném spektru) z~katalogu WISE \cite{nugent15}. Barevná škála byla taktéž převzata z katalogu WISE, barvy neodpovídají reálnému zbarvení. Pro vyřazení přimísených těles byly zvoleny hraniční hodnoty $0,05 \leq p_{\rm V} \leq 0,4$. Zelené kroužky označují přimísená tělesa vyřazená jakoukoliv z použitých metod. Barevná škála byla převzata z katalogu WISE.}
+	\includegraphics[width=0.9\textwidth]{obr/pV_pIR}
+	\caption{Albeda $p_{\rm V}$ (ve viditelném spektru) a $p_{\rm IR}$ (v infračerveném spektru) z~katalogu WISE \cite{nugent15}. Barevná škála byla taktéž převzata z katalogu WISE, barvy neodpovídají reálnému zbarvení. Zelené kroužky označují přimísená tělesa vyřazená jakoukoliv z použitých metod. Pro vyřazení přimísených těles byly zvoleny hraniční hodnoty $0,05 \leq p_{\rm V} \leq 0,4$.}
 	\label{fig:pV_pIR}
 \end{figure}
-\begin{figure}[!htb]
+
+Podobně jako předtím můžeme identifikovat přimísená tělesa pomocí jejich barevných indexu $a^*$ a $i-z$ tentokrát z katalogu SLOAN, který používá fotometrický systém skládající se z pěti filtrů $u,\,g,\,r,\,i,\,z$, přičemž každý z nich propouští světlo o dané vlnové délce. Zmíněné veličiny 
+$u,\,g,\,r,\,i,\,z$ pak označují intensitu světla na této vlnové délce. Veličina $a^*$ je definována vztahem
+\begin{align}
+	a^ *= 0,89 (g - r) + 0,45 (r - i) - 0,57\,.
+\end{align}
+\begin{figure}
 	\centering
-	\includegraphics[width=0.7\textwidth]{obr/astar_iz}
-	\caption{Barevné indexy $a^*$ a $i-a$ z~katalogu SLOAN \cite{ivezic01}. Pro vyřazení přimíšených těles byly zvoleny hraniční hodnoty $0\leq a^* \leq 0.3$ a $-0.3\leq i-z \leq 0.3$.}
+	\includegraphics[width=0.9\textwidth]{obr/astar_iz}
+	\caption{Barevné indexy $a^*$ a $i-z$ z~katalogu SLOAN \cite{ivezic01}. Barevná škála byla taktéž převzata z katalogu WISE, barvy neodpovídají reálnému zbarvení. Zelené kroužky označují přimísená tělesa vyřazená jakoukoliv z použitých metod. Pro vyřazení přimíšených těles byly zvoleny hraniční hodnoty $0\leq a^* \leq 0,3$ a $-0,3\leq i-z \leq 0,3$.}
 	\label{fig:astar_iz}
 \end{figure}
 
@@ -497,8 +504,10 @@ Další metodou k odstranění přimísených těles jsou metody spektroskopick�
 \pagebreak
 
 \section{Fyzikální model pro rodinu Eunomia}
-Rozdělení v~$ae$ a $ai$ prostoru, vliv rezonancí J8/3 a J13/5, Gaussovy rovnice --- elipsa, volba bodu rozpadu ($f=90^o$, $\omega+f=50^o$).
-\begin{figure}[!htb]
+%Rozdělení v~$ae$ a $ai$ prostoru, vliv rezonancí J8/3 a J13/5, Gaussovy rovnice --- elipsa, volba bodu rozpadu ($f=90^o$, $\omega+f=50^o$).
+
+Odstranit SFD???
+\begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.45\textwidth}
 	\includegraphics[width=\textwidth]{obr/size_distribution}
@@ -509,21 +518,32 @@ Rozdělení v~$ae$ a $ai$ prostoru, vliv rezonancí J8/3 a J13/5, Gaussovy rovni
 	\caption{Histogram četnosti velikostí planetek rodiny Eunomia pro $v_{\rm cutoff}=44\,{\rm m/s}$, kde veličina $N({>}D)$ označuje počet planetek s~průměrem větším než $D$. Jedná se o logaritmický graf $(\log D,\,\log N({>}D))$.}
 	\label{size_distribution}
 \end{figure}
-\begin{figure}[!htb]
+\subsection{Rozdělení v prostoru $ae$ a $ai$}
+Jedním z nejdůležitějších úkonů, které je nutno provést před spuštěním simulace orbitálního vývoje, je správně určit, kde nastal úvodní rozpad --- určit hodnoty $f$ a $\omega+f$ --- to totiž může významně ovlivnit rozdělení rodiny na grafech vlastní hlavní poloosy $a_{\rm p}$ versus vlastní excentricita $e_{\rm p}$ (prostor $ae$) nebo versus vlastní sklon $\sin I_{\rm p}$ (prostor $ai$). Na obrázku~\ref{fig:ae_ai_wise} můžme vidět pozorovanou rodinu Eunomia společně s elipsami, které korespondují s rozdělením rodiny při rozpadu na různých místech. Tyto elipsy určují Gaussovy rovnice: pokud na těleso na působí zrychlení $\vec{a}=(R,\,T,\,W)$, kde $R$ označuje radiální složku (podél spojnice s centrálním tělesem), $T$ transverzální složku (podél tečny k oběžné dráze po směru oběhu) a $W$ normálovou složku (kolmou na rovinu oběhu), budou elementy dráhy tělesa měnit jako
+\begin{align*}
+	\diff{a}{t}&=\frac{2}{n\sqrt{1-e^2}}\left[T+e(T\cos f+R\sin f)\right) \,, \\
+	\diff{e}{t}&=\frac{\sqrt{1-e^2}}{na}\left[R\sin f+T(\cos f+\cos E)\right]\,, \\
+	\diff{I}{t}&=\frac{W}{na\sqrt{1-e^2}}\frac{r}{a}\cos(\omega+f)\,,
+\end{align*}
+kde $a$ označuje hlavní poloosu, $e$ excentricitu, $I$ sklon, $n$ střední pohyb, $f$ pravou anomálii, $E$ excentrickou anomálii (viz obrázek~\ref{fig:E}), $\omega$ argument pericentra (viz obrázek~\ref{fig:elip}) a $r$ vzdálenost od centrálního tělesa. Převzato z~\cite{fmt}.
+
+Jak můžeme lehce nahlédnout na obrázku~\ref{fig:ae_ai_wise}, na hlavní poloosu a excentricitu má vliv pouze hodnota $f$, zatímco na na sklon má vliv pouze hodnota $\omega+f$. Pomocí vizuální kontroly s pozorovanou rodinou v prostorech $ae$ a $ai$ byly zvoleny hodnoty $f=90^\circ$ a $\omega+f=50^\circ$.
+\begin{figure}
 	\centering
-	\includegraphics[width=0.7\textwidth]{obr/ae_wise}
-	\includegraphics[width=0.7\textwidth]{obr/ai_wise}
-	\caption{Pozorovaná rodina Eunomia v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastní excentricity $e_{\rm p}$ (nahoře) a v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastního sklonu $\sin i_{\rm p}$ (dole). Barevná škála odpovídá albedu $p_V$ a $p_IR$ z~katalogu WISE\@. Nápisy J8/3 a J13/5 označují polohu rezonancí středního pohybu s~Jupiterem. Šedé elipsy a úsečky naznačují výpočet Gaussových rovnic pro hodnoty pravé anomálie $f=0^\circ,\,90^\circ,\,180^\circ$ a $\omega+f=0^\circ,\, 50^\circ,\, 90^\circ$, kde zvolenou hodnotou je $f=90^\circ$ a $\omega+f=50^\circ$.}
+	\includegraphics[width=0.8\textwidth]{obr/ae_wise}
+	\includegraphics[width=0.8\textwidth]{obr/ai_wise}
+	\caption{Pozorovaná rodina Eunomia v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastní excentricity $e_{\rm p}$ (nahoře) a v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastního sklonu $\sin I_{\rm p}$ (dole). Barevná škála odpovídá albedu $p_{\rm V}$ a $p_{\rm IR}$ z~katalogu WISE\@. Nápisy J8/3 a J13/5 označují polohu rezonancí středního pohybu s~Jupiterem. Šedé elipsy a úsečky naznačují výpočet Gaussových rovnic pro hodnoty pravé anomálie $f=0^\circ,\,90^\circ,\,180^\circ$ (nahoře) a $\omega+f=0^\circ,\, 50^\circ,\, 90^\circ$ (dole), kde zvolenou hodnotou je $f=90^\circ$ a $\omega+f=50^\circ$.}
 	\label{fig:ae_ai_wise}
 \end{figure}
 \section{Nejistoty pozorovaných dat}
-
-Následující dvě kapitoly budou napsány až po doběhnutí simulace. 
+Nevím, nepsat.
 
 \pagebreak
-\section{(Simulace orbitálního vývoje)}
-\subsection{(Dlouhodobé simulace)}
-Popis experimentu (údaje o~výpočetní technice)
+\section{Simulace orbitálního vývoje}
+Konečně se dostáváme k části, kde budeme vlastní rodinu Eunomia simulovat po několik miliard let. Krátkodobá simulace problém $N$ těles byla provedena k vytvoření obrázku~\ref{fig:smallsim}, nicméně tato simulace nám neříká nic zajímavého o dynamické struktuře rodiny Eunomii a jejím stáří.
+\subsection{Dlouhodobé simulace}
+%Popis experimentu (údaje o~výpočetní technice)
+K dlouhodobé simulaci používáme upravený balíček SWIFT \cite{levison94}, s přidanými výpočty pro denní i roční Jarkovského jev, YORP efekt, náhodné srážky (kolizní reorientace os), úbytek hmotné způsobeným otáčením tělesa a filtry k výpočtu středních a vlastních elementů (viz kap.~\ref{sec:orbelem}). Úpravy jsou popsány v~\cite{broz11}.
 
 \pagebreak
 \section{(Porovnání modelu a pozorování)}
