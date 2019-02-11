@@ -74,8 +74,16 @@ V~Brně dne \today\ \dotfill \hspace{10mm}
 \tableofcontents
 
 \newpage %}}}
-\chapter{Úvod}
 \pagestyle{headings}
+\chapter{Úvod}
+Planetky (někdy nepřesně označovány jako asteroidy) jsou nejpočetnější skupinou těles ve sluneční soustavě a svým způsobem také nejpodstatnější a nejzajímavější. První planetka byla objevena v roce 1801 italským matematikem Giuseppem Piazzim (1746--1826) --- touto \uv{planetkou} byl Ceres, který je ale v dnešní době již považován za trpasličí planetu. Dnes je již známo přes půl milionu planetek (konkrétně katalog použitý v této práci cite{broz18}??? obsahuje $524\,138$ vstupů).
+
+Pod pojmem rodina planetek rozumíme skupinu planetek vzniklou rozpadem stejného mateřského tělesa, který byl způsoben srážkou s jiným tělesem. Poprvé si těchto skupin v roce 1918 všiml japonský astronom Kiyotsugu Hirayama (1874--1943), po němž jsou mimo jiné pojmenovány tzv. \uv{Hirayamovy rodiny}, mezi které patří Themis, Koronis a Eos, později také Flora a Maria, naši rodinu Eunomia bohužel Hirayama nezpozoroval. 
+
+Studiem těchto kolizních rodin můžeme zjistit mnoho informací o vzniku sluneční soustavy a její dynamické struktuře. Dále jimi můžeme podpořit teorii o \textit{Velkém pozdním bombardování} (LHB --- \textit{Late Heavy Bombardment}), která říká, že před přibližně $4,1$ až $3,8$ miliardami let došlo migraci planet (Neptun se prohodil s Uranem), která způsobila difuzi těles na okraji sluneční soustavy, která nato začala bombardovat vnitřní sluneční soustavu (viz krátery na Měsíci).
+
+\section{Struktura práce}
+V následující (druhé) kapitole této práce vybudujeme nutné matematicko--fyzikální znalosti k pochopení samotného předmětu výzkumu, který je popsán v kapitole čtvrté. Prostřední (třetí) kapitola je věnována obecným informacím o planetkách a rodinách planetek ve sluneční soustavě a k jejímu pochopení není první kapitola potřeba, ačkoliv k porozumění samotného výzkumu je nutné znát kapitoly všechny. V závěru shrnujeme naše počínání včetně zmínění možností zlepšení práce či budoucího výzkumu. Na úplném konci dokumentu se samozřejmě nachází bibliografie a přílohy obsahující vybrané zdrojové kódy.
 
 \chapter{Nebeská mechanika}
 Nebeská mechanika se zabývá pohybem těles ve vesmíru a její studium je stěžejní k pochopení různých dějů ve sluneční soustavě --- od vzniku prvních planet po dráhu kosmických sond. Své počátky má v astronomii, kterou se lidé zabývali už v dávných dobách, kdy se snažili vysvětlit pohyb hvězd po obloze. Největší rozvoj této disciplíny však započal až ve středověku, kdy Isaac Newton (1642--1726) v roce 1687 poprvé definoval pohybové zákony a gravitační zákon, na kterých stojí dalo by se říct celá nebeská mechanika. Další významnou událostí byl vzestup počítačů, který umožnil dlouhé simulace sluneční soustavy, čímž bylo zjištěno mnoho nových informací například o formaci planet nebo rodin planetek.
@@ -332,7 +340,7 @@ Výpočet vlastních se provádí pomocí Fourierovy analýzy, viz~\cite{sidlich
 
 Podle Mezinárodní astronomické unie (IAU) se tělesa ve sluneční soustavě dělí především na planety, trpasličí planety, planetky, komety, přirozené satelity. Planeta je definována jako takové těleso, které obíhá kolem Slunce, není měsíc a má dostatečnou hmotnost, aby se ustavil přibližně kulovitý tvar, a \uv{vyčisťovalo} svoje okolí od ostatních těles. Kometa je pak těleso složené z~ledu a prachu, které většinou obíhá Slunce po excentrické dráze, vyhazuje \I{komu} (atmosféru) a zanechává za sebou \I{ohon}, což je způsobeno sublimací ledu z~komety a strháváním prachu působením slunečního záření. Další skupinou jsou trpasličí planety, kam v tuto chvíli patří pouze pět těles: Ceres, Pluto, Eris, Makemake, Haumea. Dále přirozené satelity jsou tělesa obíhající nějakou jiné těleso, různé od Slunce.
 
-Zbývající skupinou jsou planetky (někdy nepřesně označováno jako asteroidy), kam patří transneptunická tělesa (tj.\ obecný název tělesa, která se pohybují za oběžnou dráhou Neptunu), tělesa hlavního pásu planetek a jiná malá tělesa sluneční soustavy. Planetky můžeme dělit na podle jejich oběžné dráhy na tělesa vnitřní a vnější sluneční soustavy vzhledem k Jupiteru. Největší populace těles vnitřní soustavy se nachází v~hlavním pásu, který se nachází přibližně mezi $2,1\, {\rm AU}$ a $3,3\, {\rm AU}$ (viz obrázek~\ref{fig:belt}. Dále sem spadají také planetky, jejichž oběžná dráha protíná dráhu Marsu nebo Země --- blízkozemní planetky, a planetky nacházející se v~libračních bodech L4 a L5\footnote{To jsou takové body, v~nichž se vyrovnává působení gravitační a odstředivé síly. Jde tedy o~jakýsi bod rovnováhy. Body L4 a L5 se nacházejí na oběžné dráze většího tělesa o~$60^\circ$ \uv{napřed} nebo \uv{za} tělesem.} soustav Slunce--Země, Slunce--Mars, Slunce--Jupiter --- tj.\ příslušní Trojáné. Jako Hildy se označují planetky v rezonanci $3:2$ s Jupiterem. Dále se předpokládá existence Oortova oblaku, který se má nacházet za hranicí $1\,000\,{\rm AU}$ až do $100\,000\,{\rm AU}$ a který má být zdrojem dlouhoperiodických komet. Žádné těleso z této oblasti však ještě nebylo pozorováno.
+Zbývající skupinou jsou planetky, kam patří transneptunická tělesa (tj.\ obecný název tělesa, která se pohybují za oběžnou dráhou Neptunu), tělesa hlavního pásu planetek a jiná malá tělesa sluneční soustavy. Planetky můžeme dělit na podle jejich oběžné dráhy na tělesa vnitřní a vnější sluneční soustavy vzhledem k Jupiteru. Největší populace těles vnitřní soustavy se nachází v~hlavním pásu, který se nachází přibližně mezi $2,1\, {\rm AU}$ a $3,3\, {\rm AU}$ (viz obrázek~\ref{fig:belt}. Dále sem spadají také planetky, jejichž oběžná dráha protíná dráhu Marsu nebo Země --- blízkozemní planetky, a planetky nacházející se v~libračních bodech L4 a L5\footnote{To jsou takové body, v~nichž se vyrovnává působení gravitační a odstředivé síly. Jde tedy o~jakýsi bod rovnováhy. Body L4 a L5 se nacházejí na oběžné dráze většího tělesa o~$60^\circ$ \uv{napřed} nebo \uv{za} tělesem.} soustav Slunce--Země, Slunce--Mars, Slunce--Jupiter --- tj.\ příslušní Trojáné. Jako Hildy se označují planetky v rezonanci $3:2$ s Jupiterem. Dále se předpokládá existence Oortova oblaku, který se má nacházet za hranicí $1\,000\,{\rm AU}$ až do $100\,000\,{\rm AU}$ a který má být zdrojem dlouhoperiodických komet. Žádné těleso z této oblasti však ještě nebylo pozorováno.
 
 \begin{figure}
 	\centering
@@ -380,12 +388,16 @@ Sekulární rezonance jsou sice obvykle mírnějšího rázu než rezonance stř
 
 Rodiny planetek jsou skupiny těles, mající podobné charakteristiky, předně podobné vlastní elementy dráhy. Při jejich identifikaci musíme ale přihlížet i k ostatním veličinám, jako jsou albedo, barevné indexy, nebo reflexní spektrum. 
 
+\immediate\write18{convert -trim obr/trajec_001.png obr/trajec_001t.png}
+\immediate\write18{convert -trim obr/trajec_101.png obr/trajec_101t.png}
+\immediate\write18{convert -trim obr/trajec_201.png obr/trajec_201t.png}
+\immediate\write18{convert -trim obr/trajec_501.png obr/trajec_501t.png}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.49\textwidth]{obr/trajec_001.png}
-	\includegraphics[width=0.49\textwidth]{obr/trajec_101.png} \\
-	\includegraphics[width=0.49\textwidth]{obr/trajec_201.png}
-	\includegraphics[width=0.49\textwidth]{obr/trajec_501.png}
+	\includegraphics[width=0.49\textwidth]{obr/trajec_001t.png}
+	\includegraphics[width=0.49\textwidth]{obr/trajec_101t.png} \\
+	\includegraphics[width=0.49\textwidth]{obr/trajec_201t.png}
+	\includegraphics[width=0.49\textwidth]{obr/trajec_501t.png}
 	\caption{Trojrozměrné polohy $x,\,y,\,z$ několika těles ($N=20$) ze simulované rodiny Eunomia rušené čtyřmi planetami (Jupiterem, Saturnem, Uranem a Neptunem) v~časech $t=0,\,10\,000,\,20\,000,\,50\,000\,{\rm let}$ po úvodním izotropním rozpadu. V čase $t=0$ měla všechna tělesa stejnou polohu $x,\,y,\,z$, ale různé rychlosti $v_x,\,v_y,\,v_z$, tedy i různé elementy dráhy, především hlavní poloosu, díky čemuž se lišily i jejich oběžné doby, které se pohybují kolem $4,27$ let. Po $50\,000$ letech lze pozorovat rozprostření podél dráhy ve střední anomálii $M$, což je element, který je nejsnáze měněn perturbacemi.} \label{fig:trajec}
 \end{figure}
 
@@ -438,13 +450,13 @@ Je známo, že dvojité (i vícenásobné) kyvadlo se chová chaoticky, tedy jeh
 
 \chapter{Vlastnosti rodiny Eunomia} \label{ch:eunomia}
 % Postup určování rodiny, volba $v_{cutoff}$, pozadí --- [česky???] interlopers (ref na později), rozdělení velikostí 
-Rodina Eunomia patří mezi nejstarší rodiny vůbec a nachází se v centrálním pásu planetek --- mezi $2,5\,{\rm AU}$ a $2,82\,{\rm AU}$. Její členové včetně největšího tělesa jsou taxonomického typu S, což znamená, že se převážně skládají z křemičitanů. Existují ale i návrhy, že původní mateřské těleso nebylo homogenní~\cite{nathues05}, což by mohlo způsobit zvýšení počtu členů této rodiny.
+Rodina Eunomia se nachází se v centrálním pásu planetek --- mezi $2,5\,{\rm AU}$ a $2,82\,{\rm AU}$ a patří mezi nejstarší rodiny vůbec. Její členové včetně největšího tělesa jsou taxonomického typu S, což znamená, že se převážně skládají z křemičitanů. Existují ale i návrhy, že původní mateřské těleso nebylo homogenní~\cite{nathues05}, ale částečně diferenciované, což by mohlo způsobit zvýšení počtu členů této rodiny.
 
-Rozšířit!
+Rozšířit! Informace o prvním objevení.???
 
 \section{Identifikace členů}
 
-V této práci byla k identifikaci členů rodiny Eunomia použita \textit{hierarchickou shlukovací metodu} popsanou v části~\ref{sec:metodyiden}. Závislost počtu členů rodiny lze vidět na obrázku~\ref{fig:Nv}. Lze vidět, že rodina Eunomia je dobře oddělená od ostatních rodin, jedinou blízkou rodinou je rodina Adeona, jejíž tělesa ale rozhodně nejsou součástí naší rodiny. K ostatním výpočtům jsme použili hodnotu $v_{\rm cutoff}=44\,{\rm m/s}$, při které počet členů rodiny před odstraněním přimísených těles činil 6503.
+V této práci byla k identifikaci členů rodiny Eunomia použita \textit{hierarchická shlukovací metoda}, popsaná v části~\ref{sec:metodyiden}. Závislost počtu členů rodiny na hraniční rychlosti lze vidět na obrázku~\ref{fig:Nv}. Můžeme pozorovat, že rodina Eunomia je dobře oddělená od ostatních rodin --- jedinou blízkou rodinou je rodina Adeona, jejíž planetky ale nejsou součástí rodiny Eunomia. K dalším výpočtům jsme použili hodnotu $v_{\rm cutoff}=44\,{\rm m/s}$, při které počet členů rodiny před odstraněním přimísených těles činil 6503.
 
 \begin{figure}
 	\centering
@@ -456,57 +468,57 @@ V této práci byla k identifikaci členů rodiny Eunomia použita \textit{hiera
 \subsection{Přimísená tělesa} \label{sec:interlopers}
 %Odstranění interlopers, barevné indexy, SLOAN, WISE, ref na Nejistoty veřejných dat.
 
-Prvním mechanismem k odstranění přimísených těles je graf závislosti vlastní velké poloosy $a_{\rm p}$ a \textit{absolutní hvězdné velikosti} $H$ \footnote{Absolutní hvězdná velikost neboli \textit{magnituda} je \textit{zjevná hvězdná velikost}, kterou by těleso mělo, kdyby bylo vzdálené 10 parseků (Jeden parsek je vzdálenost, z níž má 1 astronomická jednotka úhlovou velikost 1 vteřiny.), neboli přibližně 32,6 světelných let. Pro zjevnou hvězdnou velikost přitom platí vzath
+Prvním mechanismem k odstranění přimísených těles je graf závislosti vlastní velké poloosy $a_{\rm p}$ a \textit{absolutní hvězdné velikosti} $H$ \footnote{\textit{Absolutní hvězdná velikost} neboli \textit{magnituda} $H$ je taková \textit{zjevná hvězdná velikost}, kterou by těleso mělo, kdyby bylo vzdálené 10 parseků (jeden parsek je vzdálenost, z níž má 1 astronomická jednotka úhlovou velikost 1 vteřiny), neboli přibližně 32,6 světelných let. Obecně pro hvězdné velikosti platí Pogsonova rovnice
 \begin{align*}
-	m=-2,5\log\left(\frac{j}{j_0}\right)\,,
+	M_2-M_1=-2,5\log\left(\frac{L_2}{L_1}\right)\,,
 \end{align*}
-kde $j$, resp. $j_0$ označuje hustotu světelného toku tělesa, resp. nějaké jiného referenčního tělesa, pro které se většinou bere $j_0=2,54\cdot10^{-6}\,{\rm lm/m^2}$~\cite{fmt}. Absolutní hvězdná velikost se pak spočte jako
+kde $L_1$ a $L_2$ označují zářivé výkony těles. Podle definice se bere, že hvězda s $L_0=3,055\cdot10^{28}\,{\rm W}$ má $M=0$, tedy absolutní hvězdná velikost $H$ se spočte jako
 \begin{align*}
-	H=m-5(\log_{10}(d)-1)\,,
+	H=0-2,5\log\left(\frac{L}{L_0}\right)\,,
 \end{align*}
-kde $d$ označuje vzdálenost tělesa v parsecích.~\cite{wiki:absmag}} 
+přičemž zjevnou hvězdnou velikost $m$ můžeme vypočítat jako
+\begin{align*}
+	m=5(\log d -1)-2,5\log\left(\frac{L}{L_0}\right)\,,
+\end{align*}
+kde $d$ označuje vzdálenost tělesa od pozorovatele v parsecích.~\cite{fmt}} 
 (obrázek~\ref{fig:aH_wise}), na kterém lze pozorovat vliv Jarkovského jevu a YORPu. Platí, že unášení v hlavní poloose je větší pro menší tělesa, protože obsah povrchu planetky, kterému je úměrná síla Jarkovského jevu, roste s druhou mocninou poloměru, zatímco objem, kterému je úměrná hmotnost, roste s třetí mocninou poloměru. Tím lze odstranit tělesa, která se vzhledem k jejich hvězdné velikosti nemohla po původním rozpadu dostat na grafu $(a_{\rm p},\,H)$ tam, kde jsou. Tuto závislost lze modelovat funkcí 
 \begin{align}
-	H=5\log_{10}\left(\frac{\Delta a_{\rm p}}{C}\right)\,,
+	H=5\log\left(\frac{\Delta a_{\rm p}}{C}\right)\,,
 \end{align}
-kde $H$ označuje absolutní magnitudu, $\Delta a_{\rm p}$ vzdálenost v hlavní poloose od středu rodiny a $C$ parametr, který záleží na naší volbě. Běžne se jako střed rodiny bere největší těleso, v našem případě jsme ale byli nuceni celou funkci o něco posunout, aby lépe seděla na ostatní pozorované objekty. Zvolené hodnoty můžete najít v popisku obrázku~\ref{fig:aH_wise}.
+kde $H$ označuje absolutní magnitudu, $\Delta a_{\rm p}$ vzdálenost v hlavní poloose od středu rodiny a $C$ parametr, který záleží na naší volbě. Běžně se jako střed rodiny bere největší těleso, v našem případě jsme ale byli nuceni celou funkci o něco posunout, aby lépe seděla na ostatní pozorované objekty. Zvolené hodnoty můžete najít v popisku obrázku~\ref{fig:aH_wise}.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{obr/aH_wise}
-	\caption{Rozdělení pozorované rodiny Eunomia v~rovině vlastní hlavní poloosy $a_p$ a absolutní hvězdné velikosti $H$. Barevná škála byla převzata z katalogu WISE. Šedá křivka označuje funkci s parametry ${C=2,2\cdot10^{-4}}$ a ${a_c=2,643666\,{\rm AU}}$ a červená křivka označuje posunutou funkci s parametry ${C=2\cdot10^{-4}}$ a ${a_c=2,641666\,{\rm AU}}$. K odstranění interloperů jsme zvolili červenou funkci. Lze pozorovat typický tvar \uv{V}, který je způsobem počátečním rychlostním polem a Jarkovského jevem, jenž je navíc ještě zesílen vlivem YORPu, což způsobuje zvýšenou koncentraci malých planetek na okrajích rodiny.}
+	\caption{Rozdělení pozorované rodiny Eunomia v~rovině vlastní hlavní poloosy $a_{\rm p}$ a absolutní hvězdné velikosti $H$. Barevná škála byla převzata z katalogu WISE. Šedá křivka označuje funkci s parametry ${C=2,2\cdot10^{-4}}$ a ${a_c=2,643666\,{\rm AU}}$ a červená křivka označuje posunutou funkci s parametry ${C=2\cdot10^{-4}}$ a ${a_c=2,641666\,{\rm AU}}$. K odstranění  jsme zvolili červenou funkci. Lze pozorovat typický tvar \uv{V}, který je způsobem počátečním rychlostním polem a Jarkovského jevem, jenž je navíc ještě zesílen vlivem YORPu, což způsobuje zvýšenou koncentraci malých planetek na okrajích rodiny.}
 	\label{fig:aH_wise}
 \end{figure}
 
-Další metodou k odstranění přimísených těles jsou metody spektroskopické, tedy zkoumající světelné charakteristiky těles. První z nich je graf závislosti albed\footnote{Geometrické albedo je poměr zářivosti tělesa ku zářivosti ideálního bezztrátového disku o stejném průřezu.~\cite{fmt}} $p_{\rm V}$, resp. $p_{\rm IR}$ ve viditelném, resp. infračerveném spektru. Pokud uvažujeme, že původní těleso bylo homogenní, měly by všechny vzniklé úlomky mít podobné albeda, čímž lze vyřadit tělesa, která očividně nemohl vzniknout ze stejného mateřského tělesa. Závislost $(p_{\rm V},\,p_{\rm IR}$) lze vidět na obrázku~\ref{fig:pV_pIR}, v jehož popisku lze také najít zvolené krajní hodnoty, které jsme zvolili pouze pro albedo $p_{\rm V}$, protože albedo $p_{\rm IR}$ je je mu přímo úměrné.
+Další metodou k odstranění přimísených těles jsou metody spektroskopické, tedy zkoumající světelné charakteristiky těles. První z nich je graf závislosti albed\footnote{Geometrické albedo je poměr zářivosti tělesa ku zářivosti ideálního bezztrátového disku o stejném průřezu.~\cite{fmt}} $p_{\rm V}$, resp. $p_{\rm IR}$ ve viditelném, resp.infračerveném spektru. Pokud uvažujeme, že původní těleso bylo homogenní, měly by všechny vzniklé úlomky mít podobné albeda, čímž lze vyřadit tělesa, která očividně nemohla vzniknout ze stejného mateřského tělesa. Závislost $(p_{\rm V},\,p_{\rm IR}$) lze vidět na obrázku~\ref{fig:pV_pIR}, v jehož popisku lze také najít zvolené krajní hodnoty, které jsme zvolili pouze pro albedo $p_{\rm V}$, protože albedo $p_{\rm IR}$ je mu přímo úměrné.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.9\textwidth]{obr/pV_pIR}
-	\caption{Albeda $p_{\rm V}$ (ve viditelném spektru) a $p_{\rm IR}$ (v infračerveném spektru) z~katalogu WISE \cite{nugent15}. Barevná škála byla taktéž převzata z katalogu WISE, barvy neodpovídají reálnému zbarvení. Zelené kroužky označují přimísená tělesa vyřazená jakoukoliv z použitých metod. Pro vyřazení přimísených těles byly zvoleny hraniční hodnoty $0,05 \leq p_{\rm V} \leq 0,4$.}
+	\includegraphics[width=1.0\textwidth]{obr/pV_pIR}
+	\caption{Albeda $p_{\rm V}$ (ve viditelném spektru) a $p_{\rm IR}$ (v infračerveném spektru) z~katalogu WISE \cite{nugent15}. Barevná škála byla taktéž převzata z katalogu WISE, barvy neodpovídají reálnému zbarvení. Zelené kroužky označují přimísená tělesa vyřazená jakoukoliv z použitých metod. Pro vyřazení přimísených těles touto metodou byly zvoleny hraniční hodnoty $0,05 \leq p_{\rm V} \leq 0,4$.}
 	\label{fig:pV_pIR}
 \end{figure}
 
 Podobně jako předtím můžeme identifikovat přimísená tělesa pomocí jejich barevných indexu $a^*$ a $i-z$ tentokrát z katalogu SLOAN, který používá fotometrický systém skládající se z pěti filtrů $u,\,g,\,r,\,i,\,z$, přičemž každý z nich propouští světlo o dané vlnové délce. Zmíněné veličiny 
-$u,\,g,\,r,\,i,\,z$ pak označují intensitu světla na této vlnové délce. Veličina $a^*$ je definována vztahem
+$u,\,g,\,r,\,i,\,z$ pak označují intenzitu světla o této vlnové délce. Veličina $a^*$ je definována vztahem~\cite{ivezic01}
 \begin{align}
 	a^ *= 0,89 (g - r) + 0,45 (r - i) - 0,57\,.
 \end{align}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.9\textwidth]{obr/astar_iz}
+	\includegraphics[width=1.0\textwidth]{obr/astar_iz}
 	\caption{Barevné indexy $a^*$ a $i-z$ z~katalogu SLOAN \cite{ivezic01}. Barevná škála byla taktéž převzata z katalogu WISE, barvy neodpovídají reálnému zbarvení. Zelené kroužky označují přimísená tělesa vyřazená jakoukoliv z použitých metod. Pro vyřazení přimíšených těles byly zvoleny hraniční hodnoty $0\leq a^* \leq 0,3$ a $-0,3\leq i-z \leq 0,3$.}
 	\label{fig:astar_iz}
 \end{figure}
-
-\pagebreak
-
-
 \pagebreak
 
 \section{Fyzikální model pro rodinu Eunomia}
 %Rozdělení v~$ae$ a $ai$ prostoru, vliv rezonancí J8/3 a J13/5, Gaussovy rovnice --- elipsa, volba bodu rozpadu ($f=90^o$, $\omega+f=50^o$).
 
-Odstranit SFD???
+Odstranit SFD??? Chápu význam, ale pořád nevím, co z toho vyvodit.
 \begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.45\textwidth}
@@ -518,35 +530,35 @@ Odstranit SFD???
 	\caption{Histogram četnosti velikostí planetek rodiny Eunomia pro $v_{\rm cutoff}=44\,{\rm m/s}$, kde veličina $N({>}D)$ označuje počet planetek s~průměrem větším než $D$. Jedná se o logaritmický graf $(\log D,\,\log N({>}D))$.}
 	\label{size_distribution}
 \end{figure}
-\subsection{Rozdělení v prostoru $ae$ a $ai$}
-Jedním z nejdůležitějších úkonů, které je nutno provést před spuštěním simulace orbitálního vývoje, je správně určit, kde nastal úvodní rozpad --- určit hodnoty $f$ a $\omega+f$ --- to totiž může významně ovlivnit rozdělení rodiny na grafech vlastní hlavní poloosy $a_{\rm p}$ versus vlastní excentricita $e_{\rm p}$ (prostor $ae$) nebo versus vlastní sklon $\sin I_{\rm p}$ (prostor $ai$). Na obrázku~\ref{fig:ae_ai_wise} můžme vidět pozorovanou rodinu Eunomia společně s elipsami, které korespondují s rozdělením rodiny při rozpadu na různých místech. Tyto elipsy určují Gaussovy rovnice: pokud na těleso na působí zrychlení $\vec{a}=(R,\,T,\,W)$, kde $R$ označuje radiální složku (podél spojnice s centrálním tělesem), $T$ transverzální složku (podél tečny k oběžné dráze po směru oběhu) a $W$ normálovou složku (kolmou na rovinu oběhu), budou elementy dráhy tělesa měnit jako
-\begin{align*}
-	\diff{a}{t}&=\frac{2}{n\sqrt{1-e^2}}\left[T+e(T\cos f+R\sin f)\right) \,, \\
+\subsection{Rozdělení v prostoru $(a,\,e)$ a $(a,\,i)$}
+Jedním z nejdůležitějších úkonů, které je nutno provést před spuštěním simulace orbitálního vývoje, je správně určit, kde nastal úvodní rozpad (určit hodnoty $f$ a $\omega+f$), to totiž může významně ovlivnit rozdělení rodiny na grafech vlastní hlavní poloosy $a_{\rm p}$ versus vlastní excentricita $e_{\rm p}$ (prostor $(a,\,e)$) nebo versus vlastní sklon $\sin I_{\rm p}$ (prostor $(a,\,i)$). Na obrázku~\ref{fig:ae_ai_wise} můžeme vidět pozorovanou rodinu Eunomia společně s elipsami, které korespondují s rozdělením rodiny při rozpadu na různých místech. Tyto elipsy jsou určeny Gaussovými rovnicemi: pokud na těleso na působí zrychlení $\vec{a}=(R,\,T,\,W)$, kde $R$ označuje radiální složku (podél spojnice s centrálním tělesem), $T$ transverzální složku (podél tečny k oběžné dráze po směru oběhu) a $W$ normálovou složku (kolmou na rovinu oběhu), budou se elementy dráhy tělesa měnit jako
+\begin{align}
+	\diff{a}{t}&=\frac{2}{n\sqrt{1-e^2}}\left[T+e(T\cos f+R\sin f)\right] \,, \\
 	\diff{e}{t}&=\frac{\sqrt{1-e^2}}{na}\left[R\sin f+T(\cos f+\cos E)\right]\,, \\
 	\diff{I}{t}&=\frac{W}{na\sqrt{1-e^2}}\frac{r}{a}\cos(\omega+f)\,,
-\end{align*}
+\end{align}
 kde $a$ označuje hlavní poloosu, $e$ excentricitu, $I$ sklon, $n$ střední pohyb, $f$ pravou anomálii, $E$ excentrickou anomálii (viz obrázek~\ref{fig:E}), $\omega$ argument pericentra (viz obrázek~\ref{fig:elip}) a $r$ vzdálenost od centrálního tělesa. Převzato z~\cite{fmt}.
 
-Jak můžeme lehce nahlédnout na obrázku~\ref{fig:ae_ai_wise}, na hlavní poloosu a excentricitu má vliv pouze hodnota $f$, zatímco na na sklon má vliv pouze hodnota $\omega+f$. Pomocí vizuální kontroly s pozorovanou rodinou v prostorech $ae$ a $ai$ byly zvoleny hodnoty $f=90^\circ$ a $\omega+f=50^\circ$.
+Jak můžeme vidět jak v Gaussových rovnic, tak na obrázku~\ref{fig:ae_ai_wise}, na hlavní poloosu a excentricitu má vliv pouze hodnota $f$, zatímco na sklon má vliv pouze hodnota $\omega+f$. Pomocí vizuální kontroly s pozorovanou rodinou v prostorech $(a,\,e)$ a $(a,\,i)$ byly zvoleny hodnoty $f=90^\circ$ a $\omega+f=50^\circ$.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{obr/ae_wise}
 	\includegraphics[width=0.8\textwidth]{obr/ai_wise}
-	\caption{Pozorovaná rodina Eunomia v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastní excentricity $e_{\rm p}$ (nahoře) a v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastního sklonu $\sin I_{\rm p}$ (dole). Barevná škála odpovídá albedu $p_{\rm V}$ a $p_{\rm IR}$ z~katalogu WISE\@. Nápisy J8/3 a J13/5 označují polohu rezonancí středního pohybu s~Jupiterem. Šedé elipsy a úsečky naznačují výpočet Gaussových rovnic pro hodnoty pravé anomálie $f=0^\circ,\,90^\circ,\,180^\circ$ (nahoře) a $\omega+f=0^\circ,\, 50^\circ,\, 90^\circ$ (dole), kde zvolenou hodnotou je $f=90^\circ$ a $\omega+f=50^\circ$.}
+	\caption{Pozorovaná rodina Eunomia v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastní excentricity $e_{\rm p}$ (nahoře) a v~rovině vlastní hlavní poloosy $a_{\rm p}$ a vlastního sklonu $\sin I_{\rm p}$ (dole). Barevná škála odpovídá albedu $p_{\rm V}$ a $p_{\rm IR}$ z~katalogu WISE\@. Nápisy J8/3 a J13/5 označují polohu rezonancí středního pohybu s~Jupiterem. Šedé elipsy a úsečky (zdegenerované elipsy) naznačují výpočet Gaussových rovnic pro hodnoty pravé anomálie $f=0^\circ,\,90^\circ,\,180^\circ$ (nahoře) a $\omega+f=0^\circ,\, 50^\circ,\, 90^\circ$ (dole), kde zvolenou tučnější elipsou je elipsa pro hodnoty $f=90^\circ$ a $\omega+f=50^\circ$.}
 	\label{fig:ae_ai_wise}
 \end{figure}
 \section{Nejistoty pozorovaných dat}
-Nevím, nepsat.
+Nevím, nepsat???
 
 \pagebreak
 \section{Simulace orbitálního vývoje}
-Konečně se dostáváme k části, kde budeme vlastní rodinu Eunomia simulovat po několik miliard let. Krátkodobá simulace problém $N$ těles byla provedena k vytvoření obrázku~\ref{fig:smallsim}, nicméně tato simulace nám neříká nic zajímavého o dynamické struktuře rodiny Eunomii a jejím stáří.
+Konečně se dostáváme k části, kde budeme vlastní rodinu Eunomia simulovat po několik miliard let. Krátkodobá simulace problém $N$ těles byla provedena k vytvoření obrázku~\ref{fig:trajec}, nicméně tato simulace nám neříká nic zajímavého o dynamické struktuře rodiny Eunomii a o jejím stáří.
 \subsection{Dlouhodobé simulace}
 %Popis experimentu (údaje o~výpočetní technice)
-K dlouhodobé simulaci používáme upravený balíček SWIFT \cite{levison94}, s přidanými výpočty pro denní i roční Jarkovského jev, YORP efekt, náhodné srážky (kolizní reorientace os), úbytek hmotné způsobeným otáčením tělesa a filtry k výpočtu středních a vlastních elementů (viz kap.~\ref{sec:orbelem}). Úpravy jsou popsány v~\cite{broz11}.
+K dlouhodobé simulaci používáme upravený balíček SWIFT \cite{levison94}, s přidanými výpočty pro denní i roční Jarkovského jev, YORP efekt, náhodné srážky (kolizní reorientace os), úbytek hmoty způsobený otáčením tělesa a filtry k výpočtu středních a vlastních elementů (viz kap.~\ref{sec:orbelem}). Úpravy jsou popsány v~\cite{broz11}.
 
 \pagebreak
-\section{(Porovnání modelu a pozorování)}
+\section{Porovnání modelu a pozorování}
 
 \chapter{Závěr}
 
@@ -571,7 +583,7 @@ K dlouhodobé simulaci používáme upravený balíček SWIFT \cite{levison94}, 
 	\begin{align*}
 		E_{i+1}=M+e\sin{E_i}q\,, \quad \text{pro}\ i=0,\,1,\,2,\,\ldots
 	\end{align*}
-	kde bereme první odhad $E_0=M$. Algoritmus ukončíme, když dosáhneme přesnosti ${eps<10^{-13}}$, což odpovídá dvojité přesnosti reálných čísel ve dnešních standardních programovacích jazycích.
+	kde bereme první odhad $E_0=M$. Algoritmus ukončíme, když dosáhneme přesnosti ${eps<10^{-13}}$, což odpovídá dvojité přesnosti reálných čísel v dnešních standardních programovacích jazycích.
 
 	Tato metoda konverguje k řešení pouze pro excentricity $e<0,6627434\,$, pro vyšší excentricity je nutné využít jiné numerické metody.
 \begin{lstlisting}[language=Python]
@@ -589,7 +601,7 @@ def kepler(M, e):
     return E2
 \end{lstlisting}
 	\chapter{Výpočet polohy tělesa z~oskulačních elementů} \label{app:el2xyz}
-	Kód na výpočet polohy tělesa $x,\,y,\,z$ z oskulačních elementů $a,\,e,\,i,\,\omega,\,\Omega,\,M$. Vstupním souborem je \I{bin.out}, což je výstupní soubor integrátoru SWIFT (nutno však nejprve použít program \I{follow2} na získání dat z binárního souboru $bin.dat$), který má formát prostého textu, kde jsou jednotlivé sloupce oddělené tabulátory. Výstup je programu je ve formátu $t\,[{\rm Yr}]\ x\,[{\rm AU}]\ y\,[{\rm AU}]\ z\,[{\rm AU}]$ a lze ho použít pro vygenerování animace jako v~\ref{fig:trajec}.
+	Kód na výpočet polohy tělesa $x,\,y,\,z$ z oskulačních elementů $a,\,e,\,i,\,\omega,\,\Omega,\,M$. Vstupním souborem je \I{bin.out}, což je výstupní soubor integrátoru SWIFT (nutno však nejprve použít program \I{follow2} na získání dat z binárního souboru $bin.dat$), který má formát prostého textu, kde jsou jednotlivé sloupce oddělené tabulátory. Výstup programu je ve formátu $t\,[{\rm Yr}]\ x\,[{\rm AU}]\ y\,[{\rm AU}]\ z\,[{\rm AU}]$ a lze ho použít pro vygenerování animace jako v~\ref{fig:trajec}.
 	\begin{lstlisting}[language=Python]
 from math import *
 

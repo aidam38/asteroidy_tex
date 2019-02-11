@@ -11,9 +11,9 @@ real au = 149597870700; // Astronomicka jednotka
 pair G = 6.67*pow10(-11); // Gravitacni konstanta
 
 // Pocatecni hodnoty
-pair R = (0,0); // Pocatecni polohy centralniho telesa
+pair R = (0,0); // Pocatecni poloha centralniho telesa
 pair m1 = 2*pow10(30); // Hmotnost centralniho telesa (cca hmotnost Slunce)
-pair r0 = (3/5*au,-4/5*au); // Pocatecni polohy telesa (Pozn.: (3/5*au)^2+(4/5*au)^2=au)
+pair r0 = (3/5*au,-4/5*au); // Pocatecni poloha telesa (Pozn.: (3/5*au)^2+(4/5*au)^2=au)
 real h = 23.5*24*60*60; // Casovy krok 23.5 dnu
 
 // Skalovani vektoru
