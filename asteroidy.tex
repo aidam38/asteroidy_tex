@@ -333,7 +333,7 @@ Vlastní elementy jsou tedy svým způsobem aritmetickými \uv{průměry} pohybu
 
 Mezi vlastní elementy počítáme pouze vlastní hlavní poloosu $a_{\rm p}$, vlastní excentricitu $e_{\rm p}$ a vlastní inklinaci $i_{\rm p}$. Ostatní elementy nemá cenu uvažovat, protože argument perihélia i délka vzestupného uzlu periodicky precedují (mění se v~intervalu $0^\circ$ až $360^\circ$) a střední anomálie je také přibližně lineárně závislá na čase (a to rychleji).
 
-Výpočet vlastních se provádí pomocí Fourierovy analýzy, viz~\cite{sidlichovsky96}. 
+Výpočet vlastních elementů se provádí pomocí Fourierovy analýzy, viz~\cite{sidlichovsky96}. 
 
 \chapter{Planetky ve sluneční soustavě}
 
@@ -434,7 +434,7 @@ Jarkovského jev, který je pojmenován po Ivanu Ospichovi Jarkovskému\footnote
 
 Rozlišujeme dvě varianty Jarkovského jevu --- denní a roční. Jejich rozdíl je popsán v~\ref{fig:jarko}. Výsledná změna hlavní poloosa je samozřejmě důsledkem kombinace obou variant, pro tělesa s hodnotou šikmosti (obliquity)\footnote{Obliquita je úhel mezi rotační osou tělesa a kolmicí k dráze, obliquita $0^\circ$ a $180^\circ$ značí rotační osu kolmou na ekliptiku, přičemž $0^\circ$ je tzv.\ prográdní rotace (těleso vlivem Jarkovského efektu zrychluje) a $180^\circ$ tzv.\ retrográdní rotace (těleso zpomaluje)} blízko $0^\circ$ nebo $180^\circ$ dominuje denní varianta, zatímco pro obliquitu kolem $90^\circ$ je roční varianta silnější. Dále pro tělesa s rychlejší rotační periodou (řádově menší než oběžná doba) je silnější denní varianta, a pro tělesa s delší rotační periodou roční varianta. 
 
-Jarkovského jev byl poprvé pomocí radarů změřen v roce 2003 při zkoumání pohybu blízkozemní planetky (6489) Golevka~\cite{chesley03}.
+Jarkovského jev byl poprvé pomocí radarů změřen v roce 2003 při zkoumání pohybu blízkozemní planetky (6489) Golevka.~\cite{chesley03}
 \subsubsection{YORP jev}
 %Popis,  zesílení Jarkovského jevu
 
@@ -468,11 +468,11 @@ V této práci byla k identifikaci členů rodiny Eunomia použita \textit{hiera
 \subsection{Přimísená tělesa} \label{sec:interlopers}
 %Odstranění interlopers, barevné indexy, SLOAN, WISE, ref na Nejistoty veřejných dat.
 
-Prvním mechanismem k odstranění přimísených těles je graf závislosti vlastní velké poloosy $a_{\rm p}$ a \textit{absolutní hvězdné velikosti} $H$ \footnote{\textit{Absolutní hvězdná velikost} neboli \textit{magnituda} $H$ je taková \textit{zjevná hvězdná velikost}, kterou by těleso mělo, kdyby bylo vzdálené 10 parseků (jeden parsek je vzdálenost, z níž má 1 astronomická jednotka úhlovou velikost 1 vteřiny), neboli přibližně 32,6 světelných let. Obecně pro hvězdné velikosti platí Pogsonova rovnice
+Prvním mechanismem k odstranění přimísených těles je graf závislosti vlastní velké poloosy $a_{\rm p}$ a \textit{absolutní hvězdné velikosti} $H$\footnote{\textit{Absolutní hvězdná velikost} neboli \textit{magnituda} $H$ je taková \textit{zjevná hvězdná velikost}, kterou by těleso mělo, kdyby bylo vzdálené 10 parseků (jeden parsek je vzdálenost, z níž má 1 astronomická jednotka úhlovou velikost 1 vteřiny), neboli přibližně 32,6 světelných let. Obecně pro hvězdné velikosti $M_1,\,M_2$ platí Pogsonova rovnice
 \begin{align*}
 	M_2-M_1=-2,5\log\left(\frac{L_2}{L_1}\right)\,,
 \end{align*}
-kde $L_1$ a $L_2$ označují zářivé výkony těles. Podle definice se bere, že hvězda s $L_0=3,055\cdot10^{28}\,{\rm W}$ má $M=0$, tedy absolutní hvězdná velikost $H$ se spočte jako
+kde $L_1,\,L_2$ označují zářivé výkony těles. Podle definice se bere, že hvězda s $L_0=3,055\cdot10^{28}\,{\rm W}$ má $M=0$, tedy absolutní hvězdná velikost $H$ se spočte jako
 \begin{align*}
 	H=0-2,5\log\left(\frac{L}{L_0}\right)\,,
 \end{align*}
@@ -493,7 +493,7 @@ kde $H$ označuje absolutní magnitudu, $\Delta a_{\rm p}$ vzdálenost v hlavní
 	\label{fig:aH_wise}
 \end{figure}
 
-Další metodou k odstranění přimísených těles jsou metody spektroskopické, tedy zkoumající světelné charakteristiky těles. První z nich je graf závislosti albed\footnote{Geometrické albedo je poměr zářivosti tělesa ku zářivosti ideálního bezztrátového disku o stejném průřezu.~\cite{fmt}} $p_{\rm V}$, resp. $p_{\rm IR}$ ve viditelném, resp.infračerveném spektru. Pokud uvažujeme, že původní těleso bylo homogenní, měly by všechny vzniklé úlomky mít podobné albeda, čímž lze vyřadit tělesa, která očividně nemohla vzniknout ze stejného mateřského tělesa. Závislost $(p_{\rm V},\,p_{\rm IR}$) lze vidět na obrázku~\ref{fig:pV_pIR}, v jehož popisku lze také najít zvolené krajní hodnoty, které jsme zvolili pouze pro albedo $p_{\rm V}$, protože albedo $p_{\rm IR}$ je mu přímo úměrné.
+Další metodami k odstranění přimísených těles jsou metody spektroskopické, tedy zkoumající světelné charakteristiky těles. První z nich je graf závislosti albed\footnote{Geometrické albedo je poměr zářivosti tělesa ku zářivosti ideálního bezztrátového disku o stejném průřezu.~\cite{fmt}} $p_{\rm V}$, resp. $p_{\rm IR}$ ve viditelném, resp. infračerveném spektru. Pokud uvažujeme, že původní těleso bylo homogenní, měly by všechny vzniklé úlomky mít podobná albeda, čímž lze vyřadit tělesa, která očividně nemohla vzniknout ze stejného mateřského tělesa. Závislost $(p_{\rm V},\,p_{\rm IR}$) lze vidět na obrázku~\ref{fig:pV_pIR}, v jehož popisku lze také najít zvolené krajní hodnoty, které jsme zvolili pouze pro albedo $p_{\rm V}$, protože albedo $p_{\rm IR}$ je mu přímo úměrné.
 
 \begin{figure}
 	\centering
@@ -518,7 +518,7 @@ $u,\,g,\,r,\,i,\,z$ pak označují intenzitu světla o této vlnové délce. Vel
 \section{Fyzikální model pro rodinu Eunomia}
 %Rozdělení v~$ae$ a $ai$ prostoru, vliv rezonancí J8/3 a J13/5, Gaussovy rovnice --- elipsa, volba bodu rozpadu ($f=90^o$, $\omega+f=50^o$).
 
-Odstranit SFD??? Chápu význam, ale pořád nevím, co z toho vyvodit.
+Část o SFD napsat až po vytvoření syntetických SFD (pro porovnání)???
 \begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.45\textwidth}
@@ -552,13 +552,70 @@ Nevím, nepsat???
 
 \pagebreak
 \section{Simulace orbitálního vývoje}
-Konečně se dostáváme k části, kde budeme vlastní rodinu Eunomia simulovat po několik miliard let. Krátkodobá simulace problém $N$ těles byla provedena k vytvoření obrázku~\ref{fig:trajec}, nicméně tato simulace nám neříká nic zajímavého o dynamické struktuře rodiny Eunomii a o jejím stáří.
+Konečně se dostáváme k části, kde budeme vlastní rodinu Eunomia simulovat po mnoho miliónů let. Krátkodobý výpočet problému $N$ těles byl proveden k vytvoření obrázku~\ref{fig:trajec}, nicméně takový výpočet nám neříká nic zajímavého o dynamické struktuře rodiny Eunomia a o jejím stáří. K těmto účelům se musí rodina simulovat po několik (přesněji 4) miliard let a posléze analyzovat její vzhled v prostorech $(a,\,e)$ a $(a,\,i)$ a její rozdělení velikostí.
+
 \subsection{Dlouhodobé simulace}
 %Popis experimentu (údaje o~výpočetní technice)
 K dlouhodobé simulaci používáme upravený balíček SWIFT \cite{levison94}, s přidanými výpočty pro denní i roční Jarkovského jev, YORP efekt, náhodné srážky (kolizní reorientace os), úbytek hmoty způsobený otáčením tělesa a filtry k výpočtu středních a vlastních elementů (viz kap.~\ref{sec:orbelem}). Úpravy jsou popsány v~\cite{broz11}.
 
+Výpočet byl proveden na výpočetním clusteru Astronomického ústavu Univerzity Karlovy V Holešovičkách 747/2, spravovaném panem Miroslavem Brožem. ??? Údaje o počtu procesorů a tak?
+
+Vzhledem k časové náročnosti výpočtu a obsazenosti clusteru se nám nepodařilo simulaci dokončit až do konce, tedy do času $4$ miliard let, a navíc jsme byli nuceni některé skupiny částic simulaci restartovat po výpadku proudu, což způsobuje úbytek částic kolem $450$ milionů let a $900$ milionů let, nicméně i z první miliardy, která se alespoň částečně úspěšně spočetla, lze vyvodit nějaké závěry. 
+
 \pagebreak
-\section{Porovnání modelu a pozorování}
+\section{Porovnání simulace a pozorování}
+
+Na následujících několika obrázcích můžeme vidět simulovanou rodinu Eunomia v prostorech $(a_{\rm p},\,e_{\rm p})$, $(a_{\rm p}, \sin I_{\rm p})$ a $(e_{\rm p},\,\sin I_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let. Z důvodu velkého počtu dat byly výstupní soubory zprůměrovány po $10$ milionech let metodou klouzavého okna\footnote{Jednoduše řečeno se pro každou planetky v nepřekrývajících časových intervalech o délce $10$ miliónů let spočetl aritmetický průměr hodnot elementů dráhy a tyto průměry byly uloženy do nového souboru s časovým údajem v půlce intervalu (proto začínáme na $5$ miliónech let a na na $0$).}.
+
+\immediate\write18{convert -trim obr/ae_5.png obr/ae_5t.png}
+\immediate\write18{convert -trim obr/ae_105.png obr/ae_105t.png}
+\immediate\write18{convert -trim obr/ae_405.png obr/ae_405t.png}
+\immediate\write18{convert -trim obr/ae_905.png obr/ae_905t.png}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.49\textwidth]{obr/ae_5t.png}
+	\includegraphics[width=0.49\textwidth]{obr/ae_105t.png}\\
+	\includegraphics[width=0.49\textwidth]{obr/ae_405t.png}
+	\includegraphics[width=0.49\textwidth]{obr/ae_905t.png}
+	\caption{Výsledky simulace v prostoru $(a_{\rm p},\,e_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let. Fialové body označují simulovanou rodinu, modré tečky pozorovanou rodinu a šedé pozadí. Jsou také zaznačeny nejvýznamější rezonance s Jupiterem $J3/1$, $J8/3$, $J13/5$ a $J5/2$. Černá křivka nahože označje hranici oblasti, kde je hlavní poloosa a excentricita tělesa taková, že kříží dráhu Marsu. Podobná hranice existuje i pro Jupiter, ale ta se nachází mimo tyto grafy (přibližně kolem $e=0,8$). }
+\end{figure}
+
+Úvodní rozpad byl izotropní, ale kvůli specifickému výpočtu vlastní elementů dráhy z únikových rychlost pomocí Gaussových rovnic můžeme v čase $T=5\,{\rm My}$ pozorovat mírně nesymetrický tvar rodiny. Dále si můžeme všimnout, že počáteční rodina je o něco větší než rodina pozorování, což nám ale nevadí, protože vždy můžeme vybrat pouze podmnožinu planetek (neinteragují spolu). 
+
+Lze pozorovat vliv rezonancí --- u těch nejsilnější (J3/1 a J5/2) se planetky nejvíce vychylují, když se nachází v oblasti tzv. separatrixy (šikmá hranice před a za rezonancí), načež se jejich excentricity začnou zvyšovat, čímž se dostanou do oblasti, kde kříží dráhy Marsu nebo Jupitera, což znamená, že se planetka dřív nebo později některé z těchto planet přiblíží a je prudce vychýlena ze své dráhy. U rezonance J3/1 lze vidět u některých těles naopak pokles excentricity, to ale může být znovu důsledek specifického výpočtu vlastní elementů dráhy (neexistuje žádný fyzikální význam). 
+
+Kromě těchto dvou rezonancí lze také vidět vliv rezonancí vyšších řádů --- J8/3 a J13/5 jasně rozdělují planetky simulované rodiny do oblastí mezi rezonancemi, ze kterých planetky zřídkakdy přecházejí do jiné oblasti. Rezonance J8/3 je silnější, a proto se tělesa v její blízkosti v čase $T=105$ miliónů let rozšířila do pásu o velikosti $0,05<e_{\rm p}<0,5$, zatímco v blízkosti rezonance J13/5 pouze do pásu o velikosti $0,1<e_{\rm p}<0,23$.
+
+V populaci pozadí lze také vidět velice slabé rezonance na $a\approx2,62\,{\rm AU}$ a $a\approx2,66\,{\rm AU}$ --- jejich působení na simulovanou rodinu nelze vidět na obrázcích v této práci, lze ale jejich nepatrný vliv vidět při procházení všech obrázků z celé simulace.
+
+Jednou z nezodpovězených otázek týkajících se této rodiny je, zda-li nepokračuje za rezonanci J5/2~\cite{nesvorny15}. Tento návrh můžeme ale i z této částečné simulace s jistotou vyvrátit, protože planetky rezonanci až na výjimky (viz obrázek $t=405\,{\rm My}$ na~\ref{fig:ae_sim}) nepřeskakují, ale jí vychylovány do oblastí křížení Marsu nebo Jupitera. 
+
+
+\immediate\write18{convert -trim obr/ai_5.png obr/ai_5t.png}
+\immediate\write18{convert -trim obr/ai_105.png obr/ai_105t.png}
+\immediate\write18{convert -trim obr/ai_405.png obr/ai_405t.png}
+\immediate\write18{convert -trim obr/ai_905.png obr/ai_905t.png}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.49\textwidth]{obr/ai_5t.png}
+	\includegraphics[width=0.49\textwidth]{obr/ai_105t.png}\\
+	\includegraphics[width=0.49\textwidth]{obr/ai_405t.png}
+	\includegraphics[width=0.49\textwidth]{obr/ai_905t.png}
+	\caption{Výsledky simulace v prostoru $(a_{\rm p},\,\sin I_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let. Fialové body označují simulovanou rodinu, modré tečky pozorovanou rodinu a šedé pozadí. Jsou také zaznačeny nejvýznamější rezonance s Jupiterem $J3/1$, $J8/3$, $J13/5$ a $J5/2$.} \label{fig:ae_sim}
+\end{figure}
+
+\immediate\write18{convert -trim obr/ei_5.png obr/ei_5t.png}
+\immediate\write18{convert -trim obr/ei_105.png obr/ei_105t.png}
+\immediate\write18{convert -trim obr/ei_405.png obr/ei_405t.png}
+\immediate\write18{convert -trim obr/ei_905.png obr/ei_905t.png}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.49\textwidth]{obr/ei_5t.png}
+	\includegraphics[width=0.49\textwidth]{obr/ei_105t.png}\\
+	\includegraphics[width=0.49\textwidth]{obr/ei_405t.png}
+	\includegraphics[width=0.49\textwidth]{obr/ei_905t.png}
+	\caption{Výsledky simulace v prostoru $(e_{\rm p},\,i_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let. Fialové body označují simulovanou rodinu, modré tečky pozorovanou rodinu a šedé pozadí. Vůbec neukazovat???}
+\end{figure}
 
 \chapter{Závěr}
 
@@ -579,7 +636,7 @@ K dlouhodobé simulaci používáme upravený balíček SWIFT \cite{levison94}, 
 	\lstinputlisting[language=Gnuplot]{asy/f_euler.asy}
 
 	\chapter{Výpočet Keplerovy rovnice pomocí iterační metody} \label{app:kepit}
-	Kód na výpočet Keplerovy rovnice, viz~\eqref{eq:kepler}, v programovacím jazyce Python pomocí iterační metody, jejímž předpisem je
+	Kód na výpočet Keplerovy rovnice, viz~\eqref{eq:kepler}, v programovacím jazyce \textit{Python} pomocí iterační metody, jejímž předpisem je
 	\begin{align*}
 		E_{i+1}=M+e\sin{E_i}q\,, \quad \text{pro}\ i=0,\,1,\,2,\,\ldots
 	\end{align*}
