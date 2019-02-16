@@ -73,9 +73,9 @@ V~Brně dne \today\ \dotfill \hspace{10mm}
 
 \tableofcontents
 
-\newpage %}}}
-\pagestyle{headings}
-\chapter{Úvod}
+\newpage 
+\pagestyle{headings} %}}}
+\chapter{Úvod} \label{ch:uvod}
 Planetky (někdy nepřesně označovány jako asteroidy) jsou nejpočetnější skupinou těles ve sluneční soustavě a svým způsobem také nejpodstatnější a nejzajímavější. První planetka byla objevena v roce 1801 italským matematikem Giuseppem Piazzim (1746--1826) --- touto \uv{planetkou} byl Ceres, který je ale v dnešní době již považován za trpasličí planetu. Dnes je již známo přes půl milionu planetek (konkrétně katalog použitý v této práci cite{broz18}??? obsahuje $524\,138$ vstupů).
 
 Pod pojmem rodina planetek rozumíme skupinu planetek vzniklou rozpadem stejného mateřského tělesa, který byl způsoben srážkou s jiným tělesem. Poprvé si těchto skupin v roce 1918 všiml japonský astronom Kiyotsugu Hirayama (1874--1943), po němž jsou mimo jiné pojmenovány tzv. \uv{Hirayamovy rodiny}, mezi které patří Themis, Koronis a Eos, později také Flora a Maria, naši rodinu Eunomia bohužel Hirayama nezpozoroval. 
@@ -85,7 +85,7 @@ Studiem těchto kolizních rodin můžeme zjistit mnoho informací o vzniku slun
 \section{Struktura práce}
 V následující (druhé) kapitole této práce vybudujeme nutné matematicko--fyzikální znalosti k pochopení samotného předmětu výzkumu, který je popsán v kapitole čtvrté. Prostřední (třetí) kapitola je věnována obecným informacím o planetkách a rodinách planetek ve sluneční soustavě a k jejímu pochopení není první kapitola potřeba, ačkoliv k porozumění samotného výzkumu je nutné znát kapitoly všechny. V závěru shrnujeme naše počínání včetně zmínění možností zlepšení práce či budoucího výzkumu. Na úplném konci dokumentu se samozřejmě nachází bibliografie a přílohy obsahující vybrané zdrojové kódy.
 
-\chapter{Nebeská mechanika}
+\chapter{Nebeská mechanika} \label{ch:celmech}
 Nebeská mechanika se zabývá pohybem těles ve vesmíru a její studium je stěžejní k pochopení různých dějů ve sluneční soustavě --- od vzniku prvních planet po dráhu kosmických sond. Své počátky má v astronomii, kterou se lidé zabývali už v dávných dobách, kdy se snažili vysvětlit pohyb hvězd po obloze. Největší rozvoj této disciplíny však započal až ve středověku, kdy Isaac Newton (1642--1726) v roce 1687 poprvé definoval pohybové zákony a gravitační zákon, na kterých stojí dalo by se říct celá nebeská mechanika. Další významnou událostí byl vzestup počítačů, který umožnil dlouhé simulace sluneční soustavy, čímž bylo zjištěno mnoho nových informací například o formaci planet nebo rodin planetek.
 
 \section{Pohybové rovnice}
@@ -273,34 +273,7 @@ Dalšími dvěma elementy jsou argument pericentra $\omega$ a střední anomáli
 
 Poslední dvojice elementů, sklon $i$ a délka vzestupného uzlu $\Omega$, udává polohu roviny oběžné dráhy v~prostoru. Sklon dráhy (též inklinace) je orientovaný úhel, který svírá rovina dráhy vzhledem k~ekliptice. Většinou se udává ve stupních (nebo v~radiánech), někdy se ale uvádí $\sin i$, což je ekvivalentní definice, protože pro interval $-90^o\leq i \leq 90^o$ je $\sin i$ jednoznačně určen. Délka vzestupného uzlu je orientovaný úhel, který svírá spojnice centrálního tělesa s~vzestupným uzlem s~referenčním směrem v~rovině ekliptiky, za který se ve sluneční soustavě bere směr k~jarnímu bodu, což je jeden z~průsečíků ekliptiky s~rovinou zemského rovníku, jinak řečeno poloha Slunce vzhledem k~Zemi v~okamžiku jarní rovnodennosti.
 
-\subsubsection{Výpočet polohy tělesa z~elementů dráhy}
-Skutečnost, že elementů je právě šest, není náhoda, existuje totiž výpočet, kterým lze z~polohy a rychlosti tělesa v~prostoru, tedy z~údajů $x,\, y,\, z,\, v_x,\, v_y,\, v_z$, vypočítat elementy dráhy; je tedy logické, že vzniklých údajů musí být zase šest. 
-
-Ukažme, pro účely této práce, jak z~šesti elementů dráhy $a,\,e,\,i,\,\omega,\,\Omega,\,M$ vypočítat polohu tělesa $x,\, y,\, z$ vzhledem k~centrálnímu tělesu.
-\vspace{-12pt}
-\begin{enumerate}[label=\arabic*.]
-	\item Z~rovnice \eqref{eq:kepler} některou ze jmenovaných metod (aproximační, iterační nebo numerickou) vypočítáme velikost excentrické anomálie $E$ ze střední anomálie $M$.
-	\item Vztah \eqref{eq:fE} upravíme a spočteme pravou anomálii $f$
-		\begin{align}
-			f = 2\arctg\left(\sqrt{\frac{1+e}{1-e}}\tg \frac{E}{2}\right)\,.
-		\end{align}
-	\item Pomocí vztahu 
-\vspace{-12pt}
-		\begin{align}
-			r=a(1-e\cos E)\,,
-		\end{align}
-		vypočítáme velikost $r$ --- relativní vzdálenost tělesa od Slunce.
-	\item Pomocí vztahů
-\vspace{-12pt}
-		\begin{align}
-			x&=r\left[\cos\Omega\cos(\omega+f)-\sin\Omega\sin(\omega+f)\cos i\right]\,, \\
-			y&=r\left[\sin\Omega\cos(\omega+f)+\cos\Omega\sin(\omega+f)\cos i\right]\,, \\
-			z&=r\sin i\sin(\omega+f)\,,
-		\end{align}
-		vypočítáme $x,\,y,\,z$.
-\end{enumerate}
-
-Kód v~jazyce \I{Python}, který provádí tento výpočet, lze nalézt v~příloze~\ref{app:el2xyz}.
+Skutečnost, že elementů je právě šest, není náhoda, existuje totiž výpočet, kterým lze z~polohy a rychlosti tělesa v~prostoru, tedy z~údajů $x,\, y,\, z,\, v_x,\, v_y,\, v_z$, vypočítat elementy dráhy; je tedy logické, že vzniklých údajů musí být zase šest. Pro účely této práce můžete nalézt v~příloze~\ref{app:el2xyz} výpočet polohy tělesa $x,\,y,\,z$ vzhledem k centrálnímu tělesu z elementů dráhy $a,\,e,~,i,\,\omega,\,\Omega,\,M$.
 
 \subsection{Střední elementy}
 
@@ -335,7 +308,7 @@ Mezi vlastní elementy počítáme pouze vlastní hlavní poloosu $a_{\rm p}$, v
 
 Výpočet vlastních se provádí pomocí Fourierovy analýzy, viz~\cite{sidlichovsky96}. 
 
-\chapter{Planetky ve sluneční soustavě}
+\chapter{Planetky ve sluneční soustavě} \label{ch:planetky}
 
 
 Podle Mezinárodní astronomické unie (IAU) se tělesa ve sluneční soustavě dělí především na planety, trpasličí planety, planetky, komety, přirozené satelity. Planeta je definována jako takové těleso, které obíhá kolem Slunce, není měsíc a má dostatečnou hmotnost, aby se ustavil přibližně kulovitý tvar, a \uv{vyčisťovalo} svoje okolí od ostatních těles. Kometa je pak těleso složené z~ledu a prachu, které většinou obíhá Slunce po excentrické dráze, vyhazuje \I{komu} (atmosféru) a zanechává za sebou \I{ohon}, což je způsobeno sublimací ledu z~komety a strháváním prachu působením slunečního záření. Další skupinou jsou trpasličí planety, kam v tuto chvíli patří pouze pět těles: Ceres, Pluto, Eris, Makemake, Haumea. Dále přirozené satelity jsou tělesa obíhající nějakou jiné těleso, různé od Slunce.
@@ -358,7 +331,7 @@ Při našem studiu se budeme zaměřovat na planetky hlavního pásu, ve kterém
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\textwidth]{obr/mainbelt.png}
-	\caption{Planetky hlavního pásu podle vlastních elementů --- osa $x$ znázorňuje vlastní velkou poloosu a osa $y$ vlastní sklon. Lze vidět některé rodiny planetek, konkrétně uprostřed nahoře se nachází rodina Eunomia. Barevné označení znázorňuje oblasti mezi hlavními rezonancemi středního pohybu. Převzato z~\cite{wiki:belt}.} \label{fig:belt}
+	\caption{Planetky hlavního pásu podle vlastních elementů --- osa $x$ znázorňuje vlastní hlavní poloosu a osa $y$ vlastní sklon. Lze vidět některé rodiny planetek, konkrétně uprostřed nahoře se nachází rodina Eunomia. Barevné označení znázorňuje oblasti mezi hlavními rezonancemi středního pohybu. Převzato z~\cite{wiki:belt}.} \label{fig:belt}
 \end{figure}
 
 \pagebreak
@@ -381,7 +354,7 @@ kde $T_1$, $T_2$ označují oběžné dvou tělesa a $a_1$, $a_2$ jejich hlavní
 \end{align}
 kde $T_1$, resp.\ $T_2$ zde značí oběžnou dobu Jupitera, resp.\ planetky, a $a_1$, resp.\ $a_2$ délku hlavní poloosy Jupitera, resp.\ planetky. Oběžná doba Jupitera je přibližně $4332,59\,$dnů a délka jeho hlavní poloosy přibližně $5,203\,{\rm AU}$. Protože hledáme rezonanci $8:3$, musí platit $\frac{T_2}{T_1}=\frac{3}{8}$. Po dosazení do rovnice~\eqref{eq:3kepa} dostáváme $a_2=2,706\,{\rm AU}$, což lze dobře ověřit na obrázku~\ref{fig:ae_ai_wise} rozdělení rodiny Eunomia v~prostoru hlavní poloosy a excentricity.
 \subsection{Sekulární rezonance} 
-Sekulární rezonance jsou sice obvykle mírnějšího rázu než rezonance středního pohybu, ale na dlouhodobý vývoj hlavního pásu mají značný vliv. Slovo sekulární pochází z~latinského \I{saeculum}, což znamená století nebo generace, což odkazuje na dlouhodobý charakter sekulárních rezonancí. Veličiny, které zde dáváme do poměru, jsou rychlosti precese argumentu perihélia $\omega^\prime$ a rychlosti precese délky vzestupného uzlu $\Omega^\prime$, které ovšem závisejí na velké poloose planetky a jejích vzdálenostech od všech planet. Proto pro jejich polohu neexistuje jednoduchý předpis (viz kap. 7 v~\cite{murray00}).
+Sekulární rezonance jsou sice obvykle mírnějšího rázu než rezonance středního pohybu, ale na dlouhodobý vývoj hlavního pásu mají značný vliv. Slovo sekulární pochází z~latinského \I{saeculum}, což znamená století nebo generace, což odkazuje na dlouhodobý charakter sekulárních rezonancí. Veličiny, které zde dáváme do poměru, jsou rychlosti precese argumentu perihélia $\omega^\prime$ a rychlosti precese délky vzestupného uzlu $\Omega^\prime$, které ovšem závisejí na hlavní poloose planetky a jejích vzdálenostech od všech planet. Proto pro jejich polohu neexistuje jednoduchý předpis (viz kap. 7 v~\cite{murray00}).
 
 \pagebreak
 \section{Rodiny planetek}
@@ -398,12 +371,13 @@ Rodiny planetek jsou skupiny těles, mající podobné charakteristiky, předně
 	\includegraphics[width=0.49\textwidth]{obr/trajec_101t.png} \\
 	\includegraphics[width=0.49\textwidth]{obr/trajec_201t.png}
 	\includegraphics[width=0.49\textwidth]{obr/trajec_501t.png}
-	\caption{Trojrozměrné polohy $x,\,y,\,z$ několika těles ($N=20$) ze simulované rodiny Eunomia rušené čtyřmi planetami (Jupiterem, Saturnem, Uranem a Neptunem) v~časech $t=0,\,10\,000,\,20\,000,\,50\,000\,{\rm let}$ po úvodním izotropním rozpadu. V čase $t=0$ měla všechna tělesa stejnou polohu $x,\,y,\,z$, ale různé rychlosti $v_x,\,v_y,\,v_z$, tedy i různé elementy dráhy, především hlavní poloosu, díky čemuž se lišily i jejich oběžné doby, které se pohybují kolem $4,27$ let. Po $50\,000$ letech lze pozorovat rozprostření podél dráhy ve střední anomálii $M$, což je element, který je nejsnáze měněn perturbacemi.} \label{fig:trajec}
+	\caption{Trojrozměrné polohy $x,\,y,\,z$ několika těles ($N=20$) ze simulované rodiny Eunomia rušené čtyřmi planetami (Jupiterem, Saturnem, Uranem a Neptunem) v~časech $t=0,\,10\,000,\,20\,000,\,50\,000\,{\rm let}$ po úvodním izotropním\protect\footnotemark rozpadu V čase $t=0$ měla všechna tělesa stejnou polohu $x,\,y,\,z$, ale různé rychlosti $v_x,\,v_y,\,v_z$, tedy i různé elementy dráhy, především hlavní poloosu, díky čemuž se lišily i jejich oběžné doby, které se pohybují kolem $4,27$ let. Po $50\,000$ letech lze pozorovat rozprostření podél dráhy ve střední anomálii $M$, což je element, který je nejsnáze měněn perturbacemi.} \label{fig:trajec}
 \end{figure}
+\footnotetext{To je takový rozpad, při kterém se tělesa rozletí rovnoměrně do všech směrů.}.
 
 Rodiny vznikají srážkou dvou planetek, čemuž v~závislosti na poměru velikosti mateřského tělesa a projektilu říkáme buď \I{katastrofický rozpad} (\uv{na malé úlomky}), \I{reakumulační rozpad} (úlomky se působením gravitace \uv{slepí} zpátky) nebo \I{kráterování}. Může se zdát, že srážky jsou v~tak rozlehlém prostoru jako je sluneční soustava velmi málo pravděpodobné, ale v~dlouhém časovém úseku --- $4,5\,\text{miliardy let}$ od vzniku naší sluneční soustavy --- k~srážkám dochází, a mají nejenom vliv na vznik rodin, ale také na jejich následný vývoj (vzniklé fragmenty se spolu nadále srážejí).
 
-Rodiny planetek, které již prošly dlouhodobým vývojem, se samozřejmě na obloze nejeví jako skupina společně letících planetek, kvůli rozdílné velké poloose $a$, resp.\ oběžné době $T$ se totiž záhy rozptýlí ve střední anomálii $M$, jak lze vidět na obrázku~\ref{fig:trajec}.
+Rodiny planetek, které již prošly dlouhodobým vývojem, se samozřejmě na obloze nejeví jako skupina společně letících planetek, kvůli rozdílné hlavní poloose $a$, resp.\ oběžné době $T$ se totiž záhy rozptýlí ve střední anomálii $M$, jak lze vidět na obrázku~\ref{fig:trajec}.
 
 \subsection{Metody identifikace rodin} \label{sec:metodyiden}
 Nejpoužívanější metodou pro identifikaci rodin planetek je \I{hierarchická shlukovací metoda} (HCM) \cite{zappala90}. Spočívá v~tom, že si v~trojrozměrném prostoru vlastních elementů ($a_{\rm p},\,e_{\rm p},\,i_{\rm p}$) zvolíme metriku --- veličinu, kterou budeme popisovat vzdálenost dvou těles, a poté, pomocí zvolené hraniční \I{vzájemné} vzdálenosti, určíme, která tělesa patří do rodiny. Tato metrika má přitom jednotku rychlosti, aby ji bylo možné porovnávat s rychlostmi výhozu fragmentů. Je určena vztahem
@@ -429,7 +403,7 @@ Jarkovského jev, který je pojmenován po Ivanu Ospichovi Jarkovskému\footnote
 
 		\includegraphics[width=0.8\textwidth]{obr/jarkovskeho_jev.png}
 	\caption{Denní a roční varianta Jarkovského jevu. Šedivé šipky
-	označují zbytkovou sílu, která působí na těleso. (a) Denní Jarkovského jev, když se těleso otáčí kolem osy kolmé k oběžné dráze. V tomto případě se těleso natočí teplejší stranou vždy \uv{za sebe}, tepelná emisí pak vzniká zbytková síla, jejíž jedna složka působí ve směru pohybu tělesa, velká poloosa se tedy bude zvětšovat. (b) Roční Jarkovského jev, s rotační osou ležící v orbitální rovině. Ohřívání přivrácené polokoule, zejména v bodech A a C, a opožděná emise tepelného záření, zvláště v bodě B a D, způsobují zbytkovou sílu, jejíž jedna složka směřuje proti pohybu tělesa, tudíž velká poloosa se bude zmenšovat. Převzato z~\cite{fmt}.} \label{fig:jarko}
+	označují zbytkovou sílu, která působí na těleso. (a) Denní Jarkovského jev, když se těleso otáčí kolem osy kolmé k oběžné dráze. V tomto případě se těleso natočí teplejší stranou vždy \uv{za sebe}, tepelná emisí pak vzniká zbytková síla, jejíž jedna složka působí ve směru pohybu tělesa, hlavní poloosa se tedy bude zvětšovat. (b) Roční Jarkovského jev, s rotační osou ležící v orbitální rovině. Ohřívání přivrácené polokoule, zejména v bodech A a C, a opožděná emise tepelného záření, zvláště v bodě B a D, způsobují zbytkovou sílu, jejíž jedna složka směřuje proti pohybu tělesa, tudíž hlavní poloosa se bude zmenšovat. Převzato z~\cite{fmt}.} \label{fig:jarko}
 \end{figure}
 
 Rozlišujeme dvě varianty Jarkovského jevu --- denní a roční. Jejich rozdíl je popsán v~\ref{fig:jarko}. Výsledná změna hlavní poloosa je samozřejmě důsledkem kombinace obou variant, pro tělesa s hodnotou šikmosti (obliquity)\footnote{Obliquita je úhel mezi rotační osou tělesa a kolmicí k dráze, obliquita $0^\circ$ a $180^\circ$ značí rotační osu kolmou na ekliptiku, přičemž $0^\circ$ je tzv.\ prográdní rotace (těleso vlivem Jarkovského efektu zrychluje) a $180^\circ$ tzv.\ retrográdní rotace (těleso zpomaluje)} blízko $0^\circ$ nebo $180^\circ$ dominuje denní varianta, zatímco pro obliquitu kolem $90^\circ$ je roční varianta silnější. Dále pro tělesa s rychlejší rotační periodou (řádově menší než oběžná doba) je silnější denní varianta, a pro tělesa s delší rotační periodou roční varianta. 
@@ -456,7 +430,7 @@ Rozšířit! Informace o prvním objevení.???
 
 \section{Identifikace členů}
 
-V této práci byla k identifikaci členů rodiny Eunomia použita \textit{hierarchická shlukovací metoda}, popsaná v části~\ref{sec:metodyiden}. Závislost počtu členů rodiny na hraniční rychlosti lze vidět na obrázku~\ref{fig:Nv}. Můžeme pozorovat, že rodina Eunomia je dobře oddělená od ostatních rodin --- jedinou blízkou rodinou je rodina Adeona, jejíž planetky ale nejsou součástí rodiny Eunomia. K dalším výpočtům jsme použili hodnotu $v_{\rm cutoff}=44\,{\rm m/s}$, při které počet členů rodiny před odstraněním přimísených těles činil 6503.
+V této práci jsme k identifikaci členů rodiny Eunomia použili \textit{hierarchickou shlukovací metodu}, popsanou v části~\ref{sec:metodyiden}. Závislost počtu členů rodiny na hraniční rychlosti lze vidět na obrázku~\ref{fig:Nv}. Můžeme pozorovat, že rodina Eunomia je dobře oddělená od ostatních rodin --- jedinou blízkou rodinou je rodina Adeona, jejíž planetky ale nejsou součástí rodiny Eunomia. K dalším výpočtům jsme použili hodnotu $v_{\rm cutoff}=44\,{\rm m/s}$, při které počet členů rodiny před odstraněním přimísených těles činil 6503.
 
 \begin{figure}
 	\centering
@@ -468,7 +442,7 @@ V této práci byla k identifikaci členů rodiny Eunomia použita \textit{hiera
 \subsection{Přimísená tělesa} \label{sec:interlopers}
 %Odstranění interlopers, barevné indexy, SLOAN, WISE, ref na Nejistoty veřejných dat.
 
-Prvním mechanismem k odstranění přimísených těles je graf závislosti vlastní velké poloosy $a_{\rm p}$ a \textit{absolutní hvězdné velikosti} $H$ \footnote{\textit{Absolutní hvězdná velikost} neboli \textit{magnituda} $H$ je taková \textit{zjevná hvězdná velikost}, kterou by těleso mělo, kdyby bylo vzdálené 10 parseků (jeden parsek je vzdálenost, z níž má 1 astronomická jednotka úhlovou velikost 1 vteřiny), neboli přibližně 32,6 světelných let. Obecně pro hvězdné velikosti platí Pogsonova rovnice
+Prvním mechanismem k odstranění přimísených těles je závislost unášení ve vlastní hlavní poloose $\Delta a_{\rm p}$ a \textit{absolutní hvězdné velikosti} $H$\footnote{\textit{Absolutní hvězdná velikost} neboli \textit{magnituda} $H$ je taková \textit{zjevná hvězdná velikost}, kterou by těleso mělo, kdyby bylo vzdálené 10 parseků (jeden parsek je vzdálenost, z níž má 1 astronomická jednotka úhlovou velikost 1 vteřiny), neboli přibližně 32,6 světelných let. Obecně pro hvězdné velikosti platí Pogsonova rovnice
 \begin{align*}
 	M_2-M_1=-2,5\log\left(\frac{L_2}{L_1}\right)\,,
 \end{align*}
@@ -481,7 +455,7 @@ přičemž zjevnou hvězdnou velikost $m$ můžeme vypočítat jako
 	m=5(\log d -1)-2,5\log\left(\frac{L}{L_0}\right)\,,
 \end{align*}
 kde $d$ označuje vzdálenost tělesa od pozorovatele v parsecích.~\cite{fmt}} 
-(obrázek~\ref{fig:aH_wise}), na kterém lze pozorovat vliv Jarkovského jevu a YORPu. Platí, že unášení v hlavní poloose je větší pro menší tělesa, protože obsah povrchu planetky, kterému je úměrná síla Jarkovského jevu, roste s druhou mocninou poloměru, zatímco objem, kterému je úměrná hmotnost, roste s třetí mocninou poloměru. Tím lze odstranit tělesa, která se vzhledem k jejich hvězdné velikosti nemohla po původním rozpadu dostat na grafu $(a_{\rm p},\,H)$ tam, kde jsou. Tuto závislost lze modelovat funkcí 
+(obrázek~\ref{fig:aH_wise}), způsobená vlivem Jarkovského jevu a YORPu. Platí, že unášení v hlavní poloose je větší pro menší tělesa, protože obsah povrchu planetky, kterému je úměrná síla Jarkovského jevu, roste s druhou mocninou poloměru, zatímco objem, kterému je úměrná hmotnost, roste s třetí mocninou poloměru. Tím lze odstranit tělesa, která se vzhledem k jejich hvězdné velikosti nemohla po původním rozpadu dostat na grafu $(a_{\rm p},\,H)$ tam, kde jsou. Tuto závislost lze modelovat funkcí 
 \begin{align}
 	H=5\log\left(\frac{\Delta a_{\rm p}}{C}\right)\,,
 \end{align}
@@ -493,7 +467,7 @@ kde $H$ označuje absolutní magnitudu, $\Delta a_{\rm p}$ vzdálenost v hlavní
 	\label{fig:aH_wise}
 \end{figure}
 
-Další metodou k odstranění přimísených těles jsou metody spektroskopické, tedy zkoumající světelné charakteristiky těles. První z nich je graf závislosti albed\footnote{Geometrické albedo je poměr zářivosti tělesa ku zářivosti ideálního bezztrátového disku o stejném průřezu.~\cite{fmt}} $p_{\rm V}$, resp. $p_{\rm IR}$ ve viditelném, resp.infračerveném spektru. Pokud uvažujeme, že původní těleso bylo homogenní, měly by všechny vzniklé úlomky mít podobné albeda, čímž lze vyřadit tělesa, která očividně nemohla vzniknout ze stejného mateřského tělesa. Závislost $(p_{\rm V},\,p_{\rm IR}$) lze vidět na obrázku~\ref{fig:pV_pIR}, v jehož popisku lze také najít zvolené krajní hodnoty, které jsme zvolili pouze pro albedo $p_{\rm V}$, protože albedo $p_{\rm IR}$ je mu přímo úměrné.
+Další metodou k odstranění přimísených těles jsou metody spektroskopické, tedy zkoumající světelné charakteristiky těles. První z nich je graf závislosti albed\footnote{Geometrické albedo je poměr zářivosti tělesa ku zářivosti ideálního bezztrátového disku o stejném průřezu.~\cite{fmt}} $p_{\rm V}$, resp. $p_{\rm IR}$ ve viditelném, resp. infračerveném spektru. Pokud uvažujeme, že původní těleso bylo homogenní, měly by všechny vzniklé úlomky mít podobné albeda, čímž lze vyřadit tělesa, která očividně nemohla vzniknout ze stejného mateřského tělesa. Závislost $(p_{\rm V},\,p_{\rm IR}$) lze vidět na obrázku~\ref{fig:pV_pIR}, v jehož popisku lze také najít zvolené krajní hodnoty, které jsme zvolili pouze pro albedo $p_{\rm V}$, protože albedo $p_{\rm IR}$ je mu přímo úměrné.
 
 \begin{figure}
 	\centering
@@ -502,8 +476,7 @@ Další metodou k odstranění přimísených těles jsou metody spektroskopick�
 	\label{fig:pV_pIR}
 \end{figure}
 
-Podobně jako předtím můžeme identifikovat přimísená tělesa pomocí jejich barevných indexu $a^*$ a $i-z$ tentokrát z katalogu SLOAN, který používá fotometrický systém skládající se z pěti filtrů $u,\,g,\,r,\,i,\,z$, přičemž každý z nich propouští světlo o dané vlnové délce. Zmíněné veličiny 
-$u,\,g,\,r,\,i,\,z$ pak označují intenzitu světla o této vlnové délce. Veličina $a^*$ je definována vztahem~\cite{ivezic01}
+Podobně jako předtím můžeme identifikovat přimísená tělesa pomocí jejich barevných indexu $a^*$ a $i-z$ tentokrát z katalogu SDSS (Sloan Digital Sky Survey), který používá fotometrický systém skládající se z pěti filtrů $u,\,g,\,r,\,i,\,z$, přičemž každý z nich propouští světlo o dané vlnové délce. Zmíněné veličiny $u,\,g,\,r,\,i,\,z$ pak označují intenzitu světla o této vlnové délce. Veličina $a^*$ je definována vztahem~\cite{ivezic01}
 \begin{align}
 	a^ *= 0,89 (g - r) + 0,45 (r - i) - 0,57\,.
 \end{align}
@@ -539,7 +512,7 @@ Jedním z nejdůležitějších úkonů, které je nutno provést před spuště
 \end{align}
 kde $a$ označuje hlavní poloosu, $e$ excentricitu, $I$ sklon, $n$ střední pohyb, $f$ pravou anomálii, $E$ excentrickou anomálii (viz obrázek~\ref{fig:E}), $\omega$ argument pericentra (viz obrázek~\ref{fig:elip}) a $r$ vzdálenost od centrálního tělesa. Převzato z~\cite{fmt}.
 
-Jak můžeme vidět jak v Gaussových rovnic, tak na obrázku~\ref{fig:ae_ai_wise}, na hlavní poloosu a excentricitu má vliv pouze hodnota $f$, zatímco na sklon má vliv pouze hodnota $\omega+f$. Pomocí vizuální kontroly s pozorovanou rodinou v prostorech $(a,\,e)$ a $(a,\,i)$ byly zvoleny hodnoty $f=90^\circ$ a $\omega+f=50^\circ$.
+Jak můžeme vidět jak v Gaussových rovnicích, tak na obrázku~\ref{fig:ae_ai_wise}, na hlavní poloosu a excentricitu má vliv pouze hodnota $f$, zatímco na sklon má vliv pouze hodnota $\omega+f$. Vizuální kontrolou s pozorovanou rodinou v prostorech $(a,\,e)$ a $(a,\,i)$ jsme zvolili hodnoty $f=90^\circ$ a $\omega+f=50^\circ$.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{obr/ae_wise}
@@ -552,20 +525,20 @@ Nevím, nepsat???
 
 \pagebreak
 \section{Simulace orbitálního vývoje}
-Konečně se dostáváme k části, kde budeme vlastní rodinu Eunomia simulovat po mnoho miliónů let. Krátkodobý výpočet problému $N$ těles byl proveden k vytvoření obrázku~\ref{fig:trajec}, nicméně takový výpočet nám neříká nic zajímavého o dynamické struktuře rodiny Eunomia a o jejím stáří. K těmto účelům se musí rodina simulovat po několik (přesněji 4) miliard let a posléze analyzovat její vzhled v prostorech $(a,\,e)$ a $(a,\,i)$ a její rozdělení velikostí.
+Konečně se dostáváme k části, kde budeme vlastní rodinu Eunomia simulovat po mnoho miliónů let. Krátkodobý výpočet problému $N$ těles byl proveden k vytvoření obrázku~\ref{fig:trajec}, nicméně takový výpočet nám neříká nic zajímavého o dynamické struktuře rodiny Eunomia a o jejím stáří. K těmto účelům se musí rodina simulovat po několik, přesněji čtyři, miliardy let a posléze analyzovat její vzhled v prostorech $(a,\,e)$ a $(a,\,i)$ a její rozdělení velikostí.
 
 \subsection{Dlouhodobé simulace}
 %Popis experimentu (údaje o~výpočetní technice)
 K dlouhodobé simulaci používáme upravený balíček SWIFT \cite{levison94}, s přidanými výpočty pro denní i roční Jarkovského jev, YORP efekt, náhodné srážky (kolizní reorientace os), úbytek hmoty způsobený otáčením tělesa a filtry k výpočtu středních a vlastních elementů (viz kap.~\ref{sec:orbelem}). Úpravy jsou popsány v~\cite{broz11}.
 
-Výpočet byl proveden na výpočetním clusteru Astronomického ústavu Univerzity Karlovy V Holešovičkách 747/2, spravovaném panem M. Brožem. ??? Údaje o počtu procesorů a tak?
+Simulace byla spuštěna na výpočetním clusteru Astronomického ústavu Univerzity Karlovy V Holešovičkách 747/2. ??? Údaje o počtu procesorů a tak?
 
-Vzhledem k časové náročnosti výpočtu a obsazenosti clusteru se nám podařilo tělesa simulovat pouze po dobu jedné miliardy let, navíc jsme byli nuceni některé skupiny částic simulace restartovat po výpadku proudu, což způsobuje úbytek částic kolem $450$ milionů let a $900$ milionů let. Pokusíme se tedy z takto získaných dat extrapolací odhadnout stáří této rodiny
+Vzhledem k časové náročnosti výpočtu a obsazenosti clusteru se nám podařilo tělesa simulovat pouze po dobu jedné miliardy let, navíc jsme byli nuceni některé skupiny částic simulace restartovat po výpadku proudu, což způsobuje úbytek částic kolem $450$ milionů let a $900$ milionů let. vůbec to tady nepřiznávat??? I tak jsem ale získali velmi hodnotná data, která nám například můžou říct, zda-li nelze rodinu Eunomia vysvětlit jako mladou rodinu.
 
 \pagebreak
 \section{Porovnání simulace a pozorování}
 
-Na následujících několika obrázcích můžeme vidět simulovanou rodinu Eunomia v prostorech $(a_{\rm p},\,e_{\rm p})$, $(a_{\rm p}, \sin I_{\rm p})$ a $(e_{\rm p},\,\sin I_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let. Z důvodu velkého počtu dat byly výstupní soubory \uv{zprůměrovány} po $10$ milionech let metodou klouzavého okna\footnote{Jednoduše řečeno se pro každou planetku v nepřekrývajících časových intervalech o délce $10$ miliónů let spočetl aritmetický průměr hodnot elementů dráhy a tyto průměry byly uloženy do nového souboru s časovým údajem v půlce intervalu (proto začínáme na $5$ miliónech let a ne na $0$).}.
+Na následujících několika obrázcích můžeme vidět simulovanou rodinu Eunomia v porovnání s rodinou pozorovanou a pozadím v prostorech $(a_{\rm p},\,e_{\rm p})$, $(a_{\rm p}, \sin I_{\rm p})$ a $(e_{\rm p},\,\sin I_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let. Z důvodu velkého počtu dat byly výstupní soubory \uv{zprůměrovány} po $10$ milionech let metodou klouzavého okna\footnote{Jednoduše řečeno se pro každou planetku v nepřekrývajících časových intervalech o délce $10$ miliónů let spočetl aritmetický průměr hodnot elementů dráhy a tyto průměry byly uloženy do nového souboru s časovým údajem v půlce intervalu (proto začínáme na $5$ miliónech let a ne na $0$).}.
 
 \immediate\write18{convert -trim obr/ae_5.png obr/ae_5t.png}
 \immediate\write18{convert -trim obr/ae_105.png obr/ae_105t.png}
@@ -578,18 +551,17 @@ Na následujících několika obrázcích můžeme vidět simulovanou rodinu Eun
 	\includegraphics[width=0.49\textwidth]{obr/ae_405t.png}
 	\includegraphics[width=0.49\textwidth]{obr/ae_905t.png}
 	\caption{Výsledky simulace v prostoru $(a_{\rm p},\,e_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let. Fialové body označují simulovanou rodinu, modré tečky pozorovanou rodinu identifikovanou HCM a šedé pozadí a jiné okolní rodiny. Jsou také značeny nejvýznamější rezonance s Jupiterem J3/1, J8/3, J13/5 a J5/2. Černá křivka nahože označje hranici oblasti, kde je hlavní poloosa a excentricita tělesa taková, že dráha kříží dráhu Marsu. Podobná hranice existuje i pro Jupiter, ale ta se nachází mimo tyto grafy (přibližně kolem $e=0,65$). } \label{fig_ae_sim}
-\end{figure}
+\end{figure}	
 
-Úvodní rozpad byl izotropní, ale kvůli specifickému výpočtu vlastních elementů dráhy z únikových rychlost pomocí Gaussových rovnic můžeme v čase $T=5\,{\rm My}$ pozorovat mírně nesymetrický tvar simulované rodiny. Dále si můžeme všimnout, že počáteční rodina je o něco větší než rodina pozorováná, což nám ale nevadí, protože vždy můžeme vybrat pouze podmnožinu planetek (neinteragují spolu). 
+Úvodní rozpad v simulaci byl izotropní, ale kvůli specifickému výpočtu vlastních elementů dráhy z únikových rychlostí pomocí Gaussových rovnic můžeme v čase $T=5\,{\rm My}$ pozorovat mírně nesymetrický tvar simulované rodiny. Dále si můžeme všimnout, že počáteční rodina je o něco větší než rodina pozorovaná, což nám ale nevadí, protože vždy můžeme vybrat pouze podmnožinu planetek (neinteragují spolu).
 
-Lze pozorovat vliv rezonancí --- u těch nejsilnější (J3/1 a J5/2) se planetky nejvíce vychylují, když se nachází v oblasti tzv. separatrixy (šikmá hranice před a za rezonancí), načež se jejich excentricity začnou zvyšovat, čímž se dostanou do oblasti, kde kříží dráhy Marsu nebo Jupitera, což znamená, že se planetka dřív nebo později některé z těchto planet přiblíží a je prudce vychýlena ze své dráhy. U rezonance J3/1 lze vidět u některých těles naopak pokles excentricity, to ale může být znovu důsledek specifického výpočtu vlastní elementů dráhy (neexistuje žádný fyzikální význam). 
+Lze pozorovat vliv rezonancí --- u těch nejsilnější (J3/1 a J5/2) se planetky nejvíce vychylují, když se nachází v oblasti tzv. separatrixy (šikmá hranice před a za rezonancí), načež se jejich excentricity začnou zvyšovat, čímž se dostanou do oblasti, kde kříží dráhy Marsu nebo Jupitera, což znamená, že se planetka dřív nebo později některé z těchto planet přiblíží a je prudce vychýlena ze své dráhy. U rezonance J3/1 lze vidět u některých těles naopak pokles excentricity, to ale může být znovu důsledek specifického výpočtu vlastní elementů dráhy (neexistuje žádný fyzikální význam).
 
-Kromě těchto dvou rezonancí lze také vidět vliv rezonancí vyšších řádů --- J8/3 a J13/5 jasně rozdělují planetky simulované rodiny do oblastí mezi rezonancemi, ze kterých planetky zřídkakdy přecházejí do jiné oblasti. Rezonance J8/3 je silnější, a proto se tělesa v její blízkosti v čase $T=105$ miliónů let rozšířila do pásu o velikosti $0,05<e_{\rm p}<0,5$, zatímco v blízkosti rezonance J13/5 pouze do pásu o velikosti $0,1<e_{\rm p}<0,23$.
+Kromě těchto dvou rezonancí lze také vidět vliv rezonancí vyšších řádů --- J8/3 a J13/5 jasně rozdělují planetky simulované rodiny do oblastí mezi rezonancemi, ze kterých planetky zřídkakdy přecházejí do jiné oblasti. Vzhledem k tomu, že na prvním obrázku jsou zprůměrovaná data z prvních $10$ miliónů let, můžeme vidět, že se planetky, které se zřejmě počátečně nacházely v blízkosti rezonancí J3/1, J8/3 a J13/5, stihly rozptýlit narušily tak jinak zatím pravidelný tvar rodiny. Dále se potvrzuje, že rezonance J8/3 je silnější než rezonance J13/5, protože se planetky v její blízkosti v čase $T=105$ miliónů let rozšířily do pásu o velikosti $0,05<e_{\rm p}<0,5$, zatímco v blízkosti rezonance J13/5 pouze do pásu o velikosti $0,1<e_{\rm p}<0,23$.
 
 V populaci pozadí lze také vidět velice slabé rezonance na $a\approx2,62\,{\rm AU}$ a $a\approx2,66\,{\rm AU}$ --- jejich působení na simulovanou rodinu nelze vidět na obrázcích v této práci, lze ale jejich velmi nepatrný vliv vidět při procházení všech obrázků z celé simulace.
 
-Jednou z nezodpovězených otázek týkajících se této rodiny je, zda-li nepokračuje za rezonanci J5/2~\cite{nesvorny15}. Tento návrh můžeme ale i z této částečné simulace s jistotou vyvrátit, protože planetky rezonanci až na výjimky (viz obrázek ~\ref{fig:ae_sim} $t=405\,{\rm My}$) nepřeskakují, ale jsou jí vychylovány do oblastí křížení drah Marsu nebo Jupitera. 
-
+Jednou z nezodpovězených otázek týkajících se této rodiny je, zda-li nepokračuje za rezonanci J5/2~\cite{nesvorny15}. Tento návrh můžeme ale i z této částečné simulace s jistotou vyvrátit, protože planetky rezonanci J5/2 až na výjimky (viz obrázek ~\ref{fig:ae_sim} $t=405\,{\rm My}$) nepřeskakují, ale jsou jí vychylovány do oblastí křížení drah Marsu nebo Jupitera.
 
 \immediate\write18{convert -trim obr/ai_5.png obr/ai_5t.png}
 \immediate\write18{convert -trim obr/ai_105.png obr/ai_105t.png}
@@ -604,6 +576,8 @@ Jednou z nezodpovězených otázek týkajících se této rodiny je, zda-li nepo
 	\caption{Výsledky simulace v prostoru $(a_{\rm p},\,\sin I_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let.} \label{fig:ai_sim}
 \end{figure}
 
+Na obrázcích $(a,\,\sin I_{\rm p})$ lze znovu pozorovat působení rezonancí, tentokrát s účinkem zvyšování sklnoů. Ačkoliv jádro simulované rodiny se zdá v souladu s pozorovanou rodinou, můžeme pozorovat mírné \uv{naklonění} pozrované rodiny, čehož si na rodině simulované všimnout zatím nemůžeme, tento jev se nám tedy nepodařilo vysvětlit.
+
 \immediate\write18{convert -trim obr/ei_5.png obr/ei_5t.png}
 \immediate\write18{convert -trim obr/ei_105.png obr/ei_105t.png}
 \immediate\write18{convert -trim obr/ei_405.png obr/ei_405t.png}
@@ -614,17 +588,69 @@ Jednou z nezodpovězených otázek týkajících se této rodiny je, zda-li nepo
 	\includegraphics[width=0.49\textwidth]{obr/ei_105t.png}\\
 	\includegraphics[width=0.49\textwidth]{obr/ei_405t.png}
 	\includegraphics[width=0.49\textwidth]{obr/ei_905t.png}
-	\caption{Výsledky simulace v prostoru $(e_{\rm p},\,i_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let.} \label{fig:ei_sim}
+	\caption{Výsledky simulace v prostoru $(e_{\rm p},\,\sin I_{\rm p})$ v časech postupně $5$, $105$, $405$ a $905$ miliónů let.} \label{fig:ei_sim}
 \end{figure}
+Obrázek prostoru $(a_{\rm p},\,e_{\rm p})$ je hlavně zajímavý tím, že na něm lze jasně vidět okolní rodiny a jak dochází ke kontaminaci jejich členů s s členy rodiny Eunomia. Také proto byl tento obrázek použit pro vybrání vzorku populace pozadí pro výpočty na odhad stáří v následující kapitole.
 
 \section{Odhad stáří}
 
-K odhadu stáří rodiny použijeme statistickou metodu, popsanou v~\cite{broz11}, která funguje na principu rozdělení planetek jak pozorované, tak simulované rodiny do \uv{boxů} a následném porovnání počtů pozorovaných a simulovaných planetek v jednotlivých boxech.
+K odhadu stáří rodiny jsme použili metodu blackbox, popsanou v~\cite{broz19}, která funguje na principu rozdělení planetek jak pozorované, tak simulované rodiny do \uv{boxů} v prostoru $(a_{\rm p},\,e_{\rm p},\,\sin I_{\rm p})$ a následném porovnání počtů pozorovaných a simulovaných planetek v jednotlivých boxech. Na tento jednoduchý princip je pak použita standardní statistická metoda rozdělení chi kvadrátu $\chi^2$ --- pro každý box vypočteme jeho příspěvek k chi kvadrátu $\chi^2$ jako
+\begin{align}
+	\frac{(N_{\rm sim}-N_{\rm obs})^2}{N_{\rm sim}+N_{\rm obs}}\,,
+\end{align}
+kde $N_{\rm sim}$, resp. $N_{\rm obs}$ označuje počet simulovaných, resp. pozorovaných těles v daném boxu. Dělení výrazem $N_{\rm sim}+N_{\rm obs}$ zabraňuje extrémním příspěvkům boxů, kde se $N_{\rm obs}\rightarrow 0$. Výslednou hodnotu chi kvadártu potom dostaneme pouze sečtením všech $n_{\rm box}$ příspěvků.
 
-Prvním krokem k provedení této metody je určení boxů. Protože se oblast mezi rezonancemi J8/3 a J13/5 zdá pro stáří rodiny významná, zvolili jsme boxy tak, aby se ve velké poloose mezi tyto rezonance vešly přesně tři. Dále jsme přidali $12$ boxů nalevo a $5$ napravo, to znamená, že spodní hranice celé oblasti je asi na $2,52\,{\rm AU}$ a horní asi na $2,81$
+Prvním krokem k provedení této metody je tedy určení samotných boxů. Protože se oblast mezi rezonancemi J8/3 a J13/5 zdá pro stáří rodiny velmi významná, zvolili jsme boxy tak, aby se v hlavní poloose mezi tyto rezonance vešly přesně tři. Dále jsme přidali $12$ boxů nalevo a $5$ napravo, to znamená, že spodní hranice celé oblasti je přibližně před rezonancí J3/1 a horní přibližně před rezonancí J5/2. V ostatních elementech jsme zvolili tak, aby nenastala kontaminace planetky okolních rodin. Celkově jsme tedy boxy definovali takto:
 
 
-\chapter{Závěr}
+\begin{center}
+\begin{tabularx}{0.8\textwidth}{|X||c|c|c|}
+	\hline
+	& Spodní mez & Horní mez & Velikost  \\
+	\hline \hline
+	Vlastní hlavní poloosa $a_{\rm p}$ & $2,522\,{\rm AU}$ & $2,844\,{\rm AU}$ & $0,0153\,{\rm AU}$ \\
+	\hline
+	Vlastní excentricita $e_{\rm p}$ & $0,1$ & $0,23$ & $0,02$ \\
+	\hline
+	Vlastní sklon $\sin I_{\rm p}$ & $0,2$ & $0,25$ & $0,05$ \\
+	\hline
+\end{tabularx}
+\end{center}
+
+Dalším krokem je zvolení populace pozadí, kterou vybereme z pozorovaných dat a \uv{smícháme} ji se simulovanou rodinou tak, aby byl celkový počet planetek srovnatelný s celkovým počtem pozorovaných planetek, Jako populaci pozadí jsme po konzultaci obrázku~\ref{fig:ei_sim} vybrali populaci z $2,5 < a_{\rm p} < 2,7\,, 0,19 < e_{\rm p} < 0,22\,, 0,2 < \sin I_{\rm p} < 0,25$. Princip \uv{smíchání} je takový, že vezmeme pouze rozdělení velikostí planetek z vybraného boxu a ve stejném poměru náhodně vybereme planetky z toho rozdělení vždy, když potřebujeme \uv{doplnit} simulovanou rodinu o tělesa pozadí tak, aby se celkový počet vyrovnal počtu pozorovaných planetek. V blízkosti rezonance J5/2 jsme žádná tělesa pozadí nevybírali, protože v realitě je tento prostor víceméně prázdný, kvůli působení rezonance, takže rovnoměrné rozprostírání těles pozadí do toho prostoru by nedávalo smysl.
+
+Simulovaná rodina se zřejmě vyvíjí správným směrem a lze čekat, že při delší simulaci bychom dostali nějakou minimální hodnotu chi kvadrátu, kterou bychom mohli určit stáří této rodiny, nicméně prozatím můžeme jenom říct, že rodina Eunomia je pravděpodobně starší než půl miliardy let.
+
+\immediate\write18{convert -trim obr/ae_chi_0006.png obr/ae_chi_0006t.png}
+\immediate\write18{convert -trim obr/ae_chi_0106.png obr/ae_chi_0106t.png}
+\immediate\write18{convert -trim obr/ae_chi_0406.png obr/ae_chi_0406t.png}
+\immediate\write18{convert -trim obr/ae_chi_empty.png obr/ae_chi_emptyt.png}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.49\textwidth]{obr/ae_chi_0006t.png}
+	\includegraphics[width=0.49\textwidth]{obr/ae_chi_0106t.png}\\
+	\includegraphics[width=0.49\textwidth]{obr/ae_chi_0406t.png}
+	\includegraphics[width=0.49\textwidth]{obr/ae_chi_emptyt.png}
+	\caption{} \label{fig:ae_chi2}
+\end{figure}
+
+\immediate\write18{convert -trim obr/ae_scl_0466.png obr/ae_scl_0466t.png}
+\immediate\write18{convert -trim obr/ae_obs.png obr/ae_obst.png}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.49\textwidth]{obr/ae_scl_0456.png}
+	\includegraphics[width=0.49\textwidth]{obr/ae_obs.png}\\
+	\caption{} \label{fig:ae_obs_scl}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{obr/chi2.eps}
+	\caption{} \label{fig:chi2}
+\end{figure}
+
+
+\chapter{Závěr} \label{ch:zaver}
 
 %{{{ Bibliografie
 \newpage
@@ -665,7 +691,29 @@ def kepler(M, e):
     return E2
 \end{lstlisting}
 	\chapter{Výpočet polohy tělesa z~oskulačních elementů} \label{app:el2xyz}
-	Kód na výpočet polohy tělesa $x,\,y,\,z$ z oskulačních elementů $a,\,e,\,i,\,\omega,\,\Omega,\,M$. Vstupním souborem je \I{bin.out}, což je výstupní soubor integrátoru SWIFT (nutno však nejprve použít program \I{follow2} na získání dat z binárního souboru $bin.dat$), který má formát prostého textu, kde jsou jednotlivé sloupce oddělené tabulátory. Výstup programu je ve formátu $t\,[{\rm Yr}]\ x\,[{\rm AU}]\ y\,[{\rm AU}]\ z\,[{\rm AU}]$ a lze ho použít pro vygenerování animace jako v~\ref{fig:trajec}.
+\begin{enumerate}[label=\arabic*.]
+	\item Z~Keplerovy rovnice \eqref{eq:kepler} některou ze jmenovaných metod (aproximační, iterační nebo numerickou) vypočítáme velikost excentrické anomálie $E$ ze střední anomálie $M$.
+	\item Vztah \eqref{eq:fE} upravíme a spočteme pravou anomálii $f$
+		\begin{align}
+			f = 2\arctg\left(\sqrt{\frac{1+e}{1-e}}\tg \frac{E}{2}\right)\,.
+		\end{align}
+	\item Pomocí vztahu 
+\vspace{-12pt}
+		\begin{align}
+			r=a(1-e\cos E)\,,
+		\end{align}
+		vypočítáme velikost $r$ --- relativní vzdálenost tělesa od Slunce.
+	\item Pomocí vztahů
+\vspace{-12pt}
+		\begin{align}
+			x&=r\left[\cos\Omega\cos(\omega+f)-\sin\Omega\sin(\omega+f)\cos i\right]\,, \\
+			y&=r\left[\sin\Omega\cos(\omega+f)+\cos\Omega\sin(\omega+f)\cos i\right]\,, \\
+			z&=r\sin i\sin(\omega+f)\,,
+		\end{align}
+		vypočítáme $x,\,y,\,z$.
+\end{enumerate}
+
+	Dále můžete nalézt kód na tento výpočet v jazyce \textit{Python}, který byl použit například na vygenerování obrázku krátkodobé simulace~\ref{fig:trajec}. Vstupním souborem je \I{bin.out}, což je výstupní soubor integrátoru SWIFT (nutno však nejprve použít program \I{follow2} na získání dat z binárního souboru $bin.dat$), který má formát prostého textu, kde jsou jednotlivé sloupce oddělené tabulátory. Výstup programu je ve formátu $t\,[{\rm Yr}]\ x\,[{\rm AU}]\ y\,[{\rm AU}]\ z\,[{\rm AU}]$ a lze ho použít pro vygenerování animace jako v~\ref{fig:trajec} pomocí nějakého grafovacího programu, např. \textit{Gnuplotu}.
 	\begin{lstlisting}[language=Python]
 from math import *
 
