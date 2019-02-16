@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  16 FEB 2019 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.28)  16 FEB 2019 15:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **asteroidy.tex
 (./asteroidy.tex
-LaTeX2e <2018-12-01>
+LaTeX2e <2018-04-01> patch level 5
 (/opt/texlive/2018/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/opt/texlive/2018/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -49,7 +49,7 @@ Package babel Info: Making " an active character on input line 172.
 Package babel Info: Making - an active character on input line 226.
 ))
 (/opt/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
@@ -192,14 +192,14 @@ Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 
 (/opt/texlive/2018/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen114
-\ar@mcellbox=\box27
+\ar@mcellbox=\box26
 \extrarowheight=\dimen115
 \NC@list=\toks19
 \extratabsurround=\skip43
 \backup@length=\skip44
-\ar@cellbox=\box28
+\ar@cellbox=\box27
 )
 \TX@col@width=\dimen116
 \TX@old@table=\dimen117
@@ -210,16 +210,15 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@ftn=\toks20
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/01/14 v3.7 Customized lists
+Package: enumitem 2018/11/30 v3.6 Customized lists
 \labelindent=\skip45
 \enit@outerparindent=\dimen121
 \enit@toks=\toks21
-\enit@inbox=\box29
-\enit@count@id=\count103
-\enitdp@description=\count104
+\enit@inbox=\box28
+\enitdp@description=\count103
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2018/12/01 v2.17b AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
@@ -238,30 +237,30 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count105
-LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count106
-\leftroot@=\count107
-LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count108
-\DOTSCASE@=\count109
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box30
-\strutbox@=\box31
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
 \big@size=\dimen124
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count110
-\c@MaxMatrixCols=\count111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
 \dotsspace@=\muskip10
-\c@parentequation=\count112
-\dspbrk@lvl=\count113
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
 \tag@help=\toks23
-\row@=\count114
-\column@=\count115
-\maxfields@=\count116
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
 \andhelp@=\toks24
 \eqnshift@=\dimen125
 \alignsep@=\dimen126
@@ -273,8 +272,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \multlinegap=\skip47
 \multlinetaggap=\skip48
 \mathdisplay@stack=\toks26
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -321,20 +320,20 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen136
 \caption@hangindent=\dimen137
 )
-\c@caption@flags=\count117
-\c@ContinuedFloat=\count118
+\c@caption@flags=\count116
+\c@ContinuedFloat=\count117
 )
-\c@subfigure=\count119
-\c@subtable=\count120
+\c@subfigure=\count118
+\c@subtable=\count119
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/11/26 v1.33 Asymptote style file for LaTeX
 
 (./asteroidy.pre (./asy/asteroidy-3.pre) (./asy/asteroidy-4.pre)
 (./asy/asteroidy-5.pre))
-\ASYbox=\box32
+\ASYbox=\box31
 \ASYdimen=\dimen138
-\c@asy=\count121
+\c@asy=\count120
 \AsyStream=\write3
 \AsyPreStream=\write4
 
@@ -356,24 +355,24 @@ Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count122
-\lst@gtempboxa=\box33
+\lst@mode=\count121
+\lst@gtempboxa=\box32
 \lst@token=\toks33
-\lst@length=\count123
+\lst@length=\count122
 \lst@currlwidth=\dimen139
-\lst@column=\count124
-\lst@pos=\count125
+\lst@column=\count123
+\lst@pos=\count124
 \lst@lostspace=\dimen140
 \lst@width=\dimen141
-\lst@newlines=\count126
-\lst@lineno=\count127
+\lst@newlines=\count125
+\lst@lineno=\count126
 \lst@maxwidth=\dimen142
 
 (/opt/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count128
-\lst@skipnumbers=\count129
-\lst@framebox=\box34
+\c@lstnumber=\count127
+\lst@skipnumbers=\count128
+\lst@framebox=\box33
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2018/09/02 1.7 listings configuration
@@ -385,7 +384,7 @@ Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
 (/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count130
+\lrq@indent=\count129
 
 (/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -394,47 +393,47 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count131
-\c@listtotal=\count132
-\c@listcount=\count133
-\c@liststart=\count134
-\c@liststop=\count135
-\c@citecount=\count136
-\c@citetotal=\count137
-\c@multicitecount=\count138
-\c@multicitetotal=\count139
-\c@instcount=\count140
-\c@maxnames=\count141
-\c@minnames=\count142
-\c@maxitems=\count143
-\c@minitems=\count144
-\c@citecounter=\count145
-\c@maxcitecounter=\count146
-\c@savedcitecounter=\count147
-\c@uniquelist=\count148
-\c@uniquename=\count149
-\c@refsection=\count150
-\c@refsegment=\count151
-\c@maxextratitle=\count152
-\c@maxextratitleyear=\count153
-\c@maxextraname=\count154
-\c@maxextradate=\count155
-\c@maxextraalpha=\count156
-\c@abbrvpenalty=\count157
-\c@highnamepenalty=\count158
-\c@lownamepenalty=\count159
-\c@maxparens=\count160
-\c@parenlevel=\count161
-\blx@tempcnta=\count162
-\blx@tempcntb=\count163
-\blx@tempcntc=\count164
-\blx@maxsection=\count165
-\blx@maxsegment@0=\count166
-\blx@notetype=\count167
-\blx@parenlevel@text=\count168
-\blx@parenlevel@foot=\count169
-\blx@sectionciteorder@0=\count170
-\blx@entrysetcounter=\count171
+\c@tabx@nest=\count130
+\c@listtotal=\count131
+\c@listcount=\count132
+\c@liststart=\count133
+\c@liststop=\count134
+\c@citecount=\count135
+\c@citetotal=\count136
+\c@multicitecount=\count137
+\c@multicitetotal=\count138
+\c@instcount=\count139
+\c@maxnames=\count140
+\c@minnames=\count141
+\c@maxitems=\count142
+\c@minitems=\count143
+\c@citecounter=\count144
+\c@maxcitecounter=\count145
+\c@savedcitecounter=\count146
+\c@uniquelist=\count147
+\c@uniquename=\count148
+\c@refsection=\count149
+\c@refsegment=\count150
+\c@maxextratitle=\count151
+\c@maxextratitleyear=\count152
+\c@maxextraname=\count153
+\c@maxextradate=\count154
+\c@maxextraalpha=\count155
+\c@abbrvpenalty=\count156
+\c@highnamepenalty=\count157
+\c@lownamepenalty=\count158
+\c@maxparens=\count159
+\c@parenlevel=\count160
+\blx@tempcnta=\count161
+\blx@tempcntb=\count162
+\blx@tempcntc=\count163
+\blx@maxsection=\count164
+\blx@maxsegment@0=\count165
+\blx@notetype=\count166
+\blx@parenlevel@text=\count167
+\blx@parenlevel@foot=\count168
+\blx@sectionciteorder@0=\count169
+\blx@entrysetcounter=\count170
 \labelnumberwidth=\skip52
 \labelalphawidth=\skip53
 \biblabelsep=\skip54
@@ -445,9 +444,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip59
 \blx@bcfin=\read1
 \blx@bcfout=\write5
-\c@mincomprange=\count172
-\c@maxcomprange=\count173
-\c@mincompwidth=\count174
+\c@mincomprange=\count171
+\c@maxcomprange=\count172
+\c@mincompwidth=\count173
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -456,74 +455,74 @@ File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count175
-\c@savedafterword=\count176
-\c@annotator=\count177
-\c@savedannotator=\count178
-\c@author=\count179
-\c@savedauthor=\count180
-\c@bookauthor=\count181
-\c@savedbookauthor=\count182
-\c@commentator=\count183
-\c@savedcommentator=\count184
-\c@editor=\count185
-\c@savededitor=\count186
-\c@editora=\count187
-\c@savededitora=\count188
-\c@editorb=\count189
-\c@savededitorb=\count190
-\c@editorc=\count191
-\c@savededitorc=\count192
-\c@foreword=\count193
-\c@savedforeword=\count194
-\c@holder=\count195
-\c@savedholder=\count196
-\c@introduction=\count197
-\c@savedintroduction=\count198
-\c@namea=\count199
-\c@savednamea=\count266
-\c@nameb=\count267
-\c@savednameb=\count268
-\c@namec=\count269
-\c@savednamec=\count270
-\c@translator=\count271
-\c@savedtranslator=\count272
-\c@shortauthor=\count273
-\c@savedshortauthor=\count274
-\c@shorteditor=\count275
-\c@savedshorteditor=\count276
-\c@labelname=\count277
-\c@savedlabelname=\count278
-\c@institution=\count279
-\c@savedinstitution=\count280
-\c@lista=\count281
-\c@savedlista=\count282
-\c@listb=\count283
-\c@savedlistb=\count284
-\c@listc=\count285
-\c@savedlistc=\count286
-\c@listd=\count287
-\c@savedlistd=\count288
-\c@liste=\count289
-\c@savedliste=\count290
-\c@listf=\count291
-\c@savedlistf=\count292
-\c@location=\count293
-\c@savedlocation=\count294
-\c@organization=\count295
-\c@savedorganization=\count296
-\c@origlocation=\count297
-\c@savedoriglocation=\count298
-\c@origpublisher=\count299
-\c@savedorigpublisher=\count300
-\c@publisher=\count301
-\c@savedpublisher=\count302
-\c@language=\count303
-\c@savedlanguage=\count304
-\c@origlanguage=\count305
-\c@savedoriglanguage=\count306
-\c@pageref=\count307
-\c@savedpageref=\count308
+\c@afterword=\count174
+\c@savedafterword=\count175
+\c@annotator=\count176
+\c@savedannotator=\count177
+\c@author=\count178
+\c@savedauthor=\count179
+\c@bookauthor=\count180
+\c@savedbookauthor=\count181
+\c@commentator=\count182
+\c@savedcommentator=\count183
+\c@editor=\count184
+\c@savededitor=\count185
+\c@editora=\count186
+\c@savededitora=\count187
+\c@editorb=\count188
+\c@savededitorb=\count189
+\c@editorc=\count190
+\c@savededitorc=\count191
+\c@foreword=\count192
+\c@savedforeword=\count193
+\c@holder=\count194
+\c@savedholder=\count195
+\c@introduction=\count196
+\c@savedintroduction=\count197
+\c@namea=\count198
+\c@savednamea=\count199
+\c@nameb=\count266
+\c@savednameb=\count267
+\c@namec=\count268
+\c@savednamec=\count269
+\c@translator=\count270
+\c@savedtranslator=\count271
+\c@shortauthor=\count272
+\c@savedshortauthor=\count273
+\c@shorteditor=\count274
+\c@savedshorteditor=\count275
+\c@labelname=\count276
+\c@savedlabelname=\count277
+\c@institution=\count278
+\c@savedinstitution=\count279
+\c@lista=\count280
+\c@savedlista=\count281
+\c@listb=\count282
+\c@savedlistb=\count283
+\c@listc=\count284
+\c@savedlistc=\count285
+\c@listd=\count286
+\c@savedlistd=\count287
+\c@liste=\count288
+\c@savedliste=\count289
+\c@listf=\count290
+\c@savedlistf=\count291
+\c@location=\count292
+\c@savedlocation=\count293
+\c@organization=\count294
+\c@savedorganization=\count295
+\c@origlocation=\count296
+\c@savedoriglocation=\count297
+\c@origpublisher=\count298
+\c@savedorigpublisher=\count299
+\c@publisher=\count300
+\c@savedpublisher=\count301
+\c@language=\count302
+\c@savedlanguage=\count303
+\c@origlanguage=\count304
+\c@savedoriglanguage=\count305
+\c@pageref=\count306
+\c@savedpageref=\count307
 \shorthandwidth=\skip60
 \shortjournalwidth=\skip61
 \shortserieswidth=\skip62
@@ -549,13 +548,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count309
-\c@textcitetotal=\count310
-\c@textcitemaxnames=\count311
-\c@biburlnumpenalty=\count312
-\c@biburlucpenalty=\count313
-\c@biburllcpenalty=\count314
-\c@smartand=\count315
+\c@textcitecount=\count308
+\c@textcitetotal=\count309
+\c@textcitemaxnames=\count310
+\c@biburlnumpenalty=\count311
+\c@biburlucpenalty=\count312
+\c@biburllcpenalty=\count313
+\c@smartand=\count314
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -567,8 +566,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count316
-\c@bbx:relatedtotal=\count317
+\c@bbx:relatedcount=\count315
+\c@bbx:relatedtotal=\count316
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -595,9 +594,9 @@ File: biblatex.cfg
 ))
 (/opt/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count318
-\c@@ppsavesec=\count319
-\c@@ppsaveapp=\count320
+\c@@pps=\count317
+\c@@ppsavesec=\count318
+\c@@ppsaveapp=\count319
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
@@ -670,22 +669,22 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/opt/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
+\scratchcounter=\count320
 \scratchdimen=\dimen143
-\scratchbox=\box35
-\nofMPsegments=\count322
-\nofMParguments=\count323
+\scratchbox=\box34
+\nofMPsegments=\count321
+\nofMParguments=\count322
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count324
+\MPscratchCnt=\count323
 \MPscratchDim=\dimen144
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
 \everyMPtoPDFconversion=\toks35
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count327
+\c@lstlisting=\count326
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -793,10 +792,10 @@ t/12 t[]\OT1/cmr/m/n/12 )$. Pot^^Se se vrat[]me ke kroku $1$, ten-tokr^^Sat po^
 
 [18 <./asy/asteroidy-3.pdf> <./asy/asteroidy-4.pdf>] [19] [20]
 Package epstopdf Info: Source file: <obr/atOF.eps>
-(epstopdf)                    date: 2019-02-15 13:15:37
+(epstopdf)                    date: 2018-12-18 19:17:46
 (epstopdf)                    size: 87045 bytes
 (epstopdf)             Output file: <obr/atOF-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-15 14:49:51
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 67268 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/atOF-eps-converted-to.p
 df obr/atOF.eps>
@@ -810,10 +809,10 @@ Package pdftex.def Info: obr/atOF-eps-converted-to.pdf  used on input line 282.
 (pdftex.def)             Requested size: 375.80544pt x 263.06432pt.
  [21 <./obr/atOF-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/atFP.eps>
-(epstopdf)                    date: 2019-02-15 13:15:37
+(epstopdf)                    date: 2018-12-18 19:21:23
 (epstopdf)                    size: 78090 bytes
 (epstopdf)             Output file: <obr/atFP-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-15 14:49:51
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 57171 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/atFP-eps-converted-to.p
 df obr/atFP.eps>
@@ -885,10 +884,10 @@ Overfull \hbox (12.86914pt too wide) in paragraph at lines 411--412
 [33] [34]
 Kapitola 4.
 Package epstopdf Info: Source file: <obr/Nv.eps>
-(epstopdf)                    date: 2019-02-15 13:15:40
+(epstopdf)                    date: 2019-01-07 11:51:05
 (epstopdf)                    size: 25926 bytes
 (epstopdf)             Output file: <obr/Nv-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-15 14:52:36
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 6701 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/Nv-eps-converted-to.pdf
  obr/Nv.eps>
@@ -903,10 +902,10 @@ Package pdftex.def Info: obr/Nv-eps-converted-to.pdf  used on input line 437.
 
 ] [36 <./obr/Nv-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/aH_wise.eps>
-(epstopdf)                    date: 2019-02-15 13:15:37
+(epstopdf)                    date: 2018-11-29 13:12:31
 (epstopdf)                    size: 247156 bytes
 (epstopdf)             Output file: <obr/aH_wise-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-15 14:52:36
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 420203 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/aH_wise-eps-converted-t
 o.pdf obr/aH_wise.eps>
@@ -920,10 +919,10 @@ Package pdftex.def Info: obr/aH_wise-eps-converted-to.pdf  used on input line 4
 (pdftex.def)             Requested size: 328.82707pt x 230.18031pt.
  [37 <./obr/aH_wise-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/pV_pIR.eps>
-(epstopdf)                    date: 2019-02-15 17:22:55
-(epstopdf)                    size: 319764 bytes
+(epstopdf)                    date: 2018-11-28 14:24:29
+(epstopdf)                    size: 112825 bytes
 (epstopdf)             Output file: <obr/pV_pIR-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-15 17:23:30
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 320071 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/pV_pIR-eps-converted-to
 .pdf obr/pV_pIR.eps>
@@ -936,10 +935,10 @@ Package pdftex.def Info: obr/pV_pIR-eps-converted-to.pdf  used on input line 47
 4.
 (pdftex.def)             Requested size: 469.75502pt x 328.83232pt.
 Package epstopdf Info: Source file: <obr/astar_iz.eps>
-(epstopdf)                    date: 2019-02-15 13:15:38
+(epstopdf)                    date: 2018-11-28 14:24:28
 (epstopdf)                    size: 92567 bytes
 (epstopdf)             Output file: <obr/astar_iz-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-15 14:52:36
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 111771 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/astar_iz-eps-converted-
 to.pdf obr/astar_iz.eps>
@@ -953,33 +952,36 @@ Package pdftex.def Info: obr/astar_iz-eps-converted-to.pdf  used on input line
 (pdftex.def)             Requested size: 469.75502pt x 328.83232pt.
  [38 <./obr/pV_pIR-eps-converted-to.pdf>] [39 <./obr/astar_iz-eps-converted-to.
 pdf>]
+
+LaTeX Warning: Reference `fig:sf' on page 40 undefined on input line 494.
+
 Package epstopdf Info: Source file: <obr/size_distribution.eps>
-(epstopdf)                    date: 2019-02-15 13:15:40
+(epstopdf)                    date: 2018-11-28 14:24:29
 (epstopdf)                    size: 35012 bytes
 (epstopdf)             Output file: <obr/size_distribution-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2019-02-15 14:52:36
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 12814 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/size_distribution-eps-c
 onverted-to.pdf obr/size_distribution.eps>
-(epstopdf)             \includegraphics on input line 498.
+(epstopdf)             \includegraphics on input line 501.
 Package epstopdf Info: Output file is already uptodate.
 <obr/size_distribution-eps-converted-to.pdf, id=254, 271.0125pt x 252.945pt>
 File: obr/size_distribution-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/size_distribution-eps-converted-to.pdf>
 Package pdftex.def Info: obr/size_distribution-eps-converted-to.pdf  used on in
-put line 498.
+put line 501.
 (pdftex.def)             Requested size: 211.38832pt x 197.30402pt.
 Package epstopdf Info: Source file: <obr/size_distribution_SMALLD.eps>
-(epstopdf)                    date: 2019-02-15 13:15:40
+(epstopdf)                    date: 2018-11-29 13:27:12
 (epstopdf)                    size: 38387 bytes
 (epstopdf)             Output file: <obr/size_distribution_SMALLD-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2019-02-15 14:52:36
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 13224 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/size_distribution_SMALL
 D-eps-converted-to.pdf obr/size_distribution_SMALLD.eps>
-(epstopdf)             \includegraphics on input line 501.
+(epstopdf)             \includegraphics on input line 504.
 Package epstopdf Info: Output file is already uptodate.
 <obr/size_distribution_SMALLD-eps-converted-to.pdf, id=255, 271.0125pt x 252.94
 5pt>
@@ -987,10 +989,10 @@ File: obr/size_distribution_SMALLD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use obr/size_distribution_SMALLD-eps-converted-to.pdf>
 Package pdftex.def Info: obr/size_distribution_SMALLD-eps-converted-to.pdf  use
-d on input line 501.
+d on input line 504.
 (pdftex.def)             Requested size: 211.38832pt x 197.30402pt.
 
-Overfull \hbox (13.78433pt too wide) in paragraph at lines 507--508
+Overfull \hbox (13.78433pt too wide) in paragraph at lines 510--511
 \OT1/cmr/m/n/12 m^^Wu^^Tzeme vid^^Tet po-zo-ro-va-nou ro-dinu Eu-no-mia spole^^
 Tcn^^Te s elipsami, kter^^Se ko-re-spon-duj^^S^^P s rozd^^Telen^^S^^Pm
  []
@@ -998,36 +1000,36 @@ Tcn^^Te s elipsami, kter^^Se ko-re-spon-duj^^S^^P s rozd^^Telen^^S^^Pm
 [40 <./obr/size_distribution-eps-converted-to.pdf> <./obr/size_distribution_SMA
 LLD-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/ae_wise.eps>
-(epstopdf)                    date: 2019-02-15 13:15:38
+(epstopdf)                    date: 2019-02-14 16:36:48
 (epstopdf)                    size: 250718 bytes
 (epstopdf)             Output file: <obr/ae_wise-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-15 13:20:56
+(epstopdf)                    date: 2019-02-16 14:44:50
 (epstopdf)                    size: 429939 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/ae_wise-eps-converted-t
 o.pdf obr/ae_wise.eps>
-(epstopdf)             \includegraphics on input line 518.
+(epstopdf)             \includegraphics on input line 520.
 Package epstopdf Info: Output file is already uptodate.
 <obr/ae_wise-eps-converted-to.pdf, id=283, 289.08pt x 189.70876pt>
 File: obr/ae_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/ae_wise-eps-converted-to.pdf>
 Package pdftex.def Info: obr/ae_wise-eps-converted-to.pdf  used on input line 5
-18.
+20.
 (pdftex.def)             Requested size: 375.80544pt x 246.63582pt.
 Package epstopdf Info: Source file: <obr/ai_wise.eps>
-(epstopdf)                    date: 2019-02-15 13:15:38
+(epstopdf)                    date: 2018-11-29 13:11:05
 (epstopdf)                    size: 247703 bytes
 (epstopdf)             Output file: <obr/ai_wise-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-15 14:52:37
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 431599 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/ai_wise-eps-converted-t
 o.pdf obr/ai_wise.eps>
-(epstopdf)             \includegraphics on input line 519.
+(epstopdf)             \includegraphics on input line 521.
 Package epstopdf Info: Output file is already uptodate.
 <obr/ai_wise-eps-converted-to.pdf, id=284, 289.08pt x 119.44624pt>
 File: obr/ai_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/ai_wise-eps-converted-to.pdf>
 Package pdftex.def Info: obr/ai_wise-eps-converted-to.pdf  used on input line 5
-19.
+21.
 (pdftex.def)             Requested size: 375.80544pt x 155.28918pt.
  [41] [42 <./obr/ae_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.
 pdf>] [43]
@@ -1042,27 +1044,27 @@ runsystem(convert -trim obr/ae_905.png obr/ae_905t.png)...executed.
 <obr/ae_5t.png, id=312, 669.2503pt x 496.10344pt>
 File: obr/ae_5t.png Graphic file (type png)
 <use obr/ae_5t.png>
-Package pdftex.def Info: obr/ae_5t.png  used on input line 549.
+Package pdftex.def Info: obr/ae_5t.png  used on input line 550.
 (pdftex.def)             Requested size: 230.18253pt x 170.63354pt.
 <obr/ae_105t.png, id=313, 669.2503pt x 496.10344pt>
 File: obr/ae_105t.png Graphic file (type png)
 <use obr/ae_105t.png>
-Package pdftex.def Info: obr/ae_105t.png  used on input line 550.
+Package pdftex.def Info: obr/ae_105t.png  used on input line 551.
 (pdftex.def)             Requested size: 230.18253pt x 170.63354pt.
 <obr/ae_405t.png, id=314, 669.2503pt x 496.10344pt>
 File: obr/ae_405t.png Graphic file (type png)
 <use obr/ae_405t.png>
-Package pdftex.def Info: obr/ae_405t.png  used on input line 551.
+Package pdftex.def Info: obr/ae_405t.png  used on input line 552.
 (pdftex.def)             Requested size: 230.18253pt x 170.63354pt.
 <obr/ae_905t.png, id=315, 669.2503pt x 496.10344pt>
 File: obr/ae_905t.png Graphic file (type png)
 <use obr/ae_905t.png>
-Package pdftex.def Info: obr/ae_905t.png  used on input line 552.
+Package pdftex.def Info: obr/ae_905t.png  used on input line 553.
 (pdftex.def)             Requested size: 230.18253pt x 170.63354pt.
  [44 <./obr/ae_5t.png> <./obr/ae_105t.png> <./obr/ae_405t.png> <./obr/ae_905t.p
 ng>]
 
-LaTeX Warning: Reference `fig:ae_sim' on page 45 undefined on input line 564.
+LaTeX Warning: Reference `fig:ae_sim' on page 45 undefined on input line 565.
 
 runsystem(convert -trim obr/ai_5.png obr/ai_5t.png)...executed.
 
@@ -1075,25 +1077,25 @@ runsystem(convert -trim obr/ai_905.png obr/ai_905t.png)...executed.
 <obr/ai_5t.png, id=323, 673.76718pt x 496.10344pt>
 File: obr/ai_5t.png Graphic file (type png)
 <use obr/ai_5t.png>
-Package pdftex.def Info: obr/ai_5t.png  used on input line 572.
+Package pdftex.def Info: obr/ai_5t.png  used on input line 573.
 (pdftex.def)             Requested size: 230.18253pt x 169.48291pt.
 <obr/ai_105t.png, id=324, 673.76718pt x 496.10344pt>
 File: obr/ai_105t.png Graphic file (type png)
 <use obr/ai_105t.png>
-Package pdftex.def Info: obr/ai_105t.png  used on input line 573.
+Package pdftex.def Info: obr/ai_105t.png  used on input line 574.
 (pdftex.def)             Requested size: 230.18253pt x 169.48291pt.
 <obr/ai_405t.png, id=325, 673.76718pt x 496.10344pt>
 File: obr/ai_405t.png Graphic file (type png)
 <use obr/ai_405t.png>
-Package pdftex.def Info: obr/ai_405t.png  used on input line 574.
+Package pdftex.def Info: obr/ai_405t.png  used on input line 575.
 (pdftex.def)             Requested size: 230.18253pt x 169.48291pt.
 <obr/ai_905t.png, id=326, 673.76718pt x 496.10344pt>
 File: obr/ai_905t.png Graphic file (type png)
 <use obr/ai_905t.png>
-Package pdftex.def Info: obr/ai_905t.png  used on input line 575.
+Package pdftex.def Info: obr/ai_905t.png  used on input line 576.
 (pdftex.def)             Requested size: 230.18253pt x 169.48291pt.
 
-Overfull \hbox (6.09874pt too wide) in paragraph at lines 579--580
+Overfull \hbox (6.09874pt too wide) in paragraph at lines 580--581
 []\OT1/cmr/m/n/12 Na obr^^Sazc^^S^^Pch $(\OML/cmm/m/it/12 a;  [] I[]\OT1/cmr/m/
 n/12 )$ lze znovu po-zo-ro-vat p^^Wusoben^^S^^P re-zo-nanc^^S^^P, ten-tokr^^Sat
  s ^^Su^^Tcinkem zvy^^Tsov^^San^^S^^P
@@ -1110,27 +1112,27 @@ runsystem(convert -trim obr/ei_905.png obr/ei_905t.png)...executed.
 <obr/ei_5t.png, id=327, 690.32906pt x 496.10344pt>
 File: obr/ei_5t.png Graphic file (type png)
 <use obr/ei_5t.png>
-Package pdftex.def Info: obr/ei_5t.png  used on input line 587.
+Package pdftex.def Info: obr/ei_5t.png  used on input line 588.
 (pdftex.def)             Requested size: 230.18253pt x 165.41786pt.
 <obr/ei_105t.png, id=328, 690.32906pt x 496.10344pt>
 File: obr/ei_105t.png Graphic file (type png)
 <use obr/ei_105t.png>
-Package pdftex.def Info: obr/ei_105t.png  used on input line 588.
+Package pdftex.def Info: obr/ei_105t.png  used on input line 589.
 (pdftex.def)             Requested size: 230.18253pt x 165.41786pt.
 <obr/ei_405t.png, id=329, 690.32906pt x 496.10344pt>
 File: obr/ei_405t.png Graphic file (type png)
 <use obr/ei_405t.png>
-Package pdftex.def Info: obr/ei_405t.png  used on input line 589.
+Package pdftex.def Info: obr/ei_405t.png  used on input line 590.
 (pdftex.def)             Requested size: 230.18253pt x 165.41786pt.
 <obr/ei_905t.png, id=330, 690.32906pt x 496.10344pt>
 File: obr/ei_905t.png Graphic file (type png)
 <use obr/ei_905t.png>
-Package pdftex.def Info: obr/ei_905t.png  used on input line 590.
+Package pdftex.def Info: obr/ei_905t.png  used on input line 591.
 (pdftex.def)             Requested size: 230.18253pt x 165.41786pt.
 [45] [46 <./obr/ai_5t.png> <./obr/ai_105t.png> <./obr/ai_405t.png> <./obr/ai_90
 5t.png>] [47 <./obr/ei_5t.png> <./obr/ei_105t.png> <./obr/ei_405t.png> <./obr/e
 i_905t.png>]
-Overfull \hbox (1.99521pt too wide) in paragraph at lines 620--621
+Overfull \hbox (1.99521pt too wide) in paragraph at lines 621--622
 []\OT1/cmr/m/n/12 Dal^^Ts^^S^^Pm kro-kem je zvo-len^^S^^P po-pu-lace po-zad^^S^
 ^P, kte-rou vy-be-reme z po-zo-ro-van^^Sych dat a []sm^^S^^Pch^^Same\
  []
@@ -1147,22 +1149,22 @@ runsystem(convert -trim obr/ae_chi_empty.png obr/ae_chi_emptyt.png)...executed.
 <obr/ae_chi_0006t.png, id=351, 804.00375pt x 481.04718pt>
 File: obr/ae_chi_0006t.png Graphic file (type png)
 <use obr/ae_chi_0006t.png>
-Package pdftex.def Info: obr/ae_chi_0006t.png  used on input line 630.
+Package pdftex.def Info: obr/ae_chi_0006t.png  used on input line 631.
 (pdftex.def)             Requested size: 230.18253pt x 137.71645pt.
 <obr/ae_chi_0106t.png, id=352, 804.00375pt x 481.04718pt>
 File: obr/ae_chi_0106t.png Graphic file (type png)
 <use obr/ae_chi_0106t.png>
-Package pdftex.def Info: obr/ae_chi_0106t.png  used on input line 631.
+Package pdftex.def Info: obr/ae_chi_0106t.png  used on input line 632.
 (pdftex.def)             Requested size: 230.18253pt x 137.71645pt.
 <obr/ae_chi_0406t.png, id=353, 804.00375pt x 481.04718pt>
 File: obr/ae_chi_0406t.png Graphic file (type png)
 <use obr/ae_chi_0406t.png>
-Package pdftex.def Info: obr/ae_chi_0406t.png  used on input line 632.
+Package pdftex.def Info: obr/ae_chi_0406t.png  used on input line 633.
 (pdftex.def)             Requested size: 230.18253pt x 137.71645pt.
 <obr/ae_chi_emptyt.png, id=354, 721.19438pt x 399.74344pt>
 File: obr/ae_chi_emptyt.png Graphic file (type png)
 <use obr/ae_chi_emptyt.png>
-Package pdftex.def Info: obr/ae_chi_emptyt.png  used on input line 633.
+Package pdftex.def Info: obr/ae_chi_emptyt.png  used on input line 634.
 (pdftex.def)             Requested size: 230.18253pt x 127.58502pt.
 runsystem(convert -trim obr/ae_scl_0466.png obr/ae_scl_0466t.png)...executed.
 
@@ -1171,27 +1173,27 @@ runsystem(convert -trim obr/ae_obs.png obr/ae_obst.png)...executed.
 <obr/ae_scl_0456.png, id=355, 828.09375pt x 542.025pt>
 File: obr/ae_scl_0456.png Graphic file (type png)
 <use obr/ae_scl_0456.png>
-Package pdftex.def Info: obr/ae_scl_0456.png  used on input line 641.
+Package pdftex.def Info: obr/ae_scl_0456.png  used on input line 642.
 (pdftex.def)             Requested size: 230.18253pt x 150.66597pt.
 <obr/ae_obs.png, id=356, 828.09375pt x 542.025pt>
 File: obr/ae_obs.png Graphic file (type png)
 <use obr/ae_obs.png>
-Package pdftex.def Info: obr/ae_obs.png  used on input line 642.
+Package pdftex.def Info: obr/ae_obs.png  used on input line 643.
 (pdftex.def)             Requested size: 230.18253pt x 150.66597pt.
 Package epstopdf Info: Source file: <obr/chi2.eps>
 (epstopdf)                    date: 2019-02-16 12:58:06
 (epstopdf)                    size: 26265 bytes
 (epstopdf)             Output file: <obr/chi2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-16 13:53:10
+(epstopdf)                    date: 2019-02-16 13:55:55
 (epstopdf)                    size: 8435 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/chi2-eps-converted-to.p
 df obr/chi2.eps>
-(epstopdf)             \includegraphics on input line 648.
+(epstopdf)             \includegraphics on input line 649.
 Package epstopdf Info: Output file is already uptodate.
 <obr/chi2-eps-converted-to.pdf, id=357, 252.945pt x 176.66pt>
 File: obr/chi2-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/chi2-eps-converted-to.pdf>
-Package pdftex.def Info: obr/chi2-eps-converted-to.pdf  used on input line 648.
+Package pdftex.def Info: obr/chi2-eps-converted-to.pdf  used on input line 649.
 
 (pdftex.def)             Requested size: 375.80544pt x 262.47433pt.
  [49 <./obr/ae_chi_0006t.png> <./obr/ae_chi_0106t.png> <./obr/ae_chi_0406t.png>
@@ -1203,13 +1205,13 @@ Kapitola 5.
 ] [52
 
 ]
-Overfull \hbox (2.46152pt too wide) in paragraph at lines 661--661
+Overfull \hbox (2.46152pt too wide) in paragraph at lines 662--662
 \OT1/cmtt/m/n/12 wikimedia . org / w / index . php ? title = File : AsteroidInc
 Au . png & oldid = 247505564>[]$\OT1/cmr/m/n/12 . 
  []
 
 
-Overfull \hbox (1.81636pt too wide) in paragraph at lines 661--661
+Overfull \hbox (1.81636pt too wide) in paragraph at lines 662--662
 \OT1/cmr/m/n/12 http://sirrah.troja.mff.cuni.cz/ mi-ra-/m-p/-phd-th/. Dis. Prah
 a: As-t-ro-no-mick^^Sy ^^Sustav Uni-
  []
@@ -1221,12 +1223,12 @@ P\v {r}\'{\i }loha A.
 \openout3 = `asy/asteroidy-5.asy'.
 
 
-Package asymptote Warning: file f_euler.asy not found on input line 666.
+Package asymptote Warning: file f_euler.asy not found on input line 667.
 
 <"asy/asteroidy-5".pdf, id=402, 227.62239pt x 199.23233pt>
 File: "asy/asteroidy-5".pdf Graphic file (type pdf)
 <use "asy/asteroidy-5".pdf>
-Package pdftex.def Info: "asy/asteroidy-5".pdf  used on input line 666.
+Package pdftex.def Info: "asy/asteroidy-5".pdf  used on input line 667.
 (pdftex.def)             Requested size: 227.62183pt x 199.23184pt.
 (/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
@@ -1265,7 +1267,7 @@ CE V JAZYCE \OT1/cmr/m/it/12 ASYMPTOTE \OT1/cmr/m/n/12 59
 [59]
 P\v {r}\'{\i }loha B.
 
-Overfull \hbox (12.99474pt too wide) in paragraph at lines 675--677
+Overfull \hbox (12.99474pt too wide) in paragraph at lines 676--678
 \OT1/cmr/m/n/12 kde be-reme prvn^^S^^P od-had $\OML/cmm/m/it/12 E[] \OT1/cmr/m/
 n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
 ^^Tz dos^^Sahneme p^^Tresnosti $[]$,
@@ -1274,14 +1276,14 @@ n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
 (/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 689.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 690.
 
 
 (/opt/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 689.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 690.
  [60
 
 ]
@@ -1290,7 +1292,7 @@ P\v {r}\'{\i }loha C.
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 736.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 737.
  [62] [63] (./asteroidy.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1303,13 +1305,13 @@ Package logreq Info: Writing requests to 'asteroidy.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15232 strings out of 494062
- 250267 string characters out of 6165011
- 849982 words of memory out of 5000000
- 18631 multiletter control sequences out of 15000+600000
+ 15232 strings out of 494085
+ 250267 string characters out of 6165330
+ 849073 words of memory out of 5000000
+ 18608 multiletter control sequences out of 15000+600000
  16502 words of font info for 62 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 49i,13n,62p,1848b,3290s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,13n,62p,1824b,3290s stack positions out of 5000i,500n,10000p,200000b,80000s
 </opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></opt/texlive/201
@@ -1329,7 +1331,7 @@ pe1/public/amsfonts/cm/cmsy8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt12.pfb>
-Output written on asteroidy.pdf (63 pages, 3469013 bytes).
+Output written on asteroidy.pdf (63 pages, 3466630 bytes).
 PDF statistics:
  501 PDF objects out of 1000 (max. 8388607)
  323 compressed objects within 4 object streams
