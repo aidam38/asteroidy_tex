@@ -22,6 +22,7 @@ draw((0,0), mark1);
 draw((-F,0), mark1);
 draw((-2*F,0), mark1);
 label("$F_1$", (0,0), SW);
+label("$C$", (-F,0), S);
 label("$F_2$", (-2*F,0), S);
 
 real E = 2*atan(sqrt((1-e)/(1+e))*tan(radians(f)/2));

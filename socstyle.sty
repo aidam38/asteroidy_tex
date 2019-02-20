@@ -51,12 +51,7 @@
 \usepackage{url}
 \addbibresource{soc.bib}
 
-% outsource!!!
-\def\aj{Astron. J.}
-\def\icarus{Icarus}
-\def\mnras{MNRAS}
-\def\aap{A\&A}
-\def\apj{Astrophys. J.}
+\usepackage{aas_macros}
 
 \usepackage[toc]{appendix}
 \renewcommand{\appendixname}{Přílohy}
@@ -64,6 +59,8 @@
 
 \usepackage{url}
 \DeclareUrlCommand\url{\def\UrlLeft{<}\def\UrlRight{>} \urlstyle{tt}}
+
+\usepackage[font={small}]{caption}
 %}}}
 
 %{{{ Some aliases to make my life easier
@@ -82,3 +79,5 @@
 \usepackage{chngcntr}
 \counterwithout{equation}{chapter}
 \renewcommand{\theequation}{\arabic{equation}} %}}}
+
+\counterwithout*{footnote}{chapter}
