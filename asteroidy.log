@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  20 FEB 2019 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  21 FEB 2019 06:14
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -714,7 +714,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 \openout6 = `asteroidy.toc'.
 
  [7]
-Overfull \hbox (3.59016pt too wide) in paragraph at lines 93--94
+Overfull \hbox (3.59146pt too wide) in paragraph at lines 93--94
 []\OT1/cmr/m/n/12 V hlavn^^S^^Pm p^^Sasu pla-ne-tek mezi Mar-sem a Ju-pi-te-rem
  nejsou pla-netky rozm^^S^^Pst^^Ten^^Se zcela n^^Sahodn^^Te,
  []
@@ -736,7 +736,7 @@ ch,
 \openout3 = `asy/asteroidy-1.asy'.
 
  (./asy/elip.asy)
-<"asy/asteroidy-1".pdf, id=54, 341.4326pt x 153.68315pt>
+<"asy/asteroidy-1".pdf, id=53, 341.4326pt x 153.68315pt>
 File: "asy/asteroidy-1".pdf Graphic file (type pdf)
 <use "asy/asteroidy-1".pdf>
 Package pdftex.def Info: "asy/asteroidy-1".pdf  used on input line 151.
@@ -744,7 +744,7 @@ Package pdftex.def Info: "asy/asteroidy-1".pdf  used on input line 151.
 \openout3 = `asy/asteroidy-2.asy'.
 
  (./asy/Ef.asy)
-<"asy/asteroidy-2".pdf, id=55, 227.62239pt x 190.94536pt>
+<"asy/asteroidy-2".pdf, id=54, 227.62239pt x 190.94536pt>
 File: "asy/asteroidy-2".pdf Graphic file (type pdf)
 <use "asy/asteroidy-2".pdf>
 Package pdftex.def Info: "asy/asteroidy-2".pdf  used on input line 169.
@@ -753,7 +753,7 @@ Package pdftex.def Info: "asy/asteroidy-2".pdf  used on input line 169.
 \openout3 = `asy/asteroidy-3.asy'.
 
  (./asy/f_euler.asy)
-<"asy/asteroidy-3".pdf, id=104, 227.62239pt x 199.23233pt>
+<"asy/asteroidy-3".pdf, id=103, 227.62239pt x 199.23233pt>
 File: "asy/asteroidy-3".pdf Graphic file (type pdf)
 <use "asy/asteroidy-3".pdf>
 Package pdftex.def Info: "asy/asteroidy-3".pdf  used on input line 258.
@@ -766,7 +766,7 @@ Overfull \hbox (16.2335pt too wide) in paragraph at lines 258--259
 \openout3 = `asy/asteroidy-4.asy'.
 
 (./asy/b_euler.asy)
-<"asy/asteroidy-4".pdf, id=105, 227.62239pt x 213.39122pt>
+<"asy/asteroidy-4".pdf, id=104, 227.62239pt x 213.39122pt>
 File: "asy/asteroidy-4".pdf Graphic file (type pdf)
 <use "asy/asteroidy-4".pdf>
 Package pdftex.def Info: "asy/asteroidy-4".pdf  used on input line 261.
@@ -795,7 +795,7 @@ Package epstopdf Info: Source file: <obr/atOF.eps>
 df obr/atOF.eps>
 (epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
-<obr/atOF-eps-converted-to.pdf, id=140, 361.35pt x 252.945pt>
+<obr/atOF-eps-converted-to.pdf, id=139, 361.35pt x 252.945pt>
 File: obr/atOF-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/atOF-eps-converted-to.pdf>
 Package pdftex.def Info: obr/atOF-eps-converted-to.pdf  used on input line 294.
@@ -812,7 +812,7 @@ Package epstopdf Info: Source file: <obr/atFP.eps>
 df obr/atFP.eps>
 (epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
-<obr/atFP-eps-converted-to.pdf, id=152, 361.35pt x 252.945pt>
+<obr/atFP-eps-converted-to.pdf, id=151, 361.35pt x 252.945pt>
 File: obr/atFP-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/atFP-eps-converted-to.pdf>
 Package pdftex.def Info: obr/atFP-eps-converted-to.pdf  used on input line 310.
@@ -820,7 +820,7 @@ Package pdftex.def Info: obr/atFP-eps-converted-to.pdf  used on input line 310.
 (pdftex.def)             Requested size: 375.80544pt x 263.06432pt.
  [22] [23 <./obr/atFP-eps-converted-to.pdf>]
 Kapitola 2.
-<obr/vesta.jpg, id=167, 1058.95625pt x 1027.84pt>
+<obr/vesta.jpg, id=166, 1058.95625pt x 1027.84pt>
 File: obr/vesta.jpg Graphic file (type jpg)
 <use obr/vesta.jpg>
 Package pdftex.def Info: obr/vesta.jpg  used on input line 327.
@@ -828,7 +828,7 @@ Package pdftex.def Info: obr/vesta.jpg  used on input line 327.
 [24
 
  <./obr/vesta.jpg>] [25]
-<obr/mainbelt.png, id=177, 1205.50375pt x 904.37875pt>
+<obr/mainbelt.png, id=176, 1205.50375pt x 904.37875pt>
 File: obr/mainbelt.png Graphic file (type png)
 <use obr/mainbelt.png>
 Package pdftex.def Info: obr/mainbelt.png  used on input line 343.
@@ -842,41 +842,38 @@ runsystem(convert -trim obr/trajec_201.png obr/trajec_201t.png)...executed.
 
 runsystem(convert -trim obr/trajec_501.png obr/trajec_501t.png)...executed.
 
-<obr/trajec_001t.png, id=188, 551.05875pt x 313.17pt>
+<obr/trajec_001t.png, id=187, 551.05875pt x 313.17pt>
 File: obr/trajec_001t.png Graphic file (type png)
 <use obr/trajec_001t.png>
 Package pdftex.def Info: obr/trajec_001t.png  used on input line 380.
 (pdftex.def)             Requested size: 230.18253pt x 130.8137pt.
-<obr/trajec_101t.png, id=189, 551.05875pt x 313.17pt>
+<obr/trajec_101t.png, id=188, 551.05875pt x 313.17pt>
 File: obr/trajec_101t.png Graphic file (type png)
 <use obr/trajec_101t.png>
 Package pdftex.def Info: obr/trajec_101t.png  used on input line 381.
 (pdftex.def)             Requested size: 230.18253pt x 130.8137pt.
-<obr/trajec_201t.png, id=190, 551.05875pt x 313.17pt>
+<obr/trajec_201t.png, id=189, 551.05875pt x 313.17pt>
 File: obr/trajec_201t.png Graphic file (type png)
 <use obr/trajec_201t.png>
 Package pdftex.def Info: obr/trajec_201t.png  used on input line 382.
 (pdftex.def)             Requested size: 230.18253pt x 130.8137pt.
-<obr/trajec_501t.png, id=191, 551.05875pt x 313.17pt>
+<obr/trajec_501t.png, id=190, 551.05875pt x 313.17pt>
 File: obr/trajec_501t.png Graphic file (type png)
 <use obr/trajec_501t.png>
 Package pdftex.def Info: obr/trajec_501t.png  used on input line 383.
 (pdftex.def)             Requested size: 230.18253pt x 130.8137pt.
  [29 <./obr/trajec_001t.png> <./obr/trajec_101t.png> <./obr/trajec_201t.png> <.
 /obr/trajec_501t.png>] [30]
-<obr/jarkovskeho_jev.png, id=202, 1457.445pt x 742.775pt>
+<obr/jarkovskeho_jev.png, id=201, 1457.445pt x 742.775pt>
 File: obr/jarkovskeho_jev.png Graphic file (type png)
 <use obr/jarkovskeho_jev.png>
 Package pdftex.def Info: obr/jarkovskeho_jev.png  used on input line 414.
 (pdftex.def)             Requested size: 375.80544pt x 191.51888pt.
- [31 <./obr/jarkovskeho_jev.png>]
-Overfull \hbox (12.86914pt too wide) in paragraph at lines 421--422
-[]\OT1/cmr/m/n/12 Jarkovsk^^Seho jev byl po-prv^^Se po-moc^^S^^P ra-dar^^Wu zm^
-^Te^^Tren v roce 2003 p^^Tri zkoum^^San^^S^^P po-hybu bl^^S^^Pzkozemn^^S^^P
- []
-
-[32] [33]
+ [31 <./obr/jarkovskeho_jev.png>] [32] [33]
 Kapitola 3.
+[34
+
+]
 Package epstopdf Info: Source file: <obr/Nv.eps>
 (epstopdf)                    date: 2019-01-07 06:33:54
 (epstopdf)                    size: 26014 bytes
@@ -885,16 +882,14 @@ Package epstopdf Info: Source file: <obr/Nv.eps>
 (epstopdf)                    size: 6525 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/Nv-eps-converted-to.pdf
  obr/Nv.eps>
-(epstopdf)             \includegraphics on input line 447.
+(epstopdf)             \includegraphics on input line 448.
 Package epstopdf Info: Output file is already uptodate.
-<obr/Nv-eps-converted-to.pdf, id=213, 361.35pt x 252.945pt>
+<obr/Nv-eps-converted-to.pdf, id=215, 361.35pt x 252.945pt>
 File: obr/Nv-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/Nv-eps-converted-to.pdf>
-Package pdftex.def Info: obr/Nv-eps-converted-to.pdf  used on input line 447.
+Package pdftex.def Info: obr/Nv-eps-converted-to.pdf  used on input line 448.
 (pdftex.def)             Requested size: 281.85587pt x 197.30016pt.
-[34
-
-] [35 <./obr/Nv-eps-converted-to.pdf>]
+ [35 <./obr/Nv-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/aH_wise.eps>
 (epstopdf)                    date: 2019-01-20 18:50:37
 (epstopdf)                    size: 254792 bytes
@@ -903,13 +898,13 @@ Package epstopdf Info: Source file: <obr/aH_wise.eps>
 (epstopdf)                    size: 426685 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/aH_wise-eps-converted-t
 o.pdf obr/aH_wise.eps>
-(epstopdf)             \includegraphics on input line 468.
+(epstopdf)             \includegraphics on input line 471.
 Package epstopdf Info: Output file is already uptodate.
-<obr/aH_wise-eps-converted-to.pdf, id=226, 361.35pt x 252.945pt>
+<obr/aH_wise-eps-converted-to.pdf, id=225, 361.35pt x 252.945pt>
 File: obr/aH_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/aH_wise-eps-converted-to.pdf>
 Package pdftex.def Info: obr/aH_wise-eps-converted-to.pdf  used on input line 4
-68.
+71.
 (pdftex.def)             Requested size: 328.82707pt x 230.18031pt.
  [36 <./obr/aH_wise-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/pV_pIR.eps>
@@ -920,14 +915,15 @@ Package epstopdf Info: Source file: <obr/pV_pIR.eps>
 (epstopdf)                    size: 145323 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/pV_pIR-eps-converted-to
 .pdf obr/pV_pIR.eps>
-(epstopdf)             \includegraphics on input line 478.
+(epstopdf)             \includegraphics on input line 482.
 Package epstopdf Info: Output file is already uptodate.
-<obr/pV_pIR-eps-converted-to.pdf, id=238, 361.35pt x 252.945pt>
+<obr/pV_pIR-eps-converted-to.pdf, id=237, 361.35pt x 252.945pt>
 File: obr/pV_pIR-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/pV_pIR-eps-converted-to.pdf>
-Package pdftex.def Info: obr/pV_pIR-eps-converted-to.pdf  used on input line 47
-8.
-(pdftex.def)             Requested size: 469.75502pt x 328.83232pt.
+Package pdftex.def Info: obr/pV_pIR-eps-converted-to.pdf  used on input line 48
+2.
+(pdftex.def)             Requested size: 422.77664pt x 295.94446pt.
+ [37 <./obr/pV_pIR-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/astar_iz.eps>
 (epstopdf)                    date: 2019-01-20 20:07:37
 (epstopdf)                    size: 95641 bytes
@@ -936,16 +932,15 @@ Package epstopdf Info: Source file: <obr/astar_iz.eps>
 (epstopdf)                    size: 113327 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/astar_iz-eps-converted-
 to.pdf obr/astar_iz.eps>
-(epstopdf)             \includegraphics on input line 485.
+(epstopdf)             \includegraphics on input line 497.
 Package epstopdf Info: Output file is already uptodate.
-<obr/astar_iz-eps-converted-to.pdf, id=239, 361.35pt x 252.945pt>
+<obr/astar_iz-eps-converted-to.pdf, id=250, 361.35pt x 252.945pt>
 File: obr/astar_iz-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/astar_iz-eps-converted-to.pdf>
 Package pdftex.def Info: obr/astar_iz-eps-converted-to.pdf  used on input line 
-485.
-(pdftex.def)             Requested size: 469.75502pt x 328.83232pt.
- [37 <./obr/pV_pIR-eps-converted-to.pdf>] [38 <./obr/astar_iz-eps-converted-to.
-pdf>] [39]
+497.
+(pdftex.def)             Requested size: 422.77664pt x 295.94446pt.
+ [38 <./obr/astar_iz-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obr/size_distribution.eps>
 (epstopdf)                    date: 2019-02-20 10:12:26
 (epstopdf)                    size: 38143 bytes
@@ -955,13 +950,13 @@ Package epstopdf Info: Source file: <obr/size_distribution.eps>
 (epstopdf)                    size: 12975 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/size_distribution-eps-c
 onverted-to.pdf obr/size_distribution.eps>
-(epstopdf)             \includegraphics on input line 507.
+(epstopdf)             \includegraphics on input line 515.
 Package epstopdf Info: Output file is already uptodate.
-<obr/size_distribution-eps-converted-to.pdf, id=268, 271.0125pt x 252.945pt>
+<obr/size_distribution-eps-converted-to.pdf, id=264, 271.0125pt x 252.945pt>
 File: obr/size_distribution-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/size_distribution-eps-converted-to.pdf>
 Package pdftex.def Info: obr/size_distribution-eps-converted-to.pdf  used on in
-put line 507.
+put line 515.
 (pdftex.def)             Requested size: 211.38832pt x 197.30402pt.
 Package epstopdf Info: Source file: <obr/size_distribution_SMALLD.eps>
 (epstopdf)                    date: 2019-02-20 10:12:43
@@ -972,15 +967,15 @@ Package epstopdf Info: Source file: <obr/size_distribution_SMALLD.eps>
 (epstopdf)                    size: 13085 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/size_distribution_SMALL
 D-eps-converted-to.pdf obr/size_distribution_SMALLD.eps>
-(epstopdf)             \includegraphics on input line 510.
+(epstopdf)             \includegraphics on input line 518.
 Package epstopdf Info: Output file is already uptodate.
-<obr/size_distribution_SMALLD-eps-converted-to.pdf, id=269, 271.0125pt x 252.94
+<obr/size_distribution_SMALLD-eps-converted-to.pdf, id=265, 271.0125pt x 252.94
 5pt>
 File: obr/size_distribution_SMALLD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use obr/size_distribution_SMALLD-eps-converted-to.pdf>
 Package pdftex.def Info: obr/size_distribution_SMALLD-eps-converted-to.pdf  use
-d on input line 510.
+d on input line 518.
 (pdftex.def)             Requested size: 211.38832pt x 197.30402pt.
 Package epstopdf Info: Source file: <obr/ae_wise.eps>
 (epstopdf)                    date: 2019-01-07 06:33:54
@@ -990,13 +985,13 @@ Package epstopdf Info: Source file: <obr/ae_wise.eps>
 (epstopdf)                    size: 430006 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/ae_wise-eps-converted-t
 o.pdf obr/ae_wise.eps>
-(epstopdf)             \includegraphics on input line 523.
+(epstopdf)             \includegraphics on input line 531.
 Package epstopdf Info: Output file is already uptodate.
-<obr/ae_wise-eps-converted-to.pdf, id=270, 289.08pt x 189.70876pt>
+<obr/ae_wise-eps-converted-to.pdf, id=266, 289.08pt x 189.70876pt>
 File: obr/ae_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/ae_wise-eps-converted-to.pdf>
 Package pdftex.def Info: obr/ae_wise-eps-converted-to.pdf  used on input line 5
-23.
+31.
 (pdftex.def)             Requested size: 375.80544pt x 246.63582pt.
 Package epstopdf Info: Source file: <obr/ai_wise.eps>
 (epstopdf)                    date: 2019-01-07 06:33:54
@@ -1006,24 +1001,24 @@ Package epstopdf Info: Source file: <obr/ai_wise.eps>
 (epstopdf)                    size: 430657 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/ai_wise-eps-converted-t
 o.pdf obr/ai_wise.eps>
-(epstopdf)             \includegraphics on input line 524.
+(epstopdf)             \includegraphics on input line 532.
 Package epstopdf Info: Output file is already uptodate.
-<obr/ai_wise-eps-converted-to.pdf, id=271, 289.08pt x 119.44624pt>
+<obr/ai_wise-eps-converted-to.pdf, id=267, 289.08pt x 119.44624pt>
 File: obr/ai_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/ai_wise-eps-converted-to.pdf>
 Package pdftex.def Info: obr/ai_wise-eps-converted-to.pdf  used on input line 5
-24.
+32.
 (pdftex.def)             Requested size: 375.80544pt x 155.28918pt.
- [40 <./obr/size_distribution-eps-converted-to.pdf> <./obr/size_distribution_SM
+ [39 <./obr/size_distribution-eps-converted-to.pdf> <./obr/size_distribution_SM
 ALLD-eps-converted-to.pdf>]
-Overfull \hbox (4.86288pt too wide) in paragraph at lines 534--536
+Overfull \hbox (4.86288pt too wide) in paragraph at lines 542--544
 \OT1/cmr/m/n/12 ex-cen-t-ric-kou anom^^Salii (viz obr^^Sazek 1.2[]), $\OML/cmm/
 m/it/12 !$ \OT1/cmr/m/n/12 ar-gu-ment pe-ri-cen-tra (viz obr^^Sazek 1.1[]) a $\
 OML/cmm/m/it/12 r$ \OT1/cmr/m/n/12 vzd^^Salenost
  []
 
-[41] [42 <./obr/ae_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.p
-df>]
+[40] [41 <./obr/ae_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.p
+df>] [42]
 runsystem(convert -trim obr/ae_5.png obr/ae_5t.png)...executed.
 
 runsystem(convert -trim obr/ae_105.png obr/ae_105t.png)...executed.
@@ -1032,28 +1027,26 @@ runsystem(convert -trim obr/ae_405.png obr/ae_405t.png)...executed.
 
 runsystem(convert -trim obr/ae_905.png obr/ae_905t.png)...executed.
 
-<obr/ae_5t.png, id=321, 669.2503pt x 496.10344pt>
+<obr/ae_5t.png, id=320, 669.2503pt x 496.10344pt>
 File: obr/ae_5t.png Graphic file (type png)
 <use obr/ae_5t.png>
-Package pdftex.def Info: obr/ae_5t.png  used on input line 559.
+Package pdftex.def Info: obr/ae_5t.png  used on input line 568.
 (pdftex.def)             Requested size: 230.18253pt x 170.63354pt.
-<obr/ae_105t.png, id=322, 669.2503pt x 496.10344pt>
+<obr/ae_105t.png, id=321, 669.2503pt x 496.10344pt>
 File: obr/ae_105t.png Graphic file (type png)
 <use obr/ae_105t.png>
-Package pdftex.def Info: obr/ae_105t.png  used on input line 560.
+Package pdftex.def Info: obr/ae_105t.png  used on input line 569.
 (pdftex.def)             Requested size: 230.18253pt x 170.63354pt.
-<obr/ae_405t.png, id=323, 669.2503pt x 496.10344pt>
+<obr/ae_405t.png, id=322, 669.2503pt x 496.10344pt>
 File: obr/ae_405t.png Graphic file (type png)
 <use obr/ae_405t.png>
-Package pdftex.def Info: obr/ae_405t.png  used on input line 561.
+Package pdftex.def Info: obr/ae_405t.png  used on input line 570.
 (pdftex.def)             Requested size: 230.18253pt x 170.63354pt.
-<obr/ae_905t.png, id=324, 669.2503pt x 496.10344pt>
+<obr/ae_905t.png, id=323, 669.2503pt x 496.10344pt>
 File: obr/ae_905t.png Graphic file (type png)
 <use obr/ae_905t.png>
-Package pdftex.def Info: obr/ae_905t.png  used on input line 562.
+Package pdftex.def Info: obr/ae_905t.png  used on input line 571.
 (pdftex.def)             Requested size: 230.18253pt x 170.63354pt.
- [43] [44 <./obr/ae_5t.png> <./obr/ae_105t.png> <./obr/ae_405t.png> <./obr/ae_9
-05t.png>]
 runsystem(convert -trim obr/ai_5.png obr/ai_5t.png)...executed.
 
 runsystem(convert -trim obr/ai_105.png obr/ai_105t.png)...executed.
@@ -1062,34 +1055,26 @@ runsystem(convert -trim obr/ai_405.png obr/ai_405t.png)...executed.
 
 runsystem(convert -trim obr/ai_905.png obr/ai_905t.png)...executed.
 
-<obr/ai_5t.png, id=336, 673.76718pt x 496.10344pt>
+<obr/ai_5t.png, id=324, 673.76718pt x 496.10344pt>
 File: obr/ai_5t.png Graphic file (type png)
 <use obr/ai_5t.png>
-Package pdftex.def Info: obr/ai_5t.png  used on input line 576.
+Package pdftex.def Info: obr/ai_5t.png  used on input line 580.
 (pdftex.def)             Requested size: 230.18253pt x 169.48291pt.
-<obr/ai_105t.png, id=337, 673.76718pt x 496.10344pt>
+<obr/ai_105t.png, id=325, 673.76718pt x 496.10344pt>
 File: obr/ai_105t.png Graphic file (type png)
 <use obr/ai_105t.png>
-Package pdftex.def Info: obr/ai_105t.png  used on input line 577.
+Package pdftex.def Info: obr/ai_105t.png  used on input line 581.
 (pdftex.def)             Requested size: 230.18253pt x 169.48291pt.
-<obr/ai_405t.png, id=338, 673.76718pt x 496.10344pt>
+<obr/ai_405t.png, id=326, 673.76718pt x 496.10344pt>
 File: obr/ai_405t.png Graphic file (type png)
 <use obr/ai_405t.png>
-Package pdftex.def Info: obr/ai_405t.png  used on input line 578.
+Package pdftex.def Info: obr/ai_405t.png  used on input line 582.
 (pdftex.def)             Requested size: 230.18253pt x 169.48291pt.
-<obr/ai_905t.png, id=339, 673.76718pt x 496.10344pt>
+<obr/ai_905t.png, id=327, 673.76718pt x 496.10344pt>
 File: obr/ai_905t.png Graphic file (type png)
 <use obr/ai_905t.png>
-Package pdftex.def Info: obr/ai_905t.png  used on input line 579.
+Package pdftex.def Info: obr/ai_905t.png  used on input line 583.
 (pdftex.def)             Requested size: 230.18253pt x 169.48291pt.
- [45 <./obr/ai_5t.png> <./obr/ai_105t.png> <./obr/ai_405t.png> <./obr/ai_905t.p
-ng>]
-Overfull \hbox (3.87932pt too wide) in paragraph at lines 589--590
-[]\OT1/cmr/m/n/12 Na obr^^Sazc^^S^^Pch $(\OML/cmm/m/it/12 a;  [] I[]\OT1/cmr/m/
-n/12 )$ lze znovu spat^^Trovat p^^Wusoben^^S^^P re-zo-nanc^^S^^P, ten-tokr^^Sat
- s ^^Su^^Tcinkem zvy^^Tsov^^San^^S^^P
- []
-
 runsystem(convert -trim obr/ei_5.png obr/ei_5t.png)...executed.
 
 runsystem(convert -trim obr/ei_105.png obr/ei_105t.png)...executed.
@@ -1098,26 +1083,37 @@ runsystem(convert -trim obr/ei_405.png obr/ei_405t.png)...executed.
 
 runsystem(convert -trim obr/ei_905.png obr/ei_905t.png)...executed.
 
-<obr/ei_5t.png, id=347, 690.32906pt x 496.10344pt>
+<obr/ei_5t.png, id=328, 690.32906pt x 496.10344pt>
 File: obr/ei_5t.png Graphic file (type png)
 <use obr/ei_5t.png>
-Package pdftex.def Info: obr/ei_5t.png  used on input line 597.
+Package pdftex.def Info: obr/ei_5t.png  used on input line 592.
 (pdftex.def)             Requested size: 230.18253pt x 165.41786pt.
-<obr/ei_105t.png, id=348, 690.32906pt x 496.10344pt>
+<obr/ei_105t.png, id=329, 690.32906pt x 496.10344pt>
 File: obr/ei_105t.png Graphic file (type png)
 <use obr/ei_105t.png>
-Package pdftex.def Info: obr/ei_105t.png  used on input line 598.
+Package pdftex.def Info: obr/ei_105t.png  used on input line 593.
 (pdftex.def)             Requested size: 230.18253pt x 165.41786pt.
-<obr/ei_405t.png, id=349, 690.32906pt x 496.10344pt>
+<obr/ei_405t.png, id=330, 690.32906pt x 496.10344pt>
 File: obr/ei_405t.png Graphic file (type png)
 <use obr/ei_405t.png>
-Package pdftex.def Info: obr/ei_405t.png  used on input line 599.
+Package pdftex.def Info: obr/ei_405t.png  used on input line 594.
 (pdftex.def)             Requested size: 230.18253pt x 165.41786pt.
-<obr/ei_905t.png, id=350, 690.32906pt x 496.10344pt>
+<obr/ei_905t.png, id=331, 690.32906pt x 496.10344pt>
 File: obr/ei_905t.png Graphic file (type png)
 <use obr/ei_905t.png>
-Package pdftex.def Info: obr/ei_905t.png  used on input line 600.
+Package pdftex.def Info: obr/ei_905t.png  used on input line 595.
 (pdftex.def)             Requested size: 230.18253pt x 165.41786pt.
+ [43 <./obr/ae_5t.png> <./obr/ae_105t.png> <./obr/ae_405t.png> <./obr/ae_905t.p
+ng>] [44 <./obr/ai_5t.png> <./obr/ai_105t.png> <./obr/ai_405t.png> <./obr/ai_90
+5t.png>] [45 <./obr/ei_5t.png> <./obr/ei_105t.png> <./obr/ei_405t.png> <./obr/e
+i_905t.png>]
+Overfull \hbox (3.87932pt too wide) in paragraph at lines 611--612
+[]\OT1/cmr/m/n/12 Na obr^^Sazc^^S^^Pch $(\OML/cmm/m/it/12 a;  [] I[]\OT1/cmr/m/
+n/12 )$ lze znovu spat^^Trovat p^^Wusoben^^S^^P re-zo-nanc^^S^^P, ten-tokr^^Sat
+ s ^^Su^^Tcinkem zvy^^Tsov^^San^^S^^P
+ []
+
+[46]
 runsystem(convert -trim obr/ae_chi_0006.png obr/ae_chi_0006t.png)...executed.
 
 runsystem(convert -trim obr/ae_chi_0106.png obr/ae_chi_0106t.png)...executed.
@@ -1126,44 +1122,42 @@ runsystem(convert -trim obr/ae_chi_0406.png obr/ae_chi_0406t.png)...executed.
 
 runsystem(convert -trim obr/ae_chi_empty.png obr/ae_chi_emptyt.png)...executed.
 
-<obr/ae_chi_0006t.png, id=351, 804.00375pt x 481.04718pt>
+<obr/ae_chi_0006t.png, id=358, 804.00375pt x 481.04718pt>
 File: obr/ae_chi_0006t.png Graphic file (type png)
 <use obr/ae_chi_0006t.png>
-Package pdftex.def Info: obr/ae_chi_0006t.png  used on input line 614.
+Package pdftex.def Info: obr/ae_chi_0006t.png  used on input line 624.
 (pdftex.def)             Requested size: 230.18253pt x 137.71645pt.
-<obr/ae_chi_0106t.png, id=352, 804.00375pt x 481.04718pt>
+<obr/ae_chi_0106t.png, id=359, 804.00375pt x 481.04718pt>
 File: obr/ae_chi_0106t.png Graphic file (type png)
 <use obr/ae_chi_0106t.png>
-Package pdftex.def Info: obr/ae_chi_0106t.png  used on input line 615.
+Package pdftex.def Info: obr/ae_chi_0106t.png  used on input line 625.
 (pdftex.def)             Requested size: 230.18253pt x 137.71645pt.
-<obr/ae_chi_0406t.png, id=353, 804.00375pt x 481.04718pt>
+<obr/ae_chi_0406t.png, id=360, 804.00375pt x 481.04718pt>
 File: obr/ae_chi_0406t.png Graphic file (type png)
 <use obr/ae_chi_0406t.png>
-Package pdftex.def Info: obr/ae_chi_0406t.png  used on input line 616.
+Package pdftex.def Info: obr/ae_chi_0406t.png  used on input line 626.
 (pdftex.def)             Requested size: 230.18253pt x 137.71645pt.
-<obr/ae_chi_emptyt.png, id=354, 804.00375pt x 481.04718pt>
+<obr/ae_chi_emptyt.png, id=361, 804.00375pt x 481.04718pt>
 File: obr/ae_chi_emptyt.png Graphic file (type png)
 <use obr/ae_chi_emptyt.png>
-Package pdftex.def Info: obr/ae_chi_emptyt.png  used on input line 617.
+Package pdftex.def Info: obr/ae_chi_emptyt.png  used on input line 627.
 (pdftex.def)             Requested size: 230.18253pt x 137.71645pt.
-[46] [47 <./obr/ei_5t.png> <./obr/ei_105t.png> <./obr/ei_405t.png> <./obr/ei_90
-5t.png>] [48 <./obr/ae_chi_0006t.png> <./obr/ae_chi_0106t.png> <./obr/ae_chi_04
-06t.png> <./obr/ae_chi_emptyt.png>]
 runsystem(convert -trim obr/ae_scl.png obr/ae_sclt.png)...executed.
 
 runsystem(convert -trim obr/ae_obs.png obr/ae_obst.png)...executed.
 
-<obr/ae_scl.png, id=373, 828.09375pt x 542.025pt>
+<obr/ae_scl.png, id=362, 828.09375pt x 542.025pt>
 File: obr/ae_scl.png Graphic file (type png)
 <use obr/ae_scl.png>
-Package pdftex.def Info: obr/ae_scl.png  used on input line 631.
+Package pdftex.def Info: obr/ae_scl.png  used on input line 641.
 (pdftex.def)             Requested size: 230.18253pt x 150.66597pt.
-<obr/ae_obs.png, id=374, 828.09375pt x 542.025pt>
+<obr/ae_obs.png, id=363, 828.09375pt x 542.025pt>
 File: obr/ae_obs.png Graphic file (type png)
 <use obr/ae_obs.png>
-Package pdftex.def Info: obr/ae_obs.png  used on input line 632.
+Package pdftex.def Info: obr/ae_obs.png  used on input line 642.
 (pdftex.def)             Requested size: 230.18253pt x 150.66597pt.
- [49 <./obr/ae_scl.png> <./obr/ae_obs.png>]
+ [47 <./obr/ae_chi_0006t.png> <./obr/ae_chi_0106t.png> <./obr/ae_chi_0406t.png>
+ <./obr/ae_chi_emptyt.png>] [48 <./obr/ae_scl.png> <./obr/ae_obs.png>]
 Package epstopdf Info: Source file: <obr/chi2.eps>
 (epstopdf)                    date: 2019-02-16 20:00:53
 (epstopdf)                    size: 26265 bytes
@@ -1172,44 +1166,44 @@ Package epstopdf Info: Source file: <obr/chi2.eps>
 (epstopdf)                    size: 8409 bytes
 (epstopdf)             Command: <epstopdf --outfile=obr/chi2-eps-converted-to.p
 df obr/chi2.eps>
-(epstopdf)             \includegraphics on input line 658.
+(epstopdf)             \includegraphics on input line 668.
 Package epstopdf Info: Output file is already uptodate.
-<obr/chi2-eps-converted-to.pdf, id=381, 252.945pt x 176.66pt>
+<obr/chi2-eps-converted-to.pdf, id=376, 252.945pt x 176.66pt>
 File: obr/chi2-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/chi2-eps-converted-to.pdf>
-Package pdftex.def Info: obr/chi2-eps-converted-to.pdf  used on input line 658.
+Package pdftex.def Info: obr/chi2-eps-converted-to.pdf  used on input line 668.
 
 (pdftex.def)             Requested size: 328.82707pt x 229.66066pt.
 
-[50 <./obr/chi2-eps-converted-to.pdf>] [51] [52
+[49 <./obr/chi2-eps-converted-to.pdf>] [50
 
-] [53] [54
+] [51] [52
 
 ]
-Overfull \hbox (2.46152pt too wide) in paragraph at lines 683--683
+Overfull \hbox (2.46152pt too wide) in paragraph at lines 693--693
 \OT1/cmtt/m/n/12 wikimedia . org / w / index . php ? title = File : AsteroidInc
 Au . png & oldid = 247505564>[]$\OT1/cmr/m/n/12 . 
  []
 
-[55]
-Overfull \hbox (1.81636pt too wide) in paragraph at lines 683--683
+[53]
+Overfull \hbox (1.81636pt too wide) in paragraph at lines 693--693
 \OT1/cmr/m/n/12 http://sirrah.troja.mff.cuni.cz/ mi-ra-/m-p/-phd-th/. Dis. Prah
 a: As-t-ro-no-mick^^Sy ^^Sustav Uni-
  []
 
-[56] [57
+[54] [55
 
 ]
 P\v {r}\'{\i }loha A.
 \openout3 = `asy/asteroidy-5.asy'.
 
 
-Package asymptote Warning: file f_euler.asy not found on input line 688.
+Package asymptote Warning: file f_euler.asy not found on input line 697.
 
-<"asy/asteroidy-5".pdf, id=421, 227.62239pt x 199.23233pt>
+<"asy/asteroidy-5".pdf, id=414, 227.62239pt x 199.23233pt>
 File: "asy/asteroidy-5".pdf Graphic file (type pdf)
 <use "asy/asteroidy-5".pdf>
-Package pdftex.def Info: "asy/asteroidy-5".pdf  used on input line 688.
+Package pdftex.def Info: "asy/asteroidy-5".pdf  used on input line 697.
 (pdftex.def)             Requested size: 227.62183pt x 199.23184pt.
 (/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
@@ -1225,30 +1219,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
 
-[58
+[56
 
- <./asy/asteroidy-5.pdf>]
-Overfull \hbox (128.52168pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 P[]R[]ILOHA A.  ILUSTRACE EULEROVY METODY VE VEKTOROV[]EM GRAF
-ICK[]EM JAZYCE \OT1/cmr/m/it/12 ASYMPTOTE \OT1/cmr/m/n/12 59
- []
-
-[59]
-Overfull \hbox (128.52168pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 P[]R[]ILOHA A.  ILUSTRACE EULEROVY METODY VE VEKTOROV[]EM GRAF
-ICK[]EM JAZYCE \OT1/cmr/m/it/12 ASYMPTOTE \OT1/cmr/m/n/12 60
- []
-
-[60])
-Overfull \hbox (128.52168pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 P[]R[]ILOHA A.  ILUSTRACE EULEROVY METODY VE VEKTOROV[]EM GRAF
-ICK[]EM JAZYCE \OT1/cmr/m/it/12 ASYMPTOTE \OT1/cmr/m/n/12 61
- []
-
-[61]
+ <./asy/asteroidy-5.pdf>] [57] [58]) [59]
 P\v {r}\'{\i }loha B.
 
-Overfull \hbox (12.99474pt too wide) in paragraph at lines 697--699
+Overfull \hbox (12.99474pt too wide) in paragraph at lines 708--710
 \OT1/cmr/m/n/12 kde be-reme prvn^^S^^P od-had $\OML/cmm/m/it/12 E[] \OT1/cmr/m/
 n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
 ^^Tz dos^^Sahneme p^^Tresnosti $[]$,
@@ -1257,42 +1233,28 @@ n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
 (/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 711.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 722.
 
 
 (/opt/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 711.
- [62
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 722.
+ [60
 
 ]
 P\v {r}\'{\i }loha C.
-[63
+[61
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 758.
- [64] [65]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 770.
+ [62]
 P\v {r}\'{\i }loha D.
-[66
+[63
 
-]
-Overfull \hbox (71.54027pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 P[]R[]ILOHA D.  SKRIPTY K VYTVO[]REN[]I OBR[]AZK[]U V[]YSLEDK[
-]U SIMULACE V PROSTORU $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A; E\OT1/cmr/m/n/12 )
-$ 67
- []
-
-[67]
-Overfull \hbox (71.54027pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 P[]R[]ILOHA D.  SKRIPTY K VYTVO[]REN[]I OBR[]AZK[]U V[]YSLEDK[
-]U SIMULACE V PROSTORU $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A; E\OT1/cmr/m/n/12 )
-$ 68
- []
-
-[68] (./asteroidy.aux)
+] [64] [65] (./asteroidy.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1301,37 +1263,36 @@ Package logreq Info: Writing requests to 'asteroidy.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15383 strings out of 494062
- 252238 string characters out of 6165011
- 861621 words of memory out of 5000000
- 18779 multiletter control sequences out of 15000+600000
- 22137 words of font info for 84 fonts, out of 8000000 for 9000
+ 15381 strings out of 494062
+ 252202 string characters out of 6165011
+ 868522 words of memory out of 5000000
+ 18777 multiletter control sequences out of 15000+600000
+ 21419 words of font info for 82 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 49i,13n,62p,1840b,3290s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,13n,62p,1840b,3285s stack positions out of 5000i,500n,10000p,200000b,80000s
 </opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></opt/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></opt/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.
-pfb>
-Output written on asteroidy.pdf (68 pages, 3351271 bytes).
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></opt/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+tt12.pfb>
+Output written on asteroidy.pdf (65 pages, 3341618 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 346 compressed objects within 4 object streams
+ 520 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

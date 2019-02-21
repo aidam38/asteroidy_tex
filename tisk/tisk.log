@@ -1,0 +1,1297 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  21 FEB 2019 06:15
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**tisk.tex
+(./tisk.tex
+LaTeX2e <2018-12-01>
+(/opt/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/opt/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/opt/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/opt/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/opt/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/opt/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/opt/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+\calc@Adimen=\dimen111
+\calc@Bdimen=\dimen112
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count93
+\calc@Cskip=\skip45
+)
+(/opt/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+(/opt/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+\AM@pagewidth=\dimen115
+\AM@pageheight=\dimen116
+
+(/opt/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box27
+\AM@global@opts=\toks16
+\AM@toc@title=\toks17
+\c@AM@survey=\count94
+\AM@templatesizebox=\box28
+) (./tisk.aux)
+\openout1 = `tisk.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=845.04684pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-109.26999pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box29
+(/opt/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count95
+\scratchdimen=\dimen117
+\scratchbox=\box30
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen118
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks19
+) (/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/opt/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+<../asteroidy.pdf, id=1, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf>
+Package pdftex.def Info: ../asteroidy.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<../asteroidy.pdf, id=12, page=1, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [1
+
+ <../asteroidy.pdf{/opt/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.m
+ap}>]
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [2]
+<../asteroidy.pdf, id=27, page=2, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 2>
+Package pdftex.def Info: ../asteroidy.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 2>
+Package pdftex.def Info: ../asteroidy.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 2>
+Package pdftex.def Info: ../asteroidy.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[3 <../asteroidy.pdf>]
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [4]
+<../asteroidy.pdf, id=39, page=3, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 3>
+Package pdftex.def Info: ../asteroidy.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 3>
+Package pdftex.def Info: ../asteroidy.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 3>
+Package pdftex.def Info: ../asteroidy.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [5 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=43, page=4, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 4>
+Package pdftex.def Info: ../asteroidy.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 4>
+Package pdftex.def Info: ../asteroidy.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 4>
+Package pdftex.def Info: ../asteroidy.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [6 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=57, page=5, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 5>
+Package pdftex.def Info: ../asteroidy.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 5>
+Package pdftex.def Info: ../asteroidy.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 5>
+Package pdftex.def Info: ../asteroidy.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[7 <../asteroidy.pdf>]
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 1>
+Package pdftex.def Info: ../asteroidy.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [8]
+<../asteroidy.pdf, id=70, page=6, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 6>
+Package pdftex.def Info: ../asteroidy.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 6>
+Package pdftex.def Info: ../asteroidy.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 6>
+Package pdftex.def Info: ../asteroidy.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [9 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=74, page=7, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 7>
+Package pdftex.def Info: ../asteroidy.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 7>
+Package pdftex.def Info: ../asteroidy.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 7>
+Package pdftex.def Info: ../asteroidy.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [10 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=78, page=8, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 8>
+Package pdftex.def Info: ../asteroidy.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 8>
+Package pdftex.def Info: ../asteroidy.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 8>
+Package pdftex.def Info: ../asteroidy.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[11 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=92, page=9, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 9>
+Package pdftex.def Info: ../asteroidy.pdf , page9 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 9>
+Package pdftex.def Info: ../asteroidy.pdf , page9 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 9>
+Package pdftex.def Info: ../asteroidy.pdf , page9 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [12 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=96, page=10, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 10>
+Package pdftex.def Info: ../asteroidy.pdf , page10 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 10>
+Package pdftex.def Info: ../asteroidy.pdf , page10 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 10>
+Package pdftex.def Info: ../asteroidy.pdf , page10 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [13 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=101, page=11, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 11>
+Package pdftex.def Info: ../asteroidy.pdf , page11 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 11>
+Package pdftex.def Info: ../asteroidy.pdf , page11 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 11>
+Package pdftex.def Info: ../asteroidy.pdf , page11 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[14 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=130, page=12, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 12>
+Package pdftex.def Info: ../asteroidy.pdf , page12 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 12>
+Package pdftex.def Info: ../asteroidy.pdf , page12 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 12>
+Package pdftex.def Info: ../asteroidy.pdf , page12 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [15 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=139, page=13, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 13>
+Package pdftex.def Info: ../asteroidy.pdf , page13 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 13>
+Package pdftex.def Info: ../asteroidy.pdf , page13 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 13>
+Package pdftex.def Info: ../asteroidy.pdf , page13 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [16 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=160, page=14, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 14>
+Package pdftex.def Info: ../asteroidy.pdf , page14 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 14>
+Package pdftex.def Info: ../asteroidy.pdf , page14 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 14>
+Package pdftex.def Info: ../asteroidy.pdf , page14 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[17 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=185, page=15, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 15>
+Package pdftex.def Info: ../asteroidy.pdf , page15 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 15>
+Package pdftex.def Info: ../asteroidy.pdf , page15 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 15>
+Package pdftex.def Info: ../asteroidy.pdf , page15 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [18 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=189, page=16, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 16>
+Package pdftex.def Info: ../asteroidy.pdf , page16 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 16>
+Package pdftex.def Info: ../asteroidy.pdf , page16 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 16>
+Package pdftex.def Info: ../asteroidy.pdf , page16 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [19 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=194, page=17, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 17>
+Package pdftex.def Info: ../asteroidy.pdf , page17 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 17>
+Package pdftex.def Info: ../asteroidy.pdf , page17 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 17>
+Package pdftex.def Info: ../asteroidy.pdf , page17 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[20 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=198, page=18, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 18>
+Package pdftex.def Info: ../asteroidy.pdf , page18 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 18>
+Package pdftex.def Info: ../asteroidy.pdf , page18 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 18>
+Package pdftex.def Info: ../asteroidy.pdf , page18 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [21 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=229, page=19, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 19>
+Package pdftex.def Info: ../asteroidy.pdf , page19 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 19>
+Package pdftex.def Info: ../asteroidy.pdf , page19 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 19>
+Package pdftex.def Info: ../asteroidy.pdf , page19 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [22 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=233, page=20, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 20>
+Package pdftex.def Info: ../asteroidy.pdf , page20 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 20>
+Package pdftex.def Info: ../asteroidy.pdf , page20 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 20>
+Package pdftex.def Info: ../asteroidy.pdf , page20 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[23 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=237, page=21, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 21>
+Package pdftex.def Info: ../asteroidy.pdf , page21 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 21>
+Package pdftex.def Info: ../asteroidy.pdf , page21 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 21>
+Package pdftex.def Info: ../asteroidy.pdf , page21 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [24 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=250, page=22, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 22>
+Package pdftex.def Info: ../asteroidy.pdf , page22 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 22>
+Package pdftex.def Info: ../asteroidy.pdf , page22 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 22>
+Package pdftex.def Info: ../asteroidy.pdf , page22 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [25 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=255, page=23, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 23>
+Package pdftex.def Info: ../asteroidy.pdf , page23 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 23>
+Package pdftex.def Info: ../asteroidy.pdf , page23 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 23>
+Package pdftex.def Info: ../asteroidy.pdf , page23 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[26 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=268, page=24, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 24>
+Package pdftex.def Info: ../asteroidy.pdf , page24 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 24>
+Package pdftex.def Info: ../asteroidy.pdf , page24 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 24>
+Package pdftex.def Info: ../asteroidy.pdf , page24 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [27 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=273, page=25, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 25>
+Package pdftex.def Info: ../asteroidy.pdf , page25 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 25>
+Package pdftex.def Info: ../asteroidy.pdf , page25 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 25>
+Package pdftex.def Info: ../asteroidy.pdf , page25 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [28 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=282, page=26, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 26>
+Package pdftex.def Info: ../asteroidy.pdf , page26 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 26>
+Package pdftex.def Info: ../asteroidy.pdf , page26 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 26>
+Package pdftex.def Info: ../asteroidy.pdf , page26 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[29 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=288, page=27, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 27>
+Package pdftex.def Info: ../asteroidy.pdf , page27 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 27>
+Package pdftex.def Info: ../asteroidy.pdf , page27 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 27>
+Package pdftex.def Info: ../asteroidy.pdf , page27 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [30 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=292, page=28, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 28>
+Package pdftex.def Info: ../asteroidy.pdf , page28 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 28>
+Package pdftex.def Info: ../asteroidy.pdf , page28 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 28>
+Package pdftex.def Info: ../asteroidy.pdf , page28 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [31 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=297, page=29, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 29>
+Package pdftex.def Info: ../asteroidy.pdf , page29 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 29>
+Package pdftex.def Info: ../asteroidy.pdf , page29 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 29>
+Package pdftex.def Info: ../asteroidy.pdf , page29 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[32 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=309, page=30, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 30>
+Package pdftex.def Info: ../asteroidy.pdf , page30 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 30>
+Package pdftex.def Info: ../asteroidy.pdf , page30 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 30>
+Package pdftex.def Info: ../asteroidy.pdf , page30 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [33 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=313, page=31, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 31>
+Package pdftex.def Info: ../asteroidy.pdf , page31 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 31>
+Package pdftex.def Info: ../asteroidy.pdf , page31 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 31>
+Package pdftex.def Info: ../asteroidy.pdf , page31 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [34 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=318, page=32, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 32>
+Package pdftex.def Info: ../asteroidy.pdf , page32 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 32>
+Package pdftex.def Info: ../asteroidy.pdf , page32 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 32>
+Package pdftex.def Info: ../asteroidy.pdf , page32 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[35 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=322, page=33, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 33>
+Package pdftex.def Info: ../asteroidy.pdf , page33 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 33>
+Package pdftex.def Info: ../asteroidy.pdf , page33 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 33>
+Package pdftex.def Info: ../asteroidy.pdf , page33 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [36 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=326, page=34, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 34>
+Package pdftex.def Info: ../asteroidy.pdf , page34 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 34>
+Package pdftex.def Info: ../asteroidy.pdf , page34 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 34>
+Package pdftex.def Info: ../asteroidy.pdf , page34 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [37 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=331, page=35, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 35>
+Package pdftex.def Info: ../asteroidy.pdf , page35 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 35>
+Package pdftex.def Info: ../asteroidy.pdf , page35 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 35>
+Package pdftex.def Info: ../asteroidy.pdf , page35 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[38 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=342, page=36, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 36>
+Package pdftex.def Info: ../asteroidy.pdf , page36 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 36>
+Package pdftex.def Info: ../asteroidy.pdf , page36 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 36>
+Package pdftex.def Info: ../asteroidy.pdf , page36 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [39 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=355, page=37, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 37>
+Package pdftex.def Info: ../asteroidy.pdf , page37 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 37>
+Package pdftex.def Info: ../asteroidy.pdf , page37 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 37>
+Package pdftex.def Info: ../asteroidy.pdf , page37 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [40 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=369, page=38, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 38>
+Package pdftex.def Info: ../asteroidy.pdf , page38 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 38>
+Package pdftex.def Info: ../asteroidy.pdf , page38 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 38>
+Package pdftex.def Info: ../asteroidy.pdf , page38 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[41 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=384, page=39, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 39>
+Package pdftex.def Info: ../asteroidy.pdf , page39 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 39>
+Package pdftex.def Info: ../asteroidy.pdf , page39 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 39>
+Package pdftex.def Info: ../asteroidy.pdf , page39 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [42 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=414, page=40, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 40>
+Package pdftex.def Info: ../asteroidy.pdf , page40 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 40>
+Package pdftex.def Info: ../asteroidy.pdf , page40 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 40>
+Package pdftex.def Info: ../asteroidy.pdf , page40 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [43 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=419, page=41, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 41>
+Package pdftex.def Info: ../asteroidy.pdf , page41 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 41>
+Package pdftex.def Info: ../asteroidy.pdf , page41 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 41>
+Package pdftex.def Info: ../asteroidy.pdf , page41 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[44 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=441, page=42, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 42>
+Package pdftex.def Info: ../asteroidy.pdf , page42 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 42>
+Package pdftex.def Info: ../asteroidy.pdf , page42 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 42>
+Package pdftex.def Info: ../asteroidy.pdf , page42 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [45 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=445, page=43, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 43>
+Package pdftex.def Info: ../asteroidy.pdf , page43 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 43>
+Package pdftex.def Info: ../asteroidy.pdf , page43 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 43>
+Package pdftex.def Info: ../asteroidy.pdf , page43 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [46 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=457, page=44, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 44>
+Package pdftex.def Info: ../asteroidy.pdf , page44 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 44>
+Package pdftex.def Info: ../asteroidy.pdf , page44 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 44>
+Package pdftex.def Info: ../asteroidy.pdf , page44 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[47 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=469, page=45, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 45>
+Package pdftex.def Info: ../asteroidy.pdf , page45 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 45>
+Package pdftex.def Info: ../asteroidy.pdf , page45 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 45>
+Package pdftex.def Info: ../asteroidy.pdf , page45 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [48 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=481, page=46, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 46>
+Package pdftex.def Info: ../asteroidy.pdf , page46 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 46>
+Package pdftex.def Info: ../asteroidy.pdf , page46 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 46>
+Package pdftex.def Info: ../asteroidy.pdf , page46 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [49 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=486, page=47, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 47>
+Package pdftex.def Info: ../asteroidy.pdf , page47 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 47>
+Package pdftex.def Info: ../asteroidy.pdf , page47 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 47>
+Package pdftex.def Info: ../asteroidy.pdf , page47 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[50 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=498, page=48, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 48>
+Package pdftex.def Info: ../asteroidy.pdf , page48 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 48>
+Package pdftex.def Info: ../asteroidy.pdf , page48 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 48>
+Package pdftex.def Info: ../asteroidy.pdf , page48 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [51 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=506, page=49, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 49>
+Package pdftex.def Info: ../asteroidy.pdf , page49 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 49>
+Package pdftex.def Info: ../asteroidy.pdf , page49 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 49>
+Package pdftex.def Info: ../asteroidy.pdf , page49 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [52 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=523, page=50, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 50>
+Package pdftex.def Info: ../asteroidy.pdf , page50 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 50>
+Package pdftex.def Info: ../asteroidy.pdf , page50 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 50>
+Package pdftex.def Info: ../asteroidy.pdf , page50 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[53 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=527, page=51, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 51>
+Package pdftex.def Info: ../asteroidy.pdf , page51 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 51>
+Package pdftex.def Info: ../asteroidy.pdf , page51 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 51>
+Package pdftex.def Info: ../asteroidy.pdf , page51 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [54 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=531, page=52, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 52>
+Package pdftex.def Info: ../asteroidy.pdf , page52 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 52>
+Package pdftex.def Info: ../asteroidy.pdf , page52 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 52>
+Package pdftex.def Info: ../asteroidy.pdf , page52 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [55 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=546, page=53, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 53>
+Package pdftex.def Info: ../asteroidy.pdf , page53 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 53>
+Package pdftex.def Info: ../asteroidy.pdf , page53 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 53>
+Package pdftex.def Info: ../asteroidy.pdf , page53 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[56 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=550, page=54, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 54>
+Package pdftex.def Info: ../asteroidy.pdf , page54 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 54>
+Package pdftex.def Info: ../asteroidy.pdf , page54 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 54>
+Package pdftex.def Info: ../asteroidy.pdf , page54 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [57 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=554, page=55, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 55>
+Package pdftex.def Info: ../asteroidy.pdf , page55 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 55>
+Package pdftex.def Info: ../asteroidy.pdf , page55 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 55>
+Package pdftex.def Info: ../asteroidy.pdf , page55 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [58 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=558, page=56, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 56>
+Package pdftex.def Info: ../asteroidy.pdf , page56 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 56>
+Package pdftex.def Info: ../asteroidy.pdf , page56 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 56>
+Package pdftex.def Info: ../asteroidy.pdf , page56 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[59 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=579, page=57, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 57>
+Package pdftex.def Info: ../asteroidy.pdf , page57 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 57>
+Package pdftex.def Info: ../asteroidy.pdf , page57 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 57>
+Package pdftex.def Info: ../asteroidy.pdf , page57 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [60 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=583, page=58, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 58>
+Package pdftex.def Info: ../asteroidy.pdf , page58 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 58>
+Package pdftex.def Info: ../asteroidy.pdf , page58 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 58>
+Package pdftex.def Info: ../asteroidy.pdf , page58 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [61 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=588, page=59, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 59>
+Package pdftex.def Info: ../asteroidy.pdf , page59 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 59>
+Package pdftex.def Info: ../asteroidy.pdf , page59 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 59>
+Package pdftex.def Info: ../asteroidy.pdf , page59 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[62 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=592, page=60, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 60>
+Package pdftex.def Info: ../asteroidy.pdf , page60 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 60>
+Package pdftex.def Info: ../asteroidy.pdf , page60 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 60>
+Package pdftex.def Info: ../asteroidy.pdf , page60 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [63 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=596, page=61, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 61>
+Package pdftex.def Info: ../asteroidy.pdf , page61 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 61>
+Package pdftex.def Info: ../asteroidy.pdf , page61 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 61>
+Package pdftex.def Info: ../asteroidy.pdf , page61 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [64 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=600, page=62, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 62>
+Package pdftex.def Info: ../asteroidy.pdf , page62 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 62>
+Package pdftex.def Info: ../asteroidy.pdf , page62 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 62>
+Package pdftex.def Info: ../asteroidy.pdf , page62 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[65 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=604, page=63, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 63>
+Package pdftex.def Info: ../asteroidy.pdf , page63 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 63>
+Package pdftex.def Info: ../asteroidy.pdf , page63 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 63>
+Package pdftex.def Info: ../asteroidy.pdf , page63 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [66 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=613, page=64, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 64>
+Package pdftex.def Info: ../asteroidy.pdf , page64 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 64>
+Package pdftex.def Info: ../asteroidy.pdf , page64 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 64>
+Package pdftex.def Info: ../asteroidy.pdf , page64 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [67 <../asteroidy.pdf>]
+<../asteroidy.pdf, id=618, page=65, 614.295pt x 794.97pt>
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 65>
+Package pdftex.def Info: ../asteroidy.pdf , page65 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 65>
+Package pdftex.def Info: ../asteroidy.pdf , page65 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../asteroidy.pdf Graphic file (type pdf)
+<use ../asteroidy.pdf, page 65>
+Package pdftex.def Info: ../asteroidy.pdf , page65 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[68 <../asteroidy.pdf>] (./tisk.aux) ) 
+Here is how much of TeX's memory you used:
+ 3394 strings out of 494062
+ 52678 string characters out of 6165011
+ 118986 words of memory out of 5000000
+ 7069 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 41i,18n,46p,271b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+</opt/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmcsc10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmex10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></o
+pt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></opt/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msl12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on tisk.pdf (68 pages, 3371086 bytes).
+PDF statistics:
+ 647 PDF objects out of 1000 (max. 8388607)
+ 384 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
+
