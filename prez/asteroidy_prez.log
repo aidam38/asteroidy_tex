@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  23 JAN 2019 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  27 FEB 2019 09:21
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
-**asteroidy_prez.tex
-(./asteroidy_prez.tex
+**/home/adam/soc/asteroidy_tex/prez/asteroidy_prez.tex
+(/home/adam/soc/asteroidy_tex/prez/asteroidy_prez.tex
 LaTeX2e <2018-12-01>
 (/opt/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
@@ -140,10 +140,10 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2019/01/05 v3.1 (3.1)
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
 ))
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2019/01/05 v3.1 (3.1)
+Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks17
@@ -172,25 +172,25 @@ x
 \t@pgf@tokc=\toks22
 \pgf@sys@id@count=\count112
  (/opt/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2019/01/05 v3.1 (3.1)
+File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2019/01/05 v3.1 (3.1)
+File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
 
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2019/01/05 v3.1 (3.1)
+File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
 )))
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.t
 ex
-File: pgfsyssoftpath.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfsyssoftpath@smallbuffer@items=\count113
 \pgfsyssoftpath@bigbuffer@items=\count114
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.t
 ex
-File: pgfsysprotocol.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )) (/opt/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -212,7 +212,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2019/01/05 v3.1 (3.1)
+Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
 
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
@@ -246,7 +246,7 @@ hmetics.code.tex)))
 \c@pgfmathroundto@lastzeros=\count116
 ))
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@picminx=\dimen139
 \pgf@picmaxx=\dimen140
 \pgf@picminy=\dimen141
@@ -264,18 +264,18 @@ File: pgfcorepoints.code.tex 2019/01/05 v3.1 (3.1)
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.c
 ode.tex
-File: pgfcorepathconstruct.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@path@lastx=\dimen153
 \pgf@path@lasty=\dimen154
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.
 tex
-File: pgfcorepathusage.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@shorten@end@additional=\dimen155
 \pgf@shorten@start@additional=\dimen156
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box37
 \pgf@hbox=\box38
 \pgf@layerbox@main=\box39
@@ -283,57 +283,57 @@ File: pgfcorescopes.code.tex 2019/01/05 v3.1 (3.1)
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.co
 de.tex
-File: pgfcoregraphicstate.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgflinewidth=\dimen157
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations
 .code.tex
-File: pgfcoretransformations.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@pt@x=\dimen158
 \pgf@pt@y=\dimen159
 \pgf@pt@temp=\dimen160
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.te
 x
-File: pgfcoreobjects.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.
 code.tex
-File: pgfcorepathprocessing.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfarrowsep=\dimen161
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@max=\dimen162
 \pgf@sys@shading@range@num=\count118
 ) (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
 x
-File: pgfcoreimage.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.t
 ex
-File: pgfcoreexternal.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfexternal@startupbox=\box40
 ))
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.co
 de.tex
-File: pgfcoretransparency.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.t
 ex
-File: pgfcorepatterns.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2019/01/05 v3.1 (3.1)
+File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))) (/opt/texlive/2018/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count119
@@ -946,20 +946,20 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./asteroidy_prez.aux)
 \openout1 = `asteroidy_prez.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1010,7 +1010,7 @@ LaTeX Font Info:    ... okay on input line 44.
 \everyMPtoPDFconversion=\toks46
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 43.
 
 (/opt/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1020,9 +1020,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./asteroidy_prez.out) (./asteroidy_prez.out)
 \@outlinefile=\write8
@@ -1061,8 +1061,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'asteroidy_prez.bbl' found.
  (./asteroidy_prez.bbl)
-Package biblatex Info: Reference section=0 on input line 44.
-Package biblatex Info: Reference segment=0 on input line 44.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
  (./asteroidy_prez.nav) [1
 
 {/opt/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./asteroidy_
@@ -1073,18 +1073,18 @@ prez.toc)
 <../asy/asteroidy-3.pdf, id=60, 227.62239pt x 199.23233pt>
 File: ../asy/asteroidy-3.pdf Graphic file (type pdf)
 <use ../asy/asteroidy-3.pdf>
-Package pdftex.def Info: ../asy/asteroidy-3.pdf  used on input line 67.
+Package pdftex.def Info: ../asy/asteroidy-3.pdf  used on input line 66.
 (pdftex.def)             Requested size: 150.57372pt x 131.79774pt.
 <../asy/asteroidy-4.pdf, id=61, 227.62239pt x 213.39122pt>
 File: ../asy/asteroidy-4.pdf Graphic file (type pdf)
 <use ../asy/asteroidy-4.pdf>
-Package pdftex.def Info: ../asy/asteroidy-4.pdf  used on input line 67.
+Package pdftex.def Info: ../asy/asteroidy-4.pdf  used on input line 66.
 (pdftex.def)             Requested size: 150.57372pt x 141.16423pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 67.
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
  (/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 67.
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
 
 (/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1094,7 +1094,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <../asy/asteroidy-1.pdf, id=100, 341.4326pt x 153.68315pt>
 File: ../asy/asteroidy-1.pdf Graphic file (type pdf)
 <use ../asy/asteroidy-1.pdf>
-Package pdftex.def Info: ../asy/asteroidy-1.pdf  used on input line 86.
+Package pdftex.def Info: ../asy/asteroidy-1.pdf  used on input line 85.
 (pdftex.def)             Requested size: 184.3758pt x 82.98999pt.
  [4
 
@@ -1102,17 +1102,17 @@ Package pdftex.def Info: ../asy/asteroidy-1.pdf  used on input line 86.
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 88.
+(hyperref)                removing `\textasciicaron' on input line 87.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 88.
+(hyperref)                removing `\textasciicaron' on input line 87.
 
 <../obr/vesta.jpg, id=122, 1058.95625pt x 1027.84pt>
 File: ../obr/vesta.jpg Graphic file (type jpg)
 <use ../obr/vesta.jpg>
-Package pdftex.def Info: ../obr/vesta.jpg  used on input line 95.
+Package pdftex.def Info: ../obr/vesta.jpg  used on input line 94.
 (pdftex.def)             Requested size: 194.0941pt x 188.39085pt.
 [5
 
@@ -1120,7 +1120,7 @@ Package pdftex.def Info: ../obr/vesta.jpg  used on input line 95.
 <../obr/mainbelt.png, id=131, 1205.50375pt x 904.37875pt>
 File: ../obr/mainbelt.png Graphic file (type png)
 <use ../obr/mainbelt.png>
-Package pdftex.def Info: ../obr/mainbelt.png  used on input line 103.
+Package pdftex.def Info: ../obr/mainbelt.png  used on input line 102.
 (pdftex.def)             Requested size: 251.12148pt x 188.39337pt.
  [6
 
@@ -1129,17 +1129,17 @@ Package epstopdf Info: Source file: <../obr/ae_wise.eps>
 (epstopdf)                    date: 2019-01-07 06:33:54
 (epstopdf)                    size: 250775 bytes
 (epstopdf)             Output file: <../obr/ae_wise-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-09 10:40:12
+(epstopdf)                    date: 2019-02-16 20:07:52
 (epstopdf)                    size: 430006 bytes
-(epstopdf)             Command: <repstopdf --outfile=../obr/ae_wise-eps-convert
-ed-to.pdf ../obr/ae_wise.eps>
-(epstopdf)             \includegraphics on input line 112.
+(epstopdf)             Command: <epstopdf --outfile=../obr/ae_wise-eps-converte
+d-to.pdf ../obr/ae_wise.eps>
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 <../obr/ae_wise-eps-converted-to.pdf, id=143, 289.08pt x 189.70876pt>
 File: ../obr/ae_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/ae_wise-eps-converted-to.pdf>
 Package pdftex.def Info: ../obr/ae_wise-eps-converted-to.pdf  used on input lin
-e 112.
+e 111.
 (pdftex.def)             Requested size: 215.10196pt x 141.16095pt.
  [7
 
@@ -1148,17 +1148,17 @@ Package epstopdf Info: Source file: <../obr/pV_pIR.eps>
 (epstopdf)                    date: 2019-01-07 06:33:54
 (epstopdf)                    size: 115584 bytes
 (epstopdf)             Output file: <../obr/pV_pIR-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-09 10:40:13
+(epstopdf)                    date: 2019-02-16 20:07:51
 (epstopdf)                    size: 145323 bytes
-(epstopdf)             Command: <repstopdf --outfile=../obr/pV_pIR-eps-converte
-d-to.pdf ../obr/pV_pIR.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             Command: <epstopdf --outfile=../obr/pV_pIR-eps-converted
+-to.pdf ../obr/pV_pIR.eps>
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 <../obr/pV_pIR-eps-converted-to.pdf, id=157, 361.35pt x 252.945pt>
 File: ../obr/pV_pIR-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/pV_pIR-eps-converted-to.pdf>
 Package pdftex.def Info: ../obr/pV_pIR-eps-converted-to.pdf  used on input line
- 120.
+ 119.
 (pdftex.def)             Requested size: 215.10196pt x 150.57169pt.
  [8
 
@@ -1167,17 +1167,17 @@ Package epstopdf Info: Source file: <../obr/aH_wise.eps>
 (epstopdf)                    date: 2019-01-20 18:50:37
 (epstopdf)                    size: 254792 bytes
 (epstopdf)             Output file: <../obr/aH_wise-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-01-20 18:53:29
+(epstopdf)                    date: 2019-02-16 20:07:51
 (epstopdf)                    size: 426685 bytes
-(epstopdf)             Command: <repstopdf --outfile=../obr/aH_wise-eps-convert
-ed-to.pdf ../obr/aH_wise.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             Command: <epstopdf --outfile=../obr/aH_wise-eps-converte
+d-to.pdf ../obr/aH_wise.eps>
+(epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 <../obr/aH_wise-eps-converted-to.pdf, id=173, 361.35pt x 252.945pt>
 File: ../obr/aH_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/aH_wise-eps-converted-to.pdf>
 Package pdftex.def Info: ../obr/aH_wise-eps-converted-to.pdf  used on input lin
-e 128.
+e 127.
 (pdftex.def)             Requested size: 215.10196pt x 150.57169pt.
  [9
 
@@ -1185,11 +1185,11 @@ e 128.
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 130.
+(hyperref)                removing `\textasciicaron' on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 133.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 132.
 
 [10
 
@@ -1206,11 +1206,11 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
 \tf@snm=\write11
 \openout11 = `asteroidy_prez.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (./asteroidy_prez.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 Package rerunfilecheck Info: File `asteroidy_prez.out' has not changed.
 (rerunfilecheck)             Checksum: 316BBFA0E788E481A1B6DA3F76D9187B;308.
 Package logreq Info: Writing requests to 'asteroidy_prez.run.xml'.
@@ -1218,13 +1218,13 @@ Package logreq Info: Writing requests to 'asteroidy_prez.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24126 strings out of 494062
- 455056 string characters out of 6165011
- 891386 words of memory out of 5000000
- 27308 multiletter control sequences out of 15000+600000
+ 24128 strings out of 494062
+ 455164 string characters out of 6165011
+ 891493 words of memory out of 5000000
+ 27309 multiletter control sequences out of 15000+600000
  16382 words of font info for 63 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 48i,14n,53p,805b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,14n,53p,839b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
 </opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></op
 t/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texli
 ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2018
@@ -1245,7 +1245,7 @@ c/amsfonts/cm/cmsy8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy9.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb>
-Output written on asteroidy_prez.pdf (11 pages, 1531120 bytes).
+Output written on asteroidy_prez.pdf (11 pages, 1530967 bytes).
 PDF statistics:
  285 PDF objects out of 1000 (max. 8388607)
  219 compressed objects within 3 object streams

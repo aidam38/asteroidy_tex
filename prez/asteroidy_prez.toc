@@ -1,0 +1,12 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {czech}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{\IeC {\'U}vod}{2}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Nebesk\IeC {\'a} mechanika}{3}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Planetky ve slune\IeC {\v c}n\IeC {\'\i } soustav\IeC {\v e}}{5}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Vlastnosti rodiny Eunomia}{7}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Z\IeC {\'a}v\IeC {\v e}r}{10}{0}{5}

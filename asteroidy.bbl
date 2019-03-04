@@ -1,0 +1,1387 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{wiki:piazzi}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 16-February-2019]}
+      \field{title}{Giuseppe Piazzi --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Giuseppe_Piazzi&oldid=881971175
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Giuseppe_Piazzi&oldid=881971175
+      \endverb
+    \endentry
+    \entry{astorb}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{note}{The Asteroid Orbital Elements Database. Lowell Observatory, NASA. [online] [cit. 2019-2-19]. Dostupné z :https://asteroid.lowell.edu/main/astorb.}
+    \endentry
+    \entry{knezevic12}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=6063b1c3efd6463c8075d7f028a7ca37}{%
+           family={{Knezevi{ć}}},
+           familyi={K\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d611671371caac713500b9d55865ad49}{%
+           family={{Milani}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2512eb0db8c4ec503a96dfdd9c7a3c58}
+      \strng{fullhash}{2512eb0db8c4ec503a96dfdd9c7a3c58}
+      \strng{bibnamehash}{2512eb0db8c4ec503a96dfdd9c7a3c58}
+      \strng{authorbibnamehash}{2512eb0db8c4ec503a96dfdd9c7a3c58}
+      \strng{authornamehash}{2512eb0db8c4ec503a96dfdd9c7a3c58}
+      \strng{authorfullhash}{2512eb0db8c4ec503a96dfdd9c7a3c58}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IAU Joint Discussion}
+      \field{eid}{P18}
+      \field{month}{8}
+      \field{series}{IAU Joint Discussion}
+      \field{title}{{Asteroids Dynamic Site-AstDyS}}
+      \field{volume}{7}
+      \field{year}{2012}
+      \field{pages}{P18}
+      \range{pages}{-1}
+    \endentry
+    \entry{nugent15}{article}{}
+      \name{author}{10}{}{%
+        {{hash=061e90250f7f5a77303faf48285e3e35}{%
+           family={{Nugent}},
+           familyi={N\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ea3773b65534e117216f13d07bef7216}{%
+           family={{Mainzer}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=668e845e263133350294fb40ad8557c2}{%
+           family={{Masiero}},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ebda88f7501c51c949ef5ce3ee6f25e1}{%
+           family={{Bauer}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=66a95aa34271a8b4f957a1b251b232eb}{%
+           family={{Cutri}},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8b96002acaa28c143f2da907c9205f67}{%
+           family={{Grav}},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a2e8caac7e522357fc050919ebeadd76}{%
+           family={{Kramer}},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ecf282a3e38eadb90651c9469e23d309}{%
+           family={{Sonnett}},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=40afec41cd9a3bd23b0c741c255d4a2d}{%
+           family={{Stevenson}},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a9118b2e2b8207f3a43fa42171a10a13}{%
+           family={{Wright}},
+           familyi={W\bibinitperiod},
+           given={E.\bibnamedelimi L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf2519544ba0cf92dcca4caeabe33066}
+      \strng{fullhash}{e96e72d7bc7342a51450f54c703e6a98}
+      \strng{bibnamehash}{bf2519544ba0cf92dcca4caeabe33066}
+      \strng{authorbibnamehash}{bf2519544ba0cf92dcca4caeabe33066}
+      \strng{authornamehash}{bf2519544ba0cf92dcca4caeabe33066}
+      \strng{authorfullhash}{e96e72d7bc7342a51450f54c703e6a98}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{117}
+      \field{eprintclass}{astro-ph.EP}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apj}
+      \field{month}{12}
+      \field{title}{{NEOWISE Reactivation Mission Year One: Preliminary Asteroid Diameters and Albedos}}
+      \field{volume}{814}
+      \field{year}{2015}
+      \field{pages}{117}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0004-637X/814/2/117
+      \endverb
+      \verb{eprint}
+      \verb 1509.02522
+      \endverb
+      \keyw{minor planets,asteroids: general}
+    \endentry
+    \entry{usui11}{article}{}
+      \name{author}{13}{}{%
+        {{hash=144569488a3f9c5c9e9c1c3c9796d228}{%
+           family={{Usui}},
+           familyi={U\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8b16157e2c917363efeee2bdb888e82e}{%
+           family={{Kuroda}},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=58237fc80efa9d3b6e6ca55bf17c7a9b}{%
+           family={{M{ü}ller}},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=820c7ad7132d4c902e1c2a80e8799df4}{%
+           family={{Hasegawa}},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=412cea21a27b4dae0591db6e3d7e1be9}{%
+           family={{Ishiguro}},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0f999bce6e49b90a2c079206af8f8543}{%
+           family={{Ootsubo}},
+           familyi={O\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=66fdca89e2fa5f739ac77069a46129ea}{%
+           family={{Ishihara}},
+           familyi={I\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=868280f7bff1a1f1e06485dbc5470e7e}{%
+           family={{Kataza}},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cc528ab7b66c00336156ef99b3522266}{%
+           family={{Takita}},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=77d91487ce9d7daae0429a1f2ee8b957}{%
+           family={{Oyabu}},
+           familyi={O\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1713c8a398588c6f2d31f5385fda7f7f}{%
+           family={{Ueno}},
+           familyi={U\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f17153e1282ebefac46aa2f7ae8fe602}{%
+           family={{Matsuhara}},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6437c08955c247470510c5f3ed6cad3c}{%
+           family={{Onaka}},
+           familyi={O\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1045f450cdb6ecb43d9ee9fbeb955d76}
+      \strng{fullhash}{4ec377630e67b7ba089eb14fafcc6cb6}
+      \strng{bibnamehash}{1045f450cdb6ecb43d9ee9fbeb955d76}
+      \strng{authorbibnamehash}{1045f450cdb6ecb43d9ee9fbeb955d76}
+      \strng{authornamehash}{1045f450cdb6ecb43d9ee9fbeb955d76}
+      \strng{authorfullhash}{4ec377630e67b7ba089eb14fafcc6cb6}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\pasj}
+      \field{month}{10}
+      \field{title}{{Asteroid Catalog Using Akari: AKARI/IRC Mid-Infrared Asteroid Survey}}
+      \field{volume}{63}
+      \field{year}{2011}
+      \field{pages}{1117\bibrangedash 1138}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1093/pasj/63.5.1117
+      \endverb
+      \keyw{catalogs,infrared: solar system,minor planets,asteroids,space vehicles: instruments,surveys}
+    \endentry
+    \entry{ivezic01}{article}{}
+      \name{author}{33}{}{%
+        {{hash=fd5bf3e7c8e56a65dc2d10af722fc943}{%
+           family={{Ivezi{ć}}},
+           familyi={I\bibinitperiod},
+           given={{Ž}.},
+           giveni={Ž\bibinitperiod}}}%
+        {{hash=7765f040689a768144d4098ea0b38aea}{%
+           family={{Tabachnik}},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d6a8dfbf0d0267445159dcbfa2fa3cd1}{%
+           family={{Rafikov}},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d1622dd23cac4f51a96646b5edfafab8}{%
+           family={{Lupton}},
+           familyi={L\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=dff03002cf63c90618e830afdf6937a9}{%
+           family={{Quinn}},
+           familyi={Q\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=733e1162d5397814be22c059b8475a81}{%
+           family={{Hammergren}},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2daa27d2a921bff43ebd18c085bad0e7}{%
+           family={{Eyer}},
+           familyi={E\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=87fc108a2af90411f12b7d8b5b7f5e56}{%
+           family={{Chu}},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5ec45a3677a276c84869d72c319706eb}{%
+           family={{Armstrong}},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=049da0c69b2f28d52bf94c37098ab3cc}{%
+           family={{Fan}},
+           familyi={F\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c5f8d065c904858299ef68cd803feaa9}{%
+           family={{Finlator}},
+           familyi={F\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ae4c1cc40c000217fca7a5c2d7d29203}{%
+           family={{Geballe}},
+           familyi={G\bibinitperiod},
+           given={T.\bibnamedelimi R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1286c97f49d93d20be33dfed98e2903b}{%
+           family={{Gunn}},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=09fa55c8723b9855dd9781ce3d05ac16}{%
+           family={{Hennessy}},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f36841a6884fc07e3b1c90d3ed926d22}{%
+           family={{Knapp}},
+           familyi={K\bibinitperiod},
+           given={G.\bibnamedelimi R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c8919dbc9b9fd62b0c0deb1e93e33ae9}{%
+           family={{Leggett}},
+           familyi={L\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e919fd64ccc9a205b07f093ef88ac45f}{%
+           family={{Munn}},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c5bb865b02d35b2b1589229e597a613c}{%
+           family={{Pier}},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=23e691d94debf45ea2e44f09aaf3f5c0}{%
+           family={{Rockosi}},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6416effc0fe73bb1af45559e5547371d}{%
+           family={{Schneider}},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e440072a12130b88e1752d0f509e54ae}{%
+           family={{Strauss}},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=96df245db17e8d1ba0c3c7bf2cb37c4e}{%
+           family={{Yanny}},
+           familyi={Y\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ed36dd6d3cf21bd0bec8c27470e39d23}{%
+           family={{Brinkmann}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=caa9374998d2ef42f180c6c7b9939e29}{%
+           family={{Csabai}},
+           familyi={C\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b51f5776d782da111cc5ee5efc091e30}{%
+           family={{Hindsley}},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e500a73935b61931d0465d60c4d82ef6}{%
+           family={{Kent}},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b7eceac62a3c5944eb3db7a4f312ce23}{%
+           family={{Lamb}},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi Q.},
+           giveni={D\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=af6363a5993ae02791d91aa9efe5df7a}{%
+           family={{Margon}},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4a0a4827c72446a9bfe9ef9779aed7d6}{%
+           family={{McKay}},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=55fe8d656154b2467c55fddd9ca443e8}{%
+           family={{Smith}},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8bf5d705e03e28bc889d9ed864a7a658}{%
+           family={{Waddel}},
+           familyi={W\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f5fb90ccaea57d17ae567f137c21f5e1}{%
+           family={{York}},
+           familyi={Y\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=c728de34622140a8dfb2d46ab2c84a4f}{%
+           family={{SDSS Collaboration}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3d268c4a77b73e5f637ba0ca862a417}
+      \strng{fullhash}{66ad004f296ff5f02bf5e7eaaf8f3b1b}
+      \strng{bibnamehash}{b3d268c4a77b73e5f637ba0ca862a417}
+      \strng{authorbibnamehash}{b3d268c4a77b73e5f637ba0ca862a417}
+      \strng{authornamehash}{b3d268c4a77b73e5f637ba0ca862a417}
+      \strng{authorfullhash}{66ad004f296ff5f02bf5e7eaaf8f3b1b}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\aj}
+      \field{month}{11}
+      \field{title}{{Solar System Objects Observed in the Sloan Digital Sky Survey Commissioning Data}}
+      \field{volume}{122}
+      \field{year}{2001}
+      \field{pages}{2749\bibrangedash 2784}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1086/323452
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0105511
+      \endverb
+      \keyw{Key words: Kuiper Belt,Minor Planets,Asteroids,Solar System: General}
+    \endentry
+    \entry{wiki:hirayama}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 16-February-2019]}
+      \field{title}{Kiyotsugu Hirayama --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Kiyotsugu_Hirayama&oldid=880898798
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Kiyotsugu_Hirayama&oldid=880898798
+      \endverb
+    \endentry
+    \entry{nesvorny15}{inbook}{}
+      \name{author}{3}{}{%
+        {{hash=2cd42e062b78f5a3386c2e9b751c7c88}{%
+           family={{Nesvorn{ý}}},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
+           family={{Bro{ž}}},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=674f4d2f4039ec1708edbd127b0cfe16}{%
+           family={{Carruba}},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=315cab441d841c10e0b25f2596df0726}{%
+           family={{Michel}},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a994d7ecfea8b95ca569834d0faa4344}{%
+           family={{DeMeo}},
+           familyi={D\bibinitperiod},
+           given={F.\bibnamedelimi E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6ad27dbcf8f180df036e09f72369ae5c}{%
+           family={{Bottke}},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{fullhash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{bibnamehash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{authorbibnamehash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{authornamehash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{authorfullhash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{editorbibnamehash}{06496035095c9138cc9b33b4117e6359}
+      \strng{editornamehash}{06496035095c9138cc9b33b4117e6359}
+      \strng{editorfullhash}{06496035095c9138cc9b33b4117e6359}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Asteroids IV}
+      \field{title}{{Identification and Dynamical Properties of Asteroid Families}}
+      \field{year}{2015}
+      \field{pages}{297\bibrangedash 321}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.2458/azu_uapress_9780816532131-ch016
+      \endverb
+    \endentry
+    \entry{carruba16}{article}{}
+      \name{author}{5}{}{%
+        {{hash=674f4d2f4039ec1708edbd127b0cfe16}{%
+           family={{Carruba}},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=2cd42e062b78f5a3386c2e9b751c7c88}{%
+           family={{Nesvorn{ý}}},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=940ecd804c2661717f1b6f61cd9fe0be}{%
+           family={{Aljbaae}},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4db6ad3d14283aeb438f7ff72d230c39}{%
+           family={{Domingos}},
+           familyi={D\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=225a3536459c6b957e01b0a4c402f3d6}{%
+           family={{Huaman}},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c5d42da4146eefd91793d67f2f51edf}
+      \strng{fullhash}{8f924da4312e9e979c289b883509624f}
+      \strng{bibnamehash}{8c5d42da4146eefd91793d67f2f51edf}
+      \strng{authorbibnamehash}{8c5d42da4146eefd91793d67f2f51edf}
+      \strng{authornamehash}{8c5d42da4146eefd91793d67f2f51edf}
+      \strng{authorfullhash}{8f924da4312e9e979c289b883509624f}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.EP}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{6}
+      \field{title}{{On the oldest asteroid families in the main belt}}
+      \field{volume}{458}
+      \field{year}{2016}
+      \field{pages}{3731\bibrangedash 3738}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/mnras/stw533
+      \endverb
+      \verb{eprint}
+      \verb 1603.00818
+      \endverb
+      \keyw{celestial mechanics,minor planets,asteroids: general}
+    \endentry
+    \entry{broz13}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
+           family={{Bro{ž}}},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d851c660d08d988a963ac162e63223be}{%
+           family={{Morbidelli}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6ad27dbcf8f180df036e09f72369ae5c}{%
+           family={{Bottke}},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=5df2e6c2e913d7ed1d712a07146756df}{%
+           family={{Rozehnal}},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=da7478990d987e263c6fd2a29ec243a3}{%
+           family={{Vokrouhlick{ý}}},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2cd42e062b78f5a3386c2e9b751c7c88}{%
+           family={{Nesvorn{ý}}},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7efc607f66dd16805cca787ce3ce0d65}
+      \strng{fullhash}{2edc7af41ecda690ffb3bf76481480bf}
+      \strng{bibnamehash}{7efc607f66dd16805cca787ce3ce0d65}
+      \strng{authorbibnamehash}{7efc607f66dd16805cca787ce3ce0d65}
+      \strng{authornamehash}{7efc607f66dd16805cca787ce3ce0d65}
+      \strng{authorfullhash}{2edc7af41ecda690ffb3bf76481480bf}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{A117}
+      \field{eprintclass}{astro-ph.EP}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\aap}
+      \field{month}{3}
+      \field{title}{{Constraining the cometary flux through the asteroid belt during the late heavy bombardment}}
+      \field{volume}{551}
+      \field{year}{2013}
+      \field{pages}{A117}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201219296
+      \endverb
+      \verb{eprint}
+      \verb 1301.6221
+      \endverb
+      \keyw{celestial mechanics,minor planets,asteroids: general,comets:,general,methods: numerical}
+    \endentry
+    \entry{wiki:eqm}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=91e5f9f56096fe3cd2cead79518a0885}{%
+           family={Wikipedie},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{fullhash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{bibnamehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authorbibnamehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authornamehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authorfullhash}{91e5f9f56096fe3cd2cead79518a0885}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; navštíveno 28. 11. 2018]}
+      \field{title}{Pohybová rovnice --- Wikipedie: Otevřená encyklopedie}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://cs.wikipedia.org/wiki/Pohybová_rovnice
+      \endverb
+      \verb{url}
+      \verb https://cs.wikipedia.org/wiki/Pohybov%C3%A1_rovnice
+      \endverb
+    \endentry
+    \entry{murray00}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5089730aa2bef1cf7b0c6f8511611ef3}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e7daff1d260e7c030c62000389dc2890}{%
+           family={Dermott},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3114c04ab160e87107206babbc235612}
+      \strng{fullhash}{3114c04ab160e87107206babbc235612}
+      \strng{bibnamehash}{3114c04ab160e87107206babbc235612}
+      \strng{authorbibnamehash}{3114c04ab160e87107206babbc235612}
+      \strng{authornamehash}{3114c04ab160e87107206babbc235612}
+      \strng{authorfullhash}{3114c04ab160e87107206babbc235612}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Solar System Dynamics}
+      \field{year}{2000}
+      \verb{doi}
+      \verb 10.1017/CBO9781139174817
+      \endverb
+    \endentry
+    \entry{wiki:kepzak}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=91e5f9f56096fe3cd2cead79518a0885}{%
+           family={Wikipedie},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{fullhash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{bibnamehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authorbibnamehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authornamehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authorfullhash}{91e5f9f56096fe3cd2cead79518a0885}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; navštíveno 5. 1. 2019]}
+      \field{title}{Keplerovy zákony --- Wikipedie: Otevřená encyklopedie}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://cs.wikipedia.org/w/index.php?title=Keplerovy_z%C3%A1kony&oldid=16794961
+      \endverb
+      \verb{url}
+      \verb https://cs.wikipedia.org/w/index.php?title=Keplerovy_z%C3%A1kony&oldid=16794961
+      \endverb
+    \endentry
+    \entry{cohan12}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b54173a39d673b7c7534e53807842832}{%
+           family={Cohan},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b54173a39d673b7c7534e53807842832}
+      \strng{fullhash}{b54173a39d673b7c7534e53807842832}
+      \strng{bibnamehash}{b54173a39d673b7c7534e53807842832}
+      \strng{authorbibnamehash}{b54173a39d673b7c7534e53807842832}
+      \strng{authornamehash}{b54173a39d673b7c7534e53807842832}
+      \strng{authorfullhash}{b54173a39d673b7c7534e53807842832}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Figure Eight And other Interesting Solutions to the N-Body Problem}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://sites.math.washington.edu/~morrow/336_12/papers/adrian.pdf
+      \endverb
+      \verb{url}
+      \verb https://sites.math.washington.edu/~morrow/336_12/papers/adrian.pdf
+      \endverb
+    \endentry
+    \entry{wisdom91}{article}{}
+      \name{author}{2}{}{%
+        {{hash=57b0dd84a6ed3b039f60e2d07542c8cd}{%
+           family={{Wisdom}},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f2db11ab0dc3c5e258c1fd6708880405}{%
+           family={{Holman}},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed6eb33563903c8ba66eb8e276eef0f5}
+      \strng{fullhash}{ed6eb33563903c8ba66eb8e276eef0f5}
+      \strng{bibnamehash}{ed6eb33563903c8ba66eb8e276eef0f5}
+      \strng{authorbibnamehash}{ed6eb33563903c8ba66eb8e276eef0f5}
+      \strng{authornamehash}{ed6eb33563903c8ba66eb8e276eef0f5}
+      \strng{authorfullhash}{ed6eb33563903c8ba66eb8e276eef0f5}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\aj}
+      \field{month}{10}
+      \field{title}{{Symplectic maps for the n-body problem}}
+      \field{volume}{102}
+      \field{year}{1991}
+      \field{pages}{1528\bibrangedash 1538}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1086/115978
+      \endverb
+      \keyw{Many Body Problem,Planetary Evolution,Pluto (Planet),Astronomical Maps,Gravitational Effects}
+    \endentry
+    \entry{levison94}{article}{}
+      \name{author}{2}{}{%
+        {{hash=853baff200d3af95cb04de3e3878a3b7}{%
+           family={{Levison}},
+           familyi={L\bibinitperiod},
+           given={H.\bibnamedelimi F.},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=ca23ba7545c16b92a9e792be4605e0ce}{%
+           family={{Duncan}},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0381c6583b0aec54d3fed7c4511367e}
+      \strng{fullhash}{a0381c6583b0aec54d3fed7c4511367e}
+      \strng{bibnamehash}{a0381c6583b0aec54d3fed7c4511367e}
+      \strng{authorbibnamehash}{a0381c6583b0aec54d3fed7c4511367e}
+      \strng{authornamehash}{a0381c6583b0aec54d3fed7c4511367e}
+      \strng{authorfullhash}{a0381c6583b0aec54d3fed7c4511367e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\icarus}
+      \field{month}{3}
+      \field{title}{{The long-term dynamical behavior of short-period comets}}
+      \field{volume}{108}
+      \field{year}{1994}
+      \field{pages}{18\bibrangedash 36}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1006/icar.1994.1039
+      \endverb
+      \keyw{Applications Programs (Computers),Astronomical Models,Comets,Evolution (Development),Interplanetary Medium,Orbit Calculation,Orbital Elements,Solar System,Equations Of Motion,Hamiltonian Functions,Oort Cloud}
+    \endentry
+    \entry{broz11}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
+           family={{Bro{ž}}},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=da7478990d987e263c6fd2a29ec243a3}{%
+           family={{Vokrouhlick{ý}}},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d851c660d08d988a963ac162e63223be}{%
+           family={{Morbidelli}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2cd42e062b78f5a3386c2e9b751c7c88}{%
+           family={{Nesvorn{ý}}},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6ad27dbcf8f180df036e09f72369ae5c}{%
+           family={{Bottke}},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7efc607f66dd16805cca787ce3ce0d65}
+      \strng{fullhash}{b7785738cd90984e7b959994765302c4}
+      \strng{bibnamehash}{7efc607f66dd16805cca787ce3ce0d65}
+      \strng{authorbibnamehash}{7efc607f66dd16805cca787ce3ce0d65}
+      \strng{authornamehash}{7efc607f66dd16805cca787ce3ce0d65}
+      \strng{authorfullhash}{b7785738cd90984e7b959994765302c4}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.EP}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{7}
+      \field{title}{{Did the Hilda collisional family form during the late heavy bombardment?}}
+      \field{volume}{414}
+      \field{year}{2011}
+      \field{pages}{2716\bibrangedash 2727}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2011.18587.x
+      \endverb
+      \verb{eprint}
+      \verb 1109.1114
+      \endverb
+      \keyw{methods: numerical,celestial mechanics,minor planets,asteroids: general}
+    \endentry
+    \entry{quinn91}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1b0c067c31317cd8775f5edf61e7af7e}{%
+           family={{Quinn}},
+           familyi={Q\bibinitperiod},
+           given={T.\bibnamedelimi R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0b4dddccf5399218a0675ac23f96c4a2}{%
+           family={{Tremaine}},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1af3fb0a9860a4ebdd267c453542d8c5}{%
+           family={{Duncan}},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c321ab3838a26d354815e607be794313}
+      \strng{fullhash}{c321ab3838a26d354815e607be794313}
+      \strng{bibnamehash}{c321ab3838a26d354815e607be794313}
+      \strng{authorbibnamehash}{c321ab3838a26d354815e607be794313}
+      \strng{authornamehash}{c321ab3838a26d354815e607be794313}
+      \strng{authorfullhash}{c321ab3838a26d354815e607be794313}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\aj}
+      \field{month}{6}
+      \field{title}{{A three million year integration of the earth's orbit}}
+      \field{volume}{101}
+      \field{year}{1991}
+      \field{pages}{2287\bibrangedash 2305}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1086/115850
+      \endverb
+      \keyw{Chaos,Earth (Planet),Orbital Elements,Solar System,Terrestrial Planets,Earth-Moon System,Equations Of Motion,Lunar Orbits,Perturbation Theory,Secular Variations}
+    \endentry
+    \entry{sidlichovsky96}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3cca4cdb637c9a7d0e3ac03d44976466}{%
+           family={{{Š}idlichovsk{ý}, M. and Nesvorn{ý}, D.}},
+           familyi={Š\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cca4cdb637c9a7d0e3ac03d44976466}
+      \strng{fullhash}{3cca4cdb637c9a7d0e3ac03d44976466}
+      \strng{bibnamehash}{3cca4cdb637c9a7d0e3ac03d44976466}
+      \strng{authorbibnamehash}{3cca4cdb637c9a7d0e3ac03d44976466}
+      \strng{authornamehash}{3cca4cdb637c9a7d0e3ac03d44976466}
+      \strng{authorfullhash}{3cca4cdb637c9a7d0e3ac03d44976466}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-9478}
+      \field{journaltitle}{Celestial Mechanics and Dynamical Astronomy}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Frequency modified fourier transform and its application to asteroids}
+      \field{volume}{65}
+      \field{year}{1996}
+      \field{pages}{137\bibrangedash 148}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/BF00048443
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF00048443
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF00048443
+      \endverb
+    \endentry
+    \entry{jplvesta}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=929c8ce149fa14fbb7b61ef998f8d16d}{%
+           family={NASA/JPL-Caltech/UCLA/MPS/DLR/IDA},
+           familyi={N\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{929c8ce149fa14fbb7b61ef998f8d16d}
+      \strng{fullhash}{929c8ce149fa14fbb7b61ef998f8d16d}
+      \strng{bibnamehash}{929c8ce149fa14fbb7b61ef998f8d16d}
+      \strng{authorbibnamehash}{929c8ce149fa14fbb7b61ef998f8d16d}
+      \strng{authornamehash}{929c8ce149fa14fbb7b61ef998f8d16d}
+      \strng{authorfullhash}{929c8ce149fa14fbb7b61ef998f8d16d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Full View of Vesta}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://photojournal.jpl.nasa.gov/catalog/PIA15678
+      \endverb
+      \verb{url}
+      \verb https://photojournal.jpl.nasa.gov/catalog/PIA15678
+      \endverb
+    \endentry
+    \entry{ultimathule}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{note}{Ultima Thule Flyby - Press Briefing: Science Results \& First Clear Photos. In: \I{YouTube} [online]. 3.\,1.\,2019. [cit. 2019-1-9]. Dostupné z: https://youtu.be/wvVvnxqFVxM. Kanál: JHU Applied Physics Laboratory.}
+    \endentry
+    \entry{wiki:belt}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=93d707cc77f037fd02e1c8cfa75317cf}{%
+           family={Commons},
+           familyi={C\bibinitperiod},
+           given={Wikimedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{fullhash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{bibnamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authorbibnamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authornamehash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \strng{authorfullhash}{93d707cc77f037fd02e1c8cfa75317cf}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; navštíveno 25. 12. 2018]}
+      \field{title}{File:AsteroidIncAu.png --- Wikimedia Commons{,} the free media repository}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/w/index.php?title=File:AsteroidIncAu.png&oldid=247505564
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/w/index.php?title=File:AsteroidIncAu.png&oldid=247505564
+      \endverb
+    \endentry
+    \entry{pichierri17}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0c276661f4a55d02f47b33efae7a962a}{%
+           family={{Pichierri}},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d851c660d08d988a963ac162e63223be}{%
+           family={{Morbidelli}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ebb4a59e919d86c73ff33ae14e12e158}{%
+           family={{Lai}},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7dccd215436e44a099285883a9e1624}
+      \strng{fullhash}{d7dccd215436e44a099285883a9e1624}
+      \strng{bibnamehash}{d7dccd215436e44a099285883a9e1624}
+      \strng{authorbibnamehash}{d7dccd215436e44a099285883a9e1624}
+      \strng{authornamehash}{d7dccd215436e44a099285883a9e1624}
+      \strng{authorfullhash}{d7dccd215436e44a099285883a9e1624}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{A23}
+      \field{journaltitle}{\aap}
+      \field{month}{9}
+      \field{title}{{Extreme secular excitation of eccentricity inside mean motion resonance. Small bodies driven into star-grazing orbits by planetary perturbations}}
+      \field{volume}{605}
+      \field{year}{2017}
+      \field{pages}{A23}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201730936
+      \endverb
+      \keyw{celestial mechanics,planets and satellites: dynamical evolution and stability,minor planets,asteroids: general,white dwarfs,methods: analytical}
+    \endentry
+    \entry{zappala90}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8419f048077bbaf3469c6466ee0eaf07}{%
+           family={{Zappal{á}}},
+           familyi={Z\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=046d2a941cc4938365704d713fb16d0b}{%
+           family={{Cellino}},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=872c83b7723bf7d92d64ad2156bde6b7}{%
+           family={{Farinella}},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6063b1c3efd6463c8075d7f028a7ca37}{%
+           family={{Knezevi{ć}}},
+           familyi={K\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f96231d32f3cb086a89396edc0c2498}
+      \strng{fullhash}{f983591a18317f8b2e1ec2dca3d3cdfb}
+      \strng{bibnamehash}{3f96231d32f3cb086a89396edc0c2498}
+      \strng{authorbibnamehash}{3f96231d32f3cb086a89396edc0c2498}
+      \strng{authornamehash}{3f96231d32f3cb086a89396edc0c2498}
+      \strng{authorfullhash}{f983591a18317f8b2e1ec2dca3d3cdfb}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\aj}
+      \field{month}{12}
+      \field{title}{{Asteroid families. I - Identification by hierarchical clustering and reliability assessment}}
+      \field{volume}{100}
+      \field{year}{1990}
+      \field{pages}{2030\bibrangedash 2046}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1086/115658
+      \endverb
+      \keyw{Asteroid Belts,Orbital Elements,Planetology,Celestial Mechanics,Hierarchies,Light Curve,Perturbation Theory,Planetary Evolution,Planetary Structure}
+    \endentry
+    \entry{brozphd}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
+           family={Brož},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Astronomický ústav Univerzity Karlovy}%
+      }
+      \list{location}{1}{%
+        {Praha}%
+      }
+      \strng{namehash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{fullhash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{bibnamehash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{authorbibnamehash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{authornamehash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{authorfullhash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dostupné z: http://sirrah.troja.mff.cuni.cz/~mira/mp/phdth/}
+      \field{title}{Yarkovsky effect and the dynamics of the Solar System}
+      \field{type}{phdthesis}
+      \field{year}{2006}
+    \endentry
+    \entry{fmt}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9456d3063f96217e733c496918a532dd}{%
+           family={M.},
+           familyi={M\bibinitperiod},
+           given={Brož},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3944354d82f8ef30b5da883aca548a31}{%
+           family={Šolc},
+           familyi={Š\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Matfyzpress}%
+      }
+      \strng{namehash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{fullhash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{bibnamehash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{authorbibnamehash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{authornamehash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{authorfullhash}{6b75b6140f4de9feb44f15025060172f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{{ISBN:} 9788073782368}
+      \field{title}{Fyzika sluneční soustavy}
+      \field{year}{2013}
+    \endentry
+    \entry{chesley03}{article}{}
+      \name{author}{10}{}{%
+        {{hash=39d1bf72bdbfa171247032531365bd85}{%
+           family={{Chesley}},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0ee2c9134786bdbf2db78b6734e61860}{%
+           family={{Ostro}},
+           familyi={O\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=da7478990d987e263c6fd2a29ec243a3}{%
+           family={{Vokrouhlick{ý}}},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cef72bb7857a7a70eb821788dc96e3a9}{%
+           family={{{Č}apek}},
+           familyi={Č\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=34aa035cdf3981f51f07a50f5bedd0fc}{%
+           family={{Giorgini}},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9a019d4cad58febf0907008ac5881148}{%
+           family={{Nolan}},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=716f922281ea61ca4bb74bba247056e2}{%
+           family={{Margot}},
+           familyi={M\bibinitperiod},
+           given={J.-L.},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=00d2c8a75e53619e3064680024b3f305}{%
+           family={{Hine}},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2a9ab8e08f8ba51d75aeaf0090734dca}{%
+           family={{Benner}},
+           familyi={B\bibinitperiod},
+           given={L.\bibnamedelimi A.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=42899699fdb2065ede9c7587278ccafe}{%
+           family={{Chamberlin}},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c90790729fb2265add8448d665a700a}
+      \strng{fullhash}{243df017e876b79f3e1f4ff5de9512c2}
+      \strng{bibnamehash}{9c90790729fb2265add8448d665a700a}
+      \strng{authorbibnamehash}{9c90790729fb2265add8448d665a700a}
+      \strng{authornamehash}{9c90790729fb2265add8448d665a700a}
+      \strng{authorfullhash}{243df017e876b79f3e1f4ff5de9512c2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{month}{12}
+      \field{title}{{Direct Detection of the Yarkovsky Effect by Radar Ranging to Asteroid 6489 Golevka}}
+      \field{volume}{302}
+      \field{year}{2003}
+      \field{pages}{1739\bibrangedash 1742}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1091452
+      \endverb
+    \endentry
+    \entry{nathues05}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4b39bc605e467c5f23012534e9d18e7c}{%
+           family={{Nathues}},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7ca3888b5627fe388b6e14e56b77eae1}{%
+           family={{Mottola}},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f270338ac93821e7a2ac748337a6b241}{%
+           family={{Kaasalainen}},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=36a504c9d3242c1b03da2de7296ebde0}{%
+           family={{Neukum}},
+           familyi={N\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{92e9a9b0d2df8efd18b5324cf2390332}
+      \strng{fullhash}{5fc4a9d714990b74f57d46f8f4624be5}
+      \strng{bibnamehash}{92e9a9b0d2df8efd18b5324cf2390332}
+      \strng{authorbibnamehash}{92e9a9b0d2df8efd18b5324cf2390332}
+      \strng{authornamehash}{92e9a9b0d2df8efd18b5324cf2390332}
+      \strng{authorfullhash}{5fc4a9d714990b74f57d46f8f4624be5}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\icarus}
+      \field{month}{6}
+      \field{title}{{Spectral study of the Eunomia asteroid family. I. Eunomia}}
+      \field{volume}{175}
+      \field{year}{2005}
+      \field{pages}{452\bibrangedash 463}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2004.12.013
+      \endverb
+    \endentry
+    \entry{broz19}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
+           family={{Bro{ž}}},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d851c660d08d988a963ac162e63223be}{%
+           family={{Morbidelli}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{fullhash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{bibnamehash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{authorbibnamehash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{authornamehash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{authorfullhash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.EP}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\icarus}
+      \field{month}{1}
+      \field{title}{{A study of 3-dimensional shapes of asteroid families with an application to Eos}}
+      \field{volume}{317}
+      \field{year}{2019}
+      \field{pages}{434\bibrangedash 441}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2018.08.022
+      \endverb
+      \verb{eprint}
+      \verb 1810.04113
+      \endverb
+      \keyw{Asteroids,dynamics,Asteroids,rotation,Resonances,orbital}
+    \endentry
+    \entry{milani14}{article}{}
+      \name{author}{6}{}{%
+        {{hash=d611671371caac713500b9d55865ad49}{%
+           family={{Milani}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=046d2a941cc4938365704d713fb16d0b}{%
+           family={{Cellino}},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1edf60874a2af3ab13e7534fa4e1345a}{%
+           family={{Kne{ž}evi{ć}}},
+           familyi={K\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=efcfc6ffac67b5286ae38d6411495482}{%
+           family={{Novakovi{ć}}},
+           familyi={N\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2fc86202afd17fa628d4f5d4fb28af15}{%
+           family={{Spoto}},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e3bf1ff9e8910d7ccdea91a83f5d6a2f}{%
+           family={{Paolicchi}},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b4a03246be97884bb3ef0f0f95e2614}
+      \strng{fullhash}{e3c8baa86af39eef52e8d09a69d309e0}
+      \strng{bibnamehash}{5b4a03246be97884bb3ef0f0f95e2614}
+      \strng{authorbibnamehash}{5b4a03246be97884bb3ef0f0f95e2614}
+      \strng{authornamehash}{5b4a03246be97884bb3ef0f0f95e2614}
+      \strng{authorfullhash}{e3c8baa86af39eef52e8d09a69d309e0}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.EP}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\icarus}
+      \field{month}{9}
+      \field{title}{{Asteroid families classification: Exploiting very large datasets}}
+      \field{volume}{239}
+      \field{year}{2014}
+      \field{pages}{46\bibrangedash 73}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2014.05.039
+      \endverb
+      \verb{eprint}
+      \verb 1312.7702
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,6 +1,19 @@
 \documentclass[A4paper, 12pt, oneside, openany]{book}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
 \usepackage{socstyle}
 \def\asydir{asy}
+
+\usepackage{chngcntr}
+\counterwithout{equation}{chapter}
+\renewcommand{\theequation}{\arabic{equation}} %}}}
+
+\counterwithout*{footnote}{chapter}
+
+\usepackage[backend=biber, url=true, sorting=none]{biblatex}
+\usepackage{url}
+\addbibresource{/home/adam/tex/soc.bib}
+
 
 \begin{document}
 %{{{ Úvodní SOČ stránky
@@ -61,7 +74,7 @@ V~Brně dne \today\ \dotfill \hspace{10mm}
 
 Jednoznačně největší díky patří mému školiteli panu docentu Brožovi, který mě svým \\důsledným a~pečlivým přístupem naučil mnoho témat z~nebeské mechaniky a~fyziky sluneční soustavy a~jak pracovat s~daty z~katalogů a~simulací. Také bych mu chtěl poděkovat za nesčetné komentáře a~poznámky k~této práci a~za poskytnutí prostorů k~vytváření práce na Astronomickém ústavu Univerzity Karlovy v~Praze.
 
-Dále bych chtěl poděkovat svému gymnázium, které mi vždy vytvářelo příjemné a~rodinné zámezí. Zvláště bych chtěl poděkovat mé paní profesorce matematiky Veronice Svobodové, která mě již od nižšího gymnázia vedla jak k~matematice, tak k~obecnému snažení, například při psaní této práce.
+Dále bych chtěl poděkovat svému gymnáziu, které mi vždy vytvářelo příjemné a~rodinné zámezí. Zvláště bych chtěl poděkovat mé paní profesorce matematiky Veronice Svobodové, která mě již od nižšího gymnázia vedla jak k~matematice, tak k~obecnému snažení, například při psaní této práce.
 
 Tato práce vznikla pomocí sázecího programu \LaTeX, ilustrační obrázky byly vytvořeny pomocí programu vektorové grafiky \textit{Asymptote}, k~analýze dat byly použity převážně programovací jazyky \textit{Python} a~\textit{bash} a~k~jejich zobrazení volně dostupný grafovací program \textit{Gnuplot}.
 
