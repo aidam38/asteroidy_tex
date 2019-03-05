@@ -3,6 +3,7 @@
 
 %{{{ Packages and their settings
 \usepackage[czech]{babel}
+%\usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}
 
@@ -15,7 +16,9 @@
 \usepackage{enumitem}
 
 \usepackage{amsmath, amssymb, amsthm}
-\usepackage{esdiff, icomma, subcaption}
+\usepackage{esdiff, icomma}
+\usepackage[font={small}]{caption}
+\usepackage[font={small}]{subcaption}
 \DeclareMathOperator{\tg}{tg}
 \DeclareMathOperator{\arctg}{arctg}
 
@@ -55,7 +58,6 @@
 \usepackage{url}
 \DeclareUrlCommand\url{\def\UrlLeft{<}\def\UrlRight{>} \urlstyle{tt}}
 
-\usepackage[font={small}]{caption}
 %}}}
 
 %{{{ Some aliases to make my life easier

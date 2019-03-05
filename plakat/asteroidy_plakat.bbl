@@ -80,31 +80,6 @@
       \endverb
       \keyw{celestial mechanics,minor planets,asteroids: general,comets:,general,methods: numerical}
     \endentry
-    \entry{jplvesta}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=929c8ce149fa14fbb7b61ef998f8d16d}{%
-           family={NASA/JPL-Caltech/UCLA/MPS/DLR/IDA},
-           familyi={N\bibinithyphendelim C\bibinitperiod}}}%
-      }
-      \strng{namehash}{929c8ce149fa14fbb7b61ef998f8d16d}
-      \strng{fullhash}{929c8ce149fa14fbb7b61ef998f8d16d}
-      \strng{bibnamehash}{929c8ce149fa14fbb7b61ef998f8d16d}
-      \strng{authorbibnamehash}{929c8ce149fa14fbb7b61ef998f8d16d}
-      \strng{authornamehash}{929c8ce149fa14fbb7b61ef998f8d16d}
-      \strng{authorfullhash}{929c8ce149fa14fbb7b61ef998f8d16d}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Full View of Vesta}
-      \field{year}{2012}
-      \verb{urlraw}
-      \verb https://photojournal.jpl.nasa.gov/catalog/PIA15678
-      \endverb
-      \verb{url}
-      \verb https://photojournal.jpl.nasa.gov/catalog/PIA15678
-      \endverb
-    \endentry
     \entry{nugent15}{article}{}
       \name{author}{10}{}{%
         {{hash=061e90250f7f5a77303faf48285e3e35}{%
@@ -164,8 +139,8 @@
       \strng{authorbibnamehash}{bf2519544ba0cf92dcca4caeabe33066}
       \strng{authornamehash}{bf2519544ba0cf92dcca4caeabe33066}
       \strng{authorfullhash}{e96e72d7bc7342a51450f54c703e6a98}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eid}{117}
@@ -358,8 +333,8 @@
       \strng{authorbibnamehash}{b3d268c4a77b73e5f637ba0ca862a417}
       \strng{authornamehash}{b3d268c4a77b73e5f637ba0ca862a417}
       \strng{authorfullhash}{66ad004f296ff5f02bf5e7eaaf8f3b1b}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{\aj}

@@ -1996,12 +1996,10 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">broz13</bcf:citekey>
-    <bcf:citekey order="2">jplvesta</bcf:citekey>
-    <bcf:citekey order="3">jplvesta</bcf:citekey>
-    <bcf:citekey order="4">nugent15</bcf:citekey>
-    <bcf:citekey order="5">nugent15</bcf:citekey>
-    <bcf:citekey order="6">ivezic01</bcf:citekey>
-    <bcf:citekey order="7">ivezic01</bcf:citekey>
+    <bcf:citekey order="2">nugent15</bcf:citekey>
+    <bcf:citekey order="3">nugent15</bcf:citekey>
+    <bcf:citekey order="4">ivezic01</bcf:citekey>
+    <bcf:citekey order="5">ivezic01</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

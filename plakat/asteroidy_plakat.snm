@@ -1,7 +1,11 @@
 \defcounter {refsection}{0}\relax 
 \beamer@slide {fig:vesta}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@slide {fig:euler}{1}
+\beamer@slide {sub@fig:vesta}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:belt}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {sub@fig:belt}{1}
 \defcounter {refsection}{0}\relax 
 \beamer@slide {fig:aH_wise}{1}
 \defcounter {refsection}{0}\relax 
@@ -18,6 +22,12 @@
 \beamer@slide {fig:ae_ai_wise}{1}
 \defcounter {refsection}{0}\relax 
 \beamer@slide {fig:ae_sim}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {sub@fig:ae_sim}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {fig:ei_sim}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@slide {sub@fig:ei_sim}{1}
 \defcounter {refsection}{0}\relax 
 \beamer@slide {fig:ae_chi2}{1}
 \defcounter {refsection}{0}\relax 

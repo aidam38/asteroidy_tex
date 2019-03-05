@@ -103,4 +103,4 @@ draw(R--r3, arrow=EndArrow, pen1);
 draw(r3, marker=mark1);
 label("$\vec{r}_3$", shift(R)*scale(0.5)*r3,S);
 
-size(691.3973pt,0,keepAspect=true);
+size(309.35591pt,0,keepAspect=true);
