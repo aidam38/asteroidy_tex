@@ -105,4 +105,4 @@ label("$\vec{r}_3$", shift(R)*scale(0.5)*r3,S);
 //write(fout, length(R-r0));
 //write(fout, length(v0));
 
-size(309.35591pt,0,keepAspect=true);
+size(314.75587pt,0,keepAspect=true);

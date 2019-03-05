@@ -19,6 +19,63 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{nesvorny15}{inbook}{}
+      \name{author}{3}{}{%
+        {{hash=2cd42e062b78f5a3386c2e9b751c7c88}{%
+           family={{Nesvorn{ý}}},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
+           family={{Bro{ž}}},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=674f4d2f4039ec1708edbd127b0cfe16}{%
+           family={{Carruba}},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=315cab441d841c10e0b25f2596df0726}{%
+           family={{Michel}},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a994d7ecfea8b95ca569834d0faa4344}{%
+           family={{DeMeo}},
+           familyi={D\bibinitperiod},
+           given={F.\bibnamedelimi E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6ad27dbcf8f180df036e09f72369ae5c}{%
+           family={{Bottke}},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{fullhash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{bibnamehash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{authorbibnamehash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{authornamehash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{authorfullhash}{2f6170256698147a2326d2d2f0de6dfa}
+      \strng{editorbibnamehash}{06496035095c9138cc9b33b4117e6359}
+      \strng{editornamehash}{06496035095c9138cc9b33b4117e6359}
+      \strng{editorfullhash}{06496035095c9138cc9b33b4117e6359}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Asteroids IV}
+      \field{title}{{Identification and Dynamical Properties of Asteroid Families}}
+      \field{year}{2015}
+      \field{pages}{297\bibrangedash 321}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.2458/azu_uapress_9780816532131-ch016
+      \endverb
+    \endentry
     \entry{broz13}{article}{}
       \name{author}{6}{}{%
         {{hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
@@ -58,8 +115,8 @@
       \strng{authorbibnamehash}{7efc607f66dd16805cca787ce3ce0d65}
       \strng{authornamehash}{7efc607f66dd16805cca787ce3ce0d65}
       \strng{authorfullhash}{2edc7af41ecda690ffb3bf76481480bf}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eid}{A117}
@@ -139,8 +196,8 @@
       \strng{authorbibnamehash}{bf2519544ba0cf92dcca4caeabe33066}
       \strng{authornamehash}{bf2519544ba0cf92dcca4caeabe33066}
       \strng{authorfullhash}{e96e72d7bc7342a51450f54c703e6a98}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eid}{117}
@@ -333,8 +390,8 @@
       \strng{authorbibnamehash}{b3d268c4a77b73e5f637ba0ca862a417}
       \strng{authornamehash}{b3d268c4a77b73e5f637ba0ca862a417}
       \strng{authorfullhash}{66ad004f296ff5f02bf5e7eaaf8f3b1b}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{\aj}
@@ -351,6 +408,145 @@
       \verb astro-ph/0105511
       \endverb
       \keyw{Key words: Kuiper Belt,Minor Planets,Asteroids,Solar System: General}
+    \endentry
+    \entry{broz19}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
+           family={{Bro{ž}}},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d851c660d08d988a963ac162e63223be}{%
+           family={{Morbidelli}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{fullhash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{bibnamehash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{authorbibnamehash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{authornamehash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \strng{authorfullhash}{c18fe7af612d4ccbf55e05b2947e4b1b}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.EP}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\icarus}
+      \field{month}{1}
+      \field{title}{{A study of 3-dimensional shapes of asteroid families with an application to Eos}}
+      \field{volume}{317}
+      \field{year}{2019}
+      \field{pages}{434\bibrangedash 441}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2018.08.022
+      \endverb
+      \verb{eprint}
+      \verb 1810.04113
+      \endverb
+      \keyw{Asteroids,dynamics,Asteroids,rotation,Resonances,orbital}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{fmt}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9456d3063f96217e733c496918a532dd}{%
+           family={M.},
+           familyi={M\bibinitperiod},
+           given={Brož},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3944354d82f8ef30b5da883aca548a31}{%
+           family={Šolc},
+           familyi={Š\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Matfyzpress}%
+      }
+      \strng{namehash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{fullhash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{bibnamehash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{authorbibnamehash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{authornamehash}{6b75b6140f4de9feb44f15025060172f}
+      \strng{authorfullhash}{6b75b6140f4de9feb44f15025060172f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{{ISBN:} 9788073782368}
+      \field{title}{Fyzika sluneční soustavy}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{murray00}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5089730aa2bef1cf7b0c6f8511611ef3}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e7daff1d260e7c030c62000389dc2890}{%
+           family={Dermott},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3114c04ab160e87107206babbc235612}
+      \strng{fullhash}{3114c04ab160e87107206babbc235612}
+      \strng{bibnamehash}{3114c04ab160e87107206babbc235612}
+      \strng{authorbibnamehash}{3114c04ab160e87107206babbc235612}
+      \strng{authornamehash}{3114c04ab160e87107206babbc235612}
+      \strng{authorfullhash}{3114c04ab160e87107206babbc235612}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Solar System Dynamics}
+      \field{year}{2000}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1017/CBO9781139174817
+      \endverb
+    \endentry
+    \entry{brozphd}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
+           family={Brož},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Astronomický ústav Univerzity Karlovy}%
+      }
+      \list{location}{1}{%
+        {Praha}%
+      }
+      \strng{namehash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{fullhash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{bibnamehash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{authorbibnamehash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{authornamehash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \strng{authorfullhash}{e20fd0e2e9d6df7443cb6a609212ef11}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dostupné z: http://sirrah.troja.mff.cuni.cz/~mira/mp/phdth/}
+      \field{title}{Yarkovsky effect and the dynamics of the Solar System}
+      \field{type}{phdthesis}
+      \field{year}{2006}
+      \true{nocite}
     \endentry
   \enddatalist
 \endrefsection

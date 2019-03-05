@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  4 MAR 2019 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  5 MAR 2019 17:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -936,10 +936,24 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count194
 \c@@ppsaveapp=\count195
 ))
-(/opt/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
-)
-(/opt/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2016/06/07 v1.8
+
+Package: textpos 2016/06/07 1.8, absolute positioning of text on the page
+\TP@textbox=\box60
+\TP@holdbox=\box61
+\TPHorizModule=\dimen264
+\TPVertModule=\dimen265
+\TP@margin=\dimen266
+\TP@absmargin=\dimen267
+Grid set 16 x 16 = 213.39566pt x 213.39566pt
+\TPboxrulesize=\dimen268
+\TP@ox=\dimen269
+\TP@oy=\dimen270
+\TP@tbargs=\toks52
+\TP@prevdepth=\dimen271
+TextBlockOrigin set to 0pt x 0pt
+) (/opt/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2018/12/07 version 4.15 text color boxes
 
 (/opt/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -947,23 +961,23 @@ Package: pgf 2019/02/02 v3.1.1 (3.1.1)
 
 (/opt/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfnodeparttextbox=\box60
+\pgfnodeparttextbox=\box62
 ) (/opt/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.
 sty
 Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
-\pgf@nodesepstart=\dimen264
-\pgf@nodesepend=\dimen265
+\pgf@nodesepstart=\dimen272
+\pgf@nodesepend=\dimen273
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.
 sty
 Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
 )) (/opt/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks52
-\verbatim@line=\toks53
+\every@verbatim=\toks53
+\verbatim@line=\toks54
 \verbatim@in@stream=\read2
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/environ/environ.sty
@@ -972,84 +986,76 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/opt/texlive/2018/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box61
-\tcb@upperbox=\box62
-\tcb@lowerbox=\box63
-\tcb@phantombox=\box64
+\tcb@titlebox=\box63
+\tcb@upperbox=\box64
+\tcb@lowerbox=\box65
+\tcb@phantombox=\box66
 \c@tcbbreakpart=\count196
 \c@tcblayer=\count197
 \tcolorbox@number=\count198
-\tcb@temp=\box65
-\tcb@temp=\box66
 \tcb@temp=\box67
 \tcb@temp=\box68
+\tcb@temp=\box69
+\tcb@temp=\box70
 \tcb@out=\write7
 \tcb@record@out=\write8
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '4.15'
-\tcb@testbox=\box69
-\tcb@totalupperbox=\box70
-\tcb@totallowerbox=\box71
-) (/opt/texlive/2018/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen266
-\WF@size=\dimen267
-\c@WF@wrappedlines=\count199
-\WF@box=\box72
-\WF@everypar=\toks54
-Package: wrapfig 2003/01/31  v 3.6
-)
-(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+\tcb@testbox=\box71
+\tcb@totalupperbox=\box72
+\tcb@totallowerbox=\box73
+) (/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
 (/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count266
+\lrq@indent=\count199
 
 (/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count267
-\c@listtotal=\count268
-\c@listcount=\count269
-\c@liststart=\count270
-\c@liststop=\count271
-\c@citecount=\count272
-\c@citetotal=\count273
-\c@multicitecount=\count274
-\c@multicitetotal=\count275
-\c@instcount=\count276
-\c@maxnames=\count277
-\c@minnames=\count278
-\c@maxitems=\count279
-\c@minitems=\count280
-\c@citecounter=\count281
-\c@maxcitecounter=\count282
-\c@savedcitecounter=\count283
-\c@uniquelist=\count284
-\c@uniquename=\count285
-\c@refsection=\count286
-\c@refsegment=\count287
-\c@maxextratitle=\count288
-\c@maxextratitleyear=\count289
-\c@maxextraname=\count290
-\c@maxextradate=\count291
-\c@maxextraalpha=\count292
-\c@abbrvpenalty=\count293
-\c@highnamepenalty=\count294
-\c@lownamepenalty=\count295
-\c@maxparens=\count296
-\c@parenlevel=\count297
-\blx@tempcnta=\count298
-\blx@tempcntb=\count299
-\blx@tempcntc=\count300
-\blx@maxsection=\count301
-\blx@maxsegment@0=\count302
-\blx@notetype=\count303
-\blx@parenlevel@text=\count304
-\blx@parenlevel@foot=\count305
-\blx@sectionciteorder@0=\count306
-\blx@entrysetcounter=\count307
+\c@tabx@nest=\count266
+\c@listtotal=\count267
+\c@listcount=\count268
+\c@liststart=\count269
+\c@liststop=\count270
+\c@citecount=\count271
+\c@citetotal=\count272
+\c@multicitecount=\count273
+\c@multicitetotal=\count274
+\c@instcount=\count275
+\c@maxnames=\count276
+\c@minnames=\count277
+\c@maxitems=\count278
+\c@minitems=\count279
+\c@citecounter=\count280
+\c@maxcitecounter=\count281
+\c@savedcitecounter=\count282
+\c@uniquelist=\count283
+\c@uniquename=\count284
+\c@refsection=\count285
+\c@refsegment=\count286
+\c@maxextratitle=\count287
+\c@maxextratitleyear=\count288
+\c@maxextraname=\count289
+\c@maxextradate=\count290
+\c@maxextraalpha=\count291
+\c@abbrvpenalty=\count292
+\c@highnamepenalty=\count293
+\c@lownamepenalty=\count294
+\c@maxparens=\count295
+\c@parenlevel=\count296
+\blx@tempcnta=\count297
+\blx@tempcntb=\count298
+\blx@tempcntc=\count299
+\blx@maxsection=\count300
+\blx@maxsegment@0=\count301
+\blx@notetype=\count302
+\blx@parenlevel@text=\count303
+\blx@parenlevel@foot=\count304
+\blx@sectionciteorder@0=\count305
+\blx@entrysetcounter=\count306
 \labelnumberwidth=\skip60
 \labelalphawidth=\skip61
 \biblabelsep=\skip62
@@ -1060,85 +1066,87 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibhang=\skip67
 \blx@bcfin=\read3
 \blx@bcfout=\write9
-\c@mincomprange=\count308
-\c@maxcomprange=\count309
-\c@mincompwidth=\count310
+\c@mincomprange=\count307
+\c@maxcomprange=\count308
+\c@mincompwidth=\count309
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/opt/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count311
-\c@savedafterword=\count312
-\c@annotator=\count313
-\c@savedannotator=\count314
-\c@author=\count315
-\c@savedauthor=\count316
-\c@bookauthor=\count317
-\c@savedbookauthor=\count318
-\c@commentator=\count319
-\c@savedcommentator=\count320
-\c@editor=\count321
-\c@savededitor=\count322
-\c@editora=\count323
-\c@savededitora=\count324
-\c@editorb=\count325
-\c@savededitorb=\count326
-\c@editorc=\count327
-\c@savededitorc=\count328
-\c@foreword=\count329
-\c@savedforeword=\count330
-\c@holder=\count331
-\c@savedholder=\count332
-\c@introduction=\count333
-\c@savedintroduction=\count334
-\c@namea=\count335
-\c@savednamea=\count336
-\c@nameb=\count337
-\c@savednameb=\count338
-\c@namec=\count339
-\c@savednamec=\count340
-\c@translator=\count341
-\c@savedtranslator=\count342
-\c@shortauthor=\count343
-\c@savedshortauthor=\count344
-\c@shorteditor=\count345
-\c@savedshorteditor=\count346
-\c@labelname=\count347
-\c@savedlabelname=\count348
-\c@institution=\count349
-\c@savedinstitution=\count350
-\c@lista=\count351
-\c@savedlista=\count352
-\c@listb=\count353
-\c@savedlistb=\count354
-\c@listc=\count355
-\c@savedlistc=\count356
-\c@listd=\count357
-\c@savedlistd=\count358
-\c@liste=\count359
-\c@savedliste=\count360
-\c@listf=\count361
-\c@savedlistf=\count362
-\c@location=\count363
-\c@savedlocation=\count364
-\c@organization=\count365
-\c@savedorganization=\count366
-\c@origlocation=\count367
-\c@savedoriglocation=\count368
-\c@origpublisher=\count369
-\c@savedorigpublisher=\count370
-\c@publisher=\count371
-\c@savedpublisher=\count372
-\c@language=\count373
-\c@savedlanguage=\count374
-\c@origlanguage=\count375
-\c@savedoriglanguage=\count376
-\c@pageref=\count377
-\c@savedpageref=\count378
+\c@afterword=\count310
+\c@savedafterword=\count311
+\c@annotator=\count312
+\c@savedannotator=\count313
+\c@author=\count314
+\c@savedauthor=\count315
+\c@bookauthor=\count316
+\c@savedbookauthor=\count317
+\c@commentator=\count318
+\c@savedcommentator=\count319
+\c@editor=\count320
+\c@savededitor=\count321
+\c@editora=\count322
+\c@savededitora=\count323
+\c@editorb=\count324
+\c@savededitorb=\count325
+\c@editorc=\count326
+\c@savededitorc=\count327
+\c@foreword=\count328
+\c@savedforeword=\count329
+\c@holder=\count330
+\c@savedholder=\count331
+\c@introduction=\count332
+\c@savedintroduction=\count333
+\c@namea=\count334
+\c@savednamea=\count335
+\c@nameb=\count336
+\c@savednameb=\count337
+\c@namec=\count338
+\c@savednamec=\count339
+\c@translator=\count340
+\c@savedtranslator=\count341
+\c@shortauthor=\count342
+\c@savedshortauthor=\count343
+\c@shorteditor=\count344
+\c@savedshorteditor=\count345
+\c@labelname=\count346
+\c@savedlabelname=\count347
+\c@institution=\count348
+\c@savedinstitution=\count349
+\c@lista=\count350
+\c@savedlista=\count351
+\c@listb=\count352
+\c@savedlistb=\count353
+\c@listc=\count354
+\c@savedlistc=\count355
+\c@listd=\count356
+\c@savedlistd=\count357
+\c@liste=\count358
+\c@savedliste=\count359
+\c@listf=\count360
+\c@savedlistf=\count361
+\c@location=\count362
+\c@savedlocation=\count363
+\c@organization=\count364
+\c@savedorganization=\count365
+\c@origlocation=\count366
+\c@savedoriglocation=\count367
+\c@origpublisher=\count368
+\c@savedorigpublisher=\count369
+\c@publisher=\count370
+\c@savedpublisher=\count371
+\c@language=\count372
+\c@savedlanguage=\count373
+\c@origlanguage=\count374
+\c@savedoriglanguage=\count375
+\c@pageref=\count376
+\c@savedpageref=\count377
 \shorthandwidth=\skip68
 \shortjournalwidth=\skip69
 \shortserieswidth=\skip70
@@ -1164,13 +1172,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count379
-\c@textcitetotal=\count380
-\c@textcitemaxnames=\count381
-\c@biburlnumpenalty=\count382
-\c@biburlucpenalty=\count383
-\c@biburllcpenalty=\count384
-\c@smartand=\count385
+\c@textcitecount=\count378
+\c@textcitetotal=\count379
+\c@textcitemaxnames=\count380
+\c@biburlnumpenalty=\count381
+\c@biburlucpenalty=\count382
+\c@biburllcpenalty=\count383
+\c@smartand=\count384
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1182,8 +1190,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count386
-\c@bbx:relatedtotal=\count387
+\c@bbx:relatedcount=\count385
+\c@bbx:relatedtotal=\count386
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1220,8 +1228,8 @@ File: biblatex.cfg
 
 (/opt/texlive/2018/texmf-dist/tex/latex/beamer/beamerthemeRochester.sty
 (/opt/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
-\beamer@sidebarwidth=\dimen268
-\beamer@headheight=\dimen269
+\beamer@sidebarwidth=\dimen274
+\beamer@headheight=\dimen275
 )
 (/opt/texlive/2018/texmf-dist/tex/latex/beamer/beamerinnerthemerectangles.sty)
 (/opt/texlive/2018/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
@@ -1310,19 +1318,19 @@ LaTeX Font Info:    ... okay on input line 103.
 
 (/opt/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count388
-\scratchdimen=\dimen270
-\scratchbox=\box73
-\nofMPsegments=\count389
-\nofMParguments=\count390
+\scratchcounter=\count387
+\scratchdimen=\dimen276
+\scratchbox=\box74
+\nofMPsegments=\count388
+\nofMParguments=\count389
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count391
-\MPscratchDim=\dimen271
-\MPnumerator=\count392
-\makeMPintoPDFobject=\count393
+\MPscratchCnt=\count390
+\MPscratchDim=\dimen277
+\MPnumerator=\count391
+\makeMPintoPDFobject=\count392
 \everyMPtoPDFconversion=\toks56
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box74
+\AtBeginShipoutBox=\box75
 Package hyperref Info: Link coloring OFF on input line 103.
 
 (/opt/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1331,7 +1339,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count394
+\c@section@level=\count393
 )
 LaTeX Info: Redefining \ref on input line 103.
 LaTeX Info: Redefining \pageref on input line 103.
@@ -1410,11 +1418,8 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
-Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count395
-
-Couldn't patch \deferred@thm@head!
+\c@lstlisting=\count394
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1422,61 +1427,65 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'asteroidy_plakat.bbl' found.
-(./asteroidy_plakat.bbl)
+ (./asteroidy_plakat.bbl)
 Package biblatex Info: Reference section=0 on input line 103.
 Package biblatex Info: Reference segment=0 on input line 103.
  (./asteroidy_plakat.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <24.88> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 289.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 358.
 
 
-<../obr/vesta.jpg, id=18, 1058.95625pt x 1027.84pt>
+<../obr/vesta.jpg, id=23, 1058.95625pt x 1027.84pt>
 File: ../obr/vesta.jpg Graphic file (type jpg)
 <use ../obr/vesta.jpg>
-Package pdftex.def Info: ../obr/vesta.jpg  used on input line 289.
-(pdftex.def)             Requested size: 288.73288pt x 280.24945pt.
-<../obr/mainbelt.png, id=19, 1205.50375pt x 904.37875pt>
-File: ../obr/mainbelt.png Graphic file (type png)
-<use ../obr/mainbelt.png>
-Package pdftex.def Info: ../obr/mainbelt.png  used on input line 289.
-(pdftex.def)             Requested size: 384.97717pt x 288.79993pt.
+Package pdftex.def Info: ../obr/vesta.jpg  used on input line 358.
+(pdftex.def)             Requested size: 292.37589pt x 283.77824pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <17.28> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 289.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 358.
 
 
+<../obr/mainbelt.png, id=24, 1205.50375pt x 904.37875pt>
+File: ../obr/mainbelt.png Graphic file (type png)
+<use ../obr/mainbelt.png>
+Package pdftex.def Info: ../obr/mainbelt.png  used on input line 358.
+(pdftex.def)             Requested size: 384.70636pt x 288.60674pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 289.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 358.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 289.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 358.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <20.74> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 289.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 358.
 
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 358.
 
 \openout5 = `asy/asteroidy_plakat-1.asy'.
 
 (../asy/f_euler.asy)
-<"asy/asteroidy_plakat-1".pdf, id=20, 309.35576pt x 270.74953pt>
+<"asy/asteroidy_plakat-1".pdf, id=25, 314.7559pt x 275.47418pt>
 File: "asy/asteroidy_plakat-1".pdf Graphic file (type pdf)
 <use "asy/asteroidy_plakat-1".pdf>
-Package pdftex.def Info: "asy/asteroidy_plakat-1".pdf  used on input line 289.
-(pdftex.def)             Requested size: 309.355pt x 270.74886pt.
+Package pdftex.def Info: "asy/asteroidy_plakat-1".pdf  used on input line 358.
+(pdftex.def)             Requested size: 314.75513pt x 275.4735pt.
 \openout5 = `asy/asteroidy_plakat-2.asy'.
 
  (../asy/b_euler.asy)
-<"asy/asteroidy_plakat-2".pdf, id=21, 309.35576pt x 289.4795pt>
+<"asy/asteroidy_plakat-2".pdf, id=26, 314.7559pt x 294.50627pt>
 File: "asy/asteroidy_plakat-2".pdf Graphic file (type pdf)
 <use "asy/asteroidy_plakat-2".pdf>
-Package pdftex.def Info: "asy/asteroidy_plakat-2".pdf  used on input line 289.
-(pdftex.def)             Requested size: 309.355pt x 289.47879pt.
+Package pdftex.def Info: "asy/asteroidy_plakat-2".pdf  used on input line 358.
+(pdftex.def)             Requested size: 314.75513pt x 294.50554pt.
 Package epstopdf Info: Source file: <../obr/atOF.eps>
 (epstopdf)                    date: 2019-01-08 18:59:03
 (epstopdf)                    size: 87902 bytes
@@ -1485,14 +1494,14 @@ Package epstopdf Info: Source file: <../obr/atOF.eps>
 (epstopdf)                    size: 53791 bytes
 (epstopdf)             Command: <epstopdf --outfile=../obr/atOF-eps-converted-t
 o.pdf ../obr/atOF.eps>
-(epstopdf)             \includegraphics on input line 289.
+(epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
-<../obr/atOF-eps-converted-to.pdf, id=22, 361.35pt x 252.945pt>
+<../obr/atOF-eps-converted-to.pdf, id=27, 361.35pt x 252.945pt>
 File: ../obr/atOF-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/atOF-eps-converted-to.pdf>
-Package pdftex.def Info: ../obr/atOF-eps-converted-to.pdf  used on input line 2
-89.
-(pdftex.def)             Requested size: 336.86028pt x 235.80379pt.
+Package pdftex.def Info: ../obr/atOF-eps-converted-to.pdf  used on input line 3
+58.
+(pdftex.def)             Requested size: 342.74034pt x 239.91814pt.
 Package epstopdf Info: Source file: <../obr/atFP.eps>
 (epstopdf)                    date: 2019-01-08 18:56:13
 (epstopdf)                    size: 79386 bytes
@@ -1501,27 +1510,27 @@ Package epstopdf Info: Source file: <../obr/atFP.eps>
 (epstopdf)                    size: 58912 bytes
 (epstopdf)             Command: <epstopdf --outfile=../obr/atFP-eps-converted-t
 o.pdf ../obr/atFP.eps>
-(epstopdf)             \includegraphics on input line 289.
+(epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
-<../obr/atFP-eps-converted-to.pdf, id=23, 361.35pt x 252.945pt>
+<../obr/atFP-eps-converted-to.pdf, id=28, 361.35pt x 252.945pt>
 File: ../obr/atFP-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/atFP-eps-converted-to.pdf>
-Package pdftex.def Info: ../obr/atFP-eps-converted-to.pdf  used on input line 2
-89.
-(pdftex.def)             Requested size: 336.86028pt x 235.80379pt.
+Package pdftex.def Info: ../obr/atFP-eps-converted-to.pdf  used on input line 3
+58.
+(pdftex.def)             Requested size: 342.74034pt x 239.91814pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-\OT1/cmss/bx/n/24.88 hi-e-rar-chic-kou shlu-ko-vac^^S^^P
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+\OT1/cmss/bx/n/24.88 todu \OT1/cmss/m/n/24.88 (HCM) --- v pro-storu
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 289--289
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \OT1/cmss/m/n/24.88 vz^^Sajemnou []vzd^^Salenost\ t^^Teles
  []
 
 
-Overfull \hbox (33.53381pt too wide) detected at line 289
-[]
+Underfull \hbox (badness 3138) in paragraph at lines 358--358
+\OT1/cmss/m/sl/24.88 v[]$ \OT1/cmss/m/n/24.88 (s jed-not-kami rych-losti),
  []
 
 Package epstopdf Info: Source file: <../obr/Nv.eps>
@@ -1532,18 +1541,18 @@ Package epstopdf Info: Source file: <../obr/Nv.eps>
 (epstopdf)                    size: 6525 bytes
 (epstopdf)             Command: <epstopdf --outfile=../obr/Nv-eps-converted-to.
 pdf ../obr/Nv.eps>
-(epstopdf)             \includegraphics on input line 289.
+(epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
 File: ../obr/Nv-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/Nv-eps-converted-to.pdf>
-Package pdftex.def Info: ../obr/Nv-eps-converted-to.pdf  used on input line 289
+Package pdftex.def Info: ../obr/Nv-eps-converted-to.pdf  used on input line 358
 .
-(pdftex.def)             Requested size: 343.73112pt x 240.61287pt.
-
-Overfull \hbox (28.7669pt too wide) in paragraph at lines 289--289
- [] 
- []
-
+(pdftex.def)             Requested size: 279.78062pt x 195.84894pt.
+<../obr/ae_ai_wise.pdf, id=30, 361.35pt x 303.1325pt>
+File: ../obr/ae_ai_wise.pdf Graphic file (type pdf)
+<use ../obr/ae_ai_wise.pdf>
+Package pdftex.def Info: ../obr/ae_ai_wise.pdf  used on input line 358.
+(pdftex.def)             Requested size: 465.91821pt x 390.85753pt.
 Package epstopdf Info: Source file: <../obr/aH_wise.eps>
 (epstopdf)                    date: 2019-01-20 18:50:37
 (epstopdf)                    size: 254792 bytes
@@ -1552,156 +1561,125 @@ Package epstopdf Info: Source file: <../obr/aH_wise.eps>
 (epstopdf)                    size: 426685 bytes
 (epstopdf)             Command: <epstopdf --outfile=../obr/aH_wise-eps-converte
 d-to.pdf ../obr/aH_wise.eps>
-(epstopdf)             \includegraphics on input line 289.
+(epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
-<../obr/aH_wise-eps-converted-to.pdf, id=25, 361.35pt x 252.945pt>
+<../obr/aH_wise-eps-converted-to.pdf, id=33, 361.35pt x 252.945pt>
 File: ../obr/aH_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/aH_wise-eps-converted-to.pdf>
 Package pdftex.def Info: ../obr/aH_wise-eps-converted-to.pdf  used on input lin
-e 289.
-(pdftex.def)             Requested size: 462.31818pt x 323.62569pt.
-Package epstopdf Info: Source file: <../obr/pV_pIR.eps>
-(epstopdf)                    date: 2019-01-07 06:33:54
-(epstopdf)                    size: 115584 bytes
-(epstopdf)             Output file: <../obr/pV_pIR-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-16 20:07:51
-(epstopdf)                    size: 145323 bytes
-(epstopdf)             Command: <epstopdf --outfile=../obr/pV_pIR-eps-converted
--to.pdf ../obr/pV_pIR.eps>
-(epstopdf)             \includegraphics on input line 289.
-Package epstopdf Info: Output file is already uptodate.
-<../obr/pV_pIR-eps-converted-to.pdf, id=26, 361.35pt x 252.945pt>
-File: ../obr/pV_pIR-eps-converted-to.pdf Graphic file (type pdf)
-<use ../obr/pV_pIR-eps-converted-to.pdf>
-Package pdftex.def Info: ../obr/pV_pIR-eps-converted-to.pdf  used on input line
- 289.
-(pdftex.def)             Requested size: 462.31818pt x 323.62569pt.
-Package epstopdf Info: Source file: <../obr/astar_iz.eps>
-(epstopdf)                    date: 2019-01-20 20:07:37
-(epstopdf)                    size: 95641 bytes
-(epstopdf)             Output file: <../obr/astar_iz-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-16 20:07:51
-(epstopdf)                    size: 113327 bytes
-(epstopdf)             Command: <epstopdf --outfile=../obr/astar_iz-eps-convert
-ed-to.pdf ../obr/astar_iz.eps>
-(epstopdf)             \includegraphics on input line 289.
-Package epstopdf Info: Output file is already uptodate.
-<../obr/astar_iz-eps-converted-to.pdf, id=29, 361.35pt x 252.945pt>
-File: ../obr/astar_iz-eps-converted-to.pdf Graphic file (type pdf)
-<use ../obr/astar_iz-eps-converted-to.pdf>
-Package pdftex.def Info: ../obr/astar_iz-eps-converted-to.pdf  used on input li
-ne 289.
-(pdftex.def)             Requested size: 462.31818pt x 323.62569pt.
-Package epstopdf Info: Source file: <../obr/ae_wise.eps>
-(epstopdf)                    date: 2019-01-07 06:33:54
-(epstopdf)                    size: 250775 bytes
-(epstopdf)             Output file: <../obr/ae_wise-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-16 20:07:52
-(epstopdf)                    size: 430006 bytes
-(epstopdf)             Command: <epstopdf --outfile=../obr/ae_wise-eps-converte
-d-to.pdf ../obr/ae_wise.eps>
-(epstopdf)             \includegraphics on input line 289.
-Package epstopdf Info: Output file is already uptodate.
-<../obr/ae_wise-eps-converted-to.pdf, id=32, 289.08pt x 189.70876pt>
-File: ../obr/ae_wise-eps-converted-to.pdf Graphic file (type pdf)
-<use ../obr/ae_wise-eps-converted-to.pdf>
-Package pdftex.def Info: ../obr/ae_wise-eps-converted-to.pdf  used on input lin
-e 289.
-(pdftex.def)             Requested size: 755.12047pt x 495.57582pt.
-Package epstopdf Info: Source file: <../obr/ai_wise.eps>
-(epstopdf)                    date: 2019-03-03 16:49:17
-(epstopdf)                    size: 248344 bytes
-(epstopdf)             Output file: <../obr/ai_wise-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-03 16:49:58
-(epstopdf)                    size: 430113 bytes
-(epstopdf)             Command: <epstopdf --outfile=../obr/ai_wise-eps-converte
-d-to.pdf ../obr/ai_wise.eps>
-(epstopdf)             \includegraphics on input line 289.
-Package epstopdf Info: Output file is already uptodate.
-<../obr/ai_wise-eps-converted-to.pdf, id=33, 289.08pt x 189.70876pt>
-File: ../obr/ai_wise-eps-converted-to.pdf Graphic file (type pdf)
-<use ../obr/ai_wise-eps-converted-to.pdf>
-Package pdftex.def Info: ../obr/ai_wise-eps-converted-to.pdf  used on input lin
-e 289.
-(pdftex.def)             Requested size: 755.12047pt x 495.57582pt.
-<../obr/ae_5t.png, id=34, 669.2503pt x 496.10344pt>
-File: ../obr/ae_5t.png Graphic file (type png)
-<use ../obr/ae_5t.png>
-Package pdftex.def Info: ../obr/ae_5t.png  used on input line 289.
-(pdftex.def)             Requested size: 370.01317pt x 274.296pt.
-<../obr/ae_105t.png, id=35, 669.2503pt x 496.10344pt>
-File: ../obr/ae_105t.png Graphic file (type png)
-<use ../obr/ae_105t.png>
-Package pdftex.def Info: ../obr/ae_105t.png  used on input line 289.
-(pdftex.def)             Requested size: 370.01317pt x 274.296pt.
-<../obr/ae_405t.png, id=36, 669.2503pt x 496.10344pt>
-File: ../obr/ae_405t.png Graphic file (type png)
-<use ../obr/ae_405t.png>
-Package pdftex.def Info: ../obr/ae_405t.png  used on input line 289.
-(pdftex.def)             Requested size: 370.01317pt x 274.296pt.
-<../obr/ae_905t.png, id=37, 669.2503pt x 496.10344pt>
-File: ../obr/ae_905t.png Graphic file (type png)
-<use ../obr/ae_905t.png>
-Package pdftex.def Info: ../obr/ae_905t.png  used on input line 289.
-(pdftex.def)             Requested size: 370.01317pt x 274.296pt.
+e 358.
+(pdftex.def)             Requested size: 403.78314pt x 282.6519pt.
+<../obr/pV_pIR-crop.pdf, id=34, 247.92625pt x 237.88875pt>
+File: ../obr/pV_pIR-crop.pdf Graphic file (type pdf)
+<use ../obr/pV_pIR-crop.pdf>
+Package pdftex.def Info: ../obr/pV_pIR-crop.pdf  used on input line 358.
+(pdftex.def)             Requested size: 310.60423pt x 298.04987pt.
+<../obr/astar_iz-crop.pdf, id=35, 246.9225pt x 235.88126pt>
+File: ../obr/astar_iz-crop.pdf Graphic file (type pdf)
+<use ../obr/astar_iz-crop.pdf>
+Package pdftex.def Info: ../obr/astar_iz-crop.pdf  used on input line 358.
+(pdftex.def)             Requested size: 310.60423pt x 296.73325pt.
+File: ../obr/size_distribution-crop.pdf Graphic file (type pdf)
+<use ../obr/size_distribution-crop.pdf>
+Package pdftex.def Info: ../obr/size_distribution-crop.pdf  used on input line 
+358.
+(pdftex.def)             Requested size: 264.01479pt x 261.87195pt.
+File: ../obr/size_distribution_SMALLD-crop.pdf Graphic file (type pdf)
+<use ../obr/size_distribution_SMALLD-crop.pdf>
+Package pdftex.def Info: ../obr/size_distribution_SMALLD-crop.pdf  used on inpu
+t line 358.
+(pdftex.def)             Requested size: 264.01479pt x 261.87195pt.
+<../obr/ae_5t_trans.png, id=40, 669.2503pt x 496.10344pt>
+File: ../obr/ae_5t_trans.png Graphic file (type png)
+<use ../obr/ae_5t_trans.png>
+Package pdftex.def Info: ../obr/ae_5t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 186.15944pt.
+<../obr/ae_105t_trans.png, id=41, 669.2503pt x 496.10344pt>
+File: ../obr/ae_105t_trans.png Graphic file (type png)
+<use ../obr/ae_105t_trans.png>
+Package pdftex.def Info: ../obr/ae_105t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 186.15944pt.
+<../obr/ae_405t_trans.png, id=42, 669.2503pt x 496.10344pt>
+File: ../obr/ae_405t_trans.png Graphic file (type png)
+<use ../obr/ae_405t_trans.png>
+Package pdftex.def Info: ../obr/ae_405t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 186.15944pt.
+<../obr/ae_905t_trans.png, id=43, 669.2503pt x 496.10344pt>
+File: ../obr/ae_905t_trans.png Graphic file (type png)
+<use ../obr/ae_905t_trans.png>
+Package pdftex.def Info: ../obr/ae_905t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 186.15944pt.
+<../obr/ai_5t_trans.png, id=44, 673.76718pt x 496.10344pt>
+File: ../obr/ai_5t_trans.png Graphic file (type png)
+<use ../obr/ai_5t_trans.png>
+Package pdftex.def Info: ../obr/ai_5t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 184.9104pt.
+<../obr/ai_105t_trans.png, id=45, 673.76718pt x 496.10344pt>
+File: ../obr/ai_105t_trans.png Graphic file (type png)
+<use ../obr/ai_105t_trans.png>
+Package pdftex.def Info: ../obr/ai_105t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 184.9104pt.
+<../obr/ai_405t_trans.png, id=46, 673.76718pt x 496.10344pt>
+File: ../obr/ai_405t_trans.png Graphic file (type png)
+<use ../obr/ai_405t_trans.png>
+Package pdftex.def Info: ../obr/ai_405t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 184.9104pt.
+<../obr/ai_905t_trans.png, id=47, 673.76718pt x 496.10344pt>
+File: ../obr/ai_905t_trans.png Graphic file (type png)
+<use ../obr/ai_905t_trans.png>
+Package pdftex.def Info: ../obr/ai_905t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 184.9104pt.
+<../obr/ei_5t_trans.png, id=48, 690.32906pt x 496.10344pt>
+File: ../obr/ei_5t_trans.png Graphic file (type png)
+<use ../obr/ei_5t_trans.png>
+Package pdftex.def Info: ../obr/ei_5t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 180.47443pt.
+<../obr/ei_105t_trans.png, id=49, 690.32906pt x 496.10344pt>
+File: ../obr/ei_105t_trans.png Graphic file (type png)
+<use ../obr/ei_105t_trans.png>
+Package pdftex.def Info: ../obr/ei_105t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 180.47443pt.
+<../obr/ei_405t_trans.png, id=50, 690.32906pt x 496.10344pt>
+File: ../obr/ei_405t_trans.png Graphic file (type png)
+<use ../obr/ei_405t_trans.png>
+Package pdftex.def Info: ../obr/ei_405t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 180.47443pt.
+<../obr/ei_905t_trans.png, id=51, 690.32906pt x 496.10344pt>
+File: ../obr/ei_905t_trans.png Graphic file (type png)
+<use ../obr/ei_905t_trans.png>
+Package pdftex.def Info: ../obr/ei_905t_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 251.13156pt x 180.47443pt.
+\chiwidth=\skip92
+File: ../obr/ae_chi_0006t_trans.png Graphic file (type png)
+<use ../obr/ae_chi_0006t_trans.png>
+Package pdftex.def Info: ../obr/ae_chi_0006t_trans.png  used on input line 358.
 
-LaTeX Warning: Reference `app:fig:ae_sim' on page 1 undefined on input line 289
+(pdftex.def)             Requested size: 310.60423pt x 185.83865pt.
+File: ../obr/ae_chi_0106t_trans.png Graphic file (type png)
+<use ../obr/ae_chi_0106t_trans.png>
+Package pdftex.def Info: ../obr/ae_chi_0106t_trans.png  used on input line 358.
+
+(pdftex.def)             Requested size: 310.60423pt x 185.83865pt.
+File: ../obr/ae_chi_0406t_trans.png Graphic file (type png)
+<use ../obr/ae_chi_0406t_trans.png>
+Package pdftex.def Info: ../obr/ae_chi_0406t_trans.png  used on input line 358.
+
+(pdftex.def)             Requested size: 310.60423pt x 185.83865pt.
+File: ../obr/ae_chi_emptyt_trans.png Graphic file (type png)
+<use ../obr/ae_chi_emptyt_trans.png>
+Package pdftex.def Info: ../obr/ae_chi_emptyt_trans.png  used on input line 358
 .
-
-
-LaTeX Warning: Reference `app:fig:ae_sim' on page 1 undefined on input line 289
-.
-
-<../obr/ei_5t.png, id=40, 690.32906pt x 496.10344pt>
-File: ../obr/ei_5t.png Graphic file (type png)
-<use ../obr/ei_5t.png>
-Package pdftex.def Info: ../obr/ei_5t.png  used on input line 289.
-(pdftex.def)             Requested size: 370.01317pt x 265.90854pt.
-<../obr/ei_105t.png, id=41, 690.32906pt x 496.10344pt>
-File: ../obr/ei_105t.png Graphic file (type png)
-<use ../obr/ei_105t.png>
-Package pdftex.def Info: ../obr/ei_105t.png  used on input line 289.
-(pdftex.def)             Requested size: 370.01317pt x 265.90854pt.
-<../obr/ei_405t.png, id=42, 690.32906pt x 496.10344pt>
-File: ../obr/ei_405t.png Graphic file (type png)
-<use ../obr/ei_405t.png>
-Package pdftex.def Info: ../obr/ei_405t.png  used on input line 289.
-(pdftex.def)             Requested size: 370.01317pt x 265.90854pt.
-<../obr/ei_905t.png, id=43, 690.32906pt x 496.10344pt>
-File: ../obr/ei_905t.png Graphic file (type png)
-<use ../obr/ei_905t.png>
-Package pdftex.def Info: ../obr/ei_905t.png  used on input line 289.
-(pdftex.def)             Requested size: 370.01317pt x 265.90854pt.
-<../obr/ae_chi_0006t.png, id=44, 804.00375pt x 481.04718pt>
-File: ../obr/ae_chi_0006t.png Graphic file (type png)
-<use ../obr/ae_chi_0006t.png>
-Package pdftex.def Info: ../obr/ae_chi_0006t.png  used on input line 289.
-(pdftex.def)             Requested size: 755.12047pt x 451.79538pt.
-<../obr/ae_chi_0106t.png, id=45, 804.00375pt x 481.04718pt>
-File: ../obr/ae_chi_0106t.png Graphic file (type png)
-<use ../obr/ae_chi_0106t.png>
-Package pdftex.def Info: ../obr/ae_chi_0106t.png  used on input line 289.
-(pdftex.def)             Requested size: 755.12047pt x 451.79538pt.
-<../obr/ae_chi_0406t.png, id=46, 804.00375pt x 481.04718pt>
-File: ../obr/ae_chi_0406t.png Graphic file (type png)
-<use ../obr/ae_chi_0406t.png>
-Package pdftex.def Info: ../obr/ae_chi_0406t.png  used on input line 289.
-(pdftex.def)             Requested size: 755.12047pt x 451.79538pt.
-<../obr/ae_chi_emptyt.png, id=47, 804.00375pt x 481.04718pt>
-File: ../obr/ae_chi_emptyt.png Graphic file (type png)
-<use ../obr/ae_chi_emptyt.png>
-Package pdftex.def Info: ../obr/ae_chi_emptyt.png  used on input line 289.
-(pdftex.def)             Requested size: 755.12047pt x 451.79538pt.
-<../obr/ae_scl.png, id=48, 828.09375pt x 542.025pt>
-File: ../obr/ae_scl.png Graphic file (type png)
-<use ../obr/ae_scl.png>
-Package pdftex.def Info: ../obr/ae_scl.png  used on input line 289.
-(pdftex.def)             Requested size: 336.86028pt x 220.49484pt.
-<../obr/ae_obs.png, id=49, 828.09375pt x 542.025pt>
-File: ../obr/ae_obs.png Graphic file (type png)
-<use ../obr/ae_obs.png>
-Package pdftex.def Info: ../obr/ae_obs.png  used on input line 289.
-(pdftex.def)             Requested size: 336.86028pt x 220.49484pt.
+(pdftex.def)             Requested size: 310.60423pt x 185.83865pt.
+<../obr/ae_scl_trans.png, id=59, 828.09375pt x 542.025pt>
+File: ../obr/ae_scl_trans.png Graphic file (type png)
+<use ../obr/ae_scl_trans.png>
+Package pdftex.def Info: ../obr/ae_scl_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 342.74034pt x 224.34068pt.
+<../obr/ae_obs_trans.png, id=60, 828.09375pt x 542.025pt>
+File: ../obr/ae_obs_trans.png Graphic file (type png)
+<use ../obr/ae_obs_trans.png>
+Package pdftex.def Info: ../obr/ae_obs_trans.png  used on input line 358.
+(pdftex.def)             Requested size: 342.74034pt x 224.34068pt.
 Package epstopdf Info: Source file: <../obr/chi2.eps>
 (epstopdf)                    date: 2019-02-16 20:00:53
 (epstopdf)                    size: 26265 bytes
@@ -1710,37 +1688,50 @@ Package epstopdf Info: Source file: <../obr/chi2.eps>
 (epstopdf)                    size: 8409 bytes
 (epstopdf)             Command: <epstopdf --outfile=../obr/chi2-eps-converted-t
 o.pdf ../obr/chi2.eps>
-(epstopdf)             \includegraphics on input line 289.
+(epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
-<../obr/chi2-eps-converted-to.pdf, id=50, 252.945pt x 176.66pt>
+<../obr/chi2-eps-converted-to.pdf, id=61, 252.945pt x 176.66pt>
 File: ../obr/chi2-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/chi2-eps-converted-to.pdf>
-Package pdftex.def Info: ../obr/chi2-eps-converted-to.pdf  used on input line 2
-89.
-(pdftex.def)             Requested size: 481.22147pt x 336.09955pt.
+Package pdftex.def Info: ../obr/chi2-eps-converted-to.pdf  used on input line 3
+58.
+(pdftex.def)             Requested size: 349.73112pt x 244.26279pt.
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <20.74> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 289.
+Underfull \hbox (badness 2735) in paragraph at lines 358--358
+\OT1/cmss/m/n/24.88 Lze po-zo-ro-vat kle-saj^^S^^Pc^^S^^P trend \OT1/cmss/bx/n/
+24.88 ch^^S^^P kvadr^^Satu\OT1/cmss/m/n/24.88 , v bu-doucnu tedy
+ []
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 289.
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <17.28> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 358.
 
+\blx@maxsegment@1=\count395
+\blx@sectionciteorder@1=\count396
+Package biblatex Info: Reference section=1 on input line 358.
+Package biblatex Info: Setting label 'refsection:1' on input line 358.
+
+Underfull \hbox (badness 4429) in paragraph at lines 358--358
+[][]\OT1/cmss/m/n/17.28 M. Bro^^Tz.[] []  Yar-kov-sky ef-fect and the dy-na-mic
+s of the So-lar Sys-tem\.[] Do-stupn^^Se z:
+ []
 
 [1
 
 {/opt/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../obr/vesta.
 jpg> <../obr/mainbelt.png> <./asy/asteroidy_plakat-1.pdf> <./asy/asteroidy_plak
 at-2.pdf> <../obr/atOF-eps-converted-to.pdf> <../obr/atFP-eps-converted-to.pdf>
- <../obr/Nv-eps-converted-to.pdf> <../obr/aH_wise-eps-converted-to.pdf> <../obr
-/pV_pIR-eps-converted-to.pdf> <../obr/astar_iz-eps-converted-to.pdf> <../obr/ae
-_wise-eps-converted-to.pdf> <../obr/ai_wise-eps-converted-to.pdf> <../obr/ae_5t
-.png> <../obr/ae_105t.png> <../obr/ae_405t.png> <../obr/ae_905t.png> <../obr/ei
-_5t.png> <../obr/ei_105t.png> <../obr/ei_405t.png> <../obr/ei_905t.png> <../obr
-/ae_chi_0006t.png> <../obr/ae_chi_0106t.png> <../obr/ae_chi_0406t.png> <../obr/
-ae_chi_emptyt.png> <../obr/ae_scl.png> <../obr/ae_obs.png> <../obr/chi2-eps-con
-verted-to.pdf> </opt/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle
-.pdf>]
+ <../obr/Nv-eps-converted-to.pdf> <../obr/ae_ai_wise.pdf> <../obr/aH_wise-eps-c
+onverted-to.pdf> <../obr/pV_pIR-crop.pdf> <../obr/astar_iz-crop.pdf> <../obr/si
+ze_distribution-crop.pdf> <../obr/size_distribution_SMALLD-crop.pdf> <../obr/ae
+_5t_trans.png> <../obr/ae_105t_trans.png> <../obr/ae_405t_trans.png> <../obr/ae
+_905t_trans.png> <../obr/ai_5t_trans.png> <../obr/ai_105t_trans.png> <../obr/ai
+_405t_trans.png> <../obr/ai_905t_trans.png> <../obr/ei_5t_trans.png> <../obr/ei
+_105t_trans.png> <../obr/ei_405t_trans.png> <../obr/ei_905t_trans.png> <../obr/
+ae_chi_0006t_trans.png> <../obr/ae_chi_0106t_trans.png> <../obr/ae_chi_0406t_tr
+ans.png> <../obr/ae_chi_emptyt_trans.png> <../obr/ae_scl_trans.png> <../obr/ae_
+obs_trans.png> <../obr/chi2-eps-converted-to.pdf> </opt/texlive/2018/texmf-dist
+/tex/latex/beamer/beamericonbook.pdf>]
 \tf@nav=\write11
 \openout11 = `asteroidy_plakat.nav'.
 
@@ -1750,49 +1741,54 @@ verted-to.pdf> </opt/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle
 \tf@snm=\write13
 \openout13 = `asteroidy_plakat.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (./asteroidy_plakat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `asteroidy_plakat.out' has not changed.
-(rerunfilecheck)             Checksum: FAD94194CF60C85FEE87612594B85C9C;41.
+(rerunfilecheck)             Checksum: 4953A2AAB40B221F855EBD2D1600EDE7;82.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                asteroidy_plakat
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'asteroidy_plakat.run.xml'.
 \openout1 = `asteroidy_plakat.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31327 strings out of 494062
- 591775 string characters out of 6165011
- 1106551 words of memory out of 5000000
- 34337 multiletter control sequences out of 15000+600000
- 18977 words of font info for 69 fonts, out of 8000000 for 9000
+ 31381 strings out of 494062
+ 593539 string characters out of 6165011
+ 1136196 words of memory out of 5000000
+ 34391 multiletter control sequences out of 15000+600000
+ 16766 words of font info for 61 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 60i,25n,94p,1177b,2524s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{app:fig:ae_sim} has been referenced but does not 
-exist, replaced by a fixed one
-
-</opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmss12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmss17.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmssbx10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-si12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.p
-fb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></op
-t/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on asteroidy_plakat.pdf (1 page, 2931505 bytes).
+ 60i,25n,94p,1177b,2546s stack positions out of 5000i,500n,10000p,200000b,80000s
+</opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></op
+t/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmss12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmss17.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmssbx10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mssi12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17
+.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on asteroidy_plakat.pdf (1 page, 3849839 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 306 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 219 words of extra memory for PDF output out of 10000 (max. 10000000)
 

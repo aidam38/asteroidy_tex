@@ -1995,11 +1995,25 @@
     <bcf:datasource type="file" datatype="bibtex">/home/adam/tex/soc.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">broz13</bcf:citekey>
-    <bcf:citekey order="2">nugent15</bcf:citekey>
+    <bcf:citekey order="1">nesvorny15</bcf:citekey>
+    <bcf:citekey order="2">broz13</bcf:citekey>
     <bcf:citekey order="3">nugent15</bcf:citekey>
-    <bcf:citekey order="4">ivezic01</bcf:citekey>
+    <bcf:citekey order="4">nugent15</bcf:citekey>
     <bcf:citekey order="5">ivezic01</bcf:citekey>
+    <bcf:citekey order="6">ivezic01</bcf:citekey>
+    <bcf:citekey order="9">broz19</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 1 -->
+  <bcf:bibdata section="1">
+    <bcf:datasource type="file" datatype="bibtex">/home/adam/tex/soc.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="1">
+    <bcf:citekey order="1" nocite="1">fmt</bcf:citekey>
+    <bcf:citekey order="2" nocite="1">murray00</bcf:citekey>
+    <bcf:citekey order="3" nocite="1">brozphd</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
@@ -2009,6 +2023,15 @@
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="1"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"
