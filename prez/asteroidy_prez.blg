@@ -1,14 +1,21 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'asteroidy_prez.blg'
-[21] biber:315> INFO - === Wed Feb 27, 2019, 09:21:34
+[20] biber:315> INFO - === Sat Mar 23, 2019, 15:39:38
 [36] Biber.pm:371> INFO - Reading 'asteroidy_prez.bcf'
-[89] Biber.pm:889> INFO - Found 2 citekeys in bib section 0
-[100] Biber.pm:4093> INFO - Processing section 0
-[108] Biber.pm:4254> INFO - Looking for bibtex format file '../soc.bib' for section 0
-[111] bibtex.pm:1523> INFO - LaTeX decoding ...
-[157] bibtex.pm:1340> INFO - Found BibTeX data source '../soc.bib'
-[171] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
-[172] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[172] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
-[176] bbl.pm:636> INFO - Writing 'asteroidy_prez.bbl' with encoding 'UTF-8'
-[177] bbl.pm:739> INFO - Output to asteroidy_prez.bbl
+[86] Biber.pm:889> INFO - Found 2 citekeys in bib section 0
+[86] Biber.pm:889> INFO - Found 3 citekeys in bib section 1
+[86] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[102] Biber.pm:4093> INFO - Processing section 0
+[110] Biber.pm:4254> INFO - Looking for bibtex format file '../soc.bib' for section 0
+[112] bibtex.pm:1523> INFO - LaTeX decoding ...
+[158] bibtex.pm:1340> INFO - Found BibTeX data source '../soc.bib'
+[173] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[173] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[173] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
+[178] Biber.pm:4093> INFO - Processing section 1
+[178] Biber.pm:4254> INFO - Looking for bibtex format file '../soc.bib' for section 1
+[196] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[196] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[196] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
+[198] bbl.pm:636> INFO - Writing 'asteroidy_prez.bbl' with encoding 'UTF-8'
+[200] bbl.pm:739> INFO - Output to asteroidy_prez.bbl

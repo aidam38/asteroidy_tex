@@ -9,4 +9,4 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{Vlastnosti rodiny Eunomia}{7}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Z\IeC {\'a}v\IeC {\v e}r}{10}{0}{5}
+\beamer@sectionintoc {5}{Z\IeC {\'a}v\IeC {\v e}r}{14}{0}{5}

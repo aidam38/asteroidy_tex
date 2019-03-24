@@ -1,0 +1,24 @@
+Cíl projektu *
+(jednou až dvěma větami vystihněte, co je cílem vaší práce... - 30 - 50 slov)
+Cílem naší práce je prozkoumat rodinu planetek Eunomia pomocí simulace 6200 těles v N částicovém integrátoru SWIFT, za účelem hlubšího pochopení její dynamické struktury. Pozorovaná data porovnáváme se simulovanými a pomocí statistických metod se snažíme určit její stáří.
+
+
+Stručný popis projektu v českém jazyce *
+(cca 100 slov)
+Planetky jsou nejpočetnější skupinou těles ve sluneční soustavě a svým způsobem také nejzajímavější. Pohyby planetek jsou ovlivňovány gravitačním působením jak Slunce, tak okolních planet, ale také i negravitačními jevy, jako je například Jarkovského jev, který je spojen s nerovnoměrným uvolňováním tepla z povrchu planetky. Dynamické struktury rodiny planetek (to jest, planetky vzniklé úvodním rozpadem nějakého tělesa např. srážkou) jsou pak těmito silami ovlivňovány. Jejich pochopení nám může leccos říct o vzniku sluneční soustavě a jejího dynamického vývoje.
+
+V naší práci jsme se zaměřili na jednu konkrétní rodinu a aplikovali na ni nenovější metody na simulaci jejich členů a následné odhadnutí stáří této rodiny.
+
+
+
+Vlastní tvůrčí přínos řešitele *
+(jeden až dva odstavce - čím jste konkrétně vy přispěli - cca. 80 slov")
+V rámci mé práci bylo nejprve nutné pochopit obtížná témata týkající se nebeské mechaniky a následně nastudovat metody identifikace a analýzy rodin planetek. Poté jsem znovu určil pozorovanou rodinu určenou algoritmem HCM, čímž jsem o něco zvýšil stávající počet členů této rodiny. Poté jsem správně nastavil simulaci a po jejích seběhnutí analyzoval data a snažil se najít co nejlepší fit, k čemuž bylo nutné nemálo úprav stávajících nebo napsání nových skriptů.
+
+Kromě výše zmíněného jsem také samozřejmě vytvořil ucelený text obsahující téměř všechnu teorii nutnou k pochopení našeho výzkumu, faktické informace o planetkách ve sluneční soustavě a analýzu našich výsledků doplněnou mnoha grafy a obrázky.
+
+Závěry *
+Z našich výpočtů, ve kterých jsme se nakonec omezili na prozkoumání možnosti, zda by rodina Eunomia nemohla být mladá, tedy mladší než 1 miliarda let, což se nám poměrně s velkou jistotou podařilo vyvrátit. I po odstranění veškerých systematických chyb statistické veličiny nepoukazovaly na mladý věk, nicméně byla možnost pozorovat takový trend, že když bychom rodinu simulovali déle, určitě bychom dostali věrohodný odhad stáří rodiny.
+
+Dále jsme vyvrátili domněnku, že rodina pokračuje za rezonanci s Jupiterem 5:2, což by znamenalo, že byla rodina původně mnohem větší. Z našich výsledků se spíš zdá, že rodina byla naopak kompaktnější než si myslíme. 
+
