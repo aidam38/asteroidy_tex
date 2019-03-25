@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  25 MAR 2019 08:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  25 MAR 2019 21:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1154,58 +1154,59 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3
 
 ]
-<../asy/asteroidy-3.pdf, id=75, 227.62239pt x 199.23233pt>
-File: ../asy/asteroidy-3.pdf Graphic file (type pdf)
-<use ../asy/asteroidy-3.pdf>
-Package pdftex.def Info: ../asy/asteroidy-3.pdf  used on input line 99.
-(pdftex.def)             Requested size: 150.57372pt x 131.79774pt.
-<../asy/asteroidy-4.pdf, id=76, 227.62239pt x 213.39122pt>
-File: ../asy/asteroidy-4.pdf Graphic file (type pdf)
-<use ../asy/asteroidy-4.pdf>
-Package pdftex.def Info: ../asy/asteroidy-4.pdf  used on input line 99.
-(pdftex.def)             Requested size: 150.57372pt x 141.16423pt.
- [4
 
- <../asy/asteroidy-3.pdf> <../asy/asteroidy-4.pdf>]
-<../obr/trajec_001t.png, id=113, 551.05875pt x 313.17pt>
-File: ../obr/trajec_001t.png Graphic file (type png)
-<use ../obr/trajec_001t.png>
-Package pdftex.def Info: ../obr/trajec_001t.png  used on input line 110.
-(pdftex.def)             Requested size: 150.57372pt x 85.57008pt.
-<../obr/trajec_101t.png, id=114, 551.05875pt x 313.17pt>
-File: ../obr/trajec_101t.png Graphic file (type png)
-<use ../obr/trajec_101t.png>
-Package pdftex.def Info: ../obr/trajec_101t.png  used on input line 110.
-(pdftex.def)             Requested size: 150.57372pt x 85.57008pt.
-<../obr/trajec_201t.png, id=115, 551.05875pt x 313.17pt>
-File: ../obr/trajec_201t.png Graphic file (type png)
-<use ../obr/trajec_201t.png>
-Package pdftex.def Info: ../obr/trajec_201t.png  used on input line 110.
-(pdftex.def)             Requested size: 150.57372pt x 85.57008pt.
-<../obr/trajec_501t.png, id=116, 551.05875pt x 313.17pt>
-File: ../obr/trajec_501t.png Graphic file (type png)
-<use ../obr/trajec_501t.png>
-Package pdftex.def Info: ../obr/trajec_501t.png  used on input line 110.
-(pdftex.def)             Requested size: 150.57372pt x 85.57008pt.
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 85.
 
-Overfull \vbox (10.09341pt too high) detected at line 110
+
+Package hyperref Warning: Composite letter `\textasciicaron+e'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 85.
+
+<../obr/vesta.jpg, id=74, 1058.95625pt x 1027.84pt>
+File: ../obr/vesta.jpg Graphic file (type jpg)
+<use ../obr/vesta.jpg>
+Package pdftex.def Info: ../obr/vesta.jpg  used on input line 94.
+(pdftex.def)             Requested size: 174.88182pt x 169.74312pt.
+
+Overfull \vbox (2.39636pt too high) detected at line 94
+ []
+
+[4
+
+ <../obr/vesta.jpg>]
+<../obr/mainbelt.png, id=83, 1205.50375pt x 904.37875pt>
+File: ../obr/mainbelt.png Graphic file (type png)
+<use ../obr/mainbelt.png>
+Package pdftex.def Info: ../obr/mainbelt.png  used on input line 102.
+(pdftex.def)             Requested size: 226.25214pt x 169.73619pt.
+
+Overfull \vbox (2.38943pt too high) detected at line 102
  []
 
 [5
 
- <../obr/trajec_001t.png> <../obr/trajec_101t.png> <../obr/trajec_201t.png> <..
-/obr/trajec_501t.png>]
-<../asy/asteroidy-1.pdf, id=127, 341.4326pt x 153.68315pt>
+ <../obr/mainbelt.png>]
+<../obr/jarkovskeho_jev.png, id=95, 1457.445pt x 742.775pt>
+File: ../obr/jarkovskeho_jev.png Graphic file (type png)
+<use ../obr/jarkovskeho_jev.png>
+Package pdftex.def Info: ../obr/jarkovskeho_jev.png  used on input line 118.
+(pdftex.def)             Requested size: 184.3758pt x 93.95735pt.
+ [6
+
+ <../obr/jarkovskeho_jev.png>]
+<../asy/asteroidy-1.pdf, id=101, 341.4326pt x 153.68315pt>
 File: ../asy/asteroidy-1.pdf Graphic file (type pdf)
 <use ../asy/asteroidy-1.pdf>
-Package pdftex.def Info: ../asy/asteroidy-1.pdf  used on input line 132.
+Package pdftex.def Info: ../asy/asteroidy-1.pdf  used on input line 144.
 (pdftex.def)             Requested size: 169.01035pt x 76.07455pt.
 
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 132--132
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 144--144
 [][] 
  []
 
-[6
+[7
 
  <../asy/asteroidy-1.pdf>]
 Package epstopdf Info: Source file: <../obr/atOF.eps>
@@ -1216,13 +1217,13 @@ Package epstopdf Info: Source file: <../obr/atOF.eps>
 (epstopdf)                    size: 53791 bytes
 (epstopdf)             Command: <epstopdf --outfile=../obr/atOF-eps-converted-t
 o.pdf ../obr/atOF.eps>
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
-<../obr/atOF-eps-converted-to.pdf, id=148, 361.35pt x 252.945pt>
+<../obr/atOF-eps-converted-to.pdf, id=132, 361.35pt x 252.945pt>
 File: ../obr/atOF-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/atOF-eps-converted-to.pdf>
 Package pdftex.def Info: ../obr/atOF-eps-converted-to.pdf  used on input line 1
-47.
+59.
 (pdftex.def)             Requested size: 150.57372pt x 105.4025pt.
 Package epstopdf Info: Source file: <../obr/atFP.eps>
 (epstopdf)                    date: 2019-01-08 18:56:13
@@ -1232,74 +1233,57 @@ Package epstopdf Info: Source file: <../obr/atFP.eps>
 (epstopdf)                    size: 58912 bytes
 (epstopdf)             Command: <epstopdf --outfile=../obr/atFP-eps-converted-t
 o.pdf ../obr/atFP.eps>
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
-<../obr/atFP-eps-converted-to.pdf, id=149, 361.35pt x 252.945pt>
+<../obr/atFP-eps-converted-to.pdf, id=133, 361.35pt x 252.945pt>
 File: ../obr/atFP-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/atFP-eps-converted-to.pdf>
 Package pdftex.def Info: ../obr/atFP-eps-converted-to.pdf  used on input line 1
-47.
+59.
 (pdftex.def)             Requested size: 150.57372pt x 105.4025pt.
- [7
+ [8
 
  <../obr/atOF-eps-converted-to.pdf> <../obr/atFP-eps-converted-to.pdf>]
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 150.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+e'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 150.
-
-<../obr/vesta.jpg, id=172, 1058.95625pt x 1027.84pt>
-File: ../obr/vesta.jpg Graphic file (type jpg)
-<use ../obr/vesta.jpg>
-Package pdftex.def Info: ../obr/vesta.jpg  used on input line 159.
-(pdftex.def)             Requested size: 180.23024pt x 174.93437pt.
-[8
-
- <../obr/vesta.jpg>]
-<../obr/mainbelt.png, id=182, 1205.50375pt x 904.37875pt>
-File: ../obr/mainbelt.png Graphic file (type png)
-<use ../obr/mainbelt.png>
-Package pdftex.def Info: ../obr/mainbelt.png  used on input line 167.
-(pdftex.def)             Requested size: 233.18684pt x 174.93867pt.
+<../asy/asteroidy-3.pdf, id=155, 227.62239pt x 199.23233pt>
+File: ../asy/asteroidy-3.pdf Graphic file (type pdf)
+<use ../asy/asteroidy-3.pdf>
+Package pdftex.def Info: ../asy/asteroidy-3.pdf  used on input line 172.
+(pdftex.def)             Requested size: 150.57372pt x 131.79774pt.
+<../asy/asteroidy-4.pdf, id=156, 227.62239pt x 213.39122pt>
+File: ../asy/asteroidy-4.pdf Graphic file (type pdf)
+<use ../asy/asteroidy-4.pdf>
+Package pdftex.def Info: ../asy/asteroidy-4.pdf  used on input line 172.
+(pdftex.def)             Requested size: 150.57372pt x 141.16423pt.
  [9
 
- <../obr/mainbelt.png>]
-<../obr/jarkovskeho_jev.png, id=193, 1457.445pt x 742.775pt>
-File: ../obr/jarkovskeho_jev.png Graphic file (type png)
-<use ../obr/jarkovskeho_jev.png>
-Package pdftex.def Info: ../obr/jarkovskeho_jev.png  used on input line 183.
-(pdftex.def)             Requested size: 184.3758pt x 93.95735pt.
- [10
-
- <../obr/jarkovskeho_jev.png>]
-<../obr/ae_ai_wise.pdf, id=199, 361.35pt x 303.1325pt>
+ <../asy/asteroidy-3.pdf> <../asy/asteroidy-4.pdf>]
+<../obr/ae_ai_wise.pdf, id=185, 361.35pt x 303.1325pt>
 File: ../obr/ae_ai_wise.pdf Graphic file (type pdf)
 <use ../obr/ae_ai_wise.pdf>
 Package pdftex.def Info: ../obr/ae_ai_wise.pdf  used on input line 197.
 (pdftex.def)             Requested size: 245.83282pt x 206.22913pt.
 
-Overfull \vbox (4.89372pt too high) detected at line 197
+Overfull \vbox (12.89372pt too high) detected at line 197
  []
 
-[11
+[10
 
  <../obr/ae_ai_wise.pdf>]
-<../obr/pV_pIR-crop.pdf, id=212, 247.92625pt x 237.88875pt>
+<../obr/pV_pIR-crop.pdf, id=198, 247.92625pt x 237.88875pt>
 File: ../obr/pV_pIR-crop.pdf Graphic file (type pdf)
 <use ../obr/pV_pIR-crop.pdf>
 Package pdftex.def Info: ../obr/pV_pIR-crop.pdf  used on input line 214.
 (pdftex.def)             Requested size: 150.57372pt x 144.47668pt.
-<../obr/astar_iz-crop.pdf, id=213, 246.9225pt x 235.88126pt>
+<../obr/astar_iz-crop.pdf, id=199, 246.9225pt x 235.88126pt>
 File: ../obr/astar_iz-crop.pdf Graphic file (type pdf)
 <use ../obr/astar_iz-crop.pdf>
 Package pdftex.def Info: ../obr/astar_iz-crop.pdf  used on input line 214.
 (pdftex.def)             Requested size: 150.57372pt x 143.84056pt.
- [12
+
+Overfull \vbox (1.42993pt too high) detected at line 214
+ []
+
+[11
 
  <../obr/pV_pIR-crop.pdf> <../obr/astar_iz-crop.pdf>]
 Package epstopdf Info: Source file: <../obr/aH_wise.eps>
@@ -1312,93 +1296,104 @@ Package epstopdf Info: Source file: <../obr/aH_wise.eps>
 d-to.pdf ../obr/aH_wise.eps>
 (epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
-<../obr/aH_wise-eps-converted-to.pdf, id=244, 361.35pt x 252.945pt>
+<../obr/aH_wise-eps-converted-to.pdf, id=230, 361.35pt x 252.945pt>
 File: ../obr/aH_wise-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/aH_wise-eps-converted-to.pdf>
 Package pdftex.def Info: ../obr/aH_wise-eps-converted-to.pdf  used on input lin
 e 222.
 (pdftex.def)             Requested size: 215.10196pt x 150.57169pt.
- [13
+ [12
 
  <../obr/aH_wise-eps-converted-to.pdf>]
-<../obr/size_distribution-crop.pdf, id=259, 245.91875pt x 243.91125pt>
+<../obr/size_distribution-crop.pdf, id=244, 245.91875pt x 243.91125pt>
 File: ../obr/size_distribution-crop.pdf Graphic file (type pdf)
 <use ../obr/size_distribution-crop.pdf>
 Package pdftex.def Info: ../obr/size_distribution-crop.pdf  used on input line 
 247.
 (pdftex.def)             Requested size: 122.91406pt x 121.91066pt.
- [14
+ [13
 
  <../obr/size_distribution-crop.pdf>]
-<../obr/ae_5_trans.png, id=279, 722.7pt x 542.025pt>
+<../obr/ae_5_trans.png, id=265, 722.7pt x 542.025pt>
 File: ../obr/ae_5_trans.png Graphic file (type png)
 <use ../obr/ae_5_trans.png>
 Package pdftex.def Info: ../obr/ae_5_trans.png  used on input line 252.
 (pdftex.def)             Requested size: 291.35739pt x 218.51817pt.
- [15
 
- <../obr/ae_5_trans.png>] [16
+Overfull \vbox (6.47142pt too high) detected at line 252
+ []
+
+[14
+
+ <../obr/ae_5_trans.png>] [15
 
 ]
-<../obr/ae_chi_0006t.png, id=291, 804.00375pt x 481.04718pt>
+<../obr/ae_chi_0006t.png, id=278, 804.00375pt x 481.04718pt>
 File: ../obr/ae_chi_0006t.png Graphic file (type png)
 <use ../obr/ae_chi_0006t.png>
-Package pdftex.def Info: ../obr/ae_chi_0006t.png  used on input line 294.
+Package pdftex.def Info: ../obr/ae_chi_0006t.png  used on input line 297.
 (pdftex.def)             Requested size: 149.32143pt x 89.33731pt.
-<../obr/ae_chi_0106t.png, id=292, 804.00375pt x 481.04718pt>
+<../obr/ae_chi_0106t.png, id=279, 804.00375pt x 481.04718pt>
 File: ../obr/ae_chi_0106t.png Graphic file (type png)
 <use ../obr/ae_chi_0106t.png>
-Package pdftex.def Info: ../obr/ae_chi_0106t.png  used on input line 294.
+Package pdftex.def Info: ../obr/ae_chi_0106t.png  used on input line 297.
 (pdftex.def)             Requested size: 149.32143pt x 89.33731pt.
-<../obr/ae_chi_0406t.png, id=293, 804.00375pt x 481.04718pt>
+<../obr/ae_chi_0406t.png, id=280, 804.00375pt x 481.04718pt>
 File: ../obr/ae_chi_0406t.png Graphic file (type png)
 <use ../obr/ae_chi_0406t.png>
-Package pdftex.def Info: ../obr/ae_chi_0406t.png  used on input line 294.
+Package pdftex.def Info: ../obr/ae_chi_0406t.png  used on input line 297.
 (pdftex.def)             Requested size: 149.32143pt x 89.33731pt.
-<../obr/ae_chi_emptyt.png, id=294, 804.00375pt x 481.04718pt>
+<../obr/ae_chi_emptyt.png, id=281, 804.00375pt x 481.04718pt>
 File: ../obr/ae_chi_emptyt.png Graphic file (type png)
 <use ../obr/ae_chi_emptyt.png>
-Package pdftex.def Info: ../obr/ae_chi_emptyt.png  used on input line 294.
+Package pdftex.def Info: ../obr/ae_chi_emptyt.png  used on input line 297.
 (pdftex.def)             Requested size: 149.32143pt x 89.33731pt.
- [17
+
+Overfull \vbox (1.62787pt too high) detected at line 297
+ []
+
+[16
 
  <../obr/ae_chi_0006t.png> <../obr/ae_chi_0106t.png> <../obr/ae_chi_0406t.png> 
 <../obr/ae_chi_emptyt.png>]
 File: ../obr/ae_scl.png Graphic file (type png)
 <use ../obr/ae_scl.png>
-Package pdftex.def Info: ../obr/ae_scl.png  used on input line 303.
+Package pdftex.def Info: ../obr/ae_scl.png  used on input line 306.
 (pdftex.def)             Requested size: 167.5323pt x 109.65193pt.
 
-Overfull \hbox (44.61824pt too wide) in paragraph at lines 303--303
+Overfull \hbox (44.61824pt too wide) in paragraph at lines 306--306
  []|[]| 
  []
 
 File: ../obr/ae_obs.png Graphic file (type png)
 <use ../obr/ae_obs.png>
-Package pdftex.def Info: ../obr/ae_obs.png  used on input line 303.
+Package pdftex.def Info: ../obr/ae_obs.png  used on input line 306.
 (pdftex.def)             Requested size: 167.5323pt x 109.65193pt.
 
-Overfull \hbox (44.61824pt too wide) in paragraph at lines 303--303
+Overfull \hbox (44.61824pt too wide) in paragraph at lines 306--306
  []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 303--303
+Underfull \hbox (badness 10000) in alignment at lines 306--306
 [][] 
  []
 
 
-Overfull \vbox (7.41718pt too high) detected at line 303
+Overfull \vbox (15.41718pt too high) detected at line 306
  []
 
-[18
+[17
 
  <../obr/ae_scl.png> <../obr/ae_obs.png>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 306.
+(hyperref)                removing `\textasciicaron' on input line 309.
 
+[18
+
+]
 Package epstopdf Info: Source file: <../obr/chi2.eps>
 (epstopdf)                    date: 2019-03-24 23:17:27
 (epstopdf)                    size: 26027 bytes
@@ -1407,29 +1402,34 @@ Package epstopdf Info: Source file: <../obr/chi2.eps>
 (epstopdf)                    size: 7642 bytes
 (epstopdf)             Command: <epstopdf --outfile=../obr/chi2-eps-converted-t
 o.pdf ../obr/chi2.eps>
-(epstopdf)             \includegraphics on input line 316.
+(epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
-<../obr/chi2-eps-converted-to.pdf, id=315, 252.945pt x 176.66pt>
+<../obr/chi2-eps-converted-to.pdf, id=305, 252.945pt x 176.66pt>
 File: ../obr/chi2-eps-converted-to.pdf Graphic file (type pdf)
 <use ../obr/chi2-eps-converted-to.pdf>
 Package pdftex.def Info: ../obr/chi2-eps-converted-to.pdf  used on input line 3
-16.
+29.
 (pdftex.def)             Requested size: 215.10196pt x 150.23178pt.
-[19
+ [19
 
  <../obr/chi2-eps-converted-to.pdf>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <9> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 329.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 342.
 
 \blx@maxsegment@1=\count364
 \blx@sectionciteorder@1=\count365
-Package biblatex Info: Reference section=1 on input line 329.
-Package biblatex Info: Setting label 'refsection:1' on input line 329.
+Package biblatex Info: Reference section=1 on input line 342.
+Package biblatex Info: Setting label 'refsection:1' on input line 342.
 [20
 
  </opt/texlive/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf> </opt/te
-xlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf>] [21
+xlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf>]
+File: ../obr/fmt.jpg Graphic file (type jpg)
+<use ../obr/fmt.jpg>
+Package pdftex.def Info: ../obr/fmt.jpg  used on input line 348.
+(pdftex.def)             Requested size: 373.16333pt x 273.14662pt.
+ [21
 
 ]
 \tf@nav=\write9
@@ -1441,23 +1441,23 @@ xlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf>] [21
 \tf@snm=\write11
 \openout11 = `asteroidy_prez.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
 
 (./asteroidy_prez.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `asteroidy_prez.out' has not changed.
-(rerunfilecheck)             Checksum: 39C30771CEA787E5B761B2838DF7D938;349.
+(rerunfilecheck)             Checksum: 63B295E4359888AA241BDE31CC97B844;349.
 Package logreq Info: Writing requests to 'asteroidy_prez.run.xml'.
 \openout1 = `asteroidy_prez.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25643 strings out of 494062
- 482692 string characters out of 6165011
- 911422 words of memory out of 5000000
- 28753 multiletter control sequences out of 15000+600000
+ 25631 strings out of 494062
+ 482591 string characters out of 6165011
+ 912325 words of memory out of 5000000
+ 28746 multiletter control sequences out of 15000+600000
  16740 words of font info for 63 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  48i,14n,64p,1173b,1755s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1484,10 +1484,10 @@ pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></op
 t/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></opt/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></opt/texlive/2018/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on asteroidy_prez.pdf (21 pages, 2786842 bytes).
+Output written on asteroidy_prez.pdf (21 pages, 2767663 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 59 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
