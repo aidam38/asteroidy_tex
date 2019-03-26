@@ -45,20 +45,26 @@
 
 \begin{document}
 
+{
+\setbeamerfont{title}{shape=\bfseries}
+\setbeamerfont{author}{shape=\bfseries}
+\setbeamercolor{author}{fg=white}
+\setbeamerfont{institute}{shape=\bfseries}
+\setbeamercolor{institute}{fg=white}
+\setbeamerfont{date}{shape=\bfseries}
+\setbeamercolor{date}{fg=white}
+\setbeamertemplate{frametitle}{}
+\setbeamertemplate{title}{}
+\usebackgroundtemplate{\includegraphics[height=\paperheight]{../obr/fmt.jpg}}%
+
 \begin{frame}[t]
 	\titlepage
 \end{frame}
+}
 
-{
-\setbeamerfont{section in toc}{shape=\bfseries}
-\setbeamercolor{section in toc}{fg=white}
-\setbeamertemplate{frametitle}{}
-\usebackgroundtemplate{\includegraphics[height=\paperheight]{../obr/fmt.jpg}}%
-
-\begin{frame}
+\begin{frame}{Struktura}
 	\textcolor{white}{\tableofcontents}
 \end{frame}
-}
 
 
 \section{Úvod}
