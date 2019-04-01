@@ -1,0 +1,82 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {czech}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\IeC {\'U}vod}{8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Nebesk\IeC {\'a} mechanika}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Pohybov\IeC {\'e} rovnice}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Rovnice pro dv\IeC {\v e} t\IeC {\v e}lesa}{11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Keplerovy z\IeC {\'a}kony}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Rovnice pro N t\IeC {\v e}les}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Eulerova metoda}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Orbit\IeC {\'a}ln\IeC {\'\i } elementy}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Oskula\IeC {\v c}n\IeC {\'\i } elementy}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}St\IeC {\v r}edn\IeC {\'\i } elementy}{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Vlastn\IeC {\'\i } elementy}{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Planetky ve~slune\IeC {\v c}n\IeC {\'\i } soustav\IeC {\v e}}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Hlavn\IeC {\'\i } p\IeC {\'a}s planetek}{26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Rezonance}{27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Rezonance st\IeC {\v r}edn\IeC {\'\i }ho pohybu}{27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Sekul\IeC {\'a}rn\IeC {\'\i } rezonance}{28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Rodiny planetek}{29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Metody identifikace rodin}{30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Nevratn\IeC {\'e} d\IeC {\v e}je p\IeC {\v r}i v\IeC {\'y}voji}{31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Jarkovsk\IeC {\'e}ho jev}{31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{YORP jev}{32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{N\IeC {\'a}hodn\IeC {\'e} sr\IeC {\'a}\IeC {\v z}ky}{32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Chaotick\IeC {\'a} difuze}{33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Vlastnosti rodiny Eunomia}{34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Identifikace \IeC {\v c}len\IeC {\r u}}{35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}P\IeC {\v r}im\IeC {\'\i }sen\IeC {\'a} t\IeC {\v e}lesa}{35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Graf $(a_{\rm p},\tmspace +\thinmuskip {.1667em}H)$}{35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Graf $(p_{\rm V},\tmspace +\thinmuskip {.1667em}p_{\rm IR})$ a~$(a^*,\tmspace +\thinmuskip {.1667em}i-z)$}{37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Fyzik\IeC {\'a}ln\IeC {\'\i } model pro rodinu Eunomia}{39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Rozd\IeC {\v e}len\IeC {\'\i } velikost\IeC {\'\i }}{39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Rozd\IeC {\v e}len\IeC {\'\i } v~prostoru $(a_{\rm p},\tmspace +\thinmuskip {.1667em}e_{\rm p},\tmspace +\thinmuskip {.1667em}\qopname \relax o{sin}I_{\rm p})$}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Simulace orbit\IeC {\'a}ln\IeC {\'\i }ho v\IeC {\'y}voje}{42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Porovn\IeC {\'a}n\IeC {\'\i } simulace a~pozorov\IeC {\'a}n\IeC {\'\i }}{43}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Odhad st\IeC {\'a}\IeC {\v r}\IeC {\'\i }}{47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Z\IeC {\'a}v\IeC {\v e}r}{50}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{P\IeC {\v r}\IeC {\'\i }lohy}{55}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Ilustrace Eulerovy metody ve~vektorov\IeC {\'e} grafice}{56}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}V\IeC {\'y}po\IeC {\v c}et Keplerovy rovnice pomoc\IeC {\'\i } itera\IeC {\v c}n\IeC {\'\i } metody}{60}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}V\IeC {\'y}po\IeC {\v c}et polohy t\IeC {\v e}lesa z~oskula\IeC {\v c}n\IeC {\'\i }ch element\IeC {\r u}}{61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Skripty k~vytvo\IeC {\v r}en\IeC {\'\i } obr\IeC {\'a}zk\IeC {\r u} $(a,\tmspace +\thinmuskip {.1667em}e)$}{63}% 

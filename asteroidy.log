@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  24 MAR 2019 23:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.18)  31 MAR 2019 11:11
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
-**/home/adam/soc/asteroidy_tex/asteroidy.tex
-(/home/adam/soc/asteroidy_tex/asteroidy.tex
+**asteroidy.tex
+(./asteroidy.tex
 LaTeX2e <2018-12-01>
 (/opt/texlive/2018/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
@@ -790,8 +790,8 @@ Package epstopdf Info: Source file: <obr/atOF.eps>
 (epstopdf)             Output file: <obr/atOF-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-16 20:07:49
 (epstopdf)                    size: 53791 bytes
-(epstopdf)             Command: <repstopdf --outfile=obr/atOF-eps-converted-to.
-pdf obr/atOF.eps>
+(epstopdf)             Command: <epstopdf --outfile=obr/atOF-eps-converted-to.p
+df obr/atOF.eps>
 (epstopdf)             \includegraphics on input line 307.
 Package epstopdf Info: Output file is already uptodate.
 <obr/atOF-eps-converted-to.pdf, id=139, 361.35pt x 252.945pt>
@@ -807,8 +807,8 @@ Package epstopdf Info: Source file: <obr/atFP.eps>
 (epstopdf)             Output file: <obr/atFP-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-16 20:07:50
 (epstopdf)                    size: 58912 bytes
-(epstopdf)             Command: <repstopdf --outfile=obr/atFP-eps-converted-to.
-pdf obr/atFP.eps>
+(epstopdf)             Command: <epstopdf --outfile=obr/atFP-eps-converted-to.p
+df obr/atFP.eps>
 (epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 <obr/atFP-eps-converted-to.pdf, id=151, 361.35pt x 252.945pt>
@@ -833,17 +833,13 @@ File: obr/mainbelt.png Graphic file (type png)
 Package pdftex.def Info: obr/mainbelt.png  used on input line 356.
 (pdftex.def)             Requested size: 422.77664pt x 317.1583pt.
  [26 <./obr/mainbelt.png>] [27] [28]
-runsystem(convert -trim obr/trajec_001.png obr/trajec_001t.png)...disabled (res
-tricted).
+runsystem(convert -trim obr/trajec_001.png obr/trajec_001t.png)...executed.
 
-runsystem(convert -trim obr/trajec_101.png obr/trajec_101t.png)...disabled (res
-tricted).
+runsystem(convert -trim obr/trajec_101.png obr/trajec_101t.png)...executed.
 
-runsystem(convert -trim obr/trajec_201.png obr/trajec_201t.png)...disabled (res
-tricted).
+runsystem(convert -trim obr/trajec_201.png obr/trajec_201t.png)...executed.
 
-runsystem(convert -trim obr/trajec_501.png obr/trajec_501t.png)...disabled (res
-tricted).
+runsystem(convert -trim obr/trajec_501.png obr/trajec_501t.png)...executed.
 
 <obr/trajec_001t.png, id=187, 551.05875pt x 313.17pt>
 File: obr/trajec_001t.png Graphic file (type png)
@@ -883,8 +879,8 @@ Package epstopdf Info: Source file: <obr/Nv.eps>
 (epstopdf)             Output file: <obr/Nv-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-16 20:07:51
 (epstopdf)                    size: 6525 bytes
-(epstopdf)             Command: <repstopdf --outfile=obr/Nv-eps-converted-to.pd
-f obr/Nv.eps>
+(epstopdf)             Command: <epstopdf --outfile=obr/Nv-eps-converted-to.pdf
+ obr/Nv.eps>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
 <obr/Nv-eps-converted-to.pdf, id=215, 361.35pt x 252.945pt>
@@ -899,8 +895,8 @@ Package epstopdf Info: Source file: <obr/aH_wise.eps>
 (epstopdf)             Output file: <obr/aH_wise-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-16 20:07:51
 (epstopdf)                    size: 426685 bytes
-(epstopdf)             Command: <repstopdf --outfile=obr/aH_wise-eps-converted-
-to.pdf obr/aH_wise.eps>
+(epstopdf)             Command: <epstopdf --outfile=obr/aH_wise-eps-converted-t
+o.pdf obr/aH_wise.eps>
 (epstopdf)             \includegraphics on input line 484.
 Package epstopdf Info: Output file is already uptodate.
 <obr/aH_wise-eps-converted-to.pdf, id=225, 361.35pt x 252.945pt>
@@ -916,8 +912,8 @@ Package epstopdf Info: Source file: <obr/pV_pIR.eps>
 (epstopdf)             Output file: <obr/pV_pIR-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-03-23 15:39:23
 (epstopdf)                    size: 146097 bytes
-(epstopdf)             Command: <repstopdf --outfile=obr/pV_pIR-eps-converted-t
-o.pdf obr/pV_pIR.eps>
+(epstopdf)             Command: <epstopdf --outfile=obr/pV_pIR-eps-converted-to
+.pdf obr/pV_pIR.eps>
 (epstopdf)             \includegraphics on input line 495.
 Package epstopdf Info: Output file is already uptodate.
 <obr/pV_pIR-eps-converted-to.pdf, id=237, 361.35pt x 252.945pt>
@@ -931,17 +927,12 @@ Package epstopdf Info: Source file: <obr/astar_iz.eps>
 (epstopdf)                    date: 2019-03-05 09:49:08
 (epstopdf)                    size: 95641 bytes
 (epstopdf)             Output file: <obr/astar_iz-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-16 20:07:51
+(epstopdf)                    date: 2019-03-26 18:28:25
 (epstopdf)                    size: 113327 bytes
-(epstopdf)             Command: <repstopdf --outfile=obr/astar_iz-eps-converted
--to.pdf obr/astar_iz.eps>
+(epstopdf)             Command: <epstopdf --outfile=obr/astar_iz-eps-converted-
+to.pdf obr/astar_iz.eps>
 (epstopdf)             \includegraphics on input line 510.
-runsystem(repstopdf --outfile=obr/astar_iz-eps-converted-to.pdf obr/astar_iz.ep
-s)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <obr/astar_iz-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-16 20:07:51
-(epstopdf)                    size: 113327 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <obr/astar_iz-eps-converted-to.pdf, id=250, 361.35pt x 252.945pt>
 File: obr/astar_iz-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/astar_iz-eps-converted-to.pdf>
@@ -966,8 +957,8 @@ Package epstopdf Info: Source file: <obr/ae_wise.eps>
 (epstopdf)             Output file: <obr/ae_wise-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-03-05 09:38:51
 (epstopdf)                    size: 431965 bytes
-(epstopdf)             Command: <repstopdf --outfile=obr/ae_wise-eps-converted-
-to.pdf obr/ae_wise.eps>
+(epstopdf)             Command: <epstopdf --outfile=obr/ae_wise-eps-converted-t
+o.pdf obr/ae_wise.eps>
 (epstopdf)             \includegraphics on input line 544.
 Package epstopdf Info: Output file is already uptodate.
 <obr/ae_wise-eps-converted-to.pdf, id=266, 289.08pt x 151.56625pt>
@@ -982,8 +973,8 @@ Package epstopdf Info: Source file: <obr/ai_wise.eps>
 (epstopdf)             Output file: <obr/ai_wise-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-03-05 09:38:51
 (epstopdf)                    size: 428549 bytes
-(epstopdf)             Command: <repstopdf --outfile=obr/ai_wise-eps-converted-
-to.pdf obr/ai_wise.eps>
+(epstopdf)             Command: <epstopdf --outfile=obr/ai_wise-eps-converted-t
+o.pdf obr/ai_wise.eps>
 (epstopdf)             \includegraphics on input line 545.
 Package epstopdf Info: Output file is already uptodate.
 <obr/ai_wise-eps-converted-to.pdf, id=267, 289.08pt x 151.56625pt>
@@ -1001,16 +992,13 @@ OML/cmm/m/it/12 r$ \OT1/cmr/m/n/12 vzd^^Salenost
 
 [40] [41 <./obr/ae_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.p
 df>] [42]
-runsystem(convert -trim obr/ae_5.png obr/ae_5t.png)...disabled (restricted).
+runsystem(convert -trim obr/ae_5.png obr/ae_5t.png)...executed.
 
-runsystem(convert -trim obr/ae_105.png obr/ae_105t.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ae_105.png obr/ae_105t.png)...executed.
 
-runsystem(convert -trim obr/ae_405.png obr/ae_405t.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ae_405.png obr/ae_405t.png)...executed.
 
-runsystem(convert -trim obr/ae_905.png obr/ae_905t.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ae_905.png obr/ae_905t.png)...executed.
 
 <obr/ae_5t.png, id=320, 669.2503pt x 496.10344pt>
 File: obr/ae_5t.png Graphic file (type png)
@@ -1032,16 +1020,13 @@ File: obr/ae_905t.png Graphic file (type png)
 <use obr/ae_905t.png>
 Package pdftex.def Info: obr/ae_905t.png  used on input line 584.
 (pdftex.def)             Requested size: 230.18253pt x 170.63354pt.
-runsystem(convert -trim obr/ai_5.png obr/ai_5t.png)...disabled (restricted).
+runsystem(convert -trim obr/ai_5.png obr/ai_5t.png)...executed.
 
-runsystem(convert -trim obr/ai_105.png obr/ai_105t.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ai_105.png obr/ai_105t.png)...executed.
 
-runsystem(convert -trim obr/ai_405.png obr/ai_405t.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ai_405.png obr/ai_405t.png)...executed.
 
-runsystem(convert -trim obr/ai_905.png obr/ai_905t.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ai_905.png obr/ai_905t.png)...executed.
 
 <obr/ai_5t.png, id=324, 673.76718pt x 496.10344pt>
 File: obr/ai_5t.png Graphic file (type png)
@@ -1063,16 +1048,13 @@ File: obr/ai_905t.png Graphic file (type png)
 <use obr/ai_905t.png>
 Package pdftex.def Info: obr/ai_905t.png  used on input line 596.
 (pdftex.def)             Requested size: 230.18253pt x 169.48291pt.
-runsystem(convert -trim obr/ei_5.png obr/ei_5t.png)...disabled (restricted).
+runsystem(convert -trim obr/ei_5.png obr/ei_5t.png)...executed.
 
-runsystem(convert -trim obr/ei_105.png obr/ei_105t.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ei_105.png obr/ei_105t.png)...executed.
 
-runsystem(convert -trim obr/ei_405.png obr/ei_405t.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ei_405.png obr/ei_405t.png)...executed.
 
-runsystem(convert -trim obr/ei_905.png obr/ei_905t.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ei_905.png obr/ei_905t.png)...executed.
 
 <obr/ei_5t.png, id=328, 690.32906pt x 496.10344pt>
 File: obr/ei_5t.png Graphic file (type png)
@@ -1105,17 +1087,13 @@ n/12 )$ lze znovu spat^^Trovat p^^Wusoben^^S^^P re-zo-nanc^^S^^P, ten-tokr^^Sat
  []
 
 [46]
-runsystem(convert -trim obr/ae_chi_0006.png obr/ae_chi_0006t.png)...disabled (r
-estricted).
+runsystem(convert -trim obr/ae_chi_0006.png obr/ae_chi_0006t.png)...executed.
 
-runsystem(convert -trim obr/ae_chi_0106.png obr/ae_chi_0106t.png)...disabled (r
-estricted).
+runsystem(convert -trim obr/ae_chi_0106.png obr/ae_chi_0106t.png)...executed.
 
-runsystem(convert -trim obr/ae_chi_0406.png obr/ae_chi_0406t.png)...disabled (r
-estricted).
+runsystem(convert -trim obr/ae_chi_0406.png obr/ae_chi_0406t.png)...executed.
 
-runsystem(convert -trim obr/ae_chi_empty.png obr/ae_chi_emptyt.png)...disabled 
-(restricted).
+runsystem(convert -trim obr/ae_chi_empty.png obr/ae_chi_emptyt.png)...executed.
 
 <obr/ae_chi_0006t.png, id=358, 804.00375pt x 481.04718pt>
 File: obr/ae_chi_0006t.png Graphic file (type png)
@@ -1137,11 +1115,9 @@ File: obr/ae_chi_emptyt.png Graphic file (type png)
 <use obr/ae_chi_emptyt.png>
 Package pdftex.def Info: obr/ae_chi_emptyt.png  used on input line 640.
 (pdftex.def)             Requested size: 230.18253pt x 137.71645pt.
-runsystem(convert -trim obr/ae_scl.png obr/ae_sclt.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ae_scl.png obr/ae_sclt.png)...executed.
 
-runsystem(convert -trim obr/ae_obs.png obr/ae_obst.png)...disabled (restricted)
-.
+runsystem(convert -trim obr/ae_obs.png obr/ae_obst.png)...executed.
 
 <obr/ae_scl.png, id=362, 828.09375pt x 542.025pt>
 File: obr/ae_scl.png Graphic file (type png)
@@ -1159,15 +1135,12 @@ Package epstopdf Info: Source file: <obr/chi2.eps>
 (epstopdf)                    date: 2019-03-24 23:17:27
 (epstopdf)                    size: 26027 bytes
 (epstopdf)             Output file: <obr/chi2-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=obr/chi2-eps-converted-to.
-pdf obr/chi2.eps>
-(epstopdf)             \includegraphics on input line 681.
-runsystem(repstopdf --outfile=obr/chi2-eps-converted-to.pdf obr/chi2.eps)...exe
-cuted safely (allowed).
-
-Package epstopdf Info: Result file: <obr/chi2-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-03-24 23:20:07
-(epstopdf)                    size: 7642 bytes.
+(epstopdf)                    size: 7642 bytes
+(epstopdf)             Command: <epstopdf --outfile=obr/chi2-eps-converted-to.p
+df obr/chi2.eps>
+(epstopdf)             \includegraphics on input line 681.
+Package epstopdf Info: Output file is already uptodate.
 <obr/chi2-eps-converted-to.pdf, id=376, 252.945pt x 176.66pt>
 File: obr/chi2-eps-converted-to.pdf Graphic file (type pdf)
 <use obr/chi2-eps-converted-to.pdf>
@@ -1263,13 +1236,13 @@ Package logreq Info: Writing requests to 'asteroidy.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15382 strings out of 494062
- 252289 string characters out of 6165011
- 868638 words of memory out of 5000000
+ 15381 strings out of 494062
+ 252204 string characters out of 6165011
+ 868637 words of memory out of 5000000
  18777 multiletter control sequences out of 15000+600000
  21419 words of font info for 82 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 49i,13n,62p,1869b,3285s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,13n,62p,1840b,3285s stack positions out of 5000i,500n,10000p,200000b,80000s
 </opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/texlive/2018
@@ -1289,7 +1262,7 @@ ts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/2018/texmf-dist/fonts/type1
 amsfonts/cm/cmti10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb>
-Output written on asteroidy.pdf (65 pages, 3559069 bytes).
+Output written on asteroidy.pdf (65 pages, 3340802 bytes).
 PDF statistics:
  520 PDF objects out of 1000 (max. 8388607)
  336 compressed objects within 4 object streams

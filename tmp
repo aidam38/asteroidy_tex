@@ -1,0 +1,1583 @@
+Latexmk: All targets (asteroidy.pdf) are up-to-date
+Latexmk: All targets (asteroidy.pdf) are up-to-date
+Latexmk: All targets (asteroidy.pdf) are up-to-date
+[3;18H[3;18H[3;18H[3;18H[3;18H[3;18H[3;18H[3;18H[3;18H[3;18H[3;18H[27;18H[27;18H[26;18H[26;18H[25;18H[25;18H[25;18H[24;18H[24;18H[23;18H[23;18H[22;18H[22;18H[21;18H[21;18H[21;18H[13;18H[13;18H[13;18HLatexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+(./asteroidy.tex
+LaTeX2e <2018-12-01>
+(/opt/texlive/2018/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+(/opt/texlive/2018/texmf-dist/tex/latex/base/bk12.clo))
+(/opt/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(./socstyle.sty (/opt/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/switch.def)
+(/opt/texlive/2018/texmf-dist/tex/generic/babel-czech/czech.ldf
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def))))
+(/opt/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/opt/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/tools/array.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/esdiff/esdiff.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/was/icomma.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/asymptote/asymptote.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/catchfile.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg))
+(/home/adam/tex/aas_macros.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/url/url.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/chngcntr/chngcntr.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/czech.lbx)
+
+LaTeX Warning: Unused global option(s):
+    [A4paper].
+
+(./asteroidy.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/opt/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+No file asteroidy.bbl.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 23.
+
+[1{/opt/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd) [2] [3] [4] [5]
+No file asteroidy.toc.
+[6]
+
+LaTeX Warning: Citation 'wiki:piazzi' on page 7 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'astorb' on page 7 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'knezevic12' on page 7 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'nugent15' on page 7 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'usui11' on page 7 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'ivezic01' on page 7 undefined on input line 104.
+
+
+Overfull \hbox (108.82477pt too wide) in paragraph at lines 104--105
+\OT1/cmr/m/n/12 onu pla-ne-tek (konkr^^Setn^^Te sou-born^^Sy ka-ta-log pou^^Tzi
+t v t^^Seto pr^^Saci [[]][[]][[]][[]][[]]
+
+LaTeX Warning: Citation 'wiki:hirayama' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation 'nesvorny15' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation 'carruba16' on page 7 undefined on input line 106.
+
+
+Overfull \hbox (3.59146pt too wide) in paragraph at lines 106--107
+[]\OT1/cmr/m/n/12 V hlavn^^S^^Pm p^^Sasu pla-ne-tek mezi Mar-sem a Ju-pi-te-rem
+ nejsou pla-netky rozm^^S^^Pst^^Ten^^Se zcela n^^Sahodn^^Te,
+
+Overfull \hbox (0.11874pt too wide) in paragraph at lines 106--107
+\OT1/cmr/m/n/12 pin v^^Tsiml v roce 1918 ja-ponsk^^Sy as-t-ro-nom Kiy-ot-sugu H
+i-ra-yama (1874--1943) [[]],
+
+LaTeX Warning: Citation 'broz13' on page 7 undefined on input line 108.
+
+
+LaTeX Warning: Reference `ch:celmech' on page 7 undefined on input line 111.
+
+
+LaTeX Warning: Reference `ch:eunomia' on page 7 undefined on input line 111.
+
+
+LaTeX Warning: Reference `ch:planetky' on page 7 undefined on input line 111.
+
+
+Overfull \hbox (9.90111pt too wide) in paragraph at lines 111--112
+\OT1/cmr/m/n/12 v^^Tenov^^Sana obecn^^Sym in-for-mac^^S^^Pm o pla-netk^^Sach a 
+ro-din^^Sach pla-ne-tek ve slune^^Tcn^^S^^P sou-stav^^Te a k jej^^S^^Pmu
+[7] [8]
+Kapitola 1.
+
+LaTeX Warning: Citation 'wiki:eqm' on page 9 undefined on input line 117.
+
+
+LaTeX Warning: Citation 'murray00' on page 9 undefined on input line 119.
+
+[9]
+
+LaTeX Warning: Reference `eq:mr0' on page 10 undefined on input line 136.
+
+
+LaTeX Warning: Reference `eq:newton1' on page 10 undefined on input line 138.
+
+
+LaTeX Warning: Reference `eq:newton2' on page 10 undefined on input line 138.
+
+[10]
+
+LaTeX Warning: Citation 'murray00' on page 11 undefined on input line 146.
+
+
+Overfull \hbox (1.67882pt too wide) in paragraph at lines 146--147
+\OT1/cmr/m/n/12 abychom z n^^S^^P od-vo-dili n^^Sasleduj^^S^^Pc^^S^^P vztah, pr
+o-zrad^^S^^Pme, ^^Tze je j^^S^^Pm funkce v pol^^Sarn^^S^^Pch sou^^Tradnic^^S^^P
+ch,
+
+Overfull \hbox (5.67113pt too wide) in paragraph at lines 146--147
+\OT1/cmr/m/n/12 proch^^Sazej^^S^^Pc^^S^^P ob^^Tema t^^Telesy a n^^Tejak^^Sa zvo
+-len^^Sa re-fe-ren^^Tcn^^S^^P p^^Tr^^S^^Pmka, p^^Tresn^^Se od-vo-zen^^S^^P viz 
+[[]]. 
+
+LaTeX Warning: Reference `eq:polar' on page 11 undefined on input line 150.
+
+
+LaTeX Warning: Reference `fig:elip' on page 11 undefined on input line 160.
+
+[11] (./asy/elip.asy)
+
+LaTeX Warning: Reference `fig:E' on page 12 undefined on input line 178.
+
+(./asy/Ef.asy) [12 <./asy/asteroidy-1.pdf>]
+
+LaTeX Warning: Reference `fig:E' on page 13 undefined on input line 190.
+
+
+LaTeX Warning: Reference `app:kepit' on page 13 undefined on input line 205.
+
+[13 <./asy/asteroidy-2.pdf>]
+
+LaTeX Warning: Citation 'wiki:kepzak' on page 14 undefined on input line 209.
+
+
+LaTeX Warning: Reference `eq:n' on page 14 undefined on input line 222.
+
+[14]
+
+LaTeX Warning: Reference `eq:n' on page 15 undefined on input line 234.
+
+
+LaTeX Warning: Reference `eq:dosgrav' on page 15 undefined on input line 238.
+
+
+LaTeX Warning: Reference `eq:eqmotion' on page 15 undefined on input line 250.
+
+
+LaTeX Warning: Reference `eq:n' on page 15 undefined on input line 250.
+
+
+LaTeX Warning: Citation 'cohan12' on page 15 undefined on input line 253.
+
+[15]
+
+LaTeX Warning: Reference `eq:nbody2' on page 16 undefined on input line 260.
+
+
+LaTeX Warning: Reference `eq:nbody2' on page 16 undefined on input line 264.
+
+
+LaTeX Warning: Reference `fig:euler' on page 16 undefined on input line 264.
+
+[16]
+
+LaTeX Warning: Reference `eq:nbody2' on page 17 undefined on input line 266.
+
+(./asy/f_euler.asy)
+Overfull \hbox (16.2335pt too wide) in paragraph at lines 271--272
+[][] 
+(./asy/b_euler.asy)
+Overfull \hbox (16.2335pt too wide) in paragraph at lines 274--275
+[][] 
+
+LaTeX Warning: Reference `app:asy' on page 17 undefined on input line 276.
+
+
+LaTeX Warning: Reference `app:asy' on page 17 undefined on input line 276.
+
+[17 <./asy/asteroidy-3.pdf> <./asy/asteroidy-4.pdf>]
+
+LaTeX Warning: Reference `eq:nbody2' on page 18 undefined on input line 280.
+
+
+Overfull \hbox (2.8188pt too wide) in paragraph at lines 282--283
+\OT1/cmr/m/n/12 jako $[](\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ) = [](\OML/cmm/m/
+it/12 t[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 h []\OT1/cmr/m/n/12 (\OML/cmm/m/i
+t/12 t[]\OT1/cmr/m/n/12 )$. Pot^^Se se vrat[]me ke kroku $1$, ten-tokr^^Sat po^
+^Tc^^S^^Ptaje v ^^Tcase $\OML/cmm/m/it/12 t[]$\OT1/cmr/m/n/12 . 
+
+LaTeX Warning: Reference `fig:euler' on page 18 undefined on input line 285.
+
+
+LaTeX Warning: Citation 'wisdom91' on page 18 undefined on input line 287.
+
+
+LaTeX Warning: Citation 'levison94' on page 18 undefined on input line 287.
+
+
+LaTeX Warning: Citation 'broz11' on page 18 undefined on input line 287.
+
+[18]
+
+LaTeX Warning: Reference `sec:2body' on page 19 undefined on input line 291.
+
+
+LaTeX Warning: Reference `eq:polar' on page 19 undefined on input line 291.
+
+
+LaTeX Warning: Reference `sec:jarko' on page 19 undefined on input line 293.
+
+
+LaTeX Warning: Reference `fig:elip' on page 19 undefined on input line 295.
+
+
+LaTeX Warning: Reference `sec:2body' on page 19 undefined on input line 295.
+
+
+LaTeX Warning: Reference `sec:2body' on page 19 undefined on input line 297.
+
+
+LaTeX Warning: Reference `eq:M' on page 19 undefined on input line 297.
+
+[19]
+
+LaTeX Warning: Reference `app:el2xyz' on page 20 undefined on input line 301.
+
+[20 <./obr/atOF-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `sec:meanmotion' on page 21 undefined on input line 31
+4.
+
+
+LaTeX Warning: Citation 'quinn91' on page 21 undefined on input line 316.
+
+
+LaTeX Warning: Reference `sec:jarko' on page 21 undefined on input line 324.
+
+
+LaTeX Warning: Reference `sec:jarko' on page 21 undefined on input line 324.
+
+
+LaTeX Warning: Citation 'sidlichovsky96' on page 21 undefined on input line 334
+.
+
+[21] [22 <./obr/atFP-eps-converted-to.pdf>]
+Kapitola 2.
+
+LaTeX Warning: Citation 'jplvesta' on page 23 undefined on input line 341.
+
+
+LaTeX Warning: Citation 'jplvesta' on page 23 undefined on input line 341.
+
+[23 <./obr/vesta.jpg>]
+
+LaTeX Warning: Reference `fig:vesta' on page 24 undefined on input line 346.
+
+
+LaTeX Warning: Reference `fig:belt' on page 24 undefined on input line 346.
+
+
+LaTeX Warning: Citation 'ultimathule' on page 24 undefined on input line 348.
+
+[24]
+
+LaTeX Warning: Citation 'wiki:belt' on page 25 undefined on input line 357.
+
+
+LaTeX Warning: Citation 'wiki:belt' on page 25 undefined on input line 357.
+
+[25 <./obr/mainbelt.png>]
+
+LaTeX Warning: Citation 'pichierri17' on page 26 undefined on input line 368.
+
+
+LaTeX Warning: Reference `eq:3kep' on page 26 undefined on input line 374.
+
+[26]
+
+LaTeX Warning: Reference `eq:3kepa' on page 27 undefined on input line 378.
+
+
+LaTeX Warning: Reference `fig:ae_ai_wise' on page 27 undefined on input line 37
+8.
+
+
+LaTeX Warning: Reference `fig:ae_sim' on page 27 undefined on input line 378.
+
+
+LaTeX Warning: Citation 'murray00' on page 27 undefined on input line 380.
+
+[27]
+
+LaTeX Warning: Reference `fig:trajec' on page 28 undefined on input line 403.
+
+[28 <./obr/trajec_001t.png> <./obr/trajec_101t.png> <./obr/trajec_201t.png> <./
+obr/trajec_501t.png>]
+
+LaTeX Warning: Citation 'zappala90' on page 29 undefined on input line 406.
+
+
+LaTeX Warning: Citation 'zappala90' on page 29 undefined on input line 410.
+
+
+LaTeX Warning: Reference `fig:Nv' on page 29 undefined on input line 412.
+
+
+LaTeX Warning: Reference `sec:interlopers' on page 29 undefined on input line 4
+14.
+
+
+LaTeX Warning: Reference `fig:pV_pIR' on page 29 undefined on input line 414.
+
+
+LaTeX Warning: Reference `fig:astar_iz' on page 29 undefined on input line 414.
+
+
+[29]
+
+LaTeX Warning: Citation 'brozphd' on page 30 undefined on input line 422.
+
+
+LaTeX Warning: Citation 'fmt' on page 30 undefined on input line 429.
+
+
+LaTeX Warning: Citation 'fmt' on page 30 undefined on input line 429.
+
+
+LaTeX Warning: Reference `fig:jarko' on page 30 undefined on input line 432.
+
+[30 <./obr/jarkovskeho_jev.png>]
+
+LaTeX Warning: Citation 'chesley03' on page 31 undefined on input line 434.
+
+
+LaTeX Warning: Reference `sec:meanmotion' on page 31 undefined on input line 44
+6.
+
+[31] [32]
+Kapitola 3.
+
+LaTeX Warning: Citation 'nesvorny15' on page 33 undefined on input line 450.
+
+
+LaTeX Warning: Citation 'nathues05' on page 33 undefined on input line 450.
+
+[33]
+
+LaTeX Warning: Reference `sec:metodyiden' on page 34 undefined on input line 45
+7.
+
+
+LaTeX Warning: Reference `fig:Nv' on page 34 undefined on input line 457.
+
+
+LaTeX Warning: Reference `fig:aH_wise' on page 34 undefined on input line 477.
+
+[34 <./obr/Nv-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:aH_wise' on page 35 undefined on input line 489.
+
+[35 <./obr/aH_wise-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation 'nugent15' on page 36 undefined on input line 496.
+
+
+LaTeX Warning: Citation 'nugent15' on page 36 undefined on input line 496.
+
+
+LaTeX Warning: Citation 'fmt' on page 36 undefined on input line 500.
+
+
+LaTeX Warning: Reference `fig:pV_pIR' on page 36 undefined on input line 500.
+
+
+LaTeX Warning: Citation 'ivezic01' on page 36 undefined on input line 503.
+
+[36 <./obr/pV_pIR-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation 'ivezic01' on page 37 undefined on input line 511.
+
+
+LaTeX Warning: Citation 'ivezic01' on page 37 undefined on input line 511.
+
+
+LaTeX Warning: Reference `fig:astar_iz' on page 37 undefined on input line 515.
+
+
+[37 <./obr/astar_iz-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:sfd' on page 38 undefined on input line 537.
+
+[38 <./obr/size_distribution.pdf> <./obr/size_distribution_SMALLD.pdf>]
+
+LaTeX Warning: Reference `fig:ae_ai_wise' on page 39 undefined on input line 55
+0.
+
+
+LaTeX Warning: Citation 'fmt' on page 39 undefined on input line 550.
+
+
+LaTeX Warning: Reference `fig:E' on page 39 undefined on input line 556.
+
+
+LaTeX Warning: Reference `fig:elip' on page 39 undefined on input line 556.
+
+
+Overfull \hbox (0.33542pt too wide) in paragraph at lines 555--557
+\OT1/cmr/m/n/12 ex-cen-t-ric-kou anom^^Salii (viz obr^^Sazek []), $\OML/cmm/m/i
+t/12 !$ \OT1/cmr/m/n/12 ar-gu-ment pe-ri-cen-tra (viz obr^^Sazek []) a $\OML/cm
+m/m/it/12 r$ \OT1/cmr/m/n/12 vzd^^Salenost
+
+LaTeX Warning: Reference `fig:ae_ai_wise' on page 39 undefined on input line 55
+8.
+
+[39] [40 <./obr/ae_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.p
+df>]
+
+LaTeX Warning: Reference `fig:trajec' on page 41 undefined on input line 563.
+
+
+LaTeX Warning: Citation 'levison94' on page 41 undefined on input line 566.
+
+
+LaTeX Warning: Reference `sec:orbelem' on page 41 undefined on input line 566.
+
+
+LaTeX Warning: Citation 'broz11' on page 41 undefined on input line 566.
+
+[41]
+
+LaTeX Warning: Reference `app:fig:ae_sim' on page 42 undefined on input line 58
+5.
+
+
+LaTeX Warning: Reference `app:fig:ae_sim' on page 42 undefined on input line 58
+5.
+
+
+LaTeX Warning: Reference `fig:ae_sim' on page 42 undefined on input line 612.
+
+
+LaTeX Warning: Reference `fig:ei_sim' on page 42 undefined on input line 612.
+
+[42 <./obr/ae_5t.png> <./obr/ae_105t.png> <./obr/ae_405t.png> <./obr/ae_905t.pn
+g>] [43 <./obr/ai_5t.png> <./obr/ai_105t.png> <./obr/ai_405t.png> <./obr/ai_905
+t.png>]
+
+LaTeX Warning: Citation 'nesvorny15' on page 44 undefined on input line 622.
+
+
+LaTeX Warning: Reference `fig:ae_sim' on page 44 undefined on input line 622.
+
+[44 <./obr/ei_5t.png> <./obr/ei_105t.png> <./obr/ei_405t.png> <./obr/ei_905t.pn
+g>]
+Overfull \hbox (3.87932pt too wide) in paragraph at lines 624--625
+[]\OT1/cmr/m/n/12 Na obr^^Sazc^^S^^Pch $(\OML/cmm/m/it/12 a;  [] I[]\OT1/cmr/m/
+n/12 )$ lze znovu spat^^Trovat p^^Wusoben^^S^^P re-zo-nanc^^S^^P, ten-tokr^^Sat
+ s ^^Su^^Tcinkem zvy^^Tsov^^San^^S^^P
+
+LaTeX Warning: Reference `fig:ei_sim' on page 45 undefined on input line 626.
+
+[45]
+
+LaTeX Warning: Citation 'broz19' on page 46 undefined on input line 644.
+
+
+Overfull \hbox (16.60786pt too wide) in paragraph at lines 644--645
+\OT1/cmr/m/n/12 K od-hadu st^^Sa^^Tr^^S^^P ro-diny jsme pou^^Tzili me-todu na-z
+va-nou p^^Tr^^S^^Pzna^^Tcn^^Te []\OT1/cmr/m/it/12 blac-kbox\OT1/cmr/m/n/12 \ po
+-psa-nou v [[]],
+[46 <./obr/ae_chi_0006t.png> <./obr/ae_chi_0106t.png> <./obr/ae_chi_0406t.png> 
+<./obr/ae_chi_emptyt.png>]
+
+LaTeX Warning: Reference `fig:ei_sim' on page 47 undefined on input line 677.
+
+[47 <./obr/ae_scl.png> <./obr/ae_obs.png>]
+
+LaTeX Warning: Reference `fig:ae_obs_scl' on page 48 undefined on input line 68
+5.
+
+
+LaTeX Warning: Citation 'milani14' on page 48 undefined on input line 685.
+
+[48 <./obr/chi2-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation 'murray00' on page 49 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'fmt' on page 49 undefined on input line 690.
+
+
+LaTeX Warning: Citation 'levison94' on page 49 undefined on input line 692.
+
+
+LaTeX Warning: Citation 'broz11' on page 49 undefined on input line 692.
+
+[49] [50]
+
+LaTeX Warning: Empty bibliography on input line 703.
+
+[51]
+P\v {r}\'{\i }loha A.
+
+Package asymptote Warning: file f_euler.asy not found on input line 710.
+
+
+LaTeX Warning: Reference `fig:euler' on page 52 undefined on input line 713.
+
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty)
+(./asy/f_euler.asy (/opt/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd)
+[52 <./asy/asteroidy-5.pdf>] [53] [54]) [55]
+P\v {r}\'{\i }loha B.
+
+LaTeX Warning: Reference `eq:kepler' on page 56 undefined on input line 718.
+
+
+Overfull \hbox (12.99474pt too wide) in paragraph at lines 721--723
+\OT1/cmr/m/n/12 kde be-reme prvn^^S^^P od-had $\OML/cmm/m/it/12 E[] \OT1/cmr/m/
+n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
+^^Tz dos^^Sahneme p^^Tresnosti $[]$,
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd) [56]
+P\v {r}\'{\i }loha C.
+
+LaTeX Warning: Reference `eq:kepler' on page 57 undefined on input line 742.
+
+
+LaTeX Warning: Reference `eq:fE' on page 57 undefined on input line 743.
+
+
+LaTeX Warning: Reference `fig:trajec' on page 57 undefined on input line 763.
+
+
+LaTeX Warning: Reference `fig:trajec' on page 57 undefined on input line 763.
+
+[57] [58]
+P\v {r}\'{\i }loha D.
+[59]
+
+LaTeX Warning: Reference `fig:ae_sim' on page 60 undefined on input line 857.
+
+[60] [61] (./asteroidy.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                asteroidy
+(biblatex)                and rerun LaTeX afterwards.
+
+ )
+(see the transcript file for additional information)</opt/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmex10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsl12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+</opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on asteroidy.pdf (61 pages, 3312009 bytes).
+Transcript written on asteroidy.log.
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'cusdep asy pdf asy/asteroidy-5'...
+For rule 'cusdep asy pdf asy/asteroidy-5', running '&do_cusdep( asy )' ...
+Latexmk: applying rule 'cusdep asy pdf asy/asteroidy-4'...
+For rule 'cusdep asy pdf asy/asteroidy-4', running '&do_cusdep( asy )' ...
+Latexmk: applying rule 'cusdep asy pdf asy/asteroidy-3'...
+For rule 'cusdep asy pdf asy/asteroidy-3', running '&do_cusdep( asy )' ...
+Latexmk: applying rule 'cusdep asy pdf asy/asteroidy-2'...
+For rule 'cusdep asy pdf asy/asteroidy-2', running '&do_cusdep( asy )' ...
+Latexmk: applying rule 'cusdep asy pdf asy/asteroidy-1'...
+For rule 'cusdep asy pdf asy/asteroidy-1', running '&do_cusdep( asy )' ...
+Latexmk: applying rule 'biber asteroidy'...
+INFO - This is Biber 2.12
+INFO - Logfile is 'asteroidy.blg'
+INFO - Reading 'asteroidy.bcf'
+INFO - Found 30 citekeys in bib section 0
+INFO - Processing section 0
+INFO - Looking for bibtex format file '/home/adam/tex/soc.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source '/home/adam/tex/soc.bib'
+INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
+INFO - Writing 'asteroidy.bbl' with encoding 'UTF-8'
+INFO - Output to asteroidy.bbl
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+(./asteroidy.tex
+LaTeX2e <2018-12-01>
+(/opt/texlive/2018/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+(/opt/texlive/2018/texmf-dist/tex/latex/base/bk12.clo))
+(/opt/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(./socstyle.sty (/opt/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/switch.def)
+(/opt/texlive/2018/texmf-dist/tex/generic/babel-czech/czech.ldf
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def))))
+(/opt/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/opt/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/tools/array.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/esdiff/esdiff.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/was/icomma.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/asymptote/asymptote.sty
+(./asteroidy.pre (./asy/asteroidy-3.pre) (./asy/asteroidy-4.pre)
+(./asy/asteroidy-5.pre))
+(/opt/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/catchfile.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg))
+(/home/adam/tex/aas_macros.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/url/url.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/chngcntr/chngcntr.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/czech.lbx)
+
+LaTeX Warning: Unused global option(s):
+    [A4paper].
+
+No file asteroidy.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/opt/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (./asteroidy.bbl)
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 23.
+
+[1{/opt/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd) [2] [3] [4] [5]
+(./asteroidy.toc [6]) [7]
+Overfull \hbox (3.59146pt too wide) in paragraph at lines 106--107
+[]\OT1/cmr/m/n/12 V hlavn^^S^^Pm p^^Sasu pla-ne-tek mezi Mar-sem a Ju-pi-te-rem
+ nejsou pla-netky rozm^^S^^Pst^^Ten^^Se zcela n^^Sahodn^^Te,
+
+LaTeX Warning: Reference `ch:celmech' on page 8 undefined on input line 111.
+
+
+LaTeX Warning: Reference `ch:eunomia' on page 8 undefined on input line 111.
+
+
+LaTeX Warning: Reference `ch:planetky' on page 8 undefined on input line 111.
+
+
+Overfull \hbox (9.90111pt too wide) in paragraph at lines 111--112
+\OT1/cmr/m/n/12 v^^Tenov^^Sana obecn^^Sym in-for-mac^^S^^Pm o pla-netk^^Sach a 
+ro-din^^Sach pla-ne-tek ve slune^^Tcn^^S^^P sou-stav^^Te a k jej^^S^^Pmu
+[8] [9]
+Kapitola 1.
+[10]
+
+LaTeX Warning: Reference `eq:mr0' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Reference `eq:newton1' on page 11 undefined on input line 138.
+
+
+LaTeX Warning: Reference `eq:newton2' on page 11 undefined on input line 138.
+
+[11]
+Overfull \hbox (1.67882pt too wide) in paragraph at lines 146--147
+\OT1/cmr/m/n/12 abychom z n^^S^^P od-vo-dili n^^Sasleduj^^S^^Pc^^S^^P vztah, pr
+o-zrad^^S^^Pme, ^^Tze je j^^S^^Pm funkce v pol^^Sarn^^S^^Pch sou^^Tradnic^^S^^P
+ch,
+
+LaTeX Warning: Reference `eq:polar' on page 12 undefined on input line 150.
+
+
+LaTeX Warning: Reference `fig:elip' on page 12 undefined on input line 160.
+
+[12] (./asy/elip.asy)
+
+LaTeX Warning: Reference `fig:E' on page 13 undefined on input line 178.
+
+(./asy/Ef.asy) [13 <./asy/asteroidy-1.pdf>]
+
+LaTeX Warning: Reference `fig:E' on page 14 undefined on input line 190.
+
+
+LaTeX Warning: Reference `app:kepit' on page 14 undefined on input line 205.
+
+[14 <./asy/asteroidy-2.pdf>]
+
+LaTeX Warning: Reference `eq:n' on page 15 undefined on input line 222.
+
+[15]
+
+LaTeX Warning: Reference `eq:n' on page 16 undefined on input line 234.
+
+
+LaTeX Warning: Reference `eq:dosgrav' on page 16 undefined on input line 238.
+
+
+LaTeX Warning: Reference `eq:eqmotion' on page 16 undefined on input line 250.
+
+
+LaTeX Warning: Reference `eq:n' on page 16 undefined on input line 250.
+
+[16]
+
+LaTeX Warning: Reference `eq:nbody2' on page 17 undefined on input line 260.
+
+
+LaTeX Warning: Reference `eq:nbody2' on page 17 undefined on input line 264.
+
+
+LaTeX Warning: Reference `fig:euler' on page 17 undefined on input line 264.
+
+
+LaTeX Warning: Reference `eq:nbody2' on page 17 undefined on input line 266.
+
+(./asy/f_euler.asy)
+Overfull \hbox (16.2335pt too wide) in paragraph at lines 271--272
+[][] 
+(./asy/b_euler.asy)
+Overfull \hbox (16.2335pt too wide) in paragraph at lines 274--275
+[][] 
+
+LaTeX Warning: Reference `app:asy' on page 17 undefined on input line 276.
+
+
+LaTeX Warning: Reference `app:asy' on page 17 undefined on input line 276.
+
+[17]
+
+LaTeX Warning: Reference `eq:nbody2' on page 18 undefined on input line 280.
+
+
+Overfull \hbox (2.8188pt too wide) in paragraph at lines 282--283
+\OT1/cmr/m/n/12 jako $[](\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ) = [](\OML/cmm/m/
+it/12 t[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 h []\OT1/cmr/m/n/12 (\OML/cmm/m/i
+t/12 t[]\OT1/cmr/m/n/12 )$. Pot^^Se se vrat[]me ke kroku $1$, ten-tokr^^Sat po^
+^Tc^^S^^Ptaje v ^^Tcase $\OML/cmm/m/it/12 t[]$\OT1/cmr/m/n/12 . 
+
+LaTeX Warning: Reference `fig:euler' on page 18 undefined on input line 285.
+
+[18 <./asy/asteroidy-3.pdf> <./asy/asteroidy-4.pdf>] [19]
+
+LaTeX Warning: Reference `sec:2body' on page 20 undefined on input line 291.
+
+
+LaTeX Warning: Reference `eq:polar' on page 20 undefined on input line 291.
+
+
+LaTeX Warning: Reference `sec:jarko' on page 20 undefined on input line 293.
+
+
+LaTeX Warning: Reference `fig:elip' on page 20 undefined on input line 295.
+
+
+LaTeX Warning: Reference `sec:2body' on page 20 undefined on input line 295.
+
+
+LaTeX Warning: Reference `sec:2body' on page 20 undefined on input line 297.
+
+
+LaTeX Warning: Reference `eq:M' on page 20 undefined on input line 297.
+
+[20]
+
+LaTeX Warning: Reference `app:el2xyz' on page 21 undefined on input line 301.
+
+[21 <./obr/atOF-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `sec:meanmotion' on page 22 undefined on input line 31
+4.
+
+
+LaTeX Warning: Reference `sec:jarko' on page 22 undefined on input line 324.
+
+
+LaTeX Warning: Reference `sec:jarko' on page 22 undefined on input line 324.
+
+[22] [23 <./obr/atFP-eps-converted-to.pdf>]
+Kapitola 2.
+[24 <./obr/vesta.jpg>]
+
+LaTeX Warning: Reference `fig:vesta' on page 25 undefined on input line 346.
+
+
+LaTeX Warning: Reference `fig:belt' on page 25 undefined on input line 346.
+
+[25] [26 <./obr/mainbelt.png>]
+
+LaTeX Warning: Reference `eq:3kep' on page 27 undefined on input line 374.
+
+[27]
+
+LaTeX Warning: Reference `eq:3kepa' on page 28 undefined on input line 378.
+
+
+LaTeX Warning: Reference `fig:ae_ai_wise' on page 28 undefined on input line 37
+8.
+
+
+LaTeX Warning: Reference `fig:ae_sim' on page 28 undefined on input line 378.
+
+[28]
+
+LaTeX Warning: Reference `fig:trajec' on page 29 undefined on input line 403.
+
+[29 <./obr/trajec_001t.png> <./obr/trajec_101t.png> <./obr/trajec_201t.png> <./
+obr/trajec_501t.png>]
+
+LaTeX Warning: Reference `fig:Nv' on page 30 undefined on input line 412.
+
+
+LaTeX Warning: Reference `sec:interlopers' on page 30 undefined on input line 4
+14.
+
+
+LaTeX Warning: Reference `fig:pV_pIR' on page 30 undefined on input line 414.
+
+
+LaTeX Warning: Reference `fig:astar_iz' on page 30 undefined on input line 414.
+
+
+[30]
+
+LaTeX Warning: Reference `fig:jarko' on page 31 undefined on input line 432.
+
+[31 <./obr/jarkovskeho_jev.png>]
+
+LaTeX Warning: Reference `sec:meanmotion' on page 32 undefined on input line 44
+6.
+
+[32] [33]
+Kapitola 3.
+[34]
+
+LaTeX Warning: Reference `sec:metodyiden' on page 35 undefined on input line 45
+7.
+
+
+LaTeX Warning: Reference `fig:Nv' on page 35 undefined on input line 457.
+
+
+LaTeX Warning: Reference `fig:aH_wise' on page 35 undefined on input line 477.
+
+[35 <./obr/Nv-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:aH_wise' on page 36 undefined on input line 489.
+
+[36 <./obr/aH_wise-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:pV_pIR' on page 37 undefined on input line 500.
+
+[37 <./obr/pV_pIR-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:astar_iz' on page 38 undefined on input line 515.
+
+
+[38 <./obr/astar_iz-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:sfd' on page 39 undefined on input line 537.
+
+[39 <./obr/size_distribution.pdf> <./obr/size_distribution_SMALLD.pdf>]
+
+LaTeX Warning: Reference `fig:ae_ai_wise' on page 40 undefined on input line 55
+0.
+
+
+LaTeX Warning: Reference `fig:E' on page 40 undefined on input line 556.
+
+
+LaTeX Warning: Reference `fig:elip' on page 40 undefined on input line 556.
+
+
+Overfull \hbox (0.33542pt too wide) in paragraph at lines 555--557
+\OT1/cmr/m/n/12 ex-cen-t-ric-kou anom^^Salii (viz obr^^Sazek []), $\OML/cmm/m/i
+t/12 !$ \OT1/cmr/m/n/12 ar-gu-ment pe-ri-cen-tra (viz obr^^Sazek []) a $\OML/cm
+m/m/it/12 r$ \OT1/cmr/m/n/12 vzd^^Salenost
+
+LaTeX Warning: Reference `fig:ae_ai_wise' on page 40 undefined on input line 55
+8.
+
+[40] [41 <./obr/ae_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.p
+df>]
+
+LaTeX Warning: Reference `fig:trajec' on page 42 undefined on input line 563.
+
+
+LaTeX Warning: Reference `sec:orbelem' on page 42 undefined on input line 566.
+
+[42]
+
+LaTeX Warning: Reference `app:fig:ae_sim' on page 43 undefined on input line 58
+5.
+
+
+LaTeX Warning: Reference `app:fig:ae_sim' on page 43 undefined on input line 58
+5.
+
+
+LaTeX Warning: Reference `fig:ae_sim' on page 43 undefined on input line 612.
+
+
+LaTeX Warning: Reference `fig:ei_sim' on page 43 undefined on input line 612.
+
+[43 <./obr/ae_5t.png> <./obr/ae_105t.png> <./obr/ae_405t.png> <./obr/ae_905t.pn
+g>] [44 <./obr/ai_5t.png> <./obr/ai_105t.png> <./obr/ai_405t.png> <./obr/ai_905
+t.png>]
+
+LaTeX Warning: Reference `fig:ae_sim' on page 45 undefined on input line 622.
+
+[45 <./obr/ei_5t.png> <./obr/ei_105t.png> <./obr/ei_405t.png> <./obr/ei_905t.pn
+g>]
+Overfull \hbox (3.87932pt too wide) in paragraph at lines 624--625
+[]\OT1/cmr/m/n/12 Na obr^^Sazc^^S^^Pch $(\OML/cmm/m/it/12 a;  [] I[]\OT1/cmr/m/
+n/12 )$ lze znovu spat^^Trovat p^^Wusoben^^S^^P re-zo-nanc^^S^^P, ten-tokr^^Sat
+ s ^^Su^^Tcinkem zvy^^Tsov^^San^^S^^P
+
+LaTeX Warning: Reference `fig:ei_sim' on page 46 undefined on input line 626.
+
+[46] [47 <./obr/ae_chi_0006t.png> <./obr/ae_chi_0106t.png> <./obr/ae_chi_0406t.
+png> <./obr/ae_chi_emptyt.png>]
+
+LaTeX Warning: Reference `fig:ei_sim' on page 48 undefined on input line 677.
+
+[48 <./obr/ae_scl.png> <./obr/ae_obs.png>]
+
+LaTeX Warning: Reference `fig:ae_obs_scl' on page 49 undefined on input line 68
+5.
+
+[49 <./obr/chi2-eps-converted-to.pdf>] [50] [51] [52]
+Overfull \hbox (2.46152pt too wide) in paragraph at lines 706--706
+\OT1/cmtt/m/n/12 wikimedia . org / w / index . php ? title = File : AsteroidInc
+Au . png & oldid = 247505564>[]$\OT1/cmr/m/n/12 . 
+[53]
+Overfull \hbox (1.81636pt too wide) in paragraph at lines 706--706
+\OT1/cmr/m/n/12 http://sirrah.troja.mff.cuni.cz/ mi-ra-/m-p/-phd-th/. Dis. Prah
+a: As-t-ro-no-mick^^Sy ^^Sustav Uni-
+[54] [55]
+P\v {r}\'{\i }loha A.
+
+Package asymptote Warning: file f_euler.asy not found on input line 710.
+
+
+LaTeX Warning: Reference `fig:euler' on page 56 undefined on input line 713.
+
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty)
+(./asy/f_euler.asy (/opt/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd)
+[56 <./asy/asteroidy-5.pdf>] [57] [58]) [59]
+P\v {r}\'{\i }loha B.
+
+LaTeX Warning: Reference `eq:kepler' on page 60 undefined on input line 718.
+
+
+Overfull \hbox (12.99474pt too wide) in paragraph at lines 721--723
+\OT1/cmr/m/n/12 kde be-reme prvn^^S^^P od-had $\OML/cmm/m/it/12 E[] \OT1/cmr/m/
+n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
+^^Tz dos^^Sahneme p^^Tresnosti $[]$,
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd) [60]
+P\v {r}\'{\i }loha C.
+
+LaTeX Warning: Reference `eq:kepler' on page 61 undefined on input line 742.
+
+
+LaTeX Warning: Reference `eq:fE' on page 61 undefined on input line 743.
+
+
+LaTeX Warning: Reference `fig:trajec' on page 61 undefined on input line 763.
+
+
+LaTeX Warning: Reference `fig:trajec' on page 61 undefined on input line 763.
+
+[61] [62]
+P\v {r}\'{\i }loha D.
+[63]
+
+LaTeX Warning: Reference `fig:ae_sim' on page 64 undefined on input line 857.
+
+[64] [65] (./asteroidy.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                asteroidy
+(biblatex)                and rerun LaTeX afterwards.
+
+ )
+(see the transcript file for additional information)</opt/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmcsc10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsl12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on asteroidy.pdf (65 pages, 3342537 bytes).
+Transcript written on asteroidy.log.
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+(./asteroidy.tex
+LaTeX2e <2018-12-01>
+(/opt/texlive/2018/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+(/opt/texlive/2018/texmf-dist/tex/latex/base/bk12.clo))
+(/opt/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(./socstyle.sty (/opt/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/switch.def)
+(/opt/texlive/2018/texmf-dist/tex/generic/babel-czech/czech.ldf
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def))))
+(/opt/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/opt/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/tools/array.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/esdiff/esdiff.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/was/icomma.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/asymptote/asymptote.sty
+(./asteroidy.pre (./asy/asteroidy-3.pre) (./asy/asteroidy-4.pre)
+(./asy/asteroidy-5.pre))
+(/opt/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/catchfile.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg))
+(/home/adam/tex/aas_macros.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/url/url.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/chngcntr/chngcntr.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/czech.lbx)
+
+LaTeX Warning: Unused global option(s):
+    [A4paper].
+
+(./asteroidy.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/opt/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (./asteroidy.bbl)
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 23.
+
+[1{/opt/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd) [2] [3] [4] [5]
+(./asteroidy.toc [6]) [7]
+Overfull \hbox (3.59146pt too wide) in paragraph at lines 106--107
+[]\OT1/cmr/m/n/12 V hlavn^^S^^Pm p^^Sasu pla-ne-tek mezi Mar-sem a Ju-pi-te-rem
+ nejsou pla-netky rozm^^S^^Pst^^Ten^^Se zcela n^^Sahodn^^Te,
+[8] [9]
+Kapitola 1.
+[10] [11]
+Overfull \hbox (1.67882pt too wide) in paragraph at lines 146--147
+\OT1/cmr/m/n/12 abychom z n^^S^^P od-vo-dili n^^Sasleduj^^S^^Pc^^S^^P vztah, pr
+o-zrad^^S^^Pme, ^^Tze je j^^S^^Pm funkce v pol^^Sarn^^S^^Pch sou^^Tradnic^^S^^P
+ch,
+[12] (./asy/elip.asy) (./asy/Ef.asy) [13 <./asy/asteroidy-1.pdf>] [14 <./asy/as
+teroidy-2.pdf>] [15] [16] (./asy/f_euler.asy)
+Overfull \hbox (16.2335pt too wide) in paragraph at lines 271--272
+[][] 
+(./asy/b_euler.asy)
+Overfull \hbox (16.2335pt too wide) in paragraph at lines 274--275
+[][] 
+[17]
+Overfull \hbox (2.8188pt too wide) in paragraph at lines 282--283
+\OT1/cmr/m/n/12 jako $[](\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ) = [](\OML/cmm/m/
+it/12 t[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 h []\OT1/cmr/m/n/12 (\OML/cmm/m/i
+t/12 t[]\OT1/cmr/m/n/12 )$. Pot^^Se se vrat[]me ke kroku $1$, ten-tokr^^Sat po^
+^Tc^^S^^Ptaje v ^^Tcase $\OML/cmm/m/it/12 t[]$\OT1/cmr/m/n/12 . 
+[18 <./asy/asteroidy-3.pdf> <./asy/asteroidy-4.pdf>] [19] [20] [21 <./obr/atOF-
+eps-converted-to.pdf>] [22] [23 <./obr/atFP-eps-converted-to.pdf>]
+Kapitola 2.
+[24 <./obr/vesta.jpg>] [25] [26 <./obr/mainbelt.png>] [27] [28] [29 <./obr/traj
+ec_001t.png> <./obr/trajec_101t.png> <./obr/trajec_201t.png> <./obr/trajec_501t
+.png>] [30] [31 <./obr/jarkovskeho_jev.png>] [32] [33]
+Kapitola 3.
+[34] [35 <./obr/Nv-eps-converted-to.pdf>] [36 <./obr/aH_wise-eps-converted-to.p
+df>] [37 <./obr/pV_pIR-eps-converted-to.pdf>] [38 <./obr/astar_iz-eps-converted
+-to.pdf>] [39 <./obr/size_distribution.pdf> <./obr/size_distribution_SMALLD.pdf
+>]
+Overfull \hbox (4.86288pt too wide) in paragraph at lines 555--557
+\OT1/cmr/m/n/12 ex-cen-t-ric-kou anom^^Salii (viz obr^^Sazek 1.2[]), $\OML/cmm/
+m/it/12 !$ \OT1/cmr/m/n/12 ar-gu-ment pe-ri-cen-tra (viz obr^^Sazek 1.1[]) a $\
+OML/cmm/m/it/12 r$ \OT1/cmr/m/n/12 vzd^^Salenost
+[40] [41 <./obr/ae_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.p
+df>] [42] [43 <./obr/ae_5t.png> <./obr/ae_105t.png> <./obr/ae_405t.png> <./obr/
+ae_905t.png>] [44 <./obr/ai_5t.png> <./obr/ai_105t.png> <./obr/ai_405t.png> <./
+obr/ai_905t.png>] [45 <./obr/ei_5t.png> <./obr/ei_105t.png> <./obr/ei_405t.png>
+ <./obr/ei_905t.png>]
+Overfull \hbox (3.87932pt too wide) in paragraph at lines 624--625
+[]\OT1/cmr/m/n/12 Na obr^^Sazc^^S^^Pch $(\OML/cmm/m/it/12 a;  [] I[]\OT1/cmr/m/
+n/12 )$ lze znovu spat^^Trovat p^^Wusoben^^S^^P re-zo-nanc^^S^^P, ten-tokr^^Sat
+ s ^^Su^^Tcinkem zvy^^Tsov^^San^^S^^P
+[46] [47 <./obr/ae_chi_0006t.png> <./obr/ae_chi_0106t.png> <./obr/ae_chi_0406t.
+png> <./obr/ae_chi_emptyt.png>] [48 <./obr/ae_scl.png> <./obr/ae_obs.png>]
+[49 <./obr/chi2-eps-converted-to.pdf>] [50] [51] [52]
+Overfull \hbox (2.46152pt too wide) in paragraph at lines 706--706
+\OT1/cmtt/m/n/12 wikimedia . org / w / index . php ? title = File : AsteroidInc
+Au . png & oldid = 247505564>[]$\OT1/cmr/m/n/12 . 
+[53]
+Overfull \hbox (1.81636pt too wide) in paragraph at lines 706--706
+\OT1/cmr/m/n/12 http://sirrah.troja.mff.cuni.cz/ mi-ra-/m-p/-phd-th/. Dis. Prah
+a: As-t-ro-no-mick^^Sy ^^Sustav Uni-
+[54] [55]
+P\v {r}\'{\i }loha A.
+
+Package asymptote Warning: file f_euler.asy not found on input line 710.
+
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty)
+(./asy/f_euler.asy (/opt/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd)
+[56 <./asy/asteroidy-5.pdf>] [57] [58]) [59]
+P\v {r}\'{\i }loha B.
+
+Overfull \hbox (12.99474pt too wide) in paragraph at lines 721--723
+\OT1/cmr/m/n/12 kde be-reme prvn^^S^^P od-had $\OML/cmm/m/it/12 E[] \OT1/cmr/m/
+n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
+^^Tz dos^^Sahneme p^^Tresnosti $[]$,
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd) [60]
+P\v {r}\'{\i }loha C.
+[61] [62]
+P\v {r}\'{\i }loha D.
+[63] [64] [65] (./asteroidy.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)</opt/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmcsc10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsl12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on asteroidy.pdf (65 pages, 3340802 bytes).
+Transcript written on asteroidy.log.
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+(./asteroidy.tex
+LaTeX2e <2018-12-01>
+(/opt/texlive/2018/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+(/opt/texlive/2018/texmf-dist/tex/latex/base/bk12.clo))
+(/opt/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/opt/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(./socstyle.sty (/opt/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/switch.def)
+(/opt/texlive/2018/texmf-dist/tex/generic/babel-czech/czech.ldf
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+(/opt/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def))))
+(/opt/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/opt/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/opt/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/tools/array.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/esdiff/esdiff.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/was/icomma.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/asymptote/asymptote.sty
+(./asteroidy.pre (./asy/asteroidy-3.pre) (./asy/asteroidy-4.pre)
+(./asy/asteroidy-5.pre))
+(/opt/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/opt/texlive/2018/texmf-dist/tex/generic/oberdiek/catchfile.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg))
+(/home/adam/tex/aas_macros.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/url/url.sty))
+(/opt/texlive/2018/texmf-dist/tex/latex/chngcntr/chngcntr.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+(/opt/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx)
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg))
+(/opt/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/czech.lbx)
+
+LaTeX Warning: Unused global option(s):
+    [A4paper].
+
+(./asteroidy.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/opt/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (./asteroidy.bbl)
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 23.
+
+[1{/opt/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/opt/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd) [2] [3] [4] [5]
+(./asteroidy.toc [6]) [7]
+Overfull \hbox (3.59146pt too wide) in paragraph at lines 106--107
+[]\OT1/cmr/m/n/12 V hlavn^^S^^Pm p^^Sasu pla-ne-tek mezi Mar-sem a Ju-pi-te-rem
+ nejsou pla-netky rozm^^S^^Pst^^Ten^^Se zcela n^^Sahodn^^Te,
+[8] [9]
+Kapitola 1.
+[10] [11]
+Overfull \hbox (1.67882pt too wide) in paragraph at lines 146--147
+\OT1/cmr/m/n/12 abychom z n^^S^^P od-vo-dili n^^Sasleduj^^S^^Pc^^S^^P vztah, pr
+o-zrad^^S^^Pme, ^^Tze je j^^S^^Pm funkce v pol^^Sarn^^S^^Pch sou^^Tradnic^^S^^P
+ch,
+[12] (./asy/elip.asy) (./asy/Ef.asy) [13 <./asy/asteroidy-1.pdf>] [14 <./asy/as
+teroidy-2.pdf>] [15] [16] (./asy/f_euler.asy)
+Overfull \hbox (16.2335pt too wide) in paragraph at lines 271--272
+[][] 
+(./asy/b_euler.asy)
+Overfull \hbox (16.2335pt too wide) in paragraph at lines 274--275
+[][] 
+[17]
+Overfull \hbox (2.8188pt too wide) in paragraph at lines 282--283
+\OT1/cmr/m/n/12 jako $[](\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ) = [](\OML/cmm/m/
+it/12 t[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 h []\OT1/cmr/m/n/12 (\OML/cmm/m/i
+t/12 t[]\OT1/cmr/m/n/12 )$. Pot^^Se se vrat[]me ke kroku $1$, ten-tokr^^Sat po^
+^Tc^^S^^Ptaje v ^^Tcase $\OML/cmm/m/it/12 t[]$\OT1/cmr/m/n/12 . 
+[18 <./asy/asteroidy-3.pdf> <./asy/asteroidy-4.pdf>] [19] [20] [21 <./obr/atOF-
+eps-converted-to.pdf>] [22] [23 <./obr/atFP-eps-converted-to.pdf>]
+Kapitola 2.
+[24 <./obr/vesta.jpg>] [25] [26 <./obr/mainbelt.png>] [27] [28] [29 <./obr/traj
+ec_001t.png> <./obr/trajec_101t.png> <./obr/trajec_201t.png> <./obr/trajec_501t
+.png>] [30] [31 <./obr/jarkovskeho_jev.png>] [32] [33]
+Kapitola 3.
+[34] [35 <./obr/Nv-eps-converted-to.pdf>] [36 <./obr/aH_wise-eps-converted-to.p
+df>] [37 <./obr/pV_pIR-eps-converted-to.pdf>] [38 <./obr/astar_iz-eps-converted
+-to.pdf>] [39 <./obr/size_distribution.pdf> <./obr/size_distribution_SMALLD.pdf
+>]
+Overfull \hbox (4.86288pt too wide) in paragraph at lines 555--557
+\OT1/cmr/m/n/12 ex-cen-t-ric-kou anom^^Salii (viz obr^^Sazek 1.2[]), $\OML/cmm/
+m/it/12 !$ \OT1/cmr/m/n/12 ar-gu-ment pe-ri-cen-tra (viz obr^^Sazek 1.1[]) a $\
+OML/cmm/m/it/12 r$ \OT1/cmr/m/n/12 vzd^^Salenost
+[40] [41 <./obr/ae_wise-eps-converted-to.pdf> <./obr/ai_wise-eps-converted-to.p
+df>] [42] [43 <./obr/ae_5t.png> <./obr/ae_105t.png> <./obr/ae_405t.png> <./obr/
+ae_905t.png>] [44 <./obr/ai_5t.png> <./obr/ai_105t.png> <./obr/ai_405t.png> <./
+obr/ai_905t.png>] [45 <./obr/ei_5t.png> <./obr/ei_105t.png> <./obr/ei_405t.png>
+ <./obr/ei_905t.png>]
+Overfull \hbox (3.87932pt too wide) in paragraph at lines 624--625
+[]\OT1/cmr/m/n/12 Na obr^^Sazc^^S^^Pch $(\OML/cmm/m/it/12 a;  [] I[]\OT1/cmr/m/
+n/12 )$ lze znovu spat^^Trovat p^^Wusoben^^S^^P re-zo-nanc^^S^^P, ten-tokr^^Sat
+ s ^^Su^^Tcinkem zvy^^Tsov^^San^^S^^P
+[46] [47 <./obr/ae_chi_0006t.png> <./obr/ae_chi_0106t.png> <./obr/ae_chi_0406t.
+png> <./obr/ae_chi_emptyt.png>] [48 <./obr/ae_scl.png> <./obr/ae_obs.png>]
+[49 <./obr/chi2-eps-converted-to.pdf>] [50] [51] [52]
+Overfull \hbox (2.46152pt too wide) in paragraph at lines 706--706
+\OT1/cmtt/m/n/12 wikimedia . org / w / index . php ? title = File : AsteroidInc
+Au . png & oldid = 247505564>[]$\OT1/cmr/m/n/12 . 
+[53]
+Overfull \hbox (1.81636pt too wide) in paragraph at lines 706--706
+\OT1/cmr/m/n/12 http://sirrah.troja.mff.cuni.cz/ mi-ra-/m-p/-phd-th/. Dis. Prah
+a: As-t-ro-no-mick^^Sy ^^Sustav Uni-
+[54] [55]
+P\v {r}\'{\i }loha A.
+
+Package asymptote Warning: file f_euler.asy not found on input line 710.
+
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty)
+(./asy/f_euler.asy (/opt/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd)
+[56 <./asy/asteroidy-5.pdf>] [57] [58]) [59]
+P\v {r}\'{\i }loha B.
+
+Overfull \hbox (12.99474pt too wide) in paragraph at lines 721--723
+\OT1/cmr/m/n/12 kde be-reme prvn^^S^^P od-had $\OML/cmm/m/it/12 E[] \OT1/cmr/m/
+n/12 = \OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 . Al-go-rit-mus ukon^^Tc^^S^^Pme, kdy
+^^Tz dos^^Sahneme p^^Tresnosti $[]$,
+(/opt/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/opt/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd) [60]
+P\v {r}\'{\i }loha C.
+[61] [62]
+P\v {r}\'{\i }loha D.
+[63] [64] [65] (./asteroidy.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)</opt/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmcsc10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsl12.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></opt/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on asteroidy.pdf (65 pages, 3340802 bytes).
+Transcript written on asteroidy.log.
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets (asteroidy.pdf) are up-to-date
+[3;18H[3;18H[3;18H[3;18H[3;18H[3;18H[3;18H[3;18H[27;18H[27;18H[26;18H[26;18H[25;18H[25;18H[25;18H[24;18H[24;18H[23;18H[23;18H[22;18H[22;18H[21;18H[21;18H[20;18H[20;18H[19;18H[19;18H[18;18H[18;18H[17;18H[17;18H[17;18H[17;18H[18;18H[17;18H[18;18H[18;18H[17;18H[17;18H[16;18H[16;18H[16;18H[16;18H[16;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[17;18H[18;18H[18;18H[17;18H[17;18H[17;18H[17;18H[17;18H
