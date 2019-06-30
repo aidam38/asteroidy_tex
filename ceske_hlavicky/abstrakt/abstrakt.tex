@@ -1,0 +1,21 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx, enumitem}
+\usepackage{amsmath, amssymb, amsthm}
+% \usepackage{stdpage}
+\parskip6pt
+
+\begin{document}
+\section*{Mechanika rodin planetek\\s aplikací na rodinu Eunomia}
+\textit{Adam Křivka}
+\subsection*{Abstrakt}
+Byl jednou jeden kámen, letěl vesmírem (konkrétně obíhal kolem Slunce) a srazil se s dalším kamenem. Jak to tak bývá, vyletělo mnoho dalších kamínků. Těmhle jednotlivým kamenům teď říkáme planetky nebo asteroidy. V mé práci se zabývám tím, jak zjisit, které planetky vznikly stejnou srážkou (tzv. rodiny planetek), a jak se taková rodina vyvíjí. Konkrétně studuji početnou rodinou Eunomia nacházející se ve středním hlavním pásu planetek mezi Marsem a Jupiterem.
+
+Problém číslo jedna: jak určit členy rodiny? Klíčem je podívat se na elementy dráhy (hlavní poloosu, výstřednost a sklon); to ale úplně nestačí, tyto elementy se periodicky mění. Když ale tyto elementy \uv{zprůměrujeme} po delší dobu (např. 10 miliónů let), můžeme si všimnout shluků. Určení rodiny můžeme ještě podpořit tím, že se podíváme na barevné charakteristiky planetek.
+
+Problém číslo dva: jak určit stáří rodiny? Známe Newtonovy gravitační zákony, první nápad je tedy simulovat zpátky v čase a sledovat, jestli se znovu srazí. To bohužel pro starší rodiny udělat nemůžeme, protože máme tzv. nevratné děje -- můžete si to představit tak, jakobyste se ze zabržděného auta snažili zjistit, jak před bržděním jelo rychle. U planetek je problémem nerovnoměrné uvolňování tepla (Jarkovského jev). Půjdeme na to tedy naopak: představíme si, že se původní dva kameny právě srazily a vznikla nová populace planetek; tu budeme simulovat a porovnávat s pozorovanou rodinou (za pomoci statistikých metod). Jakmile dostaneme nejlepší shodu, víme, že jsme rodinu simulovali přibližně po tu dobu, jak dlouho existovala.
+
+Problém číslo tři, čtyři, pět, ... k čemu to vlastně je? Můžeme lépe pochopit sluneční soustavu, její dlouhodobý vývoj a jak vypadala při jejím vzniku, např. můžeme podpořit teorii Velkého pozdního bombardování.
+\end{document}
